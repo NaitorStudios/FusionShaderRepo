@@ -1,7 +1,0 @@
-<effect>
-<name>Hard Mix (Accurate)</name>
-<author>NaitorStudios</author>
-<description>Adds the red, green and blue channel values of the blend color to the RGB values of the base color.
-If the resulting sum for a channel is 255 or greater, it receives a value of 255; if less than 255, a value of 0.</description>
-<BackgroundTexture>1</BackgroundTexture>
-</effect>

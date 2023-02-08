@@ -1,6 +1,0 @@
-<effect>
-<name>Color (Photoshop)</name>
-<author>NaitorStudios</author>
-<description>Looks at the color information in each channel and divides the blend color from the base color.</description>
-<BackgroundTexture>1</BackgroundTexture>
-</effect>

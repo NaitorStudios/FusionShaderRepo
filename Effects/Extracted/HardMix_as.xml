@@ -1,6 +1,0 @@
-<effect>
-<name>Hard Mix_as</name>
-<author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Rounds the result of Vivid Light to 1 or 0.</description>
-<BackgroundTexture>1</BackgroundTexture>
-</effect>

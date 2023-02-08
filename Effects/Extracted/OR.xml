@@ -1,6 +1,0 @@
-<effect>
-<name>OR</name>
-<description>Bitwise OR the colors with the background.</description>
-<author>Cazra, DX11 port by NaitorStudios, thanks to fnkycoldmadeanr</author>
-<BackgroundTexture>1</BackgroundTexture>
-</effect>
