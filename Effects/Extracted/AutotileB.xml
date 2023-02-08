@@ -1,0 +1,45 @@
+<effect>
+<name>Auto-Tile (Corners)</name>
+<description>Draw tiled-based graphics.</description>
+<author>Sketchy</author>
+<parameter>
+		<name>Map</name>
+		<code>Map</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Tileset</name>
+		<code>Tileset</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Map width</name>
+		<code>mapWidth</code>
+		<description>Map width (columns)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Map height</name>
+		<code>mapHeight</code>
+		<description>Map height (rows)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Map color</name>
+		<code>mapColor</code>
+		<description>Map color code</description>
+		<type>INT_FLOAT4</type>
+		<property>color</property>
+		<value>0.0</value>
+		
+</parameter>
+</effect>
+

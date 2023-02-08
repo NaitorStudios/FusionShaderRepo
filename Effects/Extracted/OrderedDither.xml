@@ -1,0 +1,29 @@
+<effect>
+	<name>OrderedDither</name>
+	<description>Dithers an image.</description>
+	<author>Sketchy</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Pattern</name>
+		<code>pattern</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Image width</name>
+		<code>imgWidth</code>
+		<description>Image width</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>640</value>
+</parameter>
+<parameter>
+		<name>Image height</name>
+		<code>imgHeight</code>
+		<description>Image height</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>480</value>
+</parameter>
+</effect>

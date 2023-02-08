@@ -1,0 +1,76 @@
+<effect>
+<name>Dual Glow</name>
+<description>Apply an inner and outer glow to the image.</description>
+<author>Looki, Improved by NaitorStudios</author>
+<parameter>
+	<name>Outer radius</name>
+	<code>oRadius</code>
+	<description>Radius of the glow in pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>3</value>
+</parameter>
+<parameter>
+	<name>Outer exponent</name>
+	<code>oExponent</code>
+	<description>The higher, the sharper the glow will be.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>2</value>
+</parameter>
+<parameter>
+	<name>Outer color</name>
+	<code>oColor</code>
+	<description>The color of the glow.</description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711680</value>
+</parameter>
+<parameter>
+	<name>Outer alpha</name>
+	<code>oAlpha</code>
+	<description>The alpha coefficient of the glow.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Inner radius</name>
+	<code>iRadius</code>
+	<description>Radius of the glow in pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>5</value>
+</parameter>
+<parameter>
+	<name>Inner exponent</name>
+	<code>iExponent</code>
+	<description>The higher, the sharper the glow will be.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>2</value>
+</parameter>
+<parameter>
+	<name>Inner color</name>
+	<code>iColor</code>
+	<description>Tje color of the glow.</description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<!--<parameter>
+	<name>Inner alpha</name>
+	<code>iAlpha</code>
+	<description>The alpha coefficient of the glow.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>1</value>
+</parameter>-->
+	<sampler>
+		<index>0</index>
+		<AddressU>border</AddressU>
+		<AddressV>border</AddressV>
+		<filter>linear</filter>
+		<BorderColor>16777215</BorderColor>
+	</sampler>
+</effect>

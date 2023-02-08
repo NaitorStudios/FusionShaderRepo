@@ -1,0 +1,26 @@
+<effect>
+<name>Green Box</name>
+<author>MuddyMole, DX11 Port by NaitorStudios</author>
+<description>Draws a green box.</description>
+<parameter>
+	<name>Red</name>
+	<code>fRed</code>
+	<description>The red component value.</description>
+	<type>int</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+	<max>255</max>
+</parameter>
+<parameter>
+	<name>Blue</name>
+	<code>fBlue</code>
+	<description>The blue component value.</description>
+	<type>int</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+	<max>255</max>
+</parameter>
+
+</effect>

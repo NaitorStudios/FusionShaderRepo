@@ -1,0 +1,32 @@
+<effect>
+<name>GrasWave</name>
+<description>Sinus wave</description>
+<author>Jens van Dijk - Sphax - Flavien Clermont</author>
+<company>Nijumi Games</company>
+<website>http://www.nijumi.de</website>
+<parameter>
+		<name>Amplitude</name>
+		<code>fAmplitude</code>
+		<description>Amplitude</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+<parameter>
+		<name>Periods</name>
+		<code>fPeriods</code>
+		<description>Periods</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>10.0</value>
+</parameter>
+<parameter>
+		<name>Frequency</name>
+		<code>fFreq</code>
+		<description>X Position of the sin wave</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>
+

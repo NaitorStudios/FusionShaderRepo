@@ -1,0 +1,152 @@
+<effect>
+<name>Color Pallette</name>
+<description>Establish a pallette for an object.</description>
+<author>Modified off Looki</author>
+<parameter>
+	<name>Color 000</name>
+	<code>C000</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>100</value>
+</parameter>
+<parameter>
+	<name>Color 001</name>
+	<code>C001</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>101</value>
+</parameter>
+<parameter>
+	<name>Color 002</name>
+	<code>C002</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>102</value>
+</parameter>
+<parameter>
+	<name>Color 003</name>
+	<code>C003</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>103</value>
+</parameter>
+<parameter>
+	<name>Color 004</name>
+	<code>C004</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>104</value>
+</parameter>
+<parameter>
+	<name>Color 005</name>
+	<code>C005</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>105</value>
+</parameter>
+<parameter>
+	<name>Color 006</name>
+	<code>C006</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>106</value>
+</parameter>
+<parameter>
+	<name>Color 007</name>
+	<code>C007</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>107</value>
+</parameter>
+<parameter>
+	<name>Color 008</name>
+	<code>C008</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>108</value>
+</parameter>
+<parameter>
+	<name>Color 009</name>
+	<code>C009</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>109</value>
+</parameter>
+<parameter>
+	<name>Color 010</name>
+	<code>C010</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>110</value>
+</parameter>
+<parameter>
+	<name>Color 011</name>
+	<code>C011</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>111</value>
+</parameter>
+<parameter>
+	<name>Color 012</name>
+	<code>C012</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>112</value>
+</parameter>
+<parameter>
+	<name>Color 013</name>
+	<code>C013</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>113</value>
+</parameter>
+<parameter>
+	<name>Color 014</name>
+	<code>C014</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>114</value>
+</parameter>
+<parameter>
+	<name>Color 015</name>
+	<code>C015</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>115</value>
+</parameter>
+<parameter>
+	<name>Color 016</name>
+	<code>C016</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>116</value>
+</parameter>
+<parameter>
+	<name>Color 017</name>
+	<code>C017</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>117</value>
+</parameter>
+<parameter>
+	<name>Color 018</name>
+	<code>C018</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>118</value>
+</parameter>
+<parameter>
+	<name>Color 019</name>
+	<code>C019</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>119</value>
+</parameter>
+<parameter>
+	<name>Color 020</name>
+	<code>C020</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65793</value>
+</parameter>
+</effect>

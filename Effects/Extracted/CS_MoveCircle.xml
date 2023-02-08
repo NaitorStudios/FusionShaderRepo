@@ -1,0 +1,39 @@
+<effect>
+<name>Movement: Circle</name>
+<description>Moves a object in a circle.</description>
+<author>Sphax - Flavien Clermont, Improved by NaitorStudios</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Timer</name>
+		<code>fTimer</code>
+		<description>Timer</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Power X</name>
+		<code>fPowerX</code>
+		<description>Power X effect</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+<parameter>
+		<name>Power Y</name>
+		<code>fPowerY</code>
+		<description>Power Y effect</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+	<sampler>
+		<index>0</index>
+		<Filter>Linear</Filter>
+		<AddressU>border</AddressU>
+		<AddressV>border</AddressV>
+		<BorderColor>16777215</BorderColor>
+	</sampler>
+</effect>
+

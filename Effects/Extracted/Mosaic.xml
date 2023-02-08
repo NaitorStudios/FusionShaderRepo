@@ -1,0 +1,42 @@
+<effect>
+<name>Mosaic</name>
+<description>Mosaic</description>
+<author>Looki</author>
+
+<parameter>
+	<name>Columns</name>
+	<code>fX</code>
+	<description>Number of columns.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32</value>
+</parameter>
+
+<parameter>
+	<name>Rows</name>
+	<code>fY</code>
+	<description>Number of rows.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32</value>
+</parameter>
+
+<parameter>
+	<name>X offset</name>
+	<code>fOx</code>
+	<description>X offset of boxes.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+
+<parameter>
+	<name>Y offset</name>
+	<code>fOy</code>
+	<description>Y offset of boxes.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+
+</effect>

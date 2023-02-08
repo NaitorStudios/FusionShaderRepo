@@ -1,0 +1,36 @@
+<effect>
+<name>Color Replacer</name>
+<description>Color Replacer MMF2.5 Dx11</description>
+<author>Sloxone</author>
+<parameter>
+	<name>Source Color</name>
+	<description>Source Color</description>
+	<code>src</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>Destination Color</name>
+	<description>Destination Color</description>
+	<code>dst</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>Threshold</name>
+	<description>Threshold Color Factor 1.0 default</description>
+	<code>threshold</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Intensity</name>
+	<description>Mix Color Intensity 1.0 default</description>
+	<code>intensity</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+</effect>
+

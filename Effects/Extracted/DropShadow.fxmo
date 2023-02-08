@@ -1,0 +1,84 @@
+// DropShadow
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform float x;
+uniform float y;
+uniform float angle;
+uniform float alpha;
+uniform float radius;
+uniform vec4 color;
+
+uniform sampler2D imgTexture;
+
+
+uniform vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	//Source Color
+	vec4 fcolor = texture(imgTexture, textureCoordinate);
+	//Determine shadow pixel
+	vec2 pixel;
+	if (angle != 0.0)
+	{
+		float theta = angle/180.0*3.154159;
+		vec2 point = vec2(cos(theta)*x/fPixelWidth-sin(theta)*(y/fPixelHeight), sin(theta)*x/fPixelWidth+cos(theta)*(y/fPixelHeight));
+		pixel = textureCoordinate - vec2(point.x, point.y);
+	}
+	//No angle, skip some calculations
+	else
+	{
+		pixel = textureCoordinate - vec2(x/fPixelWidth, y/fPixelHeight);
+	}
+
+	//Exit if no shadow
+	if(pixel.x < 0.0 || pixel.x > 1.0 || pixel.y < 0.0 || pixel.y > 1.0)
+	{
+		discard;
+	}
+	else
+	{
+		vec4 shadow = color;
+		shadow.a = texture(imgTexture, pixel).a * alpha;
+		//Thank, you Wikipedia. Thanks. *sniffs*
+		float new_a = 1.0-(1.0-fcolor.a)*(1.0-shadow.a);
+		fcolor.rgb = (fcolor.rgb*fcolor.a+shadow.rgb*shadow.a*(1.0-fcolor.a))/new_a;
+		fcolor.a = new_a;
+	}
+
+    fcolor *= blendColor;
+
+	fragColor = fcolor; //gl_FragColor
+}
+//@End

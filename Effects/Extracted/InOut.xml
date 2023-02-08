@@ -1,0 +1,70 @@
+<effect>
+<name>Channel In/Out</name>
+<description></description>
+<author>Looki</author>
+<parameter>
+		<name>Red</name>
+		<code>iR</code>
+		<type>int</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Green</name>
+		<code>iG</code>
+		<type>int</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Blue</name>
+		<code>iB</code>
+		<type>int</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>2</value>
+</parameter>
+<parameter>
+		<name>Alpha</name>
+		<code>iA</code>
+		<type>int</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>3</value>
+</parameter>
+<parameter>
+		<name>Fade red</name>
+		<code>iFr</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Fade green</name>
+		<code>iFg</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Fade blue</name>
+		<code>iFb</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Fade alpha</name>
+		<code>iFa</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>1</value>
+</parameter>
+</effect>
+

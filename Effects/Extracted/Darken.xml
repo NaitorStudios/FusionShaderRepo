@@ -1,0 +1,6 @@
+<effect>
+<name>Darken</name>
+<author>Looki</author>
+<description>Returns the darker of two sources.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

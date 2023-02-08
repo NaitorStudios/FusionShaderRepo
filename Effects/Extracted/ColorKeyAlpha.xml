@@ -1,0 +1,23 @@
+<effect>
+<name>Color Key Alpha</name>
+<description>Select a color transparency</description>
+<author>Zetcom, DX11 port by NaitorStudios</author>
+<parameter>
+		<name>Alpha Color</name>
+		<code>ColorKey</code>
+		<description>Alpha Color</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Tolerance</name>
+		<code>Tolerance</code>
+		<description></description>
+		<type>float</type>
+		<property>spin</property>
+        <min>0.0</min>
+        <min>1.0</min>
+        <preview_value>0.2</preview_value>
+</parameter>
+</effect>

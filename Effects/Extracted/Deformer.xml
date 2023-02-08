@@ -1,0 +1,69 @@
+<effect>
+<name>Deformer</name>
+<description>Deforms to an arbitrary quadrilateral</description>
+<author>Sketchy</author>
+<parameter>
+		<name>Ax</name>
+		<code>fAx</code>
+		<description>X of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Ay</name>
+		<code>fAy</code>
+		<description>Y of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Bx</name>
+		<code>fBx</code>
+		<description>X of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>By</name>
+		<code>fBy</code>
+		<description>Y of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Cx</name>
+		<code>fCx</code>
+		<description>X of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Cy</name>
+		<code>fCy</code>
+		<description>Y of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Dx</name>
+		<code>fDx</code>
+		<description>X of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Dy</name>
+		<code>fDy</code>
+		<description>Y of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+</effect>

@@ -1,0 +1,16 @@
+<effect>
+<name>Brightness</name>
+<description>Change the brightness</description>
+<author>Sphax - Flavien Clermont</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Brightness</name>
+		<code>fCoeff</code>
+		<description>Brightness coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>2.0</value>
+</parameter>
+</effect>
+

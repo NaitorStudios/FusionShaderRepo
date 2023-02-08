@@ -1,0 +1,21 @@
+<effect>
+<name>Brightness and Contrast</name>
+<description>Adjusts the brightness and contrast.</description>
+<author>Sketchy</author>
+<parameter>
+		<name>Brightness</name>
+		<code>fBrightness</code>
+		<description>Add to RGB (0-255)</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Contrast</name>
+		<code>fContrast</code>
+		<description>Multiply RGB</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+</effect>

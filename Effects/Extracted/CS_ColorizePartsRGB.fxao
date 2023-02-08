@@ -1,0 +1,62 @@
+// CS_ColorizePartsRGB
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+//Tint color
+uniform vec4 fR;
+uniform vec4 fG;
+uniform vec4 fB;
+uniform float fCoeff;
+
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	//Red
+	if((fR.r>0.0 || fR.g>0.0 || fR.b>0.0) &&
+		color.r>0.0 && color.g<fCoeff && color.b<fCoeff)
+	{
+		color.rgb = color.r*fR.rgb;
+	}
+	//Green
+	else if((fG.r>0.0 || fG.g>0.0 || fG.b>0.0) &&
+		color.g>0.0 &&	color.r<fCoeff && color.b<fCoeff)
+	{
+		color.rgb = color.g*fG.rgb;
+	}
+	//Blue
+	else if((fB.r>0.0 || fB.g>0.0 || fB.b>0.0) &&
+		color.b>0.0 &&	color.r<fCoeff && color.g<fCoeff)
+	{
+		color.rgb = color.b*fB.rgb;
+	}
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

@@ -1,0 +1,61 @@
+<effect>
+<name>Circular Counter</name>
+<description>Draws a circular counter.</description>
+<parameter>
+	<name>CurrentValue</name>
+	<code>fVal</code>
+	<description>The current value of the counter.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+</parameter>
+<parameter>
+	<name>Minimum Value</name>
+	<code>fMin</code>
+	<description>The minimum value of the counter.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+</parameter>
+<parameter>
+	<name>Maximum Value</name>
+	<code>fMax</code>
+	<description>The minimum value of the counter.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+	<min>0</min>
+</parameter>
+<parameter>
+	<name>Center</name>
+	<code>fCenter</code>
+	<description>The midpoint of the color band.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.4</value>
+	<min>0</min>
+	<max>0.5</max>
+</parameter>
+<parameter>
+	<name>Width</name>
+	<code>fWidth</code>
+	<description>The width of the color band.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.1</value>
+	<min>0</min>
+	<max>0.5</max>
+</parameter>
+<parameter>
+	<name>Edge Soften</name>
+	<code>fEdge</code>
+	<description>The softness of the color band's inside and outside edges.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.1</value>
+	<min>0</min>
+	<max>1</max>
+</parameter>
+</effect>

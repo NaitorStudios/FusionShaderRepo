@@ -1,0 +1,15 @@
+<effect>
+<name>Gold Shader</name>
+<description>Example of pixel shader, simple monochrome effect, no parameter</description>
+
+<parameter>
+        <name>GradientTexture</name>
+        <code>GradientTexture</code>
+        <description>A gradient map.</description>
+        <type>image</type>
+        <property>image</property>
+        <value>Gold.png</value>
+</parameter>
+
+</effect>
+

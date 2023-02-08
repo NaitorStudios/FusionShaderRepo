@@ -1,0 +1,69 @@
+<effect>
+<name>CD Texture</name>
+<description>Texture BG</description>
+<author>Claude Deschenes, DX11 Port by NaitorStudios</author>
+<company>CDE</company>
+
+
+<parameter>
+		<name>Offset X</name>
+		<code>offsetX</code>
+		<description>X position</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Offset Y</name>
+		<code>offsetY</code>
+		<description>Y position</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Width multiply</name>
+		<code>sizeX</code>
+		<description>X size</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Height multiply</name>
+		<code>sizeY</code>
+		<description>Y size</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Texture Alpha</name>
+		<code>alpha</code>
+		<description>Texture opacity</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Texture Image</name>
+		<code>img</code>
+		<description>Texture image</description>
+		<type>image</type>
+		<property>image</property>
+</parameter>
+<parameter>
+		<name>Hide image</name>
+		<code>hidden</code>
+		<description>Don't show image</description>
+		<type>bool</type>
+		<property>checkbox</property>
+</parameter>
+
+<sampler>
+	<index>1</index>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+
+</effect>

@@ -1,0 +1,14 @@
+<effect>
+<name>Alpha Dither</name>
+<author>Sketchy, DX11 port by NaitorStudios</author>
+<description>Simulates alpha channel transparency using ordered dithering.</description>
+<parameter>
+		<name>Multiplier</name>
+		<code>multiplier</code>
+		<description>Transparency of object</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+		<preview_value>1.0</preview_value>
+</parameter>
+</effect>

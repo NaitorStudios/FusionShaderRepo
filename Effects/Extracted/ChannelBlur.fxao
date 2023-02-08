@@ -1,0 +1,60 @@
+// ChannelBlur
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fCoeff;
+uniform int iR;
+uniform int iG;
+uniform int iB;
+uniform int iA;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 TexT = texture2D(imgTexture, vec2(textureCoordinate.x,textureCoordinate.y-fCoeff));
+	vec4 TexTL = texture2D(imgTexture, vec2(textureCoordinate.x-fCoeff,textureCoordinate.y-fCoeff));
+	vec4 TexL = texture2D(imgTexture, vec2(textureCoordinate.x-fCoeff,textureCoordinate.y));
+	vec4 TexBL = texture2D(imgTexture, vec2(textureCoordinate.x-fCoeff,textureCoordinate.y+fCoeff));
+	vec4 TexB = texture2D(imgTexture, vec2(textureCoordinate.x,textureCoordinate.y+fCoeff));
+	vec4 TexBR = texture2D(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y+fCoeff));
+	vec4 TexR = texture2D(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y));
+	vec4 TexTR = texture2D(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y-fCoeff));
+
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	if(iR==1)
+		color.r = (color.r+TexT.r+TexTL.r+TexL.r+TexBL.r+TexB.r+TexBR.r+TexR.r+TexTR.r)/9.0;
+	if(iG==1)
+		color.g = (color.g+TexT.g+TexTL.g+TexL.g+TexBL.g+TexB.g+TexBR.g+TexR.g+TexTR.g)/9.0;
+	if(iB==1)
+		color.b = (color.b+TexT.b+TexTL.b+TexL.b+TexBL.b+TexB.b+TexBR.b+TexR.b+TexTR.b)/9.0;
+	if(iA==1)
+		color.a = (color.a+TexT.a+TexTL.a+TexL.a+TexBL.a+TexB.a+TexBR.a+TexR.a+TexTR.a)/9.0;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

@@ -1,0 +1,6 @@
+<effect>
+<name>Linear Light_as</name>
+<author>CallofAS, DX11 port by NaitorStudios</author>
+<description>Based on Looki's shader; Same as Vivid Light, but works on the brightness of the lower layer.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

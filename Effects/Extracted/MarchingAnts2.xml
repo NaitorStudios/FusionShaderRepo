@@ -1,0 +1,13 @@
+<effect>
+<name>Marching Ants (Layer)</name>
+<author>Original by Looki, Edit by NaitorStudios</author>
+<description>Draws a 1px border around objects on a layer with a stripe pattern that can move.</description>
+<parameter>
+		<name>Step</name>
+		<description>Always increment 0.5 to get the actual moving.</description>
+		<code>step</code>
+		<type>float</type>
+		<property>float</property>
+		<value>0</value>
+</parameter>
+</effect>

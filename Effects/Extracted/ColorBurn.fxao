@@ -1,0 +1,51 @@
+// ColorBurn
+
+//@Begin_vertex
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+varying vec2 textureCoordinate;
+
+uniform float fC;
+uniform float fP;
+uniform float fX;
+uniform float fY;
+uniform float fPow;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+   vec4 color;
+
+   const int iRem = 0;
+   fX = 1.0-fX;
+   fY = 1.0-fY;
+
+   float dist = pow(fP,pow(sqrt(pow(fX-textureCoordinate.x,2.0)+pow(fY-textureCoordinate.y,2.0)),fPow));
+   fC += (fP-1)*0.5; //Adjust zoom automaticly
+   fC *= 1.0+(1.0-dist);
+   fC = max(0.0,fC);
+   textureCoordinate.x = textureCoordinate.x + fX*(fC-1.0);
+   textureCoordinate.y = textureCoordinate.y + fY*(fC-1.0);
+   color = texture2D(imgTexture, vec2(textureCoordinate.x/fC,textureCoordinate.y/fC));
+   if(iRem == 1 && (textureCoordinate.x/fC < 0.0 || textureCoordinate.x/fC > 1.0 || textureCoordinate.y/fC < 0.0 || textureCoordinate.y/fC > 1.0)) 
+		color.a = 0;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

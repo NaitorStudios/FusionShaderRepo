@@ -1,0 +1,53 @@
+// ColorMixer
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform vec4 r;
+uniform vec4 g;
+uniform vec4 b;
+
+uniform sampler2D imgTexture;
+
+uniform vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec4 iColor = texture(imgTexture, textureCoordinate);
+    vec4 color = vec4(0.0 ,0.0 ,0.0 , iColor.a);
+	color.rgb = r.rgb*iColor.r + g.rgb*iColor.g + b.rgb*iColor.b;
+
+	color *= blendColor;
+
+	fragColor = color; //gl_FragColor
+}
+//@End

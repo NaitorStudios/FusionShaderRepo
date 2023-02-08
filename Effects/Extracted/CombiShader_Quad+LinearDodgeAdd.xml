@@ -1,0 +1,79 @@
+<effect>
+<name>CombiShader: Quad + Linear Dodge (Add)</name>
+<description>Deforms a texture to an arbitrary convex quadrilateral</description>
+<copyright>Free for personal or commercial use</copyright>
+<author>Quad: Sketchy / MuddyMole; Linear Dodge: Looki; Combi: Steffen Roth</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>xA</name>
+		<code>xA</code>
+		<description>X of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>yA</name>
+		<code>yA</code>
+		<description>Y of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>xB</name>
+		<code>xB</code>
+		<description>X of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>0.75</preview_value>
+</parameter>
+<parameter>
+		<name>yB</name>
+		<code>yB</code>
+		<description>Y of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0.25</preview_value>
+</parameter>
+<parameter>
+		<name>xC</name>
+		<code>xC</code>
+		<description>X of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>yC</name>
+		<code>yC</code>
+		<description>Y of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>xD</name>
+		<code>xD</code>
+		<description>X of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0.25</preview_value>
+</parameter>
+<parameter>
+		<name>yD</name>
+		<code>yD</code>
+		<description>Y of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>0.75</preview_value>
+</parameter>
+</effect>

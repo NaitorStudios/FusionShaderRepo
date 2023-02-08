@@ -1,0 +1,21 @@
+<effect>
+<name>Cross Shader</name>
+<author>mihailsh</author>
+<description>Cross Shader Effect</description>
+<BackgroundTexture>0</BackgroundTexture>
+
+
+<parameter>
+	<name>shademap</name>
+	<code>shademap</code>
+	<description>cross image map</description>
+	<type>IMAGE</type>
+	<property>image</property>
+	<value>cross.png</value>
+</parameter>
+
+
+
+
+ 
+</effect>

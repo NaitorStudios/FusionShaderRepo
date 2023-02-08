@@ -1,0 +1,6 @@
+<effect>
+<name>Linear Light</name>
+<author>Looki</author>
+<description>Same as Vivid Light, but works on the brightness of the lower layer.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

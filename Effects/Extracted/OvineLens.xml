@@ -1,0 +1,31 @@
+<effect>
+	<name>OvineLens</name>
+	<description>Apply the lens effect of the supplied image to the object (white = magnified, black = normal size)</description>
+	<author>Looki - Modified by AndyH@Ovine.net</author>
+	<parameter>
+		<name>Lens</name>
+		<variable>Lens</variable>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value>OvineLens.png</value>
+		<description>The lens map to use to distort the object, whiter areas are magnified</description>
+		<preview_value>OvineLens.png</preview_value>
+	</parameter>
+	<parameter>
+		<name>Coeff</name>
+		<variable>fCoeff</variable>
+		<type>float</type>
+		<value>1.0</value>
+		<description>Lens coefficient value (multiplier)</description>
+		<preview_value>1.0</preview_value>
+	</parameter>
+	<parameter>
+		<name>Base</name>
+		<variable>fBase</variable>
+		<type>float</type>
+		<value>1.0</value>
+		<description>Base value</description>
+		<preview_value>1.0</preview_value>
+	</parameter>
+</effect>
+

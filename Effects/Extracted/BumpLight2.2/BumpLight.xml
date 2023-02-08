@@ -1,0 +1,62 @@
+<effect>
+<name>Bump Light</name>
+<author>mihailsh</author>
+<description>Light Effect</description>
+<BackgroundTexture>0</BackgroundTexture>
+
+
+<parameter>
+	<name>bumpmap</name>
+	<code>bumpmap</code>
+	<description>normal map</description>
+	<type>IMAGE</type>
+	<property>image</property>
+</parameter>
+
+
+<parameter>
+	<name>light_x</name>
+	<code>light_x</code>
+	<description>light</description>
+	<type>float</type>
+	<property>spin</property>
+	<value>0.5</value>
+<min>0</min>
+<max>1</max>
+</parameter>
+<parameter>
+	<name>light_y</name>
+	<code>light_y</code>
+	<description>light</description>
+	<type>float</type>
+	<property>Spin</property>
+	<value>0.5</value>
+<min>0</min>
+<max>1</max>
+</parameter>
+
+<parameter>
+	<name>LightColor</name>
+	<code>LightColor</code>
+	<description>light color</description>
+	<type>INT_FLOAT4</type>
+	<property>COLOR</property>
+<min>1</min>
+<max>255</max>
+</parameter>
+
+<parameter>
+	<name>AmbientColor</name>
+	<code>AmbientColor</code>
+	<description>light ambient</description>
+	<type>float</type>
+	<property>Spin</property>
+<value>0.45</value>
+<min>0</min>
+<max>1</max>
+</parameter>
+
+
+
+ 
+</effect>

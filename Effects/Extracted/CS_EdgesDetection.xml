@@ -1,0 +1,24 @@
+<effect>
+<name>Edges detection</name>
+<description>Detect the edges of the picture and draw them instead of the picture itself</description>
+<author>Sphax - Flavien Clermont</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Coefficient X</name>
+		<code>fCoeffX</code>
+		<description>Coefficient X</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.01</value>
+</parameter>
+<parameter>
+		<name>Coefficient Y</name>
+		<code>fCoeffY</code>
+		<description>Coefficient Y</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.01</value>
+</parameter>
+</effect>
+

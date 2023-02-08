@@ -1,0 +1,51 @@
+// nbColorBurn
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+
+uniform vec4 color;
+uniform int inkEffect;
+uniform lowp vec4 blendColor;
+
+out vec4 fragColor;
+
+#define BlendColorBurnf(base, blend) 	((blend == vec4(0.0)) ? blend : max((vec4(1.0) - ((vec4(1.0) - base) / blend)), vec4(0.0)))
+
+void main(void)
+{
+	vec4 bcolor = texture(imgTexture, textureCoordinate);
+	vec4 fcolor = BlendColorBurnf(bcolor,color);
+	fcolor.a = bcolor.a;
+
+	fcolor *= blendColor;
+
+	fragColor = fcolor; //gl_FragColor
+}
+//@End

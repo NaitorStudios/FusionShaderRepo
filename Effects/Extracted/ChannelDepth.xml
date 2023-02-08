@@ -1,0 +1,41 @@
+<effect>
+<name>Channel Depth</name>
+<description>Change depth of single color channels (R,G,B)</description>
+<parameter>
+		<name>Offset</name>
+		<code>fOffset</code>
+		<description>Offset of the source color, to adjust lighting</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+
+<parameter>
+	<name>Red</name>
+	<code>fR</code>
+	<description>Red Coefficient</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Green</name>
+	<code>fG</code>
+	<description>Green Coefficient</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Blue</name>
+	<code>fB</code>
+	<description>Blue Coefficient</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+
+</effect>
+

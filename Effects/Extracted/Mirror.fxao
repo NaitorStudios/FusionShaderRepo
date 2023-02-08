@@ -1,0 +1,60 @@
+// Mirror
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fB;
+uniform int iM;
+uniform int iS;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	//Mirror X
+    if(iM==0) {
+		if(iS==0 && textureCoordinate.x > fB)
+			color = texture2D(imgTexture, vec2(fB-(textureCoordinate.x-fB),textureCoordinate.y));
+		else
+			if(iS==1 && textureCoordinate.x < fB) {
+				color = texture2D(imgTexture, vec2(fB-(textureCoordinate.x-fB),textureCoordinate.y));
+			}
+    }
+	//Mirror Y
+    if(iM==1) {
+		if(iS==0 && textureCoordinate.y > fB)
+			color = texture2D(imgTexture, vec2(textureCoordinate.x,fB-(textureCoordinate.y-fB)));
+		else
+			if(iS==1 && textureCoordinate.y < fB) {
+				color = texture2D(imgTexture, vec2(textureCoordinate.x,fB-(textureCoordinate.y-fB)));
+			}
+    }
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

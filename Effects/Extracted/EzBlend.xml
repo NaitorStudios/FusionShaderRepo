@@ -1,0 +1,53 @@
+<effect>
+<name>Easy Blend</name>
+<author>Nobuyuki (nobu@subsoap.com)</author>
+<description>Easy, generic blending using a lookup texture.
+  No Shader knowledge required!</description>
+
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Intensity</name>
+
+		// Parameter name (in the .fx file)
+		<code>Intensity</code>
+
+		// Description
+		<description>Controls the intensity of the effect.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>10.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Blend Table</name>
+
+		// Parameter name (in the .fx file)
+		<code>Blend</code>
+
+		// Description
+		<description>Texture to use as lookup.</description>
+
+		// Type (int or float)
+		<type>image</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>image</property>
+
+</parameter>
+
+</effect>

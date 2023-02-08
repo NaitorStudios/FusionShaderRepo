@@ -1,0 +1,12 @@
+<effect>
+<name>Gamma Correction</name>
+<description>Corrects dark and bright areas using a sine wave.</description>
+<author>Looki</author>
+<parameter>
+	<name>Factor</name>
+	<code>factor</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>1</value>
+</parameter>
+</effect>

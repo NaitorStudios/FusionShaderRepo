@@ -1,0 +1,42 @@
+<effect>
+<name>Channel Invert</name>
+<description>Invert single color channels (R,G,B,A)</description>
+<author>Looki</author>
+
+<parameter>
+	<name>Red</name>
+	<code>iR</code>
+	<description>Invert Red</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+
+<parameter>
+	<name>Green</name>
+	<code>iG</code>
+	<description>Invert Green</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Blue</name>
+	<code>iB</code>
+	<description>Invert Blue</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Alpha</name>
+	<code>iA</code>
+	<description>Invert Alpha</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+</effect>

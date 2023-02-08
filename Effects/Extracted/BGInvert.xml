@@ -1,0 +1,6 @@
+<effect>
+<name>Invert background</name>
+<description>Replaces the source RGB by the inverted background RGB</description>
+<author>Looki</author>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

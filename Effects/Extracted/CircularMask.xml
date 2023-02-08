@@ -1,0 +1,45 @@
+<effect>
+<name>Circular mask</name>
+<author>Looki</author>
+<parameter>
+	<name>X</name>
+	<code>x</code>
+	<description>In pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>16</value>
+</parameter>
+<parameter>
+	<name>Y</name>
+	<code>y</code>
+	<description>In pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>16</value>
+</parameter>
+<parameter>
+	<name>Radius</name>
+	<code>r</code>
+	<description>In pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>12</value>
+</parameter>
+<parameter>
+	<name>Sharpness</name>
+	<code>s</code>
+	<description>The higher, the sharper. Minimum is 1 = no sharpness.</description>
+	<type>int</type>
+	<property>edit</property>
+	<value>1</value>
+	<min>1</min>
+</parameter>
+<parameter>
+	<name>Invert</name>
+	<code>i</code>
+	<description>Check to invert the applied alpha channel.</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+</effect>

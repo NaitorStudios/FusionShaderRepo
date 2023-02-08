@@ -1,0 +1,15 @@
+<effect>
+<name>Color Box</name>
+<author>MuddyMole, DX11 Port by NaitorStudios</author>
+<description>Draws a color box.</description>
+<parameter>
+	<name>Hue</name>
+	<code>fHue</code>
+	<description>The color hue.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+	<max>255</max>
+</parameter>
+</effect>
