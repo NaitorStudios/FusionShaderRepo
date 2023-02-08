@@ -1,0 +1,48 @@
+// AlphaThreshold
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float threshold;
+uniform float smoothness;
+uniform float opacity;
+
+uniform sampler2D imgTexture;
+
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+    vec4 color = texture2D(imgTexture, textureCoordinate);
+
+		
+	float range = ( color.a - (1.0 - threshold) - (smoothness * 0.05) ) / (0.0001 + smoothness * 0.1) ;
+	color.a = smoothstep( 0.0, 1.0, range ) ;
+	
+	color.a = mix(0.0,color.a,opacity);
+	
+	color *= blendColor;
+	
+	gl_FragColor = color ;
+}
+//@End

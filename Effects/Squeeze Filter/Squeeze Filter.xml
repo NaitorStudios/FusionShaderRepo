@@ -1,0 +1,22 @@
+<effect>
+<name>Squeeze Filter</name>
+<description>Pinch a background image towards its center, spiralling inwards.</description>
+<author>Pixelthief.</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Coefficient</name>
+		<code>fCoeff</code>
+		<description>Squeeze Coefficient. 1.0 retains the same image, 0.0 has it fully collapsed</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Angle</name>
+		<code>fAngle</code>
+		<description>Spiral Angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

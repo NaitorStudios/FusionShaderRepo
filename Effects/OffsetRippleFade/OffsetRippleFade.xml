@@ -1,0 +1,68 @@
+<effect>
+<name>Offset Ripple Fade</name>
+<description>Offsets by using a texture parameter (Red for X, Green for Y) and then fades in ripples.</description>
+<author>Pixelthief</author>
+<parameter>
+		<name>Width</name>
+		<code>width</code>
+		<description>Magnitude of X offset</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>10.0</value>
+</parameter>
+<parameter>
+		<name>Height</name>
+		<code>height</code>
+		<description>Magnitude of Y offset</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>10.0</value>
+</parameter>
+<parameter>
+		<name>X Offset</name>
+		<code>xoff</code>
+		<description>X Offset used in the Offset Texture</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Y Offset</name>
+		<code>yoff</code>
+		<description>Y Offset used in the Offset Texture</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Offset Texture</name>
+		<code>oi</code>
+		<description>Image that provides the offset array</description>
+		<type>image</type>
+		<property>image</property>
+</parameter>
+<parameter>
+		<name>X1</name>
+		<code>X1</code>
+		<description>X of Ripple #1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Y1</name>
+		<code>Y1</code>
+		<description>Y of Ripple #1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>T1</name>
+		<code>T1</code>
+		<description>Time of Ripple #1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

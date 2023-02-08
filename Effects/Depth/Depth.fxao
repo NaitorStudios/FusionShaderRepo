@@ -1,0 +1,50 @@
+// Depth
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fOffset;
+uniform float fCoeff;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	float vfCoeff = fCoeff*1.001;
+	if(vfCoeff > 0.0)
+	{
+		lowp int r = int((color.r+fOffset)/vfCoeff*255.0);
+		lowp int g = int((color.g+fOffset)/vfCoeff*255.0);
+		lowp int b = int((color.b+fOffset)/vfCoeff*255.0);
+		color.r = float(r/255)*vfCoeff;
+		color.g = float(g/255)*vfCoeff;
+		color.b = float(b/255)*vfCoeff;
+	}
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

@@ -1,0 +1,161 @@
+<effect>
+<name>Nobu's Texture Overlay + Tint</name>
+<author>Nobuyuk, edit by NaitorStudios</author>
+<description>Apply a tiled texture to an object. Beta 1</description>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Intensity</name>
+
+		// Parameter name (in the .fx file)
+		<code>Intensity</code>
+
+		// Description
+		<description>Controls the intensity of the effect.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>10.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Texture</name>
+
+		// Parameter name (in the .fx file)
+		<code>Overlay</code>
+
+		// Description
+		<description>Texture to use as overlay.</description>
+
+		// Type (int or float)
+		<type>image</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>image</property>
+
+</parameter>
+
+<parameter>
+		// Name of parameter property
+		<name>Width</name>
+
+		// Parameter name (in the .fx file)
+		<code>tw</code>
+
+		// Description
+		<description>Texture width.</description>
+
+		// Type (int or float)
+		<type>int</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>32</value>
+		<min>0</min>
+		<max>2048</max>
+</parameter>
+<parameter>
+		// Name of parameter property
+		<name>Height</name>
+
+		// Parameter name (in the .fx file)
+		<code>th</code>
+
+		// Description
+		<description>Texture height.</description>
+
+		// Type (int or float)
+		<type>int</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>32</value>
+		<min>0</min>
+		<max>2048</max>
+</parameter>
+
+<parameter>
+		<name>xOffset</name>
+
+		// Parameter name (in the .fx file)
+		<code>xOffset</code>
+
+		// Description
+		<description>Texture X offset.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>yOffset</name>
+
+		// Parameter name (in the .fx file)
+		<code>yOffset</code>
+
+		// Description
+		<description>Texture X offset.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+	<name>Texture Tint</name>
+	<code>tint</code>
+	<description>Applies a RGB tint exclusively to the texture overlay.</description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16777215</value>
+</parameter>
+
+<sampler>
+<index>1</index>
+<filter>point</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+
+<sampler>
+<index>2</index>
+<filter>point</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+
+</effect>

@@ -1,0 +1,80 @@
+<effect>
+<name>REPLACECOLOUR2</name>
+<description></description>
+<author>PEANUTBUTTERFINGERS</author>
+<parameter>
+		<name>RED</name>
+		<code>oRED</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>GREEN</name>
+		<code>oGREEN</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>BLUE</name>
+		<code>oBLUE</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Red, 1 = Green, 2 = Blue, 3 = Alpha</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>NEWRED</name>
+		<code>nRED</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>NEWGREEN</name>
+		<code>nGREEN</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>NEWBLUE</name>
+		<code>nBLUE</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>bNEWRED</name>
+		<code>bRED</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>bNEWGREEN</name>
+		<code>bGREEN</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>bNEWBLUE</name>
+		<code>bBLUE</code>
+		<type>float</type>
+		<property>edit</property>
+		<description>0 = Original, 1 = Modified</description>
+		<value>0</value>
+</parameter>
+
+
+</effect>
+

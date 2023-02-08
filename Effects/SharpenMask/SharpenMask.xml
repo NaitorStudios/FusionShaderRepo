@@ -1,0 +1,28 @@
+<effect>
+<name>SharpenMask</name>
+<description>Sharpens the bottom layer according to the lightness of the top layer.&#xA;Blend Coef works differently in DX11 Premultiplied.</description>
+<author>Sketchy (based on "CS_Sharpen" shader by Sphax - Flavien Clermont)&#xA;DX11 port by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Sharpen</name>
+		<code>fSharpen</code>
+		<description>Maximum amount to sharpen (corresponding to lightness of 255)</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>5.0</value>
+</parameter>
+<parameter>
+		<name>ScreenWidth</name>
+		<code>iWidth</code>
+		<description>Width of screen</description>
+		<type>int</type>
+		<property>edit</property>
+</parameter>
+<parameter>
+		<name>ScreenHeight</name>
+		<code>iHeight</code>
+		<description>Height of screen</description>
+		<type>int</type>
+		<property>edit</property>
+</parameter>
+</effect>

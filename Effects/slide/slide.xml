@@ -1,0 +1,28 @@
+<effect>
+<name>Slide</name>
+<description>Offsets images based on a parameter.</description>
+<author>Jacob Pariseau</author>
+<parameter>
+  <name>Slide X Coefficient</name>
+  <variable>slideX</variable>
+  <description>This variable controls the offset in the horizontal X axis. Positive is right, negative is left.</description>
+  <type>float</type>
+  <min>-32768</min>
+  <max>32767</max>
+  <property>edit</property>
+  <value>0</value>
+  <preview_value>0</preview_value>
+</parameter>
+<parameter>
+  <name>Slide Y Coefficient</name>
+  <variable>slideY</variable>
+  <description>This variable controls the offset in the vertical Y axis. Positive is down, negative is up.</description>
+  <type>float</type>
+  <min>-32768</min>
+  <max>32767</max>
+  <property>edit</property>
+  <value>0</value>
+  <preview_value>0</preview_value>
+</parameter>
+</effect>
+

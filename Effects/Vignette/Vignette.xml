@@ -1,0 +1,32 @@
+<effect>
+<name>Vignette</name>
+<description>Darkens and tints the edges of the screen.</description>
+<author>NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Background</name>
+		<code>bg</code>
+		<description></description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+
+<parameter>
+		<name>Amount</name>
+		<code>amount</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+
+<parameter>
+		<name>Tint</name>
+		<code>tint</code>
+		<description></description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+</effect>

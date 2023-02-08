@@ -1,0 +1,35 @@
+<effect>
+<name>Colorblindness correction</name>
+<description>Improve accessibility with color filters for different kinds of colorblindness.</description>
+<author>NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Mode</name>
+		<code>mode</code>
+		<description>0 - Protanopia, 1 - Deutranopia,  2 - Tritanopia</description>
+		<type>int</type>
+		<property>slider</property>
+		<value>0</value>
+		<min>0</min>
+		<max>2</max>
+</parameter>
+<parameter>
+		<name>Intensity</name>
+		<code>intensity</code>
+		<description>Controls the intensity of the filter applied.</description>
+		<type>float</type>
+		<property>spin</property>
+		<value>1.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+		<name>Apply to background</name>
+		<code>BG</code>
+		<description></description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+</effect>

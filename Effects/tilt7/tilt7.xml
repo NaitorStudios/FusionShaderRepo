@@ -1,0 +1,37 @@
+<effect>
+<name>Tilt7</name>
+<author>Sketchy / MuddyMole, DX11 Port by NaitorStudios</author>
+<description>Tilt 3D</description>
+<parameter>
+		<name>tiltX</name>
+		<code>tiltX</code>
+		<description>Angle to tilt left-right</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>tiltY</name>
+		<code>tiltY</code>
+		<description>Angle to tilt up-down</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>depthOfField</name>
+		<code>depthOfField</code>
+		<description>Used to control the perspective effect (1=orthographic projection)</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+	<AddressU>border</AddressU>
+	<AddressV>border</AddressV>
+	<BorderColor>0</BorderColor>
+</sampler>
+</effect>

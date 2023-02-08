@@ -1,0 +1,33 @@
+<effect>
+<name>Resize</name>
+<description>Change the texture size of the object</description>
+<author>Sphax - Flavien Clermont, Improved by NaitorStudios</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Width</name>
+		<code>fWidth</code>
+		<description>Width coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+		<min>0.0</min>
+</parameter>
+<parameter>
+		<name>Height</name>
+		<code>fHeight</code>
+		<description>Height coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+		<min>0.0</min>
+</parameter>
+	<sampler>
+		<index>0</index>
+		<Filter>Linear</Filter>
+		<AddressU>border</AddressU>
+		<AddressV>border</AddressV>
+		<BorderColor>16777215</BorderColor>
+	</sampler>
+</effect>
+

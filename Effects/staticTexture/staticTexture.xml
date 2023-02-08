@@ -1,0 +1,61 @@
+<effect>
+	<name>Static Texture</name>
+	<description>Replaces RGB:255,0,0 with a static texture</description>
+	<author>Sketchy</author>
+	<parameter>
+		<name>Texture</name>
+		<code>tex</code>
+		<description>Texture</description>
+		<type>image</type>
+		<value></value>
+		<property>image</property>
+	</parameter>
+	<parameter>
+		<name>texWidth</name>
+		<code>texWidth</code>
+		<description>Texture width</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>32</value>
+	</parameter>
+	<parameter>
+		<name>texHeight</name>
+		<code>texHeight</code>
+		<description>Texture height</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>32</value>
+	</parameter>
+	<parameter>
+		<name>sprWidth</name>
+		<code>sprWidth</code>
+		<description>Sprite width</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>32</value>
+	</parameter>
+	<parameter>
+		<name>sprHeight</name>
+		<code>sprHeight</code>
+		<description>Sprite height</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>32</value>
+	</parameter>
+	<parameter>
+		<name>sprX</name>
+		<code>sprX</code>
+		<description>Sprite position</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>sprY</name>
+		<code>sprY</code>
+		<description>Sprite position</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+</effect>

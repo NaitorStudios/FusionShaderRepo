@@ -1,0 +1,63 @@
+// SonicFade
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float time;
+uniform vec4 a;
+uniform vec4 b;
+
+float STEP = 1.0/3.0;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	vec3 fade = vec3(1.0, 1.0, 1.0);
+
+	//Step A: black to A
+	if(time < STEP)
+	{
+		fade *= a.rgb * (time/STEP);
+	}
+	//Step B: A to B
+	else if(time >= STEP && time <= 2.0*STEP)
+	{
+		fade = mix(a.rgb, b.rgb, (time-STEP)/STEP);
+	}
+	//Step C: B to white
+	else if(time < 1.0)
+	{
+		fade = 1.0 - (1.0-b.rgb)*((1.0-time)/STEP);
+	}
+
+	//Apply fade
+	color.rgb *= fade;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

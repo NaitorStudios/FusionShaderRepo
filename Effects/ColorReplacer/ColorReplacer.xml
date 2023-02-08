@@ -1,0 +1,68 @@
+<effect>
+<name>Color Replacer</name>
+<description>Lets you specify replacement values for 9 given colors. Useful fur custom character colorization.</description>
+<author>Looki</author>
+<parameter>
+	<name>Red</name>
+	<code>R</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>Green</name>
+	<code>G</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65280</value>
+</parameter>
+<parameter>
+	<name>Blue</name>
+	<code>B</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711680</value>
+</parameter>
+<parameter>
+	<name>Cyan</name>
+	<code>C</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16776960</value>
+</parameter>
+<parameter>
+	<name>Magenta</name>
+	<code>M</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711935</value>
+</parameter>
+<parameter>
+	<name>Yellow</name>
+	<code>Y</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65535</value>
+</parameter>
+<parameter>
+	<name>Teal</name>
+	<code>T</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>8421376</value>
+</parameter>
+<parameter>
+	<name>Purple</name>
+	<code>P</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>8388736</value>
+</parameter>
+<parameter>
+	<name>Olive</name>
+	<code>O</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>32896</value>
+</parameter>
+</effect>

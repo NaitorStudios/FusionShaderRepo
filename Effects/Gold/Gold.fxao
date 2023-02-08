@@ -1,0 +1,79 @@
+// Gold
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform sampler2D imgTexture;
+uniform sampler2D GradientTexture;
+
+varying vec2 textureCoordinate;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+float GreyScale(vec3 inColor) {
+    vec4 f4 = vec4(inColor, 1.0) * vec4(0.299, 0.587, 0.114, 1.0);
+    float f = f4.r + f4.g + f4.b;
+    return f;
+}
+
+vec3 Contrast(vec3 inColor, float contrast)
+{
+    return ((inColor - 0.5) * max(contrast, 0.0)) + 0.5;
+}
+
+vec3 Brightness(vec3 inColor, float brightness)
+{
+    return inColor * vec3(brightness, brightness, brightness);
+}
+
+vec4 TurnGold(vec3 inColor) {
+    float mono = GreyScale(inColor);
+    float invert = 1.0 - mono;
+    float difference = abs(mono -  invert);
+    float invert2 = 1.0 - difference;
+    float difference2 = abs(difference - invert2);
+    vec4 sampledColor = texture2D(GradientTexture, vec2(difference2, 0.0));
+    return sampledColor;
+}
+
+void main(void)
+{
+    vec4 inColor = texture2D(imgTexture, textureCoordinate);
+    vec4 gold = TurnGold(inColor.rgb);
+
+    float goldToGrey = GreyScale(gold.rgb);
+    vec3 greyscale = vec3(goldToGrey, goldToGrey, goldToGrey);
+    vec3 modified = mix(greyscale, gold.rgb, 0.20).rgb;
+    modified = Brightness(modified, 1.3);
+    vec3 final = modified * gold.rgb;
+
+    vec4 color = vec4(1.0);
+    color.rgb = final;
+    color.a = inColor.a;
+    if (inColor.r == 0.0 && inColor.g == 0.0 && inColor.b == 0.0)
+        color.a = 0.0;
+
+    color *= blendColor;
+    gl_FragColor = color;
+}
+//@End

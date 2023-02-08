@@ -1,0 +1,29 @@
+<effect>
+<name>Sonic Fade White</name>
+<description>Fades an object in or out (to black), while applying two custom colors when fading. This effect is seen in the classic Sonic games.</description>
+<author>Looki</author>
+<parameter>
+	<name>Time</name>
+	<code>time</code>
+	<description>A value between 0 and 1 that specifies the current time of the fade (0 = black, 1 = original).</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>First color</name>
+	<code>a</code>
+	<description>The color to fade to after black.</description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711680</value>
+</parameter>
+<parameter>
+	<name>Second color</name>
+	<code>b</code>
+	<description>The color to fade to after the first color (and before white).</description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16776960</value>
+</parameter>
+</effect>

@@ -1,0 +1,60 @@
+<effect>
+<name>Space Harrier FX</name>
+<description>Space Harrier FX dx9</description>
+<author>Gigatron</author>
+
+ 
+<parameter>
+	<name>Top Color</name>
+	<description>Gradient Top Color</description>
+	<code>tColor</code>
+	<type>int_float4</type>
+    <property>Color</property>
+	<value>8192012</value>
+</parameter>
+<parameter>
+	<name>Bottom Color</name>
+	<description>Gradient Bottom Color</description>
+	<code>bColor</code>
+	<type>int_float4</type>
+    <property>Color</property>
+	<value>16711680</value>
+</parameter>
+<parameter>
+	<name>Timer</name>
+	<description>Timer Value ; increase this value always set effect parameter 'tSpeed' to  Timer*0.002 to reverse direction Timer*-0.002</description>
+	<code>tSpeed</code>
+	<type>float</type>
+	<value>0.005</value>
+</parameter>
+<parameter>
+    <name>Zoom Bottom</name>
+    <description>Zoom to floor</description>
+    <code>p1</code>
+    <type>float</type>
+    <value>5.0</value>
+</parameter>
+<parameter>
+    <name>Horizontal X</name>
+    <description>Horizontal X Offset</description>
+    <code>p2</code>
+    <type>float</type>
+    <value>0.2</value>
+</parameter>
+<parameter>
+    <name>Altitude</name>
+    <description>Altitude</description>
+    <code>p3</code>
+    <type>float</type>
+    <value>0.2</value>
+</parameter>
+<parameter>
+    <name>Fog Factor</name>
+    <description>Fog Factor </description>
+    <code>p4</code>
+    <type>float</type>
+    <value>0.5</value>
+</parameter>
+ 
+ </effect>
+

@@ -1,0 +1,16 @@
+<effect>
+<name>Noisy Fast Blur</name>
+<description></description>
+<author>NaitorStudios</author>
+<company></company>
+<website></website>
+<parameter>
+		<name>Strength</name>
+		<code>strength</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+</effect>
+

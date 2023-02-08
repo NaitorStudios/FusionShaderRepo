@@ -1,0 +1,27 @@
+<effect>
+<name>Display</name>
+<description>Add scanlines to texture.</description>
+<author>Looki</author>
+<parameter>
+		<name>Amplitude</name>
+		<code>fAmplitude</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.15</value>
+</parameter>
+<parameter>
+		<name>Periods</name>
+		<code>fPeriods</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>1000.0</value>
+</parameter>
+<parameter>
+		<name>Offset</name>
+		<code>fOffset</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>
+

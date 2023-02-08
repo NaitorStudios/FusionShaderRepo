@@ -1,0 +1,129 @@
+<effect>
+<name>Color Pallette as Values</name>
+<description>A 24 color pallet.</description>
+<parameter>
+	<name>Red offset</name> <code>roffset</code>
+	<type>int</type> <property>INT</property>
+	<value>100</value>
+</parameter>
+<parameter>
+	<name>Color 0</name> <code>c[0]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Color 1</name> <code>c[1]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Color 2</name> <code>c[2]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>2</value>
+</parameter>
+<parameter>
+	<name>Color 3</name> <code>c[3]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>3</value>
+</parameter>
+<parameter>
+	<name>Color 4</name> <code>c[4]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>4</value>
+</parameter>
+<parameter>
+	<name>Color 5</name> <code>c[5]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>5</value>
+</parameter>
+<parameter>
+	<name>Color 6</name> <code>c[6]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>6</value>
+</parameter>
+<parameter>
+	<name>Color 7</name> <code>c[7]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>7</value>
+</parameter>
+<parameter>
+	<name>Color 8</name> <code>c[8]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>8</value>
+</parameter>
+<parameter>
+	<name>Color 9</name> <code>c[9]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>9</value>
+</parameter>
+<parameter>
+	<name>Color 10</name> <code>c[10]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>10</value>
+</parameter>
+<parameter>
+	<name>Color 11</name> <code>c[11]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>11</value>
+</parameter>
+<parameter>
+	<name>Color 12</name> <code>c[12]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>12</value>
+</parameter>
+<parameter>
+	<name>Color 13</name> <code>c[13]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>13</value>
+</parameter>
+<parameter>
+	<name>Color 14</name> <code>c[14]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>14</value>
+</parameter>
+<parameter>
+	<name>Color 15</name> <code>c[15]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>15</value>
+</parameter>
+<parameter>
+	<name>Color 16</name> <code>c[16]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>16</value>
+</parameter>
+<parameter>
+	<name>Color 17</name> <code>c[17]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>17</value>
+</parameter>
+<parameter>
+	<name>Color 18</name> <code>c[18]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>18</value>
+</parameter>
+<parameter>
+	<name>Color 19</name> <code>c[19]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>19</value>
+</parameter>
+<parameter>
+	<name>Color 20</name> <code>c[20]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>20</value>
+</parameter>
+<parameter>
+	<name>Color 21</name> <code>c[21]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>21</value>
+</parameter>
+<parameter>
+	<name>Color 22</name> <code>c[22]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>22</value>
+</parameter>
+<parameter>
+	<name>Color 23</name> <code>c[23]</code>
+	<type>int_float4</type> <property>COLOR</property>
+	<value>23</value>
+</parameter>
+</effect>

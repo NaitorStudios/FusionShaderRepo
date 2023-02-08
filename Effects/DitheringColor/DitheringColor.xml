@@ -1,0 +1,14 @@
+<effect>
+<name>Dithering Color</name>
+<description>Dithering color.</description>
+
+<parameter>
+<name>Dither pattern image</name>
+<code>sPatternTexture</code>
+<description>Dither pattern image.</description>
+<type>image</type>
+<property>image</property>
+<value>1</value>
+</parameter>
+
+</effect>

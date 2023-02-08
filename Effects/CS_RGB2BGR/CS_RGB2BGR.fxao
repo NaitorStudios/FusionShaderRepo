@@ -1,0 +1,42 @@
+// CS_RGB2BGR
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color;
+	vec4 original = texture2D(imgTexture, textureCoordinate);
+	color.b = original.r;
+	color.g = original.g;
+	color.r = original.b;
+	color.a = original.a;
+
+	color *= blendColor;
+	gl_FragColor = color;
+}
+//@End

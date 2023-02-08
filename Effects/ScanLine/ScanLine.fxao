@@ -1,0 +1,88 @@
+// ScanLine
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform int iScanline;
+uniform float iScanLineForca;
+uniform int iAberracao;
+uniform float iAberracaoDistortion;
+
+uniform float iCorVermelho;
+uniform float iCorVerde;
+uniform float iCorAzul;
+uniform float iRadialDistortion;
+uniform int iRadial;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+vec2 radialDistortion(vec2 coord, vec2 pos)
+{
+    float distortion = iRadialDistortion;
+    vec2 cc = pos - 0.5;
+    float dist = dot(cc, cc) * distortion;
+
+	return coord * (pos + cc * (1.0 + dist) * dist) / pos;
+}
+
+vec4 ScanLine(vec4 color, vec2 texCoord)
+{
+	vec4 imageColor = color;
+	if ( iAberracao == 1) {
+		vec2 texCoordOffset = vec2(iAberracaoDistortion, 0.0);
+		float r = texture2D(imgTexture, texCoord - texCoordOffset).r;
+		float g = texture2D(imgTexture, texCoord).g;
+		float b = texture2D(imgTexture, texCoord + texCoordOffset).b;
+		imageColor = vec4(r,g,b,1.0);
+		imageColor = vec4(r*iCorVermelho,g*iCorVerde,b*iCorAzul,1.0);
+ 	}
+
+  // scanline
+	vec4 scanlineColor = vec4(1.0,1.0,1.0,1.0);
+	if (iScanline == 1) {
+    scanlineColor = 1.2 * vec4(1.0,1.0,1.0,1.0) * abs(sin(texCoord.y * 2000.0));
+
+		scanlineColor += iScanLineForca;
+		if (scanlineColor.r > 1.0 ){
+			scanlineColor.r = 1.0;
+		}
+	}
+
+    return imageColor * scanlineColor;
+}
+
+void main(void)
+{
+	vec2 texCoordOffset = textureCoordinate;
+	if (iRadial == 1) {
+		texCoordOffset = radialDistortion(textureCoordinate, textureCoordinate);
+	}
+
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+
+	color = ScanLine(color, texCoordOffset);
+	color *= blendColor;
+	gl_FragColor = color;
+}
+//@End

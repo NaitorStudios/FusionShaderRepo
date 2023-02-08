@@ -1,0 +1,75 @@
+// 3dPerspective
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+
+uniform float fH;
+uniform float fV;
+uniform float fD;
+uniform float fZ;
+
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	float dH = fH * 0.0174533;
+	float dV = fV * 0.0174533;
+	vec3 p = vec3(textureCoordinate.x, textureCoordinate.y, 0.0);
+	vec3 c = vec3(0.5, 0.5, 0.0 - fD);
+	vec3 o = vec3(0.5, 0.5, 0.0);
+	p -= o;
+	vec3 p2 = vec3(
+				(p.x * cos(dH)) + (p.z * sin(dH)),
+				p.y,
+				(-1.0 * p.x * sin(dH)) + (p.z * cos(dH))
+				);
+	vec3 p3 = vec3(
+				p2.x,
+				(p2.y * cos(dV)) - (p2.z * sin(dV)),
+				(p2.y * sin(dV)) + (p2.z * cos(dV))
+				);
+	p3 += o;
+	c -= o;
+	vec3 c2 = vec3(
+				(c.x * cos(dH)) + (c.z * sin(dH)),
+				c.y,
+				(-1.0 * c.x * sin(dH)) + (c.z * cos(dH))
+				);
+	vec3 c3 = vec3(
+				c2.x,
+				(c2.y * cos(dV)) - (c2.z * sin(dV)),
+				(c2.y * sin(dV)) + (c2.z * cos(dV))
+				);
+	c3 += o;
+	float s = (0.0 - c3.z) / (p3.z - c3.z);
+	vec3 t = mix(c3, p3, s);
+	vec2 xy = vec2(t.x, t.y);
+	vec4 outColor = texture2D( imgTexture, ((xy-0.5)/fZ)+0.5);
+
+	outColor *= blendColor;
+
+	gl_FragColor = outColor;
+}
+//@End

@@ -1,0 +1,19 @@
+<effect>
+<name>Rotate</name>
+<description>Rotate the picture of the object (not the object itself) - (take care to add a transparent 1 pixel border)</description>
+<author>Sphax - Flavien Clermont - Edited by Pixelthief. DX11 Port by NaitorStudios</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+</sampler>
+<parameter>
+		<name>Angle</name>
+		<code>fAngle</code>
+		<description>Angle degree</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

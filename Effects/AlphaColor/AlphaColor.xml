@@ -1,0 +1,21 @@
+<effect>
+<name>Alpha Color</name>
+<description>Selects a color for transparency.&#xA;Limitations on DX11:&#xA;Doesn't support Alpha Channel.&#xA;- Completely transparent colors becomes back under the hood.</description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Alpha Color</name>
+		<code>alphaColor</code>
+		<description>Alpha Color</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Keep original Alpha</name>
+		<code>keepAlpha</code>
+		<description></description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+</effect>

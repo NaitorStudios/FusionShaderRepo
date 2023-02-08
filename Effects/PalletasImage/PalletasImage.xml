@@ -1,0 +1,14 @@
+<effect>
+<name>Color Pallette as Image</name>
+<description>A 32*32 color pallet.</description>
+<parameter>
+	<name>Red offset</name> <code>roffset</code>
+	<type>int</type> <property>INT</property>
+	<value>100</value>
+</parameter>
+<parameter>
+	<name>Pallet</name> <code>pal</code>
+	<type>IMAGE</type> <property>IMAGE</property>
+	<value>pallet.png</value>
+</parameter>
+</effect>

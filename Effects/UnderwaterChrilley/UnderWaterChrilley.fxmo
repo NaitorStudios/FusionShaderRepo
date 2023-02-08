@@ -1,0 +1,73 @@
+// UnderWater
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform float fAmplitude;
+uniform float fFrequency;
+uniform float fPeriods;
+uniform float fDistortStr;
+uniform float fWaveFrequency;
+uniform float fWaveAmplitude;
+uniform float fWavePeriods;
+uniform bool waveEnabled;
+uniform vec4 fColor;
+
+uniform sampler2D bkd;
+uniform sampler2D distort;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec4 color = texture(bkd, vec2( textureCoordinate.x,textureCoordinate.y));
+
+    vec4 distortColor = texture(distort, vec2( textureCoordinate.x,textureCoordinate.y));
+
+    vec2 offset = vec2(fFrequency*fPixelWidth, fFrequency*fPixelHeight);
+    offset.x = distortColor.r*fDistortStr;
+    offset.y = distortColor.g*fDistortStr;
+
+    color =  texture(bkd, vec2(textureCoordinate.x+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.x,textureCoordinate.y+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.y));
+
+    color += fColor;
+
+    if(waveEnabled)
+    {
+        color.a = smoothstep(0.01,0.03, textureCoordinate.y+(sin((textureCoordinate.x+fWaveFrequency*fPixelHeight)*fWavePeriods)*fWaveAmplitude)+offset);
+    }
+
+    color *= blendColor;
+
+    fragColor = color; //gl_FragColor
+}
+//@End

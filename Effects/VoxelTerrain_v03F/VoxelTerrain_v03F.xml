@@ -1,0 +1,100 @@
+<effect>
+<name>Voxel Terrain - Foreground (v0.3)</name>
+<author>Sketchy</author>
+<description>Voxel-based 3D terrain.</description>
+<parameter>
+		<name>imgHeightmap</name>
+		<code>imgHeightmap</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>imgTexturemap</name>
+		<code>imgTexturemap</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>fX</name>
+		<code>fX</code>
+		<description>X position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fY</name>
+		<code>fY</code>
+		<description>Y position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fZ</name>
+		<code>fZ</code>
+		<description>Z position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fCosPan</name>
+		<code>fCosPan</code>
+		<description>Cosine of pan angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fSinPan</name>
+		<code>fSinPan</code>
+		<description>Sine of pan angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fCosTilt</name>
+		<code>fCosTilt</code>
+		<description>Cosine of tilt angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fSinTilt</name>
+		<code>fSinTilt</code>
+		<description>Sine of tilt angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fCosRoll</name>
+		<code>fCosRoll</code>
+		<description>Cosine of roll angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fSinRoll</name>
+		<code>fSinRoll</code>
+		<description>Sine of roll angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fYScale</name>
+		<code>fYScale</code>
+		<description>Heightmap scaling coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<zbuffer>1</zbuffer>
+</effect>

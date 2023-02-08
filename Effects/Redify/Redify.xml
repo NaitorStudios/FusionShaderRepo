@@ -1,0 +1,5 @@
+<effect>
+<name>Redify</name>
+<description>Keep only the red component of the output color.</description>
+</effect>
+

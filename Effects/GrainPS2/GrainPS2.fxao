@@ -1,0 +1,76 @@
+// GrainPS2
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fSeed;
+uniform float fStrength;
+uniform float fAdvA;
+uniform float fAdvB;
+uniform float fAdvC;
+uniform float fAdvD;
+uniform float fAdvE;
+uniform bool iR;
+uniform bool iG;
+uniform bool iB;
+uniform bool iA;
+uniform bool iInvert;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+/* Random algorithm by Sylvain Lefebvre */
+
+#define M_PI 3.14159265358979323846
+
+float mccool_rand(vec2 ij)
+{
+  const vec4 a = vec4(pow(M_PI,4.0),exp(5.0),pow(13.0, M_PI / 2.0),sqrt(1997.0));
+  vec4 result  = vec4(ij,ij);
+
+  for(int i = 0; i < 3; i++)
+  {
+		result.x = fract(dot(result, a));
+		result.y = fract(dot(result, a));
+		result.z = fract(dot(result, a));
+		result.w = fract(dot(result, a));
+  }
+  return float(result.xy);
+}
+
+void main(void)
+{
+
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	float rand = mccool_rand(textureCoordinate+fSeed)*fStrength;
+	rand = iInvert ? 1.0-rand : rand;
+	if(iR) color.r *= rand;
+	if(iG) color.g *= rand;
+	if(iB) color.b *= rand;
+	if(iA) color.a *= rand;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

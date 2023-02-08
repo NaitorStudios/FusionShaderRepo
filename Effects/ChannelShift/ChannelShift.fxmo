@@ -1,0 +1,65 @@
+// ChannelShift
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+
+uniform float fRx;
+uniform float fRy;
+uniform float fGx;
+uniform float fGy;
+uniform float fBx;
+uniform float fBy;
+uniform float fAx;
+uniform float fAy;
+
+uniform sampler2D imgTexture;
+
+uniform vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec4 color;
+
+	vec4 R = texture(imgTexture,vec2(mod(textureCoordinate.x+fRx, 1.0), mod(textureCoordinate.y+fRy, 1.0)));
+    vec4 G = texture(imgTexture,vec2(mod(textureCoordinate.x+fGx, 1.0), mod(textureCoordinate.y+fGy, 1.0)));
+    vec4 B = texture(imgTexture,vec2(mod(textureCoordinate.x+fBx, 1.0), mod(textureCoordinate.y+fBy, 1.0)));
+    vec4 A = texture(imgTexture,vec2(mod(textureCoordinate.x+fAx, 1.0), mod(textureCoordinate.y+fAy, 1.0)));
+    color.r = R.r;
+    color.g = G.g;
+    color.b = B.b;
+    color.a = A.a;
+
+	color *= blendColor;
+
+
+	fragColor = color; //gl_FragColor
+}
+//@End

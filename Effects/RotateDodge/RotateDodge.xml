@@ -1,0 +1,33 @@
+<effect>
+<name>Rotate Dodge</name>
+<author>Looki</author>
+<description>Dodges the lower layer with the upper layer (Result is always lighter).</description>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+	<name>Angle</name>
+	<code>angle</code>
+	<type>float</type>
+	<property>edit</property>
+	<description>Degrees</description>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Center X</name>
+	<code>x</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5</value>
+</parameter>
+<parameter>
+	<name>Center Y</name>
+	<code>y</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5</value>
+</parameter>
+<sampler>
+	<index>0</index>
+	<addressU>Border</addressU>
+	<addressV>Border</addressV>
+</sampler>
+</effect>

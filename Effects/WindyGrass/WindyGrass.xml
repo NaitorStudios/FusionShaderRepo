@@ -1,0 +1,41 @@
+<effect>
+<name>Windy Grass</name>
+<description></description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Intensity</name>
+		<code>intensity</code>
+		<description>Horizontal movement intensity.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+
+<parameter>
+		<name>Time</name>
+		<code>time</code>
+		<description>Continuously changing this makes the actual movement.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Time Coefficient</name>
+		<code>timeCoef</code>
+		<description>Change the speed of time.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.002</value>
+</parameter>
+<parameter>
+		<name>Opacity</name>
+		<code>opacity</code>
+		<description>Parameter required for DX11 replacing Blend Coef.</description>
+		<type>float</type>
+		<property>edit</property>
+		<min>0.0</min>
+		<max>1.0</max>
+		<value>1.0</value>
+</parameter>
+
+</effect>

@@ -1,0 +1,36 @@
+<effect>
+<name>Outline</name>
+<description>Draws an outline around an object</description>
+	<description>It's not working correctly under DX11.</description>
+	<author></author>
+<parameter>
+	<name>Object Width</name>
+	<code>fWidth</code>
+	<description>Used to figure out the horizontal step distance for finding the object edge</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32.0</value>
+	<min>1.0</min>
+</parameter>
+<parameter>
+	<name>Object Height</name>
+	<code>fHeight</code>
+	<description>Used to figure out the vertical step distance for finding the object edge</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32.0</value>
+	<min>1.0</min>
+</parameter>
+<parameter>
+	<name>Outline Color</name>
+	<code>fColour</code>
+	<description>Colour of the outline</description>
+	<type>int_float4</type>
+	<property>color</property>
+	<value>4278190080</value>
+</parameter>
+</effect>
+<sampler>
+	<index>0</index>
+	<filter>Point</filter>
+</sampler>

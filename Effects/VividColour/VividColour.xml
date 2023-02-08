@@ -1,0 +1,40 @@
+<effect>
+<name>BlendColor</name>
+<description>Blend the object with a color.</description>
+<parameter>
+
+		// Name of parameter property
+		<name>Blended Colour</name>
+
+		// Parameter name (in the .fx file)
+		<code>fBlend</code>
+
+		// Description
+		<description>Simple example of parameter</description>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>color</property>
+</parameter>
+<parameter>
+
+		// Name of parameter property
+		<name>Blend Percentage</name>
+
+		// Parameter name (in the .fx file)
+		<code>fPercent</code>
+
+		// Description
+		<description>Simple example of parameter</description>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+                            <type>float</type>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+</effect>

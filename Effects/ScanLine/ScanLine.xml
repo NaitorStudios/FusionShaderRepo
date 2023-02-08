@@ -1,0 +1,106 @@
+<effect>
+<name>Scanline</name>
+<description>Efeito de TV</description>
+<author>Vortex Game Studios</author>
+
+<parameter>
+	<name>Scanline</name>
+	<code>iScanline</code>
+	<description>Ativa o efeito de Scanline</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+
+<parameter>
+	<name>Grade</name>
+	<code>iScanLineForca</code>
+	<description>Ajusta a forca da grade do scanline</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>0.4</value>
+	<min>0</min>
+	<max>5</max>
+	<delta>0.1</delta>
+</parameter>
+
+<parameter>
+	<name>Aberracao Cromatica</name>
+	<code>iAberracao</code>
+	<description>Ativa efeito de aberracao cromatica</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Distorcao Aberracao Cromatica</name>
+	<code>iAberracaoDistortion</code>
+	<description>Ajustar a distorcao do efeito da aberracao cromatica</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>0.0025</value>
+	<min>0</min>
+	<max>1</max>
+	<delta>0.001</delta>
+</parameter>
+
+<parameter>
+	<name>Vermelho</name>
+	<code>iCorVermelho</code>
+	<description>Ajustar do Vermelho (Normal a cor vermelha ser mais "borrada")</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>2.7</value>
+	<min>0</min>
+	<max>5</max>
+	<delta>0.1</delta>
+</parameter>
+
+<parameter>
+	<name>Verde</name>
+	<code>iCorVerde</code>
+	<description>Ajustar do Verde</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>2.7</value>
+	<min>0</min>
+	<max>5</max>
+	<delta>0.1</delta>
+</parameter>
+
+<parameter>
+	<name>Azul</name>
+	<code>iCorAzul</code>
+	<description>Ajustar do Azul</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>2.7</value>
+	<min>0</min>
+	<max>5</max>
+	<delta>0.1</delta>
+</parameter>
+
+<parameter>
+	<name>Radial</name>
+	<code>iRadial</code>
+	<description>Ativa efeito de distorcao radial para efeito de tubo (WIP)</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>Distorcao Radial</name>
+	<code>iRadialDistortion</code>
+	<description>Ajustar a distorcao do efeito da radial (tubo CRT)</description>
+	<type>float</type>
+	<property>SPIN</property>
+	<value>0.04</value>
+	<min>0</min>
+	<max>1</max>
+	<delta>0.01</delta>
+</parameter>
+
+
+</effect>

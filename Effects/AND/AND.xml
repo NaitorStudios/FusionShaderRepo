@@ -1,0 +1,6 @@
+<effect>
+<name>AND</name>
+<description>Bitwise AND the colors with the background.</description>
+<author>Cazra, DX11 port by NaitorStudios, thanks to fnkycoldmadeanr</author>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

@@ -1,0 +1,210 @@
+<effect>
+	<name>PixelPalette (Color parameters)</name>
+	<author>NaitorStudios</author>
+	<description>Uses red value as index for a color from a palette. Has 20 color parameters.</description>
+	
+	<parameter>
+		<name>Color 0</name>
+		<code>c[0]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 1</name>
+		<code>c[1]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 2</name>
+		<code>c[2]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 3</name>
+		<code>c[3]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 4</name>
+		<code>c[4]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 5</name>
+		<code>c[5]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 6</name>
+		<code>c[6]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 7</name>
+		<code>c[7]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 8</name>
+		<code>c[8]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 9</name>
+		<code>c[9]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 10</name>
+		<code>c[10]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 11</name>
+		<code>c[11]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 12</name>
+		<code>c[12]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 13</name>
+		<code>c[13]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 14</name>
+		<code>c[14]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 15</name>
+		<code>c[15]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+		<parameter>
+		<name>Color 16</name>
+		<code>c[16]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 17</name>
+		<code>c[17]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 18</name>
+		<code>c[18]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 19</name>
+		<code>c[19]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 20</name>
+		<code>c[20]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<!---<parameter>
+		<name>Color 21</name>
+		<code>c[21]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 22</name>
+		<code>c[22]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 23</name>
+		<code>c[23]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	
+	<parameter>
+		<name>Color 24</name>
+		<code>c[24]</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>--->
+	
+	<sampler>
+	<index>2</index>
+	<filter>Point</filter>
+	</sampler>
+</effect>

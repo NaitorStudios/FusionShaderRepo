@@ -1,0 +1,158 @@
+<effect>
+<name>Water</name>
+<description>Water layer effect.</description>
+
+<parameter>
+<name>Normal map texture</name>
+<code>sNormalMap</code>
+<description>Normal map texture.</description>
+<type>image</type>
+<property>image</property>
+<value>1</value>
+</parameter>
+
+<parameter>
+<name>Reflection map texture</name>
+<code>sReflectionMap</code>
+<description>Reflectionl map texture.</description>
+<type>image</type>
+<property>image</property>
+<value>2</value>
+</parameter>
+
+<parameter>
+<name>Normals X offset</name>
+<code>uNormalsOffsetX</code>
+<description>Normals X offset in unit space.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Normals Y offset</name>
+<code>uNormalsOffsetY</code>
+<description>Normals Y offset in unit space.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Refraction X size</name>
+<code>uRefractSizeX</code>
+<description>Refraction X size unit space.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.08</value>
+</parameter>
+
+<parameter>
+<name>Refraction Y size</name>
+<code>uRefractSizeY</code>
+<description>Refraction Y size unit space.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.08</value>
+</parameter>
+
+<parameter>
+<name>Reflection factor</name>
+<code>uReflectionFactor</code>
+<description>Reflection factor.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.9</value>
+</parameter>
+
+<parameter>
+<name>Specular factor</name>
+<code>uSpecular</code>
+<description>Specular factor.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Shine</name>
+<code>uShine</code>
+<description>Shine power.</description>
+<type>float</type>
+<property>edit</property>
+<value>1000.0</value>
+</parameter>
+
+<parameter>
+<name>Water alpha</name>
+<code>uWaterAlpha</code>
+<description>Water alpha factor.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Light X position</name>
+<code>uLightX</code>
+<description>Light source X position.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Light Y position</name>
+<code>uLightY</code>
+<description>Light source Y position.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Light Z position</name>
+<code>uLightZ</code>
+<description>Light source Z position.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Normal map X scale</name>
+<code>uNormalMapScaleX</code>
+<description>Normal map X scale.</description>
+<type>float</type>
+<property>edit</property>
+<value>5.0</value>
+</parameter>
+
+<parameter>
+<name>Normal map Y scale</name>
+<code>uNormalMapScaleY</code>
+<description>Normal map Y scale.</description>
+<type>float</type>
+<property>edit</property>
+<value>5.0</value>
+</parameter>
+
+<parameter>
+<name>Reflection map X scale</name>
+<code>uReflectionMapScaleX</code>
+<description>Reflection map X scale.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Reflection map Y scale</name>
+<code>uReflectionMapScaleY</code>
+<description>Reflection map Y scale.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+</effect>

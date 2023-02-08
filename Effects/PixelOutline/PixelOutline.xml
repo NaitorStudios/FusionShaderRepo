@@ -1,0 +1,12 @@
+<effect>
+<name>Pixel outline</name>
+<author>Looki</author>
+<description>Draws a 1px border around an object</description>
+<parameter>
+		<name>Outline color</name>
+		<code>color</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+</effect>

@@ -1,0 +1,30 @@
+<effect>
+<name>Scale2x</name>
+<description>Upscale the screen to a higher resolution using a Scale2x upscaling algorithm variant
+created for high efficiency as a shader.
+Special thanks to Salamanderpants for making this extension possible.</description>
+<author>Sebastian Janisz</author>
+<company>Ultimate Walrus</company>
+<website>http://ultimatewalrus.com</website>
+
+<parameter>
+		<name>Subpixel offset X</name>
+		<code>fSubPixelOffsetX</code>
+		<description>Number of half-pixels to offset the output's X by.</description>
+		<type>float</type> // Type (int, float or int_float4)
+		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<value>0</value>
+</parameter>
+
+
+<parameter>
+		<name>Subpixel offset Y</name>
+		<code>fSubPixelOffsetY</code>
+		<description>Number of half-pixels to offset the output's Y by.</description>
+		<type>float</type> // Type (int, float or int_float4)
+		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<value>0</value>
+</parameter>
+
+</effect>
+

@@ -1,0 +1,16 @@
+<effect>
+	<name>myZoom</name>
+	<description>Zooms an image.</description>
+	<author>Sketchy</author>
+	<parameter>
+		<name>Zoom</name>
+		<code>zoom</code>
+		<description>Zoom level.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<min>1</min>
+		<preview_value>2</preview_value>
+
+	</parameter>
+</effect>

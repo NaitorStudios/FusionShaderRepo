@@ -1,0 +1,36 @@
+<effect>
+<name>Sprite</name>
+<author>Sketchy</author>
+<description>Multi-directional sprite</description>
+<parameter>
+		<name>iYLevel</name>
+		<code>iYLevel</code>
+		<description>Vertical level</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>iNumYLevels</name>
+		<code>iNumYLevels</code>
+		<description>Number of vertical levels</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>fDepth</name>
+		<code>fDepth</code>
+		<description>Depth level</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>cFog</name>
+		<code>cFog</code>
+		<description>Fog color</description>
+		<type>int_float4</type>
+		<property>color</property>
+</parameter>
+</effect>

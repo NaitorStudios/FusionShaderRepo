@@ -1,0 +1,38 @@
+<effect>
+<name>Color Adjust</name>
+<description>Adjusts hue, saturation, lightness and contrast.</description>
+<author>Sketchy, DX11 Port by NaitorStudios</author>
+<parameter>
+		<name>Hue</name>
+		<description>Takes a value in degrees (0-360). eg: 180 = set hue to that directly opposite original hue on a color wheel</description>
+		<code>Hue</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Saturation</name>
+		<description>Takes a decimal value (0-1). eg: 0.5 = set saturation to 50% of original saturation)</description>
+		<code>Saturation</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Lightness</name>
+		<description>Takes a decimal value (0-1). eg. 0.5 = increase lightness by 50% of original lightness</description>
+		<code>Lightness</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Contrast</name>
+		<description>Increases contrast by an arbitrary amount.</description>
+		<code>Contrast</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>
+

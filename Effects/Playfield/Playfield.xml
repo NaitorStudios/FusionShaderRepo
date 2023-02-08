@@ -1,0 +1,30 @@
+<effect>
+<name>PlayField</name>
+<description>PlayField fake 3d floor MMF2.5 DX9</description>
+<author>Gigatron</author>
+<website>http://gigatron3k.free.fr/Intro</website>
+<parameter>
+	<name>Displacement</name>
+	<description>Displacement Offset</description>
+	<code>fCol</code>
+	<type>int_float4</type>
+              <property>COLOR</property>
+	<value>-16776961</value>
+</parameter>
+<parameter>
+	<name>Speed</name>
+	<description>Speed of displacement internal MMF2 Timer will used</description>
+	<code>fSpeed</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Mfactor</name>
+	<description>Magnify factor</description>
+	<code>fMfactor</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+
+
+</effect>

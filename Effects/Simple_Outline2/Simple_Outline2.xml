@@ -1,0 +1,36 @@
+<effect>
+<name>Simple Outline 2</name>
+<author>NekoGlass, DX11 Port and edit by NaitorStudios</author>
+<description>Simple Outline with corner offset</description>
+
+<parameter>
+		<name>Color</name>
+		<code>fC</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>-16776961</value>
+</parameter>
+<parameter>
+		<name>Thickness</name>
+		<code>fT</code>
+		<type>float</type>
+		<property>float</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>8-Dir</name>
+		<code>iE</code>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+
+<parameter>
+		<name>Corner offset</name>
+		<code>cO</code>
+		<type>float</type>
+		<property>float</property>
+		<value>1</value>
+</parameter>
+
+</effect>

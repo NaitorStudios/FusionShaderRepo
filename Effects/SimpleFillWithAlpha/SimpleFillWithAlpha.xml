@@ -1,0 +1,13 @@
+<effect>
+<name>Simple Fill with Alpha</name>
+<description>Colors an object.</description>
+<author>Looki</author>
+<parameter>
+		<name>Color</name>
+		<code>fC</code>
+		<description>Color</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+</effect>

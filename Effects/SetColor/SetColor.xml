@@ -1,0 +1,20 @@
+<effect>
+<name>SetColor</name>
+<description>Simple example of shader with one parameter. &#xA;Previously known as "White.fx" shader.</description>
+<parameter>
+
+		// Name of parameter property
+		<name>Color</name>
+
+		// Parameter name (in the .fx file)
+		<code>c</code>
+
+		// Description
+		<description>Simple example of parameter</description>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>COLOR</property>
+		<type>int_float4</type>
+		<value>-16776961</value>
+</parameter>
+</effect>

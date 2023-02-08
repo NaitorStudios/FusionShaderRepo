@@ -1,0 +1,60 @@
+<effect>
+	<name>Triangle</name>
+	<description>Draws a filled triangle.</description>
+	<author>Sketchy</author>
+	<parameter>
+		<name>Ax</name>
+		<code>Ax</code>
+		<description>X coordinate of point A.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Ay</name>
+		<code>Ay</code>
+		<description>Y coordinate of point A.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Bx</name>
+		<code>Bx</code>
+		<description>X coordinate of point B.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>By</name>
+		<code>By</code>
+		<description>Y coordinate of point B.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Cx</name>
+		<code>Cx</code>
+		<description>X coordinate of point C.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Cy</name>
+		<code>Cy</code>
+		<description>Y coordinate of point C.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Fill color</name>
+		<code>drawColor</code>
+		<description>The color of the triangle.</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+</effect>

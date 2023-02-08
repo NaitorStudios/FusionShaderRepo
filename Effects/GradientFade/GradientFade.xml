@@ -1,0 +1,21 @@
+<effect>
+	<name>Gradient Fade</name>
+	<description>Gradually fades an image.</description>
+	<author>Sketchy, DX11 Port by NaitorStudios</author>
+	<parameter>
+		<name>Start Y</name>
+		<code>minY</code>
+		<description>Fade start point.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>End Y</name>
+		<code>maxY</code>
+		<description>Fade end point.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+	</parameter>
+</effect>

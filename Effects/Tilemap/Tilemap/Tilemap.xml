@@ -1,0 +1,60 @@
+<effect>
+<name>Tilemap</name>
+<description>Draw tiled-based graphics.</description>
+<author>Sketchy</author>
+<parameter>
+		<name>Map</name>
+		<code>Map</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Tileset</name>
+		<code>Tileset</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Map width</name>
+		<code>mapWidth</code>
+		<description>Map width (columns)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Map height</name>
+		<code>mapHeight</code>
+		<description>Map height (rows)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Tileset width</name>
+		<code>tilesetWidth</code>
+		<description>Tileset width (columns)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Tileset height</name>
+		<code>tilesetHeight</code>
+		<description>Tileset height (rows)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+
+<sampler>
+<index>2</index>
+<filter>point</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+
+</effect>
+

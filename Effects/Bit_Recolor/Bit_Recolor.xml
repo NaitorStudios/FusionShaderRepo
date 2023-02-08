@@ -1,0 +1,74 @@
+<effect>
+<name>BitColor</name>
+<description>Recolor the zone with a limited bit number for each color</description>
+<BackgroundTexture>1</BackgroundTexture>
+<author>Sleepy</author>
+<parameter>
+		<name>bitR</name>
+		<code>bitR</code>
+		<description>bitR</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>8</value>
+                                <min>1</min>
+                                <max>8</max>
+</parameter>
+<parameter>
+		<name>bitG</name>
+		<code>bitG</code>
+		<description>bitG</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>8</value>
+                                <min>1</min>
+                                <max>8</max>
+</parameter>
+<parameter>
+		<name>bitB</name>
+		<code>bitB</code>
+		<description>bitB</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>8</value>
+                                <min>1</min>
+                                <max>8</max>
+</parameter>
+<parameter>
+		<name>mod</name>
+		<code>mod</code>
+		<description>mod 0 = bit, mod 1 = RGB Step</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>stepR</name>
+		<code>stepR</code>
+		<description>stepR</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1</value>
+                                <min>1</min>
+                                <max>255</max>
+</parameter>
+<parameter>
+		<name>stepG</name>
+		<code>stepG</code>
+		<description>stepG</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1</value>
+                                <min>1</min>
+                                <max>255</max>
+</parameter>
+<parameter>
+		<name>stepB</name>
+		<code>stepB</code>
+		<description>stepB</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1</value>
+                                <min>1</min>
+                                <max>255</max>
+</parameter>
+</effect>

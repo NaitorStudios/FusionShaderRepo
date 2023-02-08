@@ -1,0 +1,23 @@
+<effect>
+	<name>Zoom for Background</name>
+	<description>Zooms in on the centre of an image.</description>
+	<author>Sketchy, Edit and DX11 Port by NaitorStudios</author>
+	<BackgroundTexture>1</BackgroundTexture>
+	<parameter>
+		<name>Zoom</name>
+		<code>zoom</code>
+		<description>Zoom level.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<min>1</min>
+	</parameter>
+	
+	<sampler>
+		<index>1</index>
+		<filter>linear</filter>
+		<filter>linear</filter>
+		<addressU>wrap</addressU>
+		<addressV>wrap</addressV>
+	</sampler>
+</effect>

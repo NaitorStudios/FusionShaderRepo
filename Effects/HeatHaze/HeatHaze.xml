@@ -1,0 +1,47 @@
+<effect>
+<name>Heat-Haze</name>
+<description>Heat image distortion.</description>
+<author>Patryk "PsichiX" Budzyński, DX11 port by NaitorStudios</author>
+
+<parameter>
+<name>Inversed texel width</name>
+<code>uInvTexelWidth</code>
+<description>Inversed texel width (1.0 / texel width).</description>
+<type>float</type>
+<property>edit</property>
+<value>0.01</value>
+</parameter>
+
+<parameter>
+<name>Inversed texel height</name>
+<code>uInvTexelHeight</code>
+<description>Inversed texel height (1.0 / texel height).</description>
+<type>float</type>
+<property>edit</property>
+<value>0.01</value>
+</parameter>
+
+<parameter>
+<name>Time phase</name>
+<code>uPhase</code>
+<description>Time phase.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Distortion scale</name>
+<code>uScale</code>
+<description>Ditortion scale.</description>
+<type>float</type>
+<property>edit</property>
+<value>100.0</value>
+</parameter>
+
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+</sampler>
+
+</effect>

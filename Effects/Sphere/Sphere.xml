@@ -1,0 +1,52 @@
+<effect>
+<name>Sphere</name>
+<author>Looki</author>
+<description>Put the texture onto a sphere. Sorry for the display bug at too high perspective-coefficient! Will be fixed soon.</description>
+<parameter>
+		<name>Coeff</name>
+		<code>fC</code>
+		<description>Zoom coefficent, not really needed to change</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Perspective</name>
+		<code>fP</code>
+		<description>Perspective</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>X Center</name>
+		<code>fX</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Y Center</name>
+		<code>fY</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Flatness</name>
+		<code>fPow</code>
+		<description>Increase to remove the height (Z) difference</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Remove lines</name>
+		<code>iRem</code>
+		<description>Remove lines on boundaries</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+</effect>
+

@@ -1,0 +1,21 @@
+<effect>
+	<name>Flip</name>
+	<description>Flips an image horizontally and/or vertically.</description>
+	<author>Sketchy</author>
+	<parameter>
+		<name>Flip horizontally</name>
+		<code>flipX</code>
+		<description>Check to flip the image horizontally.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Flip vertically</name>
+		<code>flipY</code>
+		<description>Check to flip the image vertically.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+	</parameter>
+</effect>

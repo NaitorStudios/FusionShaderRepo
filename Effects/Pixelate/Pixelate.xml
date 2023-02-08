@@ -1,0 +1,23 @@
+<effect>
+<name>Pixelate</name>
+<description>Image pixelation.</description>
+
+<parameter>
+<name>Pixel width</name>
+<code>uPixelWidth</code>
+<description>Pixel width.</description>
+<type>float</type>
+<property>edit</property>
+<value>10.0</value>
+</parameter>
+
+<parameter>
+<name>Pixel height</name>
+<code>uPixelHeight</code>
+<description>Pixel height.</description>
+<type>float</type>
+<property>edit</property>
+<value>10.0</value>
+</parameter>
+
+</effect>

@@ -1,0 +1,30 @@
+<effect>
+<name>Reflection Filter</name>
+<description>Reflects the background inside the area</description>
+<author>Pixelthief.</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Coefficient</name>
+		<code>fCoeff</code>
+		<description>Scaling value of reflection, 0.0 to 1.0</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Blend Value</name>
+		<code>fBlend</code>
+		<description>Blend Coefficient; 0.0 to 1.0</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Mode</name>
+		<code>Mode</code>
+		<description>0 = Bottom, 1 = Top, 2 = Left, 3 = Right</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>

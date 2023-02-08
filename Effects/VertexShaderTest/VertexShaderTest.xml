@@ -1,0 +1,74 @@
+<effect>
+<name>Vertex Shader Test</name>
+
+<parameter>
+<name>Camera X</name>
+<code>uCamX</code>
+<description>Camera wolrd X.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Camera Y</name>
+<code>uCamY</code>
+<description>Camera wolrd Y.</description>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Camera width</name>
+<code>uCamWidth</code>
+<description>Camera wolrd width.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Camera height</name>
+<code>uCamHeight</code>
+<description>Camera wolrd height.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Camera Z near</name>
+<code>uCamNear</code>
+<description>Camera Z near.</description>
+<type>float</type>
+<property>edit</property>
+<value>-1.0</value>
+</parameter>
+
+<parameter>
+<name>Camera Z far</name>
+<code>uCamFar</code>
+<description>Camera Z far.</description>
+<type>float</type>
+<property>edit</property>
+<value>1.0</value>
+</parameter>
+
+<parameter>
+<name>Horizontal skew</name>
+<code>uSkewHor</code>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+<parameter>
+<name>Vertical skew</name>
+<code>uSkewVert</code>
+<type>float</type>
+<property>edit</property>
+<value>0.0</value>
+</parameter>
+
+</effect>

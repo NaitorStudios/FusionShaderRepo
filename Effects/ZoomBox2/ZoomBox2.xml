@@ -1,0 +1,61 @@
+<effect>
+<name>ZoomBox (for objects/layers/frame)</name>
+<description>Displays a window containing a zoomed portion of the background.</description>
+<author>Sketchy/MuddyMole, Edit and DX11 Port by NaitorStudios</author>
+	<parameter>
+		<name>sourceX</name>
+		<code>sourceX</code>
+		<description>The x position of the source box</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>sourceY</name>
+		<code>sourceY</code>
+		<description>The y position of the source box</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>sourceWidth</name>
+		<code>sourceWidth</code>
+		<description>The width of the source box</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>sourceHeight</name>
+		<code>sourceHeight</code>
+		<description>The height of the source box</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>windowX</name>
+		<code>windowX</code>
+		<description>The x position of the window</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>windowY</name>
+		<code>windowY</code>
+		<description>The y position of the window</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>windowWidth</name>
+		<code>windowWidth</code>
+		<description>The width of the window</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+	<parameter>
+		<name>windowHeight</name>
+		<code>windowHeight</code>
+		<description>The height of the window</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+</effect>

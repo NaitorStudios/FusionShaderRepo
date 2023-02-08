@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<effect>
+  <name>CRTVert</name>
+  <description>Simulates a CRT display for a retro look.</description>
+  <author>Looki</author>
+  <parameter>
+    <name>Phase</name>
+    <code>phase</code>
+    <description>Adjusts the vertical position of scanlines.</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.0</value>
+  </parameter>
+  <parameter>
+    <name>Input Gamma</name>
+    <code>inputGamma</code>
+    <description>Assume NTSC 2.2 Gamma for linear blending.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>2.2</value>
+  </parameter>
+  <parameter>
+    <name>Output Gamma</name>
+    <code>outputGamma</code>
+    <description>Simulate a CRT gamma of 2.5.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>2.2</value>
+  </parameter>
+  <parameter>
+    <name>Distortion</name>
+    <code>distortion</code>
+    <description>Controls the intensity of the barrel distortion used to emulate the curvature of a CRT. 0.0 is perfectly flat, 1.0 is annoyingly distorted, higher values are increasingly ridiculous.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>0.1</value>
+  </parameter>
+  <parameter>
+    <name>Input Width</name>
+    <code>inputW</code>
+    <description>The width of the input signal relative to the texture size.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <name>Input Height</name>
+    <code>inputH</code>
+    <description>The height of the input signal relative to the texture size.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <name>Output Width</name>
+    <code>outputW</code>
+    <description>The width of the output signal relative to the texture size.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <name>Output Height</name>
+    <code>outputH</code>
+    <description>The height of the output signal relative to the texture size.</description>
+    <type>float</type>
+    <property>float</property>
+    <value>1</value>
+  </parameter>
+</effect>

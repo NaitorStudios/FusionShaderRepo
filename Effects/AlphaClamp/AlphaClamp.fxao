@@ -1,0 +1,50 @@
+// AlphaClamp
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float threshold;
+uniform float lowerclamp;
+uniform float upperclamp;
+uniform float opacity;
+
+uniform sampler2D imgTexture;
+
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	// Retrieve source pixel
+    vec4 color = texture2D(imgTexture, textureCoordinate);
+	
+	// Apply threshold
+	color.a = (color.a < threshold ? lowerclamp : upperclamp);
+	
+	// Apply clamped alpha
+	color.a = mix(0.0,color.a,opacity);
+	
+	color *= blendColor;
+	
+	gl_FragColor = color ;
+}
+//@End

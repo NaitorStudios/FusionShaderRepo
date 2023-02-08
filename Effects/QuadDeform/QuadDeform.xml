@@ -1,0 +1,132 @@
+<effect>
+<name>QuadDeform</name>
+<description>Deforms a texture to an arbitrary convex quadrilateral</description>
+<copyright>Free for personal or commercial use</copyright>
+<author>Sketchy / MuddyMole</author>
+<parameter>
+		<name>Ax</name>
+		<code>Ax</code>
+		<description>X of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>Ay</name>
+		<code>Ay</code>
+		<description>Y of point A</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>Bx</name>
+		<code>Bx</code>
+		<description>X of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>0.75</preview_value>
+</parameter>
+<parameter>
+		<name>By</name>
+		<code>By</code>
+		<description>Y of point B</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0.25</preview_value>
+</parameter>
+<parameter>
+		<name>Cx</name>
+		<code>Cx</code>
+		<description>X of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>Cy</name>
+		<code>Cy</code>
+		<description>Y of point C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>Dx</name>
+		<code>Dx</code>
+		<description>X of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0.25</preview_value>
+</parameter>
+<parameter>
+		<name>Dy</name>
+		<code>Dy</code>
+		<description>Y of point D</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>0.75</preview_value>
+</parameter>
+<parameter>
+		<name>Texture Left</name>
+		<code>Tx1</code>
+		<description>Texture offset from left edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>Texture Right</name>
+		<code>Tx2</code>
+		<description>Texture offset from right edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>Texture Top</name>
+		<code>Ty1</code>
+		<description>Texture offset from top edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+		<preview_value>0</preview_value>
+</parameter>
+<parameter>
+		<name>Texture Bottom</name>
+		<code>Ty2</code>
+		<description>Texture offset from bottom edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+<parameter>
+		<name>Light Left</name>
+		<code>Lx1</code>
+		<description>Light intensity at left edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>0.25</preview_value>
+</parameter>
+<parameter>
+		<name>Light Right</name>
+		<code>Lx2</code>
+		<description>Light intensity at right edge</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<preview_value>1</preview_value>
+</parameter>
+</effect>

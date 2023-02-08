@@ -1,0 +1,101 @@
+<effect>
+<name>Underwater Effect</name>
+<description>Distorts everything layered behind it, water style.</description>
+<author>chrilley</author>
+<copyright>For free and/or commercial use.</copyright>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+<name>Tint</name>
+<variable>fColor</variable>
+<type>int_float4</type>
+<property>color</property>
+<value>0</value>
+<description></description>
+</parameter>
+
+<parameter>
+<name>Distortion Map</name>
+<variable>fDistortion</variable>
+<type>image</type>
+<property>image</property>
+<value>underwater_distortion.png</value>
+<description>Offsets the pixels based on the red and green channels of source image.</description>
+</parameter>
+
+<parameter>
+<name>Distortion Strength</name>
+<variable>fDistortStr</variable>
+<type>float</type>
+<value>0.01</value>
+<description>Multiplies amount of distortion from the texture.</description>
+</parameter>
+
+<parameter>
+<name>Distort Amplitude</name>
+<variable>fAmplitude</variable>
+<type>float</type>
+<value>0.01</value>
+<description>Amplitude of overall water motion.</description>
+</parameter>
+
+<parameter>
+<name>Distort Frequency</name>
+<variable>fFrequency</variable>
+<type>float</type>
+<value>1.0</value>
+<description>Frequency of overall water motion. This value is what makes the water move.</description>
+</parameter>
+
+<parameter>
+<name>Distort Periods</name>
+<variable>fPeriods</variable>
+<type>float</type>
+<value>0.5</value>
+<description>Periods of overall water motion.</description>
+</parameter>
+
+<parameter>
+<name>Surface Wave</name>
+<code>waveEnabled</code>
+<description>Renders a surface wave.</description>
+<type>int</type>
+<property>checkbox</property>
+<value>1</value>
+</parameter>
+
+<parameter>
+<name>Wave Amplitude</name>
+<variable>fWaveAmplitude</variable>
+<type>float</type>
+<value>0.01</value>
+<description>Amplitude of overall wave motion.</description>
+</parameter>
+
+<parameter>
+<name>Wave Frequency</name>
+<variable>fWaveFrequency</variable>
+<type>float</type>
+<value>1.0</value>
+<description>Frequency of the wave flow. This value is what makes the waves move.</description>
+</parameter>
+
+<parameter>
+<name>Wave Periods</name>
+<variable>fWavePeriods</variable>
+<type>float</type>
+<value>25.0</value>
+<description>Periods of wave effect(affects number of waves).</description>
+</parameter>
+
+<sampler>
+	<index>1</index>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+<sampler>
+	<index>2</index>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+</effect>

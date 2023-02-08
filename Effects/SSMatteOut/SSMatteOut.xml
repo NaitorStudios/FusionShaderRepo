@@ -1,0 +1,78 @@
+<effect>
+<name>SSMatte Out</name>
+<description>Use SPriteSheet to Matte out.</description>
+<author>CallofAS22</author>
+
+
+<parameter>
+		<name>Msheet</name>
+		<code>Msheet</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>Sindex</name>
+		<code>SI</code>
+		<description>based on 1.tar Sprites's Index ID.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>SpriteWidth</name>
+		<code>SpW</code>
+		<description>Sprite Width.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>SpriteHeight</name>
+		<code>SpH</code>
+		<description>Sprite Height.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>SheetWidth</name>
+		<code>ShW</code>
+		<description>Sheet's Width.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>SheetHeight</name>
+		<code>ShH</code>
+		<description>Sheet's Height.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Columns</name>
+		<code>Col</code>
+		<description>SpriteSheet's Columns</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>MaxIndex</name>
+		<code>MI</code>
+		<description>the Sprites' max number.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Time CD</name>
+		<code>CD</code>
+		<description>A CD value use for Fx itself.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>

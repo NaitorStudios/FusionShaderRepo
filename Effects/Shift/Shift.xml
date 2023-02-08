@@ -1,0 +1,34 @@
+<effect>
+<name>Shift</name>
+<description>Shift shades of a 4-color palette, based on the red component of a mask</description>
+<author>Sketchy/MuddyMole</author>
+	<parameter>
+		<name>colorA</name>
+		<code>colorA</code>
+		<description>The darkest color in the palette</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+	<parameter>
+		<name>colorB</name>
+		<code>colorB</code>
+		<description>The second darkest color in the palette</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+	<parameter>
+		<name>colorC</name>
+		<code>colorC</code>
+		<description>The second lightest color in the palette</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+	<parameter>
+		<name>colorD</name>
+		<code>colorD</code>
+		<description>The lightest color in the palette</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

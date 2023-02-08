@@ -1,0 +1,6 @@
+<effect>
+<name>Vivid Light_as</name>
+<author>CallofAS, DX11 port by NaitorStudios</author>
+<description>Based on Looki's shader; Merges Color Burn and Color Dodge.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

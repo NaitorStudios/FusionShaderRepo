@@ -1,0 +1,26 @@
+<effect>
+<name>Color Mixer</name>
+<description>Mix three different colors based on the RGB value of the input</description>
+<author>Looki</author>
+<parameter>
+	<name>Red</name>
+	<code>r</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>Green</name>
+	<code>g</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65280</value>
+</parameter>
+<parameter>
+	<name>Blue</name>
+	<code>b</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711680</value>
+</parameter>
+</effect>

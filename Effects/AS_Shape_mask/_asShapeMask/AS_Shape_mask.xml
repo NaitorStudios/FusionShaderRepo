@@ -1,0 +1,46 @@
+<effect>
+<name>AS_Shape_mask</name>
+<description>Shape Mask Background</description>
+<author>mihailsh, cnohares</author>
+<BackgroundTexture>0</BackgroundTexture>
+<parameter>
+	<name>masktex</name>
+	<code>masktex</code>
+	<description>mask</description>
+	<type>IMAGE</type>
+	<property>image</property>
+</parameter>
+
+<parameter>
+	<name>mask_x</name>
+	<code>mask_x</code>
+	<description>mask x coord</description>
+	<type>int</type>
+	<property>edit</property>
+</parameter>
+
+<parameter>
+	<name>mask_y</name>
+	<code>mask_y</code>
+	<description>mask y coord</description>
+	<type>int</type>
+	<property>edit</property>
+</parameter>
+
+<parameter>
+	<name>mask_width</name>
+	<code>mask_width</code>
+	<description>mask width</description>
+	<type>int</type>
+	<property>edit</property>
+</parameter>
+
+<parameter>
+	<name>mask_height</name>
+	<code>mask_height</code>
+	<description>mask height</description>
+	<type>int</type>
+	<property>edit</property>
+</parameter>
+
+</effect>

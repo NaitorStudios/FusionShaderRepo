@@ -1,0 +1,53 @@
+<effect>
+<name>Nobu's Scale2x</name>
+<author>Nobuyuki (nobu@subsoap.com)</author>
+<description>An attempt at implementing the Scale2x altorithm in HLSL.</description>
+<parameter>
+
+		// Name of parameter property
+		<name>Scale Amount</name>
+
+		// Parameter name (in the .fx file)
+		<code>scaleAmt</code>
+
+		// Description
+		<description>Amount of scale.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>2.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>8.0</max>
+</parameter>
+<parameter>
+
+		// Name of parameter property
+		<name>Sampling Scale</name>
+
+		// Parameter name (in the .fx file)
+		<code>scaleAmt2</code>
+
+		// Description
+		<description>Amount of pixel sampling fudge.  Keep between 0-1 for best results.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>0.54</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>4.0</max>
+</parameter>
+</effect>

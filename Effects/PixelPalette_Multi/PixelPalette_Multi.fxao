@@ -1,0 +1,55 @@
+// PixelPalette_Multi
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main()
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform int nPal;
+uniform int lerpA;
+uniform int lerpB;
+uniform float lerpVal;
+
+uniform sampler2D imgTexture;
+uniform sampler2D Palettes;
+
+uniform lowp vec4 blendColor;
+
+int isOdd(int n)
+{
+  return ((n / 2) * 2 == n) ? 0 : 1;
+}
+
+void main()
+{
+     vec4 color = texture2D(imgTexture, textureCoordinate);
+  	float index  = color.r;
+	
+	int odd = isOdd(nPal);
+	vec3 colorA = texture2D(Palettes, vec2(index, float(lerpA + odd) / float(nPal))).rgb;
+	vec3 colorB = texture2D(Palettes, vec2(index, float(lerpB + odd) / float(nPal))).rgb;
+	color.rgb = mix(colorA, colorB, lerpVal);
+
+	color *= blendColor;
+	gl_FragColor = color;
+}
+//@End

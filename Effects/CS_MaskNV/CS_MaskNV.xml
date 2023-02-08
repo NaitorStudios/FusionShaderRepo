@@ -1,0 +1,16 @@
+<effect>
+<name>Mask: Night Vision</name>
+<description>Set a night-vision filter</description>
+<author>Sphax/Eagle4 - Flavien Clermont, Clément Willay</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Coeff</name>
+		<code>fCoeff</code>
+		<description>Saturation coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>2.0</value>
+</parameter>
+</effect>
+

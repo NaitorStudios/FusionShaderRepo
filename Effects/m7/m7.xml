@@ -1,0 +1,63 @@
+<effect><name>Mode 7</name>
+<description>A mode 7 shader. Awesome, right?</description>
+<parameter>
+
+
+		// Name of parameter property
+		<name>Scale angle (float)</name>
+
+
+		// Parameter name (in the .fx file)
+		<code>scale2</code>
+
+
+		// Description
+		<description>Changes the 3D angle multiplier (not fully working: Best to leave this as-is for now)</description>
+
+
+		// Type (int or float)
+		<type>float</type>
+
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+
+		// Default value
+		<value>1.0</value>
+
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+</parameter>
+<parameter>
+
+
+		// Name of parameter property
+		<name>Scale (float)</name>
+
+
+		// Parameter name (in the .fx file)
+		<code>scale1</code>
+
+
+		// Description
+		<description>Changes the scale multiplier (good for a zooming effect, like F-Zero).</description>
+
+
+		// Type (int or float)
+		<type>float</type>
+
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+
+		// Default value
+		<value>1.0</value>
+
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+</parameter>
+</effect>

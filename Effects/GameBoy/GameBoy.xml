@@ -1,0 +1,77 @@
+<effect>
+<name>GameBoy</name>
+<description>Editable GameBoy's color shader</description>
+<BackgroundTexture>1</BackgroundTexture>
+<author>Sleepy, DX11 Port by NaitorStudios</author>
+<parameter>
+        <name>Color1</name>
+	<code>c1</code>
+	<description>color1</description>
+	<type>int_FLOAT4</type>
+	<property>COLOR</property>
+	<value>15858158</value>
+    </parameter>
+<parameter>
+        <name>Color2</name>
+	<code>c2</code>
+	<description>color2</description>
+	<type>int_FLOAT4</type>
+	<property>COLOR</property>
+	<value>8112000</value>
+    </parameter>
+<parameter>
+        <name>Color3</name>
+	<code>c3</code>
+	<description>color3</description>
+	<type>int_FLOAT4</type>
+	<property>COLOR</property>
+	<value>7302955</value>
+    </parameter>
+<parameter>
+        <name>Color4</name>
+	<code>c4</code>
+	<description>color4</description>
+	<type>int_FLOAT4</type>
+	<property>COLOR</property>
+	<value>3547917</value>
+    </parameter>
+<parameter>
+        <name>Allow Black</name>
+	<code>tb</code>
+	<description>Allow a true black color ( create a 5th color ), don't use if you want a " perfect " GB palette ( 4 colors )</description>
+	<type>int</type>
+	<value>0</value>
+    </parameter>
+<parameter>
+        <name>Step1</name>
+	<code>s1</code>
+	<description>Cover all color with grey scale value sup to s1</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.8564</value>
+    </parameter>
+<parameter>
+        <name>Step2</name>
+	<code>s2</code>
+	<description>Cover all color with grey scale value sup to s2 and lower than s1</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5602</value>
+    </parameter>
+<parameter>
+        <name>Step3</name>
+	<code>s3</code>
+	<description>Cover all color with grey scale value sup to s3 and lower than s2</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.3230</value>
+    </parameter>
+<parameter>
+        <name>Step4</name>
+	<code>s4</code>
+	<description>used only if true black is allowed ( 5th color, mod=1 ) cover all color with grey scal lower than s4</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.1731</value>
+    </parameter>
+</effect>

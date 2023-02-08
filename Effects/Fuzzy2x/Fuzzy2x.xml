@@ -1,0 +1,29 @@
+<effect>
+<name>Fuzzy2x</name>
+<description>Scales an image using the Scale2x algorithm.</description>
+<author>Sketchy</author>
+<parameter>
+		<name>Width</name>
+		<code>fWidth</code>
+		<description>Output width.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Height</name>
+		<code>fHeight</code>
+		<description>Output height.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Blur</name>
+		<code>blur</code>
+		<description>Output width.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>

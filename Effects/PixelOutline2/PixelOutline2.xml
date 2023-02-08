@@ -1,0 +1,26 @@
+<effect>
+<name>Pixel outline (No Diagonals)</name>
+<author>Looki / VFuzball, DX11 Port by NaitorStudios</author>
+<description>Draws a 1px border around an object in the 4 cardinal directions</description>
+<parameter>
+		<name>Outline color</name>
+		<code>color</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Pixel Width</name>
+		<code>pWidth</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Pixel Height</name>
+		<code>pHeight</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>

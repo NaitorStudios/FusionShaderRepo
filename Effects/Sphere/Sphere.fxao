@@ -1,0 +1,60 @@
+// Sphere
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fC;
+uniform float fP;
+uniform float fX;
+uniform float fY;
+uniform float fPow;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+   vec4 color;
+
+   const int iRem = 0;
+   float vX = 1.0-fX;
+   float vY = 1.0-fY;
+
+   float dist = pow(fP,pow(sqrt(pow(vX-textureCoordinate.x,2.0)+pow(vY-textureCoordinate.y,2.0)),fPow));
+
+   float vC = fC + (fP-1.0)*0.5; //Adjust zoom automaticly
+   vC *= 1.0+(1.0-dist);
+   vC = max(0.0,vC);
+
+   vec2 tmpTex = textureCoordinate;
+   tmpTex.x = tmpTex.x + vX*(vC-1.0);
+   tmpTex.y = tmpTex.y + vY*(vC-1.0);
+   color = texture2D(imgTexture, vec2(tmpTex.x/vC,tmpTex.y/vC));
+   if(iRem == 1 && (tmpTex.x/vC < 0.0 || tmpTex.x/vC > 1.0 || tmpTex.y/vC < 0.0 || tmpTex.y/vC > 1.0))
+		color.a = 0.0;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

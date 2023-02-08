@@ -1,0 +1,79 @@
+// tilt7
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+
+uniform float tiltX;
+uniform float tiltY;
+uniform float depthOfField;
+
+uniform lowp vec4 blendColor;
+out vec4 fragColor;
+
+void main(void)
+{
+	// Convert degrees to radians
+	float aX = radians(tiltX);
+	float aY = radians(tiltY);
+	
+	// Get pixel coordinates relative to the centre (x:0.5, y:0.5, z:0.5)
+	vec3 p1 = vec3(
+	textureCoordinate.x - 0.5, // x
+	textureCoordinate.y - 0.5, // y
+	0.0            // z
+	);
+	
+	// Get new position after rotating
+	vec3 p2 = vec3(
+	p1.x / cos(aX), // x <---- BROKEN!
+	p1.y / cos(aY), // y <---- BROKEN!
+	((p1.x * sin(aX) / cos(aX)) + (p1.y * sin(aY) / cos(aY))) * depthOfField+ 0.5 // z <---- BROKEN!
+	);
+	
+	// Get texture coordinates after applying perspective
+	vec2 p3 = vec2(
+	p2.x / p2.z /2.0 + 0.5,
+	p2.y / p2.z /2.0+ 0.5
+	); 
+	
+	// Sample pixel from texture
+	vec4 outColor = texture(imgTexture, p3);
+
+	/*
+	// Debug by showing pixel z
+	outColor.rgb = p2.z;
+	*/
+
+	// Return the sampled pixel
+	outColor *= blendColor;
+
+	fragColor = outColor; //gl_FragColor
+}
+//@End

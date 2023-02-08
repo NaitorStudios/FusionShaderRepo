@@ -1,0 +1,75 @@
+// CS_Bloom2D
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fBloomPower;
+uniform float fBloomStrenght;
+uniform float fContrast;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	vec4 fOldColor = color;
+	vec4 fBlurColor;
+	vec4 fTemp;
+	float fOld;
+	float fBlur;
+
+	vec4 TexT = texture2D(imgTexture, vec2(textureCoordinate.x, textureCoordinate.y - fBloomPower));
+	vec4 TexTL = texture2D(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y - fBloomPower));
+	vec4 TexL = texture2D(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y));
+	vec4 TexBL = texture2D(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y + fBloomPower));
+	vec4 TexB = texture2D(imgTexture, vec2(textureCoordinate.x, textureCoordinate.y + fBloomPower));
+	vec4 TexBR = texture2D(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y + fBloomPower));
+	vec4 TexR = texture2D(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y));
+	vec4 TexTR = texture2D(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y - fBloomPower));
+
+	fBlurColor = (color+TexT+TexTL+TexL+TexBL+TexB+TexBR+TexR+TexTR) / 9.0;
+
+	fTemp = fOldColor * vec4(0.299, 0.587, 0.114, 1.0);
+	fOld = fTemp.r + fTemp.g + fTemp.b;
+
+	fTemp = fBlurColor * vec4(0.299, 0.587, 0.114, 1.0);
+	fBlur = fTemp.r + fTemp.g + fTemp.b;
+
+	color.a=fOldColor.a;
+
+	if(fBlur>fOld)
+	{
+		color.rgb=fOldColor.rgb*(1.0-fBloomStrenght)+fBlurColor.rgb*fBloomStrenght;
+	}
+	else
+	{
+		color.rgb=fOldColor.rgb;
+	}
+	color.rgb = color.rgb * (1.0 + fContrast);
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

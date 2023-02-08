@@ -1,0 +1,12 @@
+<effect>
+	<name>RoundAlpha</name>
+	<description>Rounds pixel alpha to 0 or 1.</description>
+	<author>Sketchy</author>
+                <parameter>
+		<name>Text color</name>
+		<code>textColor</code>
+		<description>The color of the text.</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+</effect>

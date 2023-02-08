@@ -1,0 +1,4 @@
+<effect>
+<name>Y Texel Test</name>
+<description>Tests which direction the Y axis increases in texel space.</description>
+</effect>

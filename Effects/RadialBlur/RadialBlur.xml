@@ -1,0 +1,47 @@
+<effect>
+<name>Radial Blur</name>
+<description>http://www.gamerendering.com/2008/12/20/radial-blur-filter/</description>
+<author>Looki</author>
+<parameter>
+	<name>Sample strength</name>
+	<code>sampleStrength</code>
+	<description>Strength (visibility) of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>3</value>
+	<preview_value>5</preview_value>
+</parameter>
+<parameter>
+	<name>Absolute values</name>
+	<code>absolute</code>
+	<description>If checked, the below parameters will expect a pixel value instead of a relative value.</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Sample distance</name>
+	<code>sampleDist</code>
+	<description>Distance coefficient of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+	<preview_value>2.0</preview_value>
+</parameter>
+<parameter>
+	<name>Center X</name>
+	<code>x</code>
+	<description>X center of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5</value>
+</parameter>
+<parameter>
+	<name>Center Y</name>
+	<code>y</code>
+	<description>Y center of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5</value>
+</parameter>
+</effect>

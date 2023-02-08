@@ -1,0 +1,80 @@
+// RadialBlur
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform int absolute;
+uniform float x;
+uniform float y;
+uniform float sampleDist;
+uniform float sampleStrength;
+
+uniform sampler2D imgTexture;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+float samples[10];
+
+void main(void)
+{
+    samples[0] = -0.08;
+    samples[1] = -0.05;
+    samples[2] = -0.03;
+    samples[3] = -0.02;
+    samples[4] = -0.01;
+    samples[5] =  0.01;
+    samples[6] =  0.02;
+    samples[7] =  0.03;
+    samples[8] =  0.05;
+    samples[9] =  0.08;
+
+	vec2 relative = vec2(1.0, 1.0);
+
+	vec2 dir = vec2(x,y)*relative-textureCoordinate;
+	float dist = sqrt(dir.x*dir.x+dir.y*dir.y);
+	dir /= dist;
+
+    vec4 color = texture2D(imgTexture, textureCoordinate);
+	color *= vec4(color.r * color.a, color.g * color.a, color.b * color.a, color.a);
+
+    vec4 sum = color;
+
+    for(int i =0; i<10 ; i++)
+    {
+        sum += texture2D(imgTexture, textureCoordinate + dir*samples[i]*sampleDist*relative);
+    }
+    sum /= 11.0;
+
+    float t = dist*sampleStrength;
+    t = clamp(t,0.0,1.0);
+
+
+    color = mix(color,sum,t);
+
+
+    color *= blendColor;
+    gl_FragColor = color;
+}
+//@End

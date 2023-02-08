@@ -1,0 +1,23 @@
+<effect>
+<name>Flip Toggle</name>
+<description>Flips object's texture based on toggle.</description>
+<author>chrilley</author>
+
+<parameter>
+<name>Flip Horizontal</name>
+<variable>flipX</variable>
+<type>float</type>
+<property>checkbox</property>
+<value>0</value>
+<description>Flips image on the X-axis.</description>
+</parameter>
+
+<parameter>
+<name>Flip Vertical</name>
+<variable>flipY</variable>
+<type>float</type>
+<property>checkbox</property>
+<value>0</value>
+<description>Flips image on the Y-axis.</description>
+</parameter>
+</effect>

@@ -1,0 +1,71 @@
+<effect>
+<name>Texture Wipe</name>
+<description>Create transitions for it on: https://eevee.itch.io/particle-wipe-generator</description>
+<author>NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Transition Mask</name>
+		<code>mask</code>
+		<description>The Image to use the "Bar" effect with. Check the effect decription for a tool to create these.</description>
+		<type>image</type>
+		<property>image</property>
+		<value>WipeMask.png</value>
+</parameter>
+<parameter>
+		<name>Progress</name>
+		<code>p</code>
+		<description>Progress of the transition in float.</description>
+		<type>float</type>
+		<property>spin</property>
+		<preview_value>0.5</preview_value>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+	<name>Use Alpha</name>
+	<code>alphaWipe</code>
+	<description>ON: Wipe the alpha channel. OFF: Wipe to color specified bellow.</description>
+	<type>bool</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+<parameter>
+		<name>Wipe Color</name>
+		<code>cWipe</code>
+		<description>Color of the transition.</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+
+<parameter>
+		<name>Use Halo</name>
+		<code>useHalo</code>
+		<description>It's similar to a outline.</description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Halo Color</name>
+		<code>cHalo</code>
+		<description>Color for the Halo.</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+
+<parameter>
+		<name>Ramp</name>
+		<code>ramp</code>
+		<description>Length of gradient between before/after.</description>
+		<type>float</type>
+		<property>spin</property>
+        <min>0.0</min>
+        <max>1.0</max>
+        <value>0.016</value>
+</parameter>
+
+</effect>

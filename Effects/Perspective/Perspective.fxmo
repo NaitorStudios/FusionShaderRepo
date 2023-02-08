@@ -1,0 +1,57 @@
+// Perspective
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+
+uniform float fA;
+uniform float fB;
+
+uniform sampler2D imgTexture;
+
+uniform vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec4 color;
+    float ScreenX = (fA+(fB-fA)*textureCoordinate.y)/2.0;
+    ScreenX = (ScreenX+textureCoordinate.x-0.5)/ScreenX/2.0;
+
+    if(ScreenX >= 0.0 && ScreenX <= 1.0)
+    	color = texture(imgTexture,vec2(ScreenX,textureCoordinate.y));
+    else
+		color = vec4(0.0, 0.0, 0.0, 0.0);
+
+	color *= blendColor;
+
+
+	fragColor = color; //gl_FragColor
+}
+//@End

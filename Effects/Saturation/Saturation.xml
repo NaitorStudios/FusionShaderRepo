@@ -1,0 +1,14 @@
+<effect>
+<name>Saturation</name>
+<author>Sketchy</author>
+<description>Sets the relative saturation of the background.</description>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+	<name>Saturation</name>
+	<code>fSat</code>
+	<description>Relative saturation</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1</value>
+</parameter>
+</effect>

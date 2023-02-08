@@ -1,0 +1,69 @@
+<effect>
+<name>Rectangle Transparency</name>
+<description>Make the center of a Rectangle semi-transparent while retaining it's shape.</description>
+<author>bybyblue, DX11 port by NaitorStudios</author>
+<parameter>
+	<name>Canvas W</name>
+	<code>Wsize</code>
+	<description>Width of sprite that shader is applied to.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>32</value>
+</parameter>
+<parameter>
+	<name>Canvas H</name>
+	<code>Hsize</code>
+	<description>Height of sprite that shader is applied to.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>32</value>
+</parameter>
+<parameter>
+	<name>Hor Size</name>
+	<code>oWsize</code>
+	<description>Horizontal Size of Rectangle Outline.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>2</value>
+</parameter>
+<parameter>
+	<name>Ver Size</name>
+	<code>oHsize</code>
+	<description>Vertical Size of Rectangle Outline.</description>
+	<type>float</type>
+	<property>float</property>
+	<value>2</value>
+</parameter>
+<parameter>
+	<name>Inner Alpha</name>
+	<code>iAlpha</code>
+	<description>Inner Rectangle/fill Alpha</description>
+	<type>float</type>
+	<property>float</property>
+	<value>0.5</value>
+</parameter>
+<parameter>
+	<name>Outer Alpha</name>
+	<code>oAlpha</code>
+	<description>Outer Rectangle/outline Alpha</description>
+	<type>float</type>
+	<property>float</property>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Inner Invert</name>
+	<code>iInvert</code>
+	<description>Invert Inner Rectangle/fill</description>
+	<type>bool</type>
+	<property>bool</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Outer Invert</name>
+	<code>oInvert</code>
+	<description>Invert Outer Rectangle/outline</description>
+	<type>bool</type>
+	<property>bool</property>
+	<value>0</value>
+</parameter>
+</effect>

@@ -1,0 +1,28 @@
+<effect>
+  <name>Stencil Clip</name>
+  <description>
+    Use the color of the background pixels as the clipping area for the foreground pixels.
+  </description>
+  <author>Cazra, DX11 port by NaitorStudios</author>
+  <parameter>
+    <name>Stencil Color</name>
+    <code>stencilColor</code>
+    <description>
+      The background color used to determine our stencil area.
+      As long as a background pixel matches this color within some tolerance,
+      the foreground pixel will be kept.
+    </description>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0.0</value>
+  </parameter>
+  <parameter>
+    <name>Tolerance</name>
+    <code>tolerance</code>
+    <description>The tolerance for how close the BG pixels can be to the stencil color. This is in RGB distance.</description>
+    <type>FLOAT</type>
+    <property>EDIT</property>
+    <value>0.1</value>
+  </parameter>
+  <BackgroundTexture>1</BackgroundTexture>
+</effect>

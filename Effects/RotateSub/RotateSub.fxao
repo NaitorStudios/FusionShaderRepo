@@ -1,0 +1,70 @@
+// RotateSub
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fA;
+uniform float fX;
+uniform float fY;
+uniform float fSx;
+uniform float fSy;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color;
+	vec2 tmpTex = textureCoordinate;
+	tmpTex.x -= fSx;
+	tmpTex.y -= fSy;
+
+	float vX = fX + 0.5;
+	float vY = fY + 0.5;
+	float vA = fA * 0.0174532925;
+	float Ray = sqrt(pow(tmpTex.x-vX,2.0)+pow(tmpTex.y-vY,2.0));
+	float Angle;
+	if(tmpTex.y-vY>0.0)
+	{
+		Angle = acos((tmpTex.x-vX)/Ray);
+	}
+	else
+	{
+		Angle = 0.0-acos((tmpTex.x-vX)/Ray);
+	}
+    tmpTex.x = vX + cos(Angle+vA)*Ray;
+    tmpTex.y = vY + sin(Angle+vA)*Ray;
+    if(tmpTex.x >= 0.0 && tmpTex.x <= 1.0 && tmpTex.y >= 0.0 && tmpTex.y <= 1.0)
+	{
+		color = texture2D(imgTexture, tmpTex);
+    }
+	else
+	{
+		color = vec4(0.0,0.0,0.0,0.0);
+	}
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

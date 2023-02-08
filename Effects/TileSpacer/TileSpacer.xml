@@ -1,0 +1,46 @@
+<effect>
+	<name>Tile Spacer</name>
+	<description>Creates a single pixel space between tiles.</description>
+	<author>Sketchy</author>
+	<BackgroundTexture>1</BackgroundTexture>
+	<parameter>
+		<name>Background color</name>
+		<code>bgColor</code>
+		<description>The color used for the spaces between tiles.</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>16777215</value>
+	</parameter>
+	<parameter>
+		<name>Image width</name>
+		<code>imgWidth</code>
+		<description>Width of image (after spacing).</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>170</value>
+	</parameter>
+	<parameter>
+		<name>Image height</name>
+		<code>imgHeight</code>
+		<description>Height of image (after spacing).</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>153</value>
+	</parameter>
+	<parameter>
+		<name>Tile width</name>
+		<code>tileWidth</code>
+		<description>Width of a single tile.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>16</value>
+	</parameter>
+	<parameter>
+		<name>Tile height</name>
+		<code>tileHeight</code>
+		<description>Height of a single tile.</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>16</value>
+	</parameter>
+</effect>

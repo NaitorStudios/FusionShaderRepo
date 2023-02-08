@@ -1,0 +1,28 @@
+<effect>
+<name>Scrolling</name>
+<description>Scrolls whatever that is underneath it.</description>
+<author>chrilley, DX11 port by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+<name>X Position</name>
+<variable>fScrollX</variable>
+<type>float</type>
+<value>0.5</value>
+<description>Input value from 0.0 to 1.0.</description>
+</parameter>
+<parameter>
+<name>Y Position</name>
+<variable>fScrollY</variable>
+<type>float</type>
+<value>0.5</value>
+<description>Input value from 0.0 to 1.0.</description>
+</parameter>
+
+<sampler>
+<index>1</index>
+<filter>point</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+
+</effect>

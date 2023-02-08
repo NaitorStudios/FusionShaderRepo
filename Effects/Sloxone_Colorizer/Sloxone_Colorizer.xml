@@ -1,0 +1,34 @@
+<effect>
+<name>Colorizer FX</name>
+<description>Remove Colors of Sprites DX9</description>
+<author>Sloxone,Gigatron 2016, DX11 Port and improved by NaitorStudios</author>
+<parameter>
+	<name>Factor</name>
+	<description>Color Factor intensity</description>
+	<code>factor</code>
+	<type>float</type>
+	<value>0.6</value>
+</parameter>
+<parameter>
+	<name>Red</name>
+	<description>Red Component value</description>
+	<code>red</code>
+	<type>float</type>
+	<value>0.2</value>
+</parameter>
+<parameter>
+    <name>Green</name>
+    <description>Green Component value</description>
+    <code>green</code>
+    <type>float</type>
+    <value>0.3</value>
+</parameter>
+<parameter>
+    <name>Blue</name>
+    <description>Blue Component value</description>
+    <code>blue</code>
+    <type>float</type>
+    <value>0.8</value>
+</parameter>
+ </effect>
+

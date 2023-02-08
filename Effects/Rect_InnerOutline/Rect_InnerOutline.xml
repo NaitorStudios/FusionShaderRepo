@@ -1,0 +1,50 @@
+<effect>
+<name>Rectangle Inner Border</name>
+<description>Adds a border with custom (pixel) size to the object. Object size must be specified.</description>
+<author>Original by bybyblue, Edit and DX11 Port by NaitorStudios</author>
+<parameter>
+	<name>Object Width</name>
+	<code>oWidth</code>
+	<description>Width of the object the shader is applied to.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32</value>
+	//<min>0</min>
+	//<max>999999</max>
+</parameter>
+<parameter>
+	<name>Object Height</name>
+	<code>oHeight</code>
+	<description>Height of the object the shader is applied to.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>32</value>
+	//<min>0</min>
+	//<max>999999</max>
+</parameter>
+<parameter>
+	<name>Border Size</name>
+	<code>bSize</code>
+	<description>Size of the border for the rectangle around the object (it's based on the defined object size).</description>
+	<type>float</type>
+	<property>spin</property>
+	<value>2</value>
+	//<min>0</min>
+	//<max>999999</max>
+</parameter>
+<parameter>
+	<name>Border color</name>
+	<code>bColor</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Border Opacity</name>
+	<code>bAlpha</code>
+	<description></description>
+	<type>float</type>
+	<property>float</property>
+	<value>1.0</value>
+</parameter>
+</effect>

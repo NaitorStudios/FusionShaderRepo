@@ -1,0 +1,43 @@
+<effect>
+<name>PS1-ify</name>
+<description>Petscopify your games by this easy yo use shader!</description>
+<author>red#3510, DX11 Port by NaitorStudios</author>
+<parameter>
+	<name>Multiplier</name>
+	<code>mult</code>
+	<description>put mult.png here thanks!</description>
+	<type>image</type>
+	<property>image</property>
+</parameter>
+<parameter>
+	<name>Squigliness texture</name>
+	<code>squig</code>
+	<description>squig.png goes here</description>
+	<type>image</type>
+	<property>image</property>
+</parameter>
+<parameter>
+	<name>Invert Squigliness</name>
+	<code>squiginv</code>
+	<description>alternate this between 1 and -1 every frame</description>
+	<type>INT</type>
+	<property>INT</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Squigliness Amount</name>
+	<code>amp</code>
+	<description>amount of squigliness</description>
+	<type>float</type>
+	<property>float</property>
+	<value>0.002</value>
+</parameter>
+<parameter>
+	<name>Color Blur Amount</name>
+	<code>size</code>
+	<description>amount of color blur</description>
+	<type>float</type>
+	<property>float</property>
+	<value>0.004</value>
+</parameter>
+</effect>

@@ -1,0 +1,6 @@
+<effect>
+<name>Color Burn (Accurate)</name>
+<author>NaitorStudios</author>
+<description>Burns the lower layer with the upper layer (Result is always darker). Note: It has a bit of color banding on DX11 because of how it handles colors, not sure how to fix this...</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

@@ -1,0 +1,25 @@
+<effect>
+<name>Mask Alpha</name>
+<description>Transform the light areas into transparent and colorize the result</description>
+<author>Eagle4/Sphax - Willay Clement, Flavien Clermont</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Color</name>
+		<code>fColor</code>
+		<description>Color result of the non alpha parts</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Power</name>
+		<code>fPower</code>
+		<description>Power of the alpha</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<min>0.0</min>
+</parameter>
+</effect>
+

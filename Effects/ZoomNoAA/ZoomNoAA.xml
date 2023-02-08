@@ -1,0 +1,19 @@
+<effect>
+	<name>Zoom (No Antialiasing)</name>
+	<description>Zooms in on the centre of an image.</description>
+	<author>Sketchy, Edit and DX11 Port by NaitorStudios</author>
+	<parameter>
+		<name>Zoom</name>
+		<code>zoom</code>
+		<description>Zoom level.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<min>1</min>
+	</parameter>
+	<sampler>
+		<index>0</index>
+		<filter>point</filter>
+		<filter>point</filter>
+	</sampler>
+</effect>

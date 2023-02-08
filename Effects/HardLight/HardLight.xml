@@ -1,0 +1,6 @@
+<effect>
+<name>Hard Light</name>
+<author>Looki</author>
+<description>Muliplies the dark colors and screens the light colors.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

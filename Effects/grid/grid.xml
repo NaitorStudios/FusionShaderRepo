@@ -1,0 +1,14 @@
+<effect>
+	<name>Grid</name>
+	<description>Converts an image to greyscale.</description>
+	<author>Sketchy</author>
+<parameter>
+		<name>Image</name>
+		<code>myTexture</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+
+
+</effect>

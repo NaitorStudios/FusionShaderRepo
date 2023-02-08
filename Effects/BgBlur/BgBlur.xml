@@ -1,0 +1,30 @@
+<effect>
+<name>Background Blur</name>
+<description>12 iterations, using pre-calculated circle.</description>
+<author>Looki</author>
+<parameter>
+	<name>X Radius</name>
+	<code>fX</code>
+	<description>X radius of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>5</value>
+</parameter>
+<parameter>
+	<name>Y Radius</name>
+	<code>fY</code>
+	<description>Y radius of the blur.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>5</value>
+</parameter>
+<parameter>
+	<name>Alpha</name>
+	<code>fA</code>
+	<description>Visibility of the foreground.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

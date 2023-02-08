@@ -1,0 +1,6 @@
+<effect>
+<name>Overlay</name>
+<author>Looki</author>
+<description>Muliplies the light colors and screens the dark colors.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

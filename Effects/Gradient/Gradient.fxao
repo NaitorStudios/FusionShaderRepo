@@ -1,0 +1,95 @@
+// Gradient
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform vec4 fArgb;
+uniform float fAa;
+uniform vec4  fBrgb;
+uniform float fBa;
+uniform float fCoeff;
+uniform float fOffset;
+uniform float fFade;
+
+uniform int iT;
+uniform int iF;
+uniform int iR;
+uniform int iMask;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+
+	float Ga;
+	vec4 colorG;
+	float temp;
+	float Gx = textureCoordinate.x;
+    float Gy = textureCoordinate.y;
+
+    if(iF==1)
+	{
+		Gx = 1.0-Gx;
+		Gy = 1.0-Gy;
+    }
+    if(iR==1)
+	{
+		temp = Gy;
+		Gy = Gx;
+		Gx = temp;
+    }
+
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+    //GRADIENT TYPES
+    if(iT==0)
+	{
+		colorG = fArgb+(fBrgb-fArgb)*(Gx+fOffset)*fCoeff;
+		    Ga = fAa+(fBa-fAa)*(Gx+fOffset)*fCoeff;
+    }
+    if(iT==1)
+	{
+		if(iR==1)
+			temp = 1.0-Gx;
+		else
+			temp = Gx;
+		colorG = fArgb+(fBrgb-fArgb)*(Gy*temp+fOffset)*fCoeff;
+		    Ga = fAa+(fBa-fAa)*(Gy*temp+fOffset)*fCoeff;
+    }
+    if(iT==2)
+	{
+		colorG = fArgb+(fBrgb-fArgb)*abs(sin(Gx*fCoeff+fOffset));
+		    Ga = fAa+(fBa-fAa)*abs(sin(Gx*fCoeff+fOffset));
+    }
+    if(iMask==1)
+		color.a *= Ga;
+    else
+		color.a = Ga;
+
+    color.rgb += (colorG.rgb-color.rgb)*fFade;
+
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

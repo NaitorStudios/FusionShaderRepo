@@ -1,0 +1,25 @@
+<effect>
+<name>Sub-Pixel</name>
+<description>Offset an image by pixels. Mainly used for sub-pixel positioning.</description>
+<author>Looki</author>
+<parameter>
+<name>X</name>
+<variable>x</variable>
+<type>float</type>
+<value>0</value>
+</parameter>
+<parameter>
+<name>Y</name>
+<variable>y</variable>
+<type>float</type>
+<value>0</value>
+</parameter>
+<parameter>
+<name>Limit to one pixel</name>
+<variable>limit</variable>
+<type>int</type>
+<description>If checked, the integral part of the offset is ignored. Allows you to pass the actual coordinates as floats, which is a bit easier.</description>
+<property>checkbox</property>
+<value>0</value>
+</parameter>
+</effect>

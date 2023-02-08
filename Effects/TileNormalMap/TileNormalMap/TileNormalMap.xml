@@ -1,0 +1,222 @@
+<effect>
+<name>TileNormalMap</name>
+<author>Andos, Sketchy, SolarB. DX11 Port by NaitorStudios</author>
+<description>Apply a normal map from a tileset to an object</description>
+
+// TEXTURE
+
+	<parameter>
+		<name>Normal Map Tileset</name>
+		<code>Overlay</code>
+		<description>Tileset to use as overlay</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	<parameter>
+		<name>Tileset width</name>
+		<code>tilesetWidth</code>
+		<description>Tileset width (columns)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Tileset height</name>
+		<code>tilesetHeight</code>
+		<description>Tileset height (rows)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Tile Index</name>
+		<code>tileIndex</code>
+		<description>Index (frame) of tile</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+
+
+// NORMALS
+
+	<parameter>
+		<name>Ambient light</name>
+		<code>ambientLight</code>
+		<description>Ambient light - the minimum light level for the effect</description>
+		<type>INT_FLOAT4</type>
+		<property>color</property>
+		<value>0.0</value>
+	</parameter>	
+	<parameter>
+		<name>Object X</name>
+		<code>objX</code>
+		<description>X Position of the object</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>
+	<parameter>
+		<name>Object Y</name>
+		<code>objY</code>
+		<description>Y Position of the object</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>
+	
+	
+	//LIGHT 1
+	<parameter>
+		<name>Enable light 1</name>
+		<code>lightAenabled</code>
+		<description>Enable if the light should be on</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+	</parameter>
+	<parameter>
+		<name>Light 1 Color</name>
+		<code>lightAColor</code>
+		<description>Color of light 1</description>
+		<type>INT_FLOAT4</type>
+		<property>color</property>
+		<value>16777215</value>
+	</parameter>
+	<parameter>
+		<name>Light 1 Brightness</name>
+		<code>lightABrightness</code>
+		<description>Brightness of light</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+	<parameter>
+		<name>Light 1 Pos X</name>
+		<code>lightAX</code>
+		<description>X position of light 1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>	
+	<parameter>
+		<name>Light 1 Pos Y</name>
+		<code>lightAY</code>
+		<description>Y position of light 1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>
+	<parameter>
+		<name>Light 1 Pos Z</name>
+		<code>lightAZ</code>
+		<description>Z position of light 1</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.2</value>
+	</parameter>	
+	
+	
+	//LIGHT 2
+	<parameter>
+		<name>Enable light 2</name>
+		<code>lightBenabled</code>
+		<description>Enable if the light should be on</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Light 2 Color</name>
+		<code>lightBColor</code>
+		<description>Color of light 2</description>
+		<type>INT_FLOAT4</type>
+		<property>color</property>
+		<value>16777215</value>
+	</parameter>
+	<parameter>
+		<name>Light 2 Brightness</name>
+		<code>lightBBrightness</code>
+		<description>Brightness of light</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+	<parameter>
+		<name>Light 2 Pos X</name>
+		<code>lightBX</code>
+		<description>X position of light 2</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>	
+	<parameter>
+		<name>Light 2 Pos Y</name>
+		<code>lightBY</code>
+		<description>Y position of light 2</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>	
+	<parameter>
+		<name>Light 2 Pos Z</name>
+		<code>lightBZ</code>
+		<description>Z position of light 2</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.2</value>
+	</parameter>
+	
+	
+	//LIGHT 3
+	<parameter>
+		<name>Enable light 3</name>
+		<code>lightCenabled</code>
+		<description>Enable if the light should be on</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Light 3 Color</name>
+		<code>lightCColor</code>
+		<description>Color of light 3</description>
+		<type>INT_FLOAT4</type>
+		<property>color</property>
+		<value>16777215</value>
+	</parameter>
+	<parameter>
+		<name>Light 3 Brightness</name>
+		<code>lightCBrightness</code>
+		<description>Brightness of light</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+	<parameter>
+		<name>Light 3 Pos X</name>
+		<code>lightCX</code>
+		<description>X position of light 3</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>	
+	<parameter>
+		<name>Light 3 Pos Y</name>
+		<code>lightCY</code>
+		<description>Y position of light 3</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>
+	<parameter>
+		<name>Light 3 Pos Z</name>
+		<code>lightCZ</code>
+		<description>Z position of light 3</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.2</value>
+	</parameter>
+
+
+</effect>

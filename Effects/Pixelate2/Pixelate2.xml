@@ -1,0 +1,32 @@
+<effect>
+<name>Pixelate 2</name>
+<description>Collapses image data into pixels</description>
+
+<parameter>
+        <name>PixelSize</name>
+        <code>PixelSize</code>
+        <description>Size of pixel degradation</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>3</value>
+</parameter>
+
+<parameter>
+        <name>ImageWidth</name>
+        <code>ImageWidth</code>
+        <description>Width of source image</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>150</value>
+</parameter>
+
+<parameter>
+        <name>ImageHeight</name>
+        <code>ImageHeight</code>
+        <description>Height of source image</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>150</value>
+</parameter>
+
+</effect>

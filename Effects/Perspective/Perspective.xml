@@ -1,0 +1,22 @@
+<effect>
+<name>Perspective</name>
+<description>This shader can make the texture look like a 3d-plane (See Andos' perspective object or Mode7)</description>
+<author>Looki</author>
+<parameter>
+		<name>Top width</name>
+		<description>...</description>
+		<code>fA</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.33</value>
+</parameter>
+<parameter>
+		<name>Bottom width</name>
+		<description>...</description>
+		<code>fB</code>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.66</value>
+</parameter>
+</effect>
+

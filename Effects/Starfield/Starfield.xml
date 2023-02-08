@@ -1,0 +1,21 @@
+<effect>
+<name>Starfield</name>
+<description>Animated Starfield</description>
+<author>Sloxone</author>
+<parameter>
+	<name>Animation</name>
+	<description>Increment Always this value to animate Starfield eg: timer*0.001</description>
+	<code>val</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Direction</name>
+	<description>Direction of Starfield 0-up, 1-down, 2-left, 3-right </description>
+	<code>dir</code>
+	<type>int</type>
+	<value>0</value>
+</parameter>
+
+</effect>
+

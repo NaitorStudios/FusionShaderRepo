@@ -1,0 +1,67 @@
+<effect>
+<name>VTX2</name>
+<author>Sketchy</author>
+<description>Voxel terrain, using a heightmap</description>
+<parameter>
+		<name>imgHeightmap</name>
+		<code>imgHeightmap</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>imgTexturemap</name>
+		<code>imgTexturemap</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>fX</name>
+		<code>fX</code>
+		<description>X position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>fY</name>
+		<code>fY</code>
+		<description>Y position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>fZ</name>
+		<code>fZ</code>
+		<description>Z position of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>fCosAngle</name>
+		<code>fCosAngle</code>
+		<description>Cosine of view angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>fSinAngle</name>
+		<code>fSinAngle</code>
+		<description>Sine of view angle</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>fYScale</name>
+		<code>fYScale</code>
+		<description>Heightmap scaling coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.25</value>
+</parameter>
+</effect>

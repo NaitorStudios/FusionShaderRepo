@@ -1,0 +1,6 @@
+<effect>
+<name>Soft Light_as</name>
+<author>CallofAS, DX11 port by NaitorStudios</author>
+<description>Based on Looki's shader; Multiplies darke tones and screens light tones.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

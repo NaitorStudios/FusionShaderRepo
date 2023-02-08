@@ -1,0 +1,26 @@
+<effect>
+<name>Saturation Box</name>
+<author>MuddyMole, DX11 Port by NaitorStudios</author>
+<description>Draws a saturation box.</description>
+<parameter>
+	<name>Hue</name>
+	<code>fHue</code>
+	<description>The color hue.</description>
+	<type>int</type>
+	<property>edit</property>
+	<value>0</value>
+	<min>0</min>
+	<max>360</max>
+</parameter>
+<parameter>
+	<name>Lightness</name>
+	<code>fLightness</code>
+	<description>The color lightness.</description>
+	<type>int</type>
+	<property>edit</property>
+	<value>128</value>
+	<min>0</min>
+	<max>255</max>
+</parameter>
+
+</effect>

@@ -1,0 +1,125 @@
+// NormalMap
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform int lightAenabled;
+uniform int lightBenabled;
+uniform int lightCenabled;
+
+
+uniform vec4 lightAColor;
+uniform vec4 lightBColor;
+uniform vec4 lightCColor;
+uniform vec4 ambientLight;
+
+
+uniform float lightAX;
+uniform float lightBX;
+uniform float lightCX;
+
+
+uniform float lightAY;
+uniform float lightBY;
+uniform float lightCY;
+
+
+uniform float lightAZ;
+uniform float lightBZ;
+uniform float lightCZ;
+
+
+uniform float lightABrightness;
+uniform float lightBBrightness;
+uniform float lightCBrightness;
+
+
+uniform float objX;
+uniform float objY;
+
+
+uniform sampler2D imgTexture;
+//uniform sampler2D bkdTexture;
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+void main(void)
+{
+    vec4 normal = texture(imgTexture, textureCoordinate);
+    normal = vec4(normal.x-0.5, normal.y-0.5, normal.z-0.5, normal.w);
+    //vec4 background = texture(bkdTexture, textureCoordinate);
+    vec4 background = vec4(1.0);
+
+
+    vec4 color = vec4(0.0 ,0.0 ,0.0 ,normal.a);
+    vec3 pixelPos = vec3(textureCoordinate.xy, 0.0);
+    //vec3 objPos = vec3(objX,objY,0);
+    vec3 lightPos, dir;
+    float dist, amount;
+
+
+    if(lightAenabled == 1)
+    {
+        lightPos = vec3(((lightAX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightAY-objY)*fPixelHeight+0.5)/fPixelHeight,lightAZ);
+        dir = normalize(lightPos - pixelPos);
+        dist = 1.0/length(lightPos - pixelPos);
+        amount = clamp(dot(normal,vec4(dir, 1.0)), 0.0, 1.0);
+        color.rgb += amount * lightABrightness * dist * lightAColor.rgb;
+    }
+
+
+    if(lightBenabled == 1)
+    {
+        lightPos = vec3(((lightBX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightBY-objY)*fPixelHeight+0.5)/fPixelHeight,lightBZ);
+        dir = normalize(lightPos - pixelPos);
+        dist = 1.0/length(lightPos - pixelPos);
+
+
+        amount = clamp(dot(normal, vec4(dir, 1.0)), 0.0, 1.0);
+        color.rgb += amount * lightBBrightness * dist * lightBColor.rgb;
+    }
+
+
+    if(lightCenabled == 1)
+    {
+        lightPos = vec3(((lightCX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightCY-objY)*fPixelHeight+0.5)/fPixelHeight,lightCZ);
+        dir = normalize(lightPos - pixelPos);
+        dist = 1.0/length(lightPos - pixelPos);
+        amount = clamp(dot(normal,vec4(dir, 1.0)), 0.0, 1.0);
+        color.rgb += amount * lightCBrightness * dist * lightCColor.rgb;
+    }
+
+    color = vec4(ambientLight.rgb, 0.0) + color * background;
+    color *= blendColor;
+
+   fragColor = color; //gl_FragColor
+}
+//@End

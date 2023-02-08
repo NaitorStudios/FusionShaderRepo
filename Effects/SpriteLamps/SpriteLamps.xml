@@ -1,0 +1,174 @@
+<effect>
+	<name>SpriteLamps</name>
+	<description>Creates 2D light effects with a normal map.</description>
+	<author>Emil Macko</author>
+	<BackgroundTexture>1</BackgroundTexture>
+	
+	<parameter>
+			<name>Ambient Light</name>
+			<code>amb</code>
+			<description>Color of the ambient light.</description>
+			<type>int_float4</type>
+			<property>color</property>
+			<value>8421504</value>
+			<preview_value>8421504</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light Intensity</name>
+			<code>intens</code>
+			<description>The intensity multiplier for all lights.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>50</value>
+			<preview_value>50</preview_value>
+	</parameter>
+	
+	<parameter>
+			<name>Light 1 x</name>
+			<code>L1x</code>
+			<description>X coordinate of Light 1.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>64</value>
+			<preview_value>64</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 1 y</name>
+			<code>L1y</code>
+			<description>Y coordinate of Light 1.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>64</value>
+			<preview_value>64</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 1 z</name>
+			<code>L1z</code>
+			<description>Z coordinate of Light 1.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>128</value>
+			<preview_value>128</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 1 Color</name>
+			<code>L1c</code>
+			<description>Color of Light 1.</description>
+			<type>int_float4</type>
+			<property>color</property>
+			<value>16777215</value>
+			<preview_value>16777215</preview_value>
+	</parameter>
+	
+	<parameter>
+			<name>Light 2 x</name>
+			<code>L2x</code>
+			<description>X coordinate of Light 2.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>128</value>
+			<preview_value>128</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 2 y</name>
+			<code>L2y</code>
+			<description>Y coordinate of Light 2.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>128</value>
+			<preview_value>128</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 2 z</name>
+			<code>L2z</code>
+			<description>Z coordinate of Light 2.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>64</value>
+			<preview_value>64</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 2 Color</name>
+			<code>L2c</code>
+			<description>Color of Light 2.</description>
+			<type>int_float4</type>
+			<property>color</property>
+			<value>65535</value>
+			<preview_value>65535</preview_value>
+	</parameter>
+	
+	<parameter>
+			<name>Light 3 x</name>
+			<code>L3x</code>
+			<description>X coordinate of Light 3.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>384</value>
+			<preview_value>384</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 3 y</name>
+			<code>L3y</code>
+			<description>Y coordinate of Light 3.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>384</value>
+			<preview_value>384</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 3 z</name>
+			<code>L3z</code>
+			<description>Z coordinate of Light 3.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>32</value>
+			<preview_value>32</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 3 Color</name>
+			<code>L3c</code>
+			<description>Color of Light 3.</description>
+			<type>int_float4</type>
+			<property>color</property>
+			<value>16711935</value>
+			<preview_value>16711935</preview_value>
+	</parameter>
+	
+	<parameter>
+			<name>Light 4 x</name>
+			<code>L4x</code>
+			<description>X coordinate of Light 4.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>384</value>
+			<preview_value>384</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 4 y</name>
+			<code>L4y</code>
+			<description>Y coordinate of Light 4.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>128</value>
+			<preview_value>128</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 4 z</name>
+			<code>L4z</code>
+			<description>Z coordinate of Light 4.</description>
+			<type>int</type>
+			<property>edit</property>
+			<value>16</value>
+			<preview_value>16</preview_value>
+	</parameter>
+	<parameter>
+			<name>Light 4 Color</name>
+			<code>L4c</code>
+			<description>Color of Light 4.</description>
+			<type>int_float4</type>
+			<property>color</property>
+			<value>16776960</value>
+			<preview_value>16776960</preview_value>
+	</parameter>
+</effect>
+

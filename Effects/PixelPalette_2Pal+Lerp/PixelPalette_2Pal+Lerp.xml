@@ -1,0 +1,34 @@
+<effect>
+	<name>PixelPalette (2 Palettes + Lerp)</name>
+	<author>TimmyTopHat</author>
+	<description>Evoke the ancient art of color palettes!</description>
+	
+	// Palettes
+	
+	<parameter>
+		<name>Palette 1</name>
+		<code>PaletteA</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	
+	<parameter>
+		<name>Palette 2</name>
+		<code>PaletteB</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	
+	// LERPing
+	
+	<parameter>
+		<name>Mix Value</name>
+		<code>lerpVal</code>
+		<description>Mixes the colors between Palette A and B.</description>
+		<type>float</type>
+		<property>edit</property>
+	</parameter>
+
+</effect>

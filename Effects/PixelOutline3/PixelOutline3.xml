@@ -1,0 +1,19 @@
+<effect>
+<name>Pixel outline with Opacity</name>
+<author>Looki</author>
+<description>Draws a 1px border around an object</description>
+<parameter>
+		<name>Outline color</name>
+		<code>color</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Opacity</name>
+		<code>opacity</code>
+		<type>float</type>
+		<property>spin</property>
+		<value>1.0</value>
+</parameter>
+</effect>

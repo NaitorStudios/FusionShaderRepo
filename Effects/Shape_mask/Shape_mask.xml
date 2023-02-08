@@ -1,0 +1,17 @@
+<effect>
+<name>Shape Mask</name>
+<description>Mask Background</description>
+<author>mihailsh</author>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+	<name>outerColor</name>
+	<code>outerColor</code>
+	<description>light color</description>
+	<type>INT_FLOAT4</type>
+	<property>COLOR</property>
+<min>1</min>
+<max>255</max>
+</parameter>
+</effect>
+

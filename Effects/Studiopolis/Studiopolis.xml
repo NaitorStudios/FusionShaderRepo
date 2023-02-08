@@ -1,0 +1,46 @@
+<effect>
+<name>Studiopolis glass fx</name>
+<description>Effect inspired by Sonic "studiopolis" stage glasses</description>
+<author>schrodinger</author>
+<company>Lizard King</company>
+<copyright>Free for commercial and not commercial, no attribution needed</copyright>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+<name>texture</name>
+<description>background texture</description>
+<type>image</type>
+<property>image</property>
+</parameter>
+<parameter>
+		<name>offset x</name>
+		<code>ox</code>
+		<description>scroll offset</description>
+		<type>float</type>
+		<property>edit</property>
+                                <value>0.0</value>
+</parameter>
+<parameter>
+		<name>offset y</name>
+		<code>oy</code>
+		<description>scroll offset</description>
+		<type>float</type>
+		<property>edit</property>
+                                <value>0.0</value>
+</parameter>
+<parameter>
+		<name>x_coeff</name>
+		<code>xcoeff</code>
+		<description>scroll offset</description>
+		<type>float</type>
+		<property>edit</property>
+                                <value>0.0</value>
+</parameter>
+<parameter>
+		<name>y_coeff</name>
+		<code>ycoeff</code>
+		<description>scroll offset</description>
+		<type>float</type>
+		<property>edit</property>
+                                <value>0.0</value>
+</parameter>
+</effect>

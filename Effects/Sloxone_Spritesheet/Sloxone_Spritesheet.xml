@@ -1,0 +1,53 @@
+<effect>
+<name>Sprite Sheet FX</name>
+<description>Sprite Sheet FX DX9</description>
+<author>Sloxone,Gigatron 2016</author>
+<parameter>
+	<name>Sprite X Pos</name>
+	<description>Sprite X Pos</description>
+	<code>sx</code>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Sprite Y Pos</name>
+	<description>Sprite Y Pos</description>
+	<code>sy</code>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Sprite X Pos</name>
+	<description>Sprite X Size</description>
+	<code>sxsize</code>
+	<type>float</type>
+	<value>0.14</value>
+</parameter>
+<parameter>
+	<name>Sprite Y Pos</name>
+	<description>Sprite Y Size</description>
+	<code>sysize</code>
+	<type>float</type>
+	<value>0.24</value>
+</parameter>
+
+
+<parameter>
+    <name>Sprite Number</name>
+    <description>Sprite Number According Sprite Xsize/Ysize</description>
+    <code>snum</code>
+    <type>float</type>
+    <value>0.3</value>
+</parameter>
+<parameter>
+	<name>Sprite Image</name>
+	<code>simg</code>
+	<type>IMAGE</type>
+	<property>IMAGE</property>
+	<value></value>
+</parameter>
+
+
+ 
+ </effect>
+

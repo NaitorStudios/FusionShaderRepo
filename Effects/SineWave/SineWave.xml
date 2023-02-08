@@ -1,0 +1,49 @@
+<effect>
+<name>Sine Wave</name>
+<description>Effect seen in the battle backgrounds of Earthbound. Can create horizontal and vertical waves at the same time.</description>
+<author>Rhadamus</author>
+
+<sampler>
+	<index>0</index>
+	<filter>point</filter>
+</sampler>
+
+<parameter>
+	<name>X wave frequency</name>
+	<variable>freqX</variable>
+	<type>float</type>
+	<value>3.0</value>
+</parameter>
+<parameter>
+	<name>Y wave frequency</name>
+	<variable>freqY</variable>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>X amplitude</name>
+	<variable>amplitudeX</variable>
+	<type>float</type>
+	<value>0.3</value>
+</parameter>
+<parameter>
+	<name>Y amplitude</name>
+	<variable>amplitudeY</variable>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>X offset</name>
+	<variable>offsetX</variable>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Y offset</name>
+	<variable>offsetY</variable>
+	<type>float</type>
+	<value>0.0</value>
+</parameter>
+
+</effect>
+

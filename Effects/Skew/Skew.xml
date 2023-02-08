@@ -1,0 +1,210 @@
+<effect>
+<name>Skew</name>
+<description>Skews an image based on 4 points specified.</description>
+<author>Unknown, DX11 Port by NaitorStudios</author>
+<parameter>
+
+		// Name of parameter property
+		<name>X1 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_X1</code>
+
+		// Description
+		<description>The X coordinate of the upper-left point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Y1 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_Y1</code>
+
+		// Description
+		<description>The Y coordinate of the upper-left point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>X2 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_X2</code>
+
+		// Description
+		<description>The X coordinate of the upper-right point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Y2 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_Y2</code>
+
+		// Description
+		<description>The Y coordinate of the upper-right point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>X3 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_X3</code>
+
+		// Description
+		<description>The X coordinate of the lower-left point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Y3 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_Y3</code>
+
+		// Description
+		<description>The Y coordinate of the lower-left point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>X4 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_X4</code>
+
+		// Description
+		<description>The X coordinate of the lower-right point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Y4 (float)</name>
+
+		// Parameter name (in the .fx file)
+		<code>f_Y4</code>
+
+		// Description
+		<description>The Y coordinate of the lower-right point</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>edit</property>
+
+		// Default value
+		<value>1.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<sampler>
+<index>0</index>
+<filter>linear</filter>
+</sampler>
+
+</effect>

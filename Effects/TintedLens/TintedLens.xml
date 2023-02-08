@@ -1,0 +1,73 @@
+<effect>
+<name>Tinted Lens</name>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+	<name>Tint color</name>
+	<code>tintColor</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>Tint power</name>
+	<code>tintPow</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.5</value>
+</parameter>
+<parameter>
+	<name>Tint original power</name>
+	<code>tintOrigPow</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+</parameter>
+
+
+<parameter>
+	<name>Lens coeff</name>
+	<variable>lensCoeff</variable>
+	<type>float</type>
+	<value>1.0</value>
+	</parameter>
+	<parameter>
+	<name>Lens base</name>
+	<variable>lensBase</variable>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+
+
+<!--
+<parameter>
+	<name>Outline width</name>
+	<code>outlineWidth</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Outline height</name>
+	<code>outlineHeight</code>
+	<type>float</type>
+	<property>edit</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Outline color</name>
+	<code>outlineColor</code>
+	<type>int_float4</type>
+	<property>color</property>
+	<value>4278190080</value>
+</parameter>
+<parameter>
+	<name>Outline background color</name>
+	<code>outlineBg</code>
+	<type>int_float4</type>
+	<property>color</property>
+	<value>16777215</value>
+</parameter>
+-->
+
+</effect>

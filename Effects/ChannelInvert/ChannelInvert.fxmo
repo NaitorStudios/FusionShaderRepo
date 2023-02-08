@@ -1,0 +1,60 @@
+// ChannelInvert
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+
+uniform int iR;
+uniform int iG;
+uniform int iB;
+uniform int iA;
+
+uniform sampler2D imgTexture;
+
+uniform vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec4 color = texture(imgTexture, textureCoordinate);
+	if(iR==1)
+		color.r = 1.0-color.r;
+	if(iG==1)
+		color.g = 1.0-color.g;
+	if(iB==1)
+		color.b = 1.0-color.b;
+	if(iA==1)
+		color.a = 1.0-color.a;
+
+	color *= blendColor;
+
+
+	fragColor = color; //gl_FragColor
+}
+//@End

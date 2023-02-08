@@ -1,0 +1,28 @@
+<effect>
+<name>Tilt HV</name>
+<description>Horizontal+Vertical tilt</description>
+<author>Sphax - Flavien Clermont</author>
+<company>Complex-softwares</company>
+<website>http://complex.softwares.free.fr</website>
+<parameter>
+		<name>Tilt H</name>
+		<code>fTH</code>
+		<description>Horizontal tilt coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+		<min>0.0</min>
+		<min>1.0</min>
+</parameter>
+<parameter>
+		<name>Tilt V</name>
+		<code>fTV</code>
+		<description>Vertical tilt coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+		<min>0.0</min>
+		<min>1.0</min>
+</parameter>
+</effect>
+

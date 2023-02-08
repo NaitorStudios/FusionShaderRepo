@@ -1,0 +1,30 @@
+<effect>
+<name>Vector Scaler</name>
+<author>Nobuyuki (nobu@subsoap.com)</author>
+<description>An algorithm for smoothly scaling edge textures 
+using preprocessed distance fields stored in the alpha channel.</description>
+<parameter>
+
+		// Name of parameter property
+		<name>Blending Threshold</name>
+
+		// Parameter name (in the .fx file)
+		<code>fBlend</code>
+
+		// Description
+		<description>Controls threshold level.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.5</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+</effect>

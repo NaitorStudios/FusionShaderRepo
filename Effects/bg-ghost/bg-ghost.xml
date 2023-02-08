@@ -1,0 +1,6 @@
+<effect>
+<name>BG Ghost</name>
+<description>Lightens the background color, using the source image as a mask.</description>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>
+

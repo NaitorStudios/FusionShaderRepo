@@ -1,0 +1,29 @@
+<effect>
+<name>Hue Shifter</name>
+<author>Nobuyuki (Original by Nokola), DX11 Port by NaitorStudios</author>
+<description>Shifts the hue of the surface.</description>
+<parameter>
+
+		// Name of parameter property
+		<name>Hue Offset</name>
+
+		// Parameter name (in the .fx file)
+		<code>HueShift</code>
+
+		// Description
+		<description>Controls the hue shift offset.</description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+</effect>

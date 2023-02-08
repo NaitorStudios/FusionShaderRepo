@@ -1,0 +1,14 @@
+<effect>
+<name>Cut through</name>
+<description>Cuts any background shape with non-black color through source image showing "texture" background</description>
+<author>schrodinger</author>
+<parameter>
+		<name>texture</name>
+		<code>texture_img</code>
+		<description>background texture</description>
+		<type>image</type>
+		<property>image</property>
+</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+
+</effect>

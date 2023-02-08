@@ -1,0 +1,20 @@
+<effect>
+<name>Background Blur 30</name>
+<description>Blur the background using 30 iterations.</description>
+<author>Looki, Edited and ported to DX11 by NaitorStudios</author>
+<parameter>
+	<name>Radius</name>
+	<code>radius</code>
+	<description>Radius of the blur in pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>5</value>
+</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+<sampler>
+<index>0</index>
+<filter>linear</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+</effect>

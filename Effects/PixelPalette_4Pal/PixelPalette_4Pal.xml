@@ -1,0 +1,46 @@
+<effect>
+	<name>PixelPalette (4 Palettes)</name>
+	<author>TimmyTopHat, Edit by NaitorStudios</author>
+	<description>Evoke the ancient art of color palettes! 4 palettes, each one as a separated texture.</description>
+	
+	// Palettes
+	
+	<parameter>
+		<name>Palette 1</name>
+		<code>PaletteA</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	
+	<parameter>
+		<name>Palette 2</name>
+		<code>PaletteB</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	<parameter>
+		<name>Palette 3</name>
+		<code>PaletteC</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	<parameter>
+		<name>Palette 4</name>
+		<code>PaletteD</code>
+		<description>A 256-color palette.</description>
+		<type>image</type>
+		<property>image</property>
+	</parameter>
+	
+	<parameter>
+		<name>Current palette</name>
+		<code>palette</code>
+		<description>Select the main palette</description>
+		<type>int</type>
+		<property>edit</property>
+	</parameter>
+
+</effect>
