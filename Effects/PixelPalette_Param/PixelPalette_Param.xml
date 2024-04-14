@@ -171,7 +171,7 @@
 		<value>0</value>
 	</parameter>
 	
-	<!---<parameter>
+	<!--<parameter>
 		<name>Color 21</name>
 		<code>c[21]</code>
 		<type>int_float4</type>
@@ -201,7 +201,7 @@
 		<type>int_float4</type>
 		<property>COLOR</property>
 		<value>0</value>
-	</parameter>--->
+	</parameter>-->
 	
 	<sampler>
 	<index>2</index>

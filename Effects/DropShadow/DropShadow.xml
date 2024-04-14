@@ -1,13 +1,13 @@
 <effect>
 <name>Drop Shadow</name>
-<author>Looki</author>
+<author>Looki, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>X Offset</name>
 	<code>x</code>
 	<description>X offset in pixels.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>4</value>
+	<value>4.0</value>
 </parameter>
 <parameter>
 	<name>Y Offset</name>
@@ -15,7 +15,7 @@
 	<description>Y offset in pixels.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>4</value>
+	<value>4.0</value>
 </parameter>
 <parameter>
 	<name>X Scale</name>
@@ -23,7 +23,7 @@
 	<description>X scale, 1 is 100%.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>Y Scale</name>
@@ -31,7 +31,7 @@
 	<description>Y scale, 1 is 100%.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>X Skew</name>
@@ -39,7 +39,7 @@
 	<description>X scew, -1 is 45° to the left, 0 is normal, 1 is 45° to the right.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>Y Skew</name>
@@ -47,7 +47,7 @@
 	<description>X scew, -1 is 45° to the left, 0 is normal, 1 is 45° to the right.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>X Center</name>
@@ -55,7 +55,7 @@
 	<description>X center of the scale and skew effect in pixels.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>Y Center</name>
@@ -63,7 +63,7 @@
 	<description>Y center of the scale and skew effect in pixels.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>1</value>
+	<value>1.0</value>
 </parameter>
 <parameter>
 	<name>Angle</name>
@@ -71,7 +71,7 @@
 	<description>Angle in degrees. Can be set to the object's angle to prevent the shadow from rotating.</description>
 	<type>float</type>
 	<property>edit</property>
-	<value>0</value>
+	<value>0.0</value>
 </parameter>
 <!--<parameter>
 	<name>Radius</name>

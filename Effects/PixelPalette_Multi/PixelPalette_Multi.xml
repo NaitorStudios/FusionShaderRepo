@@ -3,7 +3,7 @@
 	<author>NaitorStudios</author>
 	<description>Uses red value as index for a color from a palette. You can have any amount of palettes, each one can have up to 256 colors. On iOS, lerpA and lerpB must be shifted by 1, so when refering to the first palette use -1, second palette 0.</description>
 	
-	<!---Palettes--->
+	<!--Palettes-->
 	
 	<parameter>
 		<name>Palettes</name>

@@ -3,7 +3,7 @@
 	<author>TimmyTopHat</author>
 	<description>Evoke the ancient art of color palettes!</description>
 	
-	// Palettes
+	<!--Palettes-->
 	
 	<parameter>
 		<name>Palette 1</name>
@@ -21,7 +21,7 @@
 		<property>image</property>
 	</parameter>
 	
-	// LERPing
+	<!--LERPing-->
 	
 	<parameter>
 		<name>Mix Value</name>

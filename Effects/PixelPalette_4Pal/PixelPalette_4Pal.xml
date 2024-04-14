@@ -3,7 +3,7 @@
 	<author>TimmyTopHat, Edit by NaitorStudios</author>
 	<description>Evoke the ancient art of color palettes! 4 palettes, each one as a separated texture.</description>
 	
-	// Palettes
+	<!--Palettes-->
 	
 	<parameter>
 		<name>Palette 1</name>

@@ -39,20 +39,20 @@ uniform float fPixelHeight;
 void main(void)
 {
 	//Source Color
-	vec4 fragcolor = texture2D(imgTexture, textureCoordinate);
+	lowp vec4 fragcolor = texture2D(imgTexture, textureCoordinate)*blendColor;
 
 	//Determine shadow pixel
 	vec2 pixel;
 	if (angle != 0.0)
 	{
 		float theta = angle/180.0*3.154159;
-		vec2 point = vec2(cos(theta)*x/fPixelWidth-sin(theta)*y/fPixelHeight, sin(theta)*x/fPixelWidth+cos(theta)*y/fPixelHeight);
-		pixel = textureCoordinate - vec2(point.x, point.y);
+		vec2 point = vec2(cos(theta)*x-sin(theta)*y,sin(theta)*x+cos(theta)*y);
+		pixel = textureCoordinate - vec2(point.x*fPixelWidth,point.y*fPixelHeight);
 	}
 	//No angle, skip some calculations
 	else
 	{
-		pixel = textureCoordinate - vec2(x/fPixelWidth, y/fPixelHeight);
+		pixel = textureCoordinate - vec2(x*fPixelWidth, y*fPixelHeight);
 	}
 
 	//Exit if no shadow
@@ -69,8 +69,6 @@ void main(void)
 		fragcolor.rgb = (fragcolor.rgb*fragcolor.a+shadow.rgb*shadow.a*(1.0-fragcolor.a))/new_a;
 		fragcolor.a = new_a;
 	}
-
-    fragcolor *= blendColor;
 
 	gl_FragColor = fragcolor;
 }
