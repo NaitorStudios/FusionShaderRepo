@@ -11,3 +11,7 @@ https://www.patreon.com/NaitorStudios
 https://ko-fi.com/naitorstudios
 
 As a goal, I'll be porting and creating more shaders, making examples of usage (and perhaps a gif preview), and in the future a software to download, search and manage the shaders.
+
+Notes: Foxioo Shader Pack is the only pack I would recommend downloading from the original source instead of separated files.
+Reason being it has a nice folder structure and it's well maintained by the author.
+You can download it here: https://github.com/FoxiooOfficial/FoxiooShaderPack/releases

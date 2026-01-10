@@ -1,8 +1,6 @@
 <effect>
 <name>Prison Spotlight Gameboy</name>
 <description>Spotlight shader</description>
+<author>asker</author>
 <BackgroundTexture>1</BackgroundTexture>
-<parameter>
-		
-</parameter>
 </effect>

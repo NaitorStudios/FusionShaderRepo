@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-04T22:02:56+00:00
+Last Updated: 2026-01-10T03:34:03.485775+00:00
 
 === Shader files ===
 Mode 7 (Switch).xml - Info & Integration
