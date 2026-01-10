@@ -1,0 +1,31 @@
+<effect>
+<name>Color Manipulation</name>
+<description>Color manipulation shader</description>
+<author>author here</author>
+<company>company here</company>
+<parameter>
+	<name>Red</name>
+	<code>colorR</code>
+	<description>Red of the color</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Green</name>
+	<code>colorG</code>
+	<description>Green of the color</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+</parameter>
+<parameter>
+	<name>Blue</name>
+	<code>colorB</code>
+	<description>Blue of the color</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>1.0</value>
+</parameter>
+</effect>
+

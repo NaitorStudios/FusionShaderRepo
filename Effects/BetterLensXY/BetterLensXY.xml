@@ -1,0 +1,29 @@
+<effect>
+<name>BetterLensXY</name>
+<description>Zoom the background using the object's texture.</description>
+<author>ower396, based off of Looki's zoom shader</author>
+<sampler>
+<index>1</index>
+<filter>LINEAR</filter>
+</sampler>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+<name>X Zoom</name>
+<variable>zoomx</variable>
+<type>float</type>
+<value>1.0</value>
+</parameter>
+<parameter>
+<name>Y Zoom</name>
+<variable>zoomy</variable>
+<type>float</type>
+<value>1.0</value>
+</parameter>
+<parameter>
+<name>Base</name>
+<variable>fBase</variable>
+<type>float</type>
+<value>1.0</value>
+</parameter>
+</effect>
+

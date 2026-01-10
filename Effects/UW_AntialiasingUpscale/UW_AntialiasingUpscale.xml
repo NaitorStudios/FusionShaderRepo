@@ -1,6 +1,6 @@
 <effect>
 <name>Antialiasing upscale</name>
-<description>Upscale the screen to a higher resolution using antialiasing.
+<description>Upscale the screen to a higher resolution using antialiasing.&#xA;
 Special thanks to Salamanderpants for making this extension possible.</description>
 <author>Sebastian Janisz</author>
 <company>Ultimate Walrus</company>
@@ -11,8 +11,8 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Source width</name>
 		<code>fSourceWidth</code>
 		<description>Width in pixels of the size of the area to enlarge.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!-- Type (int, float or int_float4) -->
+		<property>edit</property> <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
 		<value>320</value>
 </parameter>
 
@@ -21,8 +21,8 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Source height</name>
 		<code>fSourceHeight</code>
 		<description>Height in pixels of the size of the area to enlarge.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!-- Type (int, float or int_float4) -->
+		<property>edit</property> <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
 		<value>240</value>
 </parameter>
 
@@ -30,8 +30,8 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Viewport width</name>
 		<code>fViewportWidth</code>
 		<description>Width in pixels of the viewport we are stretching to.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!-- Type (int, float or int_float4) -->
+		<property>edit</property> <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
 		<value>640</value>
 </parameter>
 
@@ -40,11 +40,10 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Viewport height</name>
 		<code>fViewportHeight</code>
 		<description>Height in pixels of the viewport we are stretching to.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!-- Type (int, float or int_float4) -->
+		<property>edit</property> <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
 		<value>480</value>
 </parameter>
 
 
 </effect>
-

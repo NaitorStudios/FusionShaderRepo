@@ -13,7 +13,8 @@
 <sampler>
 <index>0</index>
 <filter>linear</filter>
-<addressU>clamp</addressU>
-<addressV>clamp</addressV>
+<AddressU>border</AddressU>
+<AddressV>border</AddressV>
+<BorderColor>16777215</BorderColor>
 </sampler>
 </effect>

@@ -1,0 +1,9 @@
+Last Updated: 2025-04-25T03:09:52+00:00
+
+=== Shader files ===
+UltraRare.xml - Info & Integration
+UltraRare.fx - DirectX9 source code
+UltraRare.fxc - DirectX11 compiled
+
+=== Examples ===
+UltraRare_ultraretest.mfa

@@ -1,9 +1,6 @@
 // Bloom
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -58,7 +55,7 @@ void main(void)
 	vec4 color = texture2D(imgTexture, textureCoordinate);
     vec4 glow  = highlight(color);
 
-	vec2 scaled = radius/vec2(fPixelWidth, fPixelHeight);
+	vec2 scaled = radius*vec2(fPixelWidth, fPixelHeight);
 
 	for(int i=0;i<12;i++)
 	     glow += highlight(texture2D(imgTexture,textureCoordinate+scaled*offsets[i]));

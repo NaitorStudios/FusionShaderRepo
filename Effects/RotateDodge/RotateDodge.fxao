@@ -1,0 +1,68 @@
+// RotateDodge
+
+//@Begin_vertex
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float angle;
+uniform float x;
+uniform float y;
+
+uniform sampler2D imgTexture;
+uniform sampler2D bckgTexture;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+vec4 saturate(vec4 value)
+{
+    return clamp(value,vec4(0.0),vec4(1.0));
+}
+
+void main(void)
+{
+    vec2 xy = textureCoordinate;
+	float a = radians(-angle);
+	float co = cos(a);
+	float si = sin(a);
+
+	lowp vec4 B = texture2D(bckgTexture, xy);
+
+	xy -= vec2(x, y);
+	float temp = xy.x * co + xy.y * si + x;
+	xy.y = xy.y * co - xy.x * si + y;
+	xy.x = temp;
+
+    lowp vec4 L = texture2D(imgTexture, xy)*blendColor;
+	vec4 color = all(equal(L, vec4(1.0))) ? vec4(1.0) : saturate(B/(1.0 - L));
+
+	color.a = 1.0;
+
+    gl_FragColor = color;
+}
+//@End

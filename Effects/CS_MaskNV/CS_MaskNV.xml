@@ -1,7 +1,7 @@
 <effect>
 <name>Mask: Night Vision</name>
 <description>Set a night-vision filter</description>
-<author>Sphax/Eagle4 - Flavien Clermont, Clément Willay</author>
+<author>Sphax/Eagle4 - Flavien Clermont, ClÃ©ment Willay</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>
 <parameter>
@@ -13,4 +13,3 @@
 		<value>2.0</value>
 </parameter>
 </effect>
-

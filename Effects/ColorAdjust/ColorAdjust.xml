@@ -1,7 +1,7 @@
 <effect>
 <name>Color Adjust</name>
 <description>Adjusts hue, saturation, lightness and contrast.</description>
-<author>Sketchy, DX11 Port by NaitorStudios</author>
+<author>Sketchy, Ports by NaitorStudios</author>
 <parameter>
 		<name>Hue</name>
 		<description>Takes a value in degrees (0-360). eg: 180 = set hue to that directly opposite original hue on a color wheel</description>

@@ -1,0 +1,5 @@
+Last Updated: 2025-03-19T18:53:38.280285+00:00
+
+=== Shader files ===
+CS_CropHole.xml - Info & Integration
+CS_CropHole.fx - DirectX9 source code

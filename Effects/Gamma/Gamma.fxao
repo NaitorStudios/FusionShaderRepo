@@ -1,9 +1,6 @@
 // Gamma
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -30,11 +35,9 @@ uniform lowp vec4 blendColor;
 
 void main(void)
 {
-	vec4 color = texture2D(imgTexture, textureCoordinate);
+	vec4 color = texture2D(imgTexture, textureCoordinate)*blendColor;
 
 	color.rgb = mix(color.rgb, sin(color.rgb*3.14159), factor);
-
-	color *= blendColor;
 
 	gl_FragColor = color;
 }

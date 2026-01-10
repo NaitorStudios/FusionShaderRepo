@@ -21,7 +21,7 @@ sampler OverlaySampler : register(s1);
 cbuffer PS_VARIABLES : register(b0)
 {
 	float Intensity = 1.0;
-	int tw, th = 32;
+	float tw, th = 32.0;
 	float xOffset, yOffset;
 }
 

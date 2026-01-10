@@ -3,6 +3,10 @@
 <description>Offset an image by pixels. Mainly used for sub-pixel positioning.</description>
 <author>Looki</author>
 <parameter>
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+</sampler>
 <name>X</name>
 <variable>x</variable>
 <type>float</type>

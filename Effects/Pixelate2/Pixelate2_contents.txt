@@ -1,0 +1,10 @@
+Last Updated: 2023-02-06T18:35:19.776713+00:00
+
+=== Shader files ===
+Pixelate2.xml - Info & Integration
+Pixelate2.fx - DirectX9 source code
+Pixelate2.hlsl - DirectX11 source code
+Pixelate2.fxc - DirectX11 compiled
+
+=== Examples ===
+Pixelate2.mfa

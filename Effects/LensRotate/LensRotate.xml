@@ -1,0 +1,64 @@
+<effect>
+    <name>Lens Distortion with Rotation</name>
+    <description>This shader applies lens distortion to the background based on the object's texture and allows for the rotation of the distortion texture.</description>
+    <author>Based on work from Sphax - Flavien Clermont, Looki, Edit by NaitorStudios</author>
+	
+	<!-- Lens Distortion Parameters -->
+    <parameter>
+        <name>Distortion Coefficient</name>
+        <code>fCoeff</code>
+        <description>Coefficient controlling the amount of distortion applied to the background.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+    <parameter>
+        <name>Base Distortion</name>
+        <code>fBase</code>
+        <description>Base distortion value that affects the background zoom.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+
+    <!-- Rotation Parameters -->
+    <parameter>
+        <name>Angle</name>
+        <code>fAngle</code>
+        <description>Angle of rotation for the object's texture</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>X Center</name>
+        <code>fX</code>
+        <description>X center of rotation (relative to the object texture)</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.5</value>
+        <min>0.0</min>
+        <max>1.0</max>
+    </parameter>
+    <parameter>
+        <name>Y Center</name>
+        <code>fY</code>
+        <description>Y center of rotation (relative to the object texture)</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.5</value>
+        <min>0.0</min>
+        <max>1.0</max>
+    </parameter>
+
+    <!-- Samplers -->
+    <sampler>
+        <index>0</index>
+        <filter>linear</filter>
+        <AddressU>border</AddressU>
+        <AddressV>border</AddressV>
+        <BorderColor>0</BorderColor>
+    </sampler>
+
+    <BackgroundTexture>1</BackgroundTexture>
+</effect>

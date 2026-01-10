@@ -1,0 +1,48 @@
+// Darken
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D bckgTexture;
+uniform lowp vec4 blendColor;
+
+out vec4 fragColor;
+
+vec4 saturate(vec4 value)
+{
+    return clamp(value,vec4(0.0),vec4(1.0));
+}
+
+void main(void)
+{
+	vec4 color = min(texture(imgTexture, textureCoordinate)*blendColor, texture(bckgTexture, textureCoordinate));
+
+	fragColor = color; //gl_FragColor
+}
+//@End

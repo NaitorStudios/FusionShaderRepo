@@ -15,6 +15,12 @@
 	<type>float</type>
 	<value>0.02</value>
 </parameter>
+<parameter>
+	<name>Intensity</name>
+	<variable>intensity</variable>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
 
 </effect>
 

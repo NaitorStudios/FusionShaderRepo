@@ -1,9 +1,6 @@
 // ChannelDepth
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -42,17 +47,17 @@ void main(void)
 
 	if(vfR>0.0)
 	{
-		lowp int ifR = int((color.r+fOffset)/vfR*255.0);
+		int ifR = int((color.r+fOffset)/vfR*255.0);
 		color.r = float(ifR/255)*vfR;
 	}
 	if(vfG>0.0)
 	{
-		lowp int ifG = int((color.g+fOffset)/vfG*255.0);
+		int ifG = int((color.g+fOffset)/vfG*255.0);
 		color.g = float(ifG/255)*vfG;
 	}
 	if(vfB>0.0)
 	{
-		lowp int ifB = int((color.b+fOffset)/vfB*255.0);
+		int ifB = int((color.b+fOffset)/vfB*255.0);
 		color.b = float(ifB/255)*vfB;
 	}
 

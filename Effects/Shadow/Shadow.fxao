@@ -1,0 +1,88 @@
+// Shadow
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform int width;
+uniform int height;
+uniform int lightX;
+uniform int lightY;
+uniform int lightRadius;
+uniform int lightAmbient;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+    float ambient = float(lightAmbient) / 255.0;
+    vec4 outRGB;
+    vec4 newRGB = texture2D(imgTexture, textureCoordinate) * blendColor;
+    if (newRGB.a > 0.0)
+    {
+        outRGB = newRGB * ambient;
+        outRGB.a = 1.0;
+    }
+    else
+    {
+        float rayDir;
+        vec2 rayPos;
+        vec2 rayMov;
+        vec2 lightPos = vec2(float(lightX), float(lightY));
+        vec2 pixelPos = vec2(textureCoordinate.x * float(width), textureCoordinate.y * float(height));
+        float dist = distance(lightPos, pixelPos);
+        outRGB = vec4(0.0, 0.0, 0.0, min(dist / float(lightRadius), 1.0 - ambient));
+
+        if (dist <= float(lightRadius))
+        {
+            rayPos = lightPos;
+            rayDir = atan(lightPos.y - pixelPos.y, lightPos.x - pixelPos.x);
+            rayMov = vec2(cos(rayDir) * (dist / 90.0), sin(rayDir) * (dist / 90.0));
+            for (int i = 0; i < 90; i++)
+            {
+                vec4 getRGB = texture2D(imgTexture, vec2(rayPos.x / float(width), rayPos.y / float(height)));
+                if (getRGB.a > 0.0)
+                {
+                    outRGB = vec4(0.0, 0.0, 0.0, 1.0 - ambient);
+                }
+                rayPos -= rayMov;
+            }
+        }
+        else
+        {
+            outRGB = vec4(0.0, 0.0, 0.0, 1.0 - ambient);
+        }
+    }
+    gl_FragColor = outRGB;
+}
+//@End

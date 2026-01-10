@@ -1,0 +1,7 @@
+Shader Packs: FusionShaders (by Cazra)
+
+Last Updated: 2022-03-20T12:30:26+00:00
+
+=== Shader files ===
+Greenify.xml - Info & Integration
+Greenify.fx - DirectX9 source code

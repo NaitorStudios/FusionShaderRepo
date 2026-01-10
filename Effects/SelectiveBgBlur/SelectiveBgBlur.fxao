@@ -1,0 +1,68 @@
+// SelectiveBgBlur
+
+//@Begin_vertex
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float radius;
+
+uniform sampler2D imgTexture;
+uniform sampler2D bckgTexture;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+vec2 offsets[12];
+
+void main(void)
+{
+    offsets[0] = vec2(-0.326212, -0.405805);
+	offsets[1] = vec2(-0.840144, -0.073580);
+	offsets[2] = vec2(-0.695914,  0.457137);
+	offsets[3] = vec2(-0.203345,  0.620716);
+	offsets[4] = vec2( 0.962340, -0.194983);
+	offsets[5] = vec2( 0.473434, -0.480026);
+	offsets[6] = vec2( 0.519456,  0.767022);
+	offsets[7] = vec2( 0.185461, -0.893124);
+	offsets[8] = vec2( 0.507431,  0.064425);
+	offsets[9] = vec2( 0.896420,  0.412458);
+	offsets[10] = vec2(-0.321940, -0.932615);
+	offsets[11] = vec2(-0.791559, -0.597705);
+
+	vec4 color = texture2D(bckgTexture, textureCoordinate);
+    lowp vec4 fore  = color;
+
+    for(int i=0;i<12;i++)
+	     color += texture2D(bckgTexture, textureCoordinate+radius*vec2(fPixelWidth,fPixelHeight)*offsets[i]);
+	color /= 13.0;
+
+    lowp vec4 fade = texture2D(imgTexture, textureCoordinate)*blendColor;
+
+	gl_FragColor = mix(fore,color,fade.r);
+}
+//@End

@@ -1,0 +1,14 @@
+<effect>
+<name>Alpha Dither</name>
+<author>Sketchy</author>
+<description>Simulates alpha channel transparency using ordered dithering.</description>
+<parameter>
+		<name>Multiplier</name>
+		<code>multiplier</code>
+		<description>Transparency of object</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.8</value>
+		<preview_value>0.8</preview_value>
+</parameter>
+</effect>

@@ -1,0 +1,28 @@
+<effect>
+	<name>wind tremor</name>
+	<description></description>
+	
+	<author>azarl</author>
+	<website>localhost</website>
+	<email></email>
+	
+	<parameter>
+		<name>raito</name>
+		<code>raito</code>
+		<description> 0.0 ~ 1.0</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+	
+	<parameter>
+		<name>weight</name>
+		<code>weight</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.3</value>
+	</parameter>
+	
+</effect>
+

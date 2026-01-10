@@ -1,0 +1,68 @@
+<effect>
+<name>Color Grading Mask</name>
+<description>Uses up to two 3d lookup tables (LUTs) to modify background image colors.&#xD;This version uses object's alpha as mask.</description>
+<author>Sketchy / MuddyMole, optimized, fixed and edited by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>LUT Size</name>
+		<code>lutSize</code>
+		<description>Dimensions of 3d LUT (eg. "64" for a 64x64x64 LUT).</description>
+		<type>int</type>
+		<property>edit</property>
+		<preview_value>17</preview_value>
+		<value>0</value>
+		<min>0</min>
+</parameter>
+<parameter>
+		<name>LUT Image A</name>
+		<code>LUTa</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+		<preview_value>luts\sunrise.png</preview_value>
+</parameter>
+<parameter>
+		<name>Use Additional LUT</name>
+		<code>addLUT</code>
+		<description>Check to allow blending between 2 LUTs.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>LUT Image B</name>
+		<code>LUTb</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+<parameter>
+		<name>LUT Blend</name>
+		<code>blend</code>
+		<description>Blend coefficient (1=100% LUT_A; 0=100% LUT_B or background).</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+		<min>0</min>
+		<max>1</max>
+</parameter>
+
+<sampler>
+	<index>1</index>
+	<filter>Linear</filter>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+<sampler>
+	<index>2</index>
+	<filter>Linear</filter>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+<sampler>
+	<index>3</index>
+	<filter>Linear</filter>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+</effect>

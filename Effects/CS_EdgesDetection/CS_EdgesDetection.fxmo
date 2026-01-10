@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -40,13 +47,13 @@ out vec4 fragColor;
 
 void main(void)
 {
-	vec4 color = texture(imgTexture, textureCoordinate);
+	vec4 color = texture(imgTexture, textureCoordinate)*blendColor;
 
-	vec4 c2 = texture(imgTexture, textureCoordinate + vec2(0.0,-fCoeffY));
-	vec4 c4 = texture(imgTexture, textureCoordinate + vec2(-fCoeffX,0.0));
-	vec4 c5 = texture(imgTexture, textureCoordinate + vec2(0.0,0.0));
-	vec4 c6 = texture(imgTexture, textureCoordinate + vec2(fCoeffX,0.0));
-	vec4 c8 = texture(imgTexture, textureCoordinate + vec2(0.0,fCoeffY));
+	vec4 c2 = texture(imgTexture, textureCoordinate + vec2(0.0,-fCoeffY))*blendColor;
+	vec4 c4 = texture(imgTexture, textureCoordinate + vec2(-fCoeffX,0.0))*blendColor;
+	vec4 c5 = texture(imgTexture, textureCoordinate + vec2(0.0,0.0))*blendColor;
+	vec4 c6 = texture(imgTexture, textureCoordinate + vec2(fCoeffX,0.0))*blendColor;
+	vec4 c8 = texture(imgTexture, textureCoordinate + vec2(0.0,fCoeffY))*blendColor;
 
 	vec4 c0 = (-c2-c4+c5*4.0-c6-c8);
 
@@ -56,8 +63,6 @@ void main(void)
 		c0 = vec4(1.0,1.0,1.0,0.0);
 
 	color.rgb = c0.rgb;
-
-	color *= blendColor;
 
 	fragColor = color; //gl_FragColor
 

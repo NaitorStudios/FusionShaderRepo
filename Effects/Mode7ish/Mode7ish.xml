@@ -29,10 +29,10 @@
     <name>Camera zoom</name>
     <code>zoom</code>
     <description>
-      A multiplier for how zoomed in the camera is.
-      1.0 = normal.
-      < 1.0 is zoomed out.
-      > 1.0 is zoomed in.
+      A multiplier for how zoomed in the camera is.&#xA;
+      1.0 = normal.&#xA;
+      &lt; 1.0 is zoomed out.&#xA;
+      &gt; 1.0 is zoomed in.
     </description>
     <type>FLOAT</type>
     <property>EDIT</property>
@@ -42,10 +42,10 @@
     <name>Camera angle</name>
     <code>camTheta</code>
     <description>
-      The angle the camera is facing, in radians.
-      0 corresponds to looking down the positive X axis.
-      PI/2 corresponds to looking down the negative Y axis.
-      PI corresponds to looking down the negative X axis.
+      The angle the camera is facing, in radians.&#xA;
+      0 corresponds to looking down the positive X axis.&#xA;
+      PI/2 corresponds to looking down the negative Y axis.&#xA;
+      PI corresponds to looking down the negative X axis.&#xA;
       3*PI/2 corresponds to looking down the positive Y axis.
     </description>
     <type>FLOAT</type>
@@ -56,8 +56,8 @@
     <name>Camera field of view</name>
     <code>camFOV</code>
     <description>
-      A multiplier for how pinched the image becomes toward the horizon.
-      1.0 is maximum pinch and will give the impression of looking off into infinity.
+      A multiplier for how pinched the image becomes toward the horizon.&#xA;
+      1.0 is maximum pinch and will give the impression of looking off into infinity.&#xA;
       0.0 is no pinch and will give the impression of looking straight down on the image.
     </description>
     <type>FLOAT</type>
@@ -124,10 +124,10 @@
     <name>Image wrapping mode</name>
     <code>wrapMode</code>
     <description>
-      Sets whether the image wraps around the X and Y axis (in image space).
-      0 = no wrapping
-      1 = wrap X
-      2 = wrap Y
+      Sets whether the image wraps around the X and Y axis (in image space).&#xA;
+      0 = no wrapping&#xA;
+      1 = wrap X&#xA;
+      2 = wrap Y&#xA;
       3 = wrap X and Y
     </description>
     <type>INT</type>

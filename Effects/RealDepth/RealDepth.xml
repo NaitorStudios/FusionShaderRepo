@@ -1,0 +1,15 @@
+<effect>
+<name>Real Depth Buffer</name>
+<description></description>
+<author>Sketchy/MuddyMole</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Depth</name>
+		<code>fDepth</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<preview_value>0.0</preview_value>
+</parameter>
+</effect>

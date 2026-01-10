@@ -1,0 +1,27 @@
+<effect>
+<name>Shock Wave FX</name>
+<description>Shock Wave Dx9 for darkmanx_429 CT Forum member</description>
+<author>Darthmarshie/Gigatron</author>
+<parameter>
+    <name>Timer</name>
+    <description>Timer Value ; increase this value always set effect parameter 'timer*t_timer*0.05'  </description>
+    <code>t_timer</code>
+    <type>float</type>
+    <value>1.0</value>
+</parameter>
+<parameter>
+    <name>Center X</name>
+    <description>Shock Wave Center X position'  </description>
+    <code>pos_x</code>
+    <type>float</type>
+    <value>0.5</value>
+</parameter>
+<parameter>
+    <name>Center Y</name>
+    <description>Shock Wave Center Y position'  </description>
+    <code>pos_y</code>
+    <type>float</type>
+    <value>0.5</value>
+</parameter>
+
+ </effect>

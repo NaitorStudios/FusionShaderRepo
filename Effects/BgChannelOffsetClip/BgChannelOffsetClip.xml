@@ -1,0 +1,102 @@
+<effect>
+<name>Background Channel Offset Clip</name>
+<author>Looki, Edit by NaitorStudios</author>
+<parameter>
+	<name>R X Offset</name>
+	<code>Rx</code>
+	<description>X Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>R Y Offset</name>
+	<code>Ry</code>
+	<description>Y Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>G X Offset</name>
+	<code>Gx</code>
+	<description>X Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>G Y Offset</name>
+	<code>Gy</code>
+	<description>Y Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>B X Offset</name>
+	<code>Bx</code>
+	<description>X Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>B Y Offset</name>
+	<code>By</code>
+	<description>Y Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>A X Offset</name>
+	<code>Ax</code>
+	<description>X Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>A Y Offset</name>
+	<code>Ay</code>
+	<description>Y Offset</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Clip X1</name>
+	<code>x1</code>
+	<description></description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Clip y1</name>
+	<code>y1</code>
+	<description></description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Clip x2</name>
+	<code>x2</code>
+	<description></description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+<parameter>
+	<name>Clip y2</name>
+	<code>y2</code>
+	<description></description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.0</value>
+</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>
+

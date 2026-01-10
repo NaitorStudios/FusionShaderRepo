@@ -1,9 +1,6 @@
 // NormalMap
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -59,63 +64,56 @@ uniform float objY;
 
 
 uniform sampler2D imgTexture;
-//uniform sampler2D bkdTexture;
+uniform sampler2D bckgTexture;
+
 uniform lowp vec4 blendColor;
 uniform float fPixelWidth;
 uniform float fPixelHeight;
 
+float saturate(float value)
+{
+    return clamp(value,0.0,1.0);
+}
 
 void main(void)
 {
-    vec4 normal = texture2D(imgTexture, textureCoordinate);
+    vec4 normal = texture2D(imgTexture, textureCoordinate) * blendColor;
     normal = vec4(normal.x-0.5, normal.y-0.5, normal.z-0.5, normal.w);
-    //vec4 background = texture2D(bkdTexture, textureCoordinate);
-    vec4 background = vec4(1.0);
-
-
-    vec4 color = vec4(0.0 ,0.0 ,0.0 ,normal.a);
+    vec4 background = texture2D(bckgTexture, textureCoordinate);
+ 
+    vec4 color = vec4(0.0, 0.0, 0.0, normal.a);
     vec3 pixelPos = vec3(textureCoordinate.xy, 0.0);
-    //vec3 objPos = vec3(objX,objY,0);
+    vec3 objPos = vec3(objX,objY,0.0); 
     vec3 lightPos, dir;
     float dist, amount;
 
+	if(lightAenabled == 1)
+	{
+		lightPos = vec3((lightAX-objX)*fPixelWidth+0.5,(lightAY-objY)*fPixelHeight+0.5,lightAZ);
+		dir = normalize(lightPos - pixelPos);
+		dist = 1.0/length(lightPos - pixelPos);
+		amount = saturate(dot(normal,vec4(dir,0.0)));
+		color.rgb += amount * lightABrightness * dist * lightAColor.rgb;
+	}
+	
+	if(lightBenabled == 1)
+	{
+		lightPos = vec3((lightBX-objX)*fPixelWidth+0.5,(lightBY-objY)*fPixelHeight+0.5,lightBZ);
+		dir = normalize(lightPos - pixelPos);
+		dist = 1.0/length(lightPos - pixelPos);
+		amount = saturate(dot(normal,vec4(dir, 0.0)));
+		color.rgb += amount * lightBBrightness * dist * lightBColor.rgb;
+	}
+	
+	if(lightCenabled == 1)
+	{
+		lightPos = vec3((lightCX-objX)*fPixelWidth+0.5,(lightCY-objY)*fPixelHeight+0.5,lightCZ);
+		dir = normalize(lightPos - pixelPos);
+		dist = 1.0/length(lightPos - pixelPos);
+		amount = saturate(dot(normal,vec4(dir, 0.0)));
+		color.rgb += amount * lightCBrightness * dist * lightCColor.rgb;
+	}
 
-    if(lightAenabled == 1)
-    {
-        lightPos = vec3(((lightAX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightAY-objY)*fPixelHeight+0.5)/fPixelHeight,lightAZ);
-        dir = normalize(lightPos - pixelPos);
-        dist = 1.0/length(lightPos - pixelPos);
-        amount = clamp(dot(normal,vec4(dir, 1.0)), 0.0, 1.0);
-        color.rgb += amount * lightABrightness * dist * lightAColor.rgb;
-    }
-
-
-    if(lightBenabled == 1)
-    {
-        lightPos = vec3(((lightBX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightBY-objY)*fPixelHeight+0.5)/fPixelHeight,lightBZ);
-        dir = normalize(lightPos - pixelPos);
-        dist = 1.0/length(lightPos - pixelPos);
-
-
-        amount = clamp(dot(normal, vec4(dir, 1.0)), 0.0, 1.0);
-        color.rgb += amount * lightBBrightness * dist * lightBColor.rgb;
-    }
-
-
-    if(lightCenabled == 1)
-    {
-        lightPos = vec3(((lightCX-objX)*fPixelWidth+0.5)/fPixelWidth,((lightCY-objY)*fPixelHeight+0.5)/fPixelHeight,lightCZ);
-        dir = normalize(lightPos - pixelPos);
-        dist = 1.0/length(lightPos - pixelPos);
-        amount = clamp(dot(normal,vec4(dir, 1.0)), 0.0, 1.0);
-        color.rgb += amount * lightCBrightness * dist * lightCColor.rgb;
-    }
-
-
-    color = vec4(ambientLight.rgb, 0.0) + color * background;
-    color *= blendColor;
-
-
-   gl_FragColor = color;
+   gl_FragColor = vec4(ambientLight.rgb, 0.0) + color * background;
 }
 //@End

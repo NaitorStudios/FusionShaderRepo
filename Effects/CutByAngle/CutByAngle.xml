@@ -5,7 +5,7 @@
 		<name>Offset X</name>
 		<code>fOffsetX</code>
 		<description>The Offset's X Coordinate</description>
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>edit</property>
         <type>float</type>
         <value>0.0f</value>
@@ -14,7 +14,7 @@
 		<name>Offset Y</name>
 		<code>fOffsetY</code>
 		<description>The Offset's Y Coordinate</description>
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>edit</property>
         <type>float</type>
         <value>0.0f</value>
@@ -23,7 +23,7 @@
 		<name>Cut Direction X</name>
 		<code>fAngleX</code>
 		<description>The Cut Direction's X Coordinate</description>
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>edit</property>
         <type>float</type>
         <value>0.0f</value>
@@ -32,7 +32,7 @@
 		<name>Cut Direction Y</name>
 		<code>fAngleY</code>
 		<description>The Cut Direction's Y Coordinate</description>
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>edit</property>
         <type>float</type>
         <value>0.0f</value>

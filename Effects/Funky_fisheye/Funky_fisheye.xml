@@ -1,0 +1,68 @@
+<effect>
+<name>Funky Fisheye</name>
+<description>A customizable Fisheye Lens overlay.</description>
+<author>Nomok</author>
+<BackgroundTexture>1</BackgroundTexture>
+  <sampler>
+    <index>1</index>
+    <filter>linear</filter>
+  </sampler>
+<parameter>
+		<name>Aperture</name>
+		<code>aperture</code>
+		<description>Focal Length</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>210.0</value>
+</parameter>
+<parameter>
+		<name>Curve Scale</name>
+		<code>scale</code>
+		<description>Intensity of the Fisheye Lens</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>2.0</value>
+</parameter>
+<parameter>
+		<name>Effect Scale</name>
+		<code>fScale</code>
+		<description>Intensity of the Effect</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Grid Scale</name>
+		<code>xScale</code>
+		<description>Scale of the Fisheye Image</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Overlay Mode</name>
+		<code>overlay</code>
+		<description>Toggles if the Fisheye Lens is used as an Overlay</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Edge Mode</name>
+		<code>edgemode</code>
+		<description>0 - No Edges, 1 - Edges with Stretched Colors, 2 - Transparent Edges</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Edge Scale</name>
+		<code>edgeScale</code>
+		<description>Scale of the Edge</description>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+</effect>
+

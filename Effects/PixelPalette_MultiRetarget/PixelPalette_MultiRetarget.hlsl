@@ -36,17 +36,10 @@ float4 ps_main(float4 color : COLOR0, in PS_INPUT In ) : SV_TARGET
 	[unroll]for(int i=0;i<256 && output.a > 0.0;i++)
 	{
 		float4 OriginalPalette = Palettes.Sample(PalettesSampler, float2(i/256.0,0.0));
-		if(OriginalPalette.a = 0.0)
+		if( distance(output.rgb, OriginalPalette.rgb) == 0 )
 		{
+			colorIndex = i/256.0;
 			break;
-		}
-		else
-		{
-			if( distance(output.rgb, OriginalPalette.rgb) == 0 )
-				{
-					colorIndex = i/256.0;
-					break;
-				}
 		}
 	}
 

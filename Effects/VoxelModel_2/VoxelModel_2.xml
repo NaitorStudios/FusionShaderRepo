@@ -1,0 +1,248 @@
+<effect>
+<name>Voxel Model 2</name>
+<author>MuddyMole / Sketchy / Adam Hawker</author>
+<description>Display 3D voxel models with basic lighting.</description>
+
+<parameter>
+  <name>imageModel</name>
+  <code>imageModel</code>
+  <type>image</type>
+  <property>image</property>
+  <value></value>
+</parameter>
+
+<parameter>
+  <name>offsetX</name>
+  <code>offsetX</code>
+  <description>Position offset from centre (pixels)</description>
+  <type>int</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>offsetY</name>
+  <code>offsetY</code>
+  <description>Position offset from centre (pixels)</description>
+  <type>int</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>offsetY</name>
+  <code>offsetY</code>
+  <description>Position offset from centre (pixels)</description>
+  <type>int</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageWidth</name>
+  <code>imageWidth</code>
+  <description>Image width (pixels)</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageHeight</name>
+  <code>imageHeight</code>
+  <description>Image height (pixels)</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageRows</name>
+  <code>imageRows</code>
+  <description>Number of rows of frames in the image</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageColumns</name>
+  <code>imageColumns</code>
+  <description>Number of columns of frames in the image</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageFirstFrame</name>
+  <code>imageFirstFrame</code>
+  <description>The id of the first frame to use</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>imageLastFrame</name>
+  <code>imageLastFrame</code>
+  <description>The id of the last frame to use</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>rotateOrder</name>
+  <code>rotateOrder</code>
+  <description>The order in which to perform rotations</description>
+  <type>uint</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+
+<parameter>
+  <name>lightAmbient</name>
+  <code>lightAmbient</code>
+  <description>Ambient light colour and intensity</description>
+  <type>uint</type>
+  <property>color</property>
+  <value>8421504</value>
+</parameter>
+
+<parameter>
+  <name>lightDirectional</name>
+  <code>lightDirectional</code>
+  <description>Directional light colour and intensity</description>
+  <type>uint</type>
+  <property>color</property>
+  <value>16777215</value>
+</parameter>
+
+<parameter>
+  <name>fog</name>
+  <code>fog</code>
+  <description>Fog colour</description>
+  <type>uint</type>
+  <property>color</property>
+  <value>16777215</value>
+</parameter>
+
+<parameter>
+  <name>rotateX</name>
+  <code>rotateX</code>
+  <description>Angle to rotate the model about the X axis (degrees)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>rotateY</name>
+  <code>rotateY</code>
+  <description>Angle to rotate the model about the Y axis (degrees)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>rotateZ</name>
+  <code>rotateZ</code>
+  <description>Angle to rotate the model about the Z axis (degrees)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>cameraDistance</name>
+  <code>cameraDistance</code>
+  <description>The distance of the camera from the centre of the model (pixels)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>cameraClipNear</name>
+  <code>cameraClipNear</code>
+  <description>Hide any voxels closer than this to the camera (pixels)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>cameraClipFar</name>
+  <code>cameraClipFar</code>
+  <description>Hide any voxels further than this from the camera (pixels)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>cameraMagnify</name>
+  <code>cameraMagnify</code>
+  <description>Magnify the output by this amount</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>lightX</name>
+  <code>lightX</code>
+  <description>X component of directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>lightY</name>
+  <code>lightY</code>
+  <description>Y component of directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>lightZ</name>
+  <code>lightZ</code>
+  <description>Z component of directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+
+<parameter>
+  <name>fogNear</name>
+  <code>fogNear</code>
+  <description>Distance at which fog starts to appear</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>999.9</value>
+</parameter>
+
+<parameter>
+  <name>fogFar</name>
+  <code>fogFar</code>
+  <description>Distance at which fog becomes completely opaque</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>999.9</value>
+</parameter>
+
+<sampler>
+  <index>1</index>
+  <filter>point</filter>
+  <filter>point</filter>
+  <addressU>Border</addressU>
+  <addressV>Border</addressV>
+  <BorderColor>0</BorderColor>
+</sampler>
+
+</effect>

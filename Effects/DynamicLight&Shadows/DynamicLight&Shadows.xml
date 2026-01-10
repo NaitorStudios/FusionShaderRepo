@@ -1,0 +1,42 @@
+<effect>
+<name>Dynamic Lighting &amp; Shadows</name>
+<author></author>
+<description>Apply a normal map to an object</description>
+
+<!--TEXTURE-->
+
+	<parameter>
+		<name>Normal Map</name>
+		<code>uHeightMap</code>
+		<description></description>
+		<type>image</type>
+		<value>HeightMap.png</value>
+		<property>image</property>
+	</parameter>
+
+	<parameter>
+		<name>uXYAngle</name>
+		<code>uXYAngle</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+	<parameter>
+		<name>uZAngle</name>
+		<code>uZAngle</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+
+	<parameter>
+		<name>uTexStep</name>
+		<code>uTexStep</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>
+</effect>

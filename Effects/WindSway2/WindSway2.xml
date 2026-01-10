@@ -1,0 +1,107 @@
+<effect>
+<name>Wind Sway (vertically inverted)</name>
+<description>Make a sprite sway and bend, like it is affected by the wind.</description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Time</name>
+		<code>TIME</code>
+		<description>You must hook Fusion's timer to this.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Speed</name>
+		<code>speed</code>
+		<description>The speed of the wind movement.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.001</value>
+		<!--
+		<min>0.0</min>
+		<max>5.0</max>
+		-->
+</parameter>
+<parameter>
+		<name>Min Strength</name>
+		<code>minStrength</code>
+		<description>The minimal strength of the wind movement.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Max Strength</name>
+		<code>maxStrength</code>
+		<description>The maximal strength of the wind movement.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Strength Scale</name>
+		<code>strengthScale</code>
+		<description>Scale factor for the wind strength. The bigger the number the more tilted it canl get.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>5.0</value>
+</parameter>
+<parameter>
+		<name>Interval</name>
+		<code>interval</code>
+		<description>The time between minimal and maximal strength changes.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>2.5</value>
+</parameter>
+<parameter>
+		<name>Detail</name>
+		<code>detail</code>
+		<description>The detail (number of waves) of the wind movement.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>2.0</value>
+</parameter>
+<parameter>
+		<name>Distortion</name>
+		<code>distortion</code>
+		<description>Add a sinewave horizontal distortion.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Height Offset</name>
+		<code>heightOffset</code>
+		<description>The height where the wind begins to move.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Distortion Height Offset</name>
+		<code>distHeightOffset</code>
+		<description>The height where the wind begins to bend the object.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Movement Offset</name>
+		<code>offset</code>
+		<description>Offset the movement for each object to make each one more unique.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

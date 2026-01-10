@@ -1,0 +1,14 @@
+Shader Packs: Foxioo Shader Pack
+
+Last Updated: 2026-01-04T22:01:52+00:00
+
+=== Shader files ===
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).xml - Info & Integration
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).fx - DirectX9 source code
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).hlsl - DirectX11 source code
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).fxc - DirectX11 compiled
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).fxao - Android source code
+Krita Heat-Glow and Freeze-Reflect Hybrid (Background).fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

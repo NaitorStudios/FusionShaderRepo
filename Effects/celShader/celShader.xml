@@ -1,6 +1,6 @@
 <effect>
 <name>Cel Shader</name>
-
+<author>Unknown, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>hardness</name>
 	<code>h</code>

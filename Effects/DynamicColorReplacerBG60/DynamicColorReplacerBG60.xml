@@ -1,0 +1,907 @@
+<effect>
+<name>BG Color Replacer Dynamic (60 Colors)</name>
+<author>Looki, DX11 Port by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+	<name>From</name>
+	<code>from1</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>255</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to1</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65280</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from2</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to2</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from3</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to3</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from4</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to4</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from5</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to5</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from6</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to6</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from7</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to7</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from8</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to8</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from9</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to9</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from10</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to10</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from11</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to11</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from12</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to12</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from13</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to13</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from14</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to14</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from15</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to15</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from16</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>To</name>
+	<code>to16</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from17</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to17</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from18</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to18</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+    <name>From</name>
+    <code>from19</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+    <name>To</name>
+    <code>to19</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from20</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to20</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from21</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to21</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from22</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to22</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from23</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to23</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from24</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to24</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from25</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to25</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from26</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to26</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from27</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to27</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from28</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to28</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from29</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to29</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from30</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to30</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from31</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to31</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from32</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to32</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from33</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to33</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from34</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to34</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from35</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to35</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from36</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>To</name>
+	<code>to36</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from37</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to37</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from38</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to38</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+    <name>From</name>
+    <code>from39</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+    <name>To</name>
+    <code>to39</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from40</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to40</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from41</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to41</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from42</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to42</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from43</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to43</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from44</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to44</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from45</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to45</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from46</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to46</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from47</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to47</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from48</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to48</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from49</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to49</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from50</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to50</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from51</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to51</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from52</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to52</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from53</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to53</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from54</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to54</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from55</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to55</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from56</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>To</name>
+	<code>to56</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from57</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to57</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>From</name>
+	<code>from58</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to58</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+    <name>From</name>
+    <code>from59</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+    <name>To</name>
+    <code>to59</code>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from60</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to60</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<BackgroundTexture>1</BackgroundTexture>
+<sampler>
+<index>0</index>
+<filter>point</filter>
+</sampler>
+<sampler>
+<index>1</index>
+<filter>point</filter>
+</sampler>
+</effect>

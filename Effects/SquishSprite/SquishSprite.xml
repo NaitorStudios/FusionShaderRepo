@@ -1,0 +1,18 @@
+<effect>
+<name>Squish Sprite</name>
+<description></description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Time</name>
+		<code>TIME</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<!--
+		<min>0.0</min>
+		<max>5.0</max>
+		-->
+</parameter>
+
+</effect>

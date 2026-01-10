@@ -1,15 +1,12 @@
 // PixelOutline
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
 attribute vec4 position;
 attribute vec2 texCoord;
-varying vec2 textureCoordinate;
+varying highp vec2 textureCoordinate;
 
 void main(void)
 {
@@ -19,9 +16,17 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
 #endif
-varying vec2 textureCoordinate;
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying highp vec2 textureCoordinate;
 
 uniform vec4 color;
 
@@ -44,21 +49,20 @@ void main(void)
     dirs[6] = vec2( 0.0, -1.0);
     dirs[7] = vec2( 1.0, -1.0);
 
-	vec4 fcolor = texture2D(imgTexture, textureCoordinate);
+    vec4 scolor = texture2D(imgTexture, textureCoordinate)*blendColor;
+    scolor.rgb += (color.rgb-scolor.rgb)*(1.0 - scolor.a);
 
-    fcolor.rgb += (color.rgb-fcolor.rgb)*(1.0 - fcolor.a);
-
-	if(fcolor.a > 0.0)
-        fcolor.a = 1.0;
+	if(scolor.a > 0.0)
+		scolor.a = 1.0;
 	else
     {
 		for(int i=0;i<8;i++)
         {
-			if(texture2D(imgTexture, textureCoordinate+dirs[i]/vec2(fPixelWidth, fPixelHeight)).a > 0.0)
-				fcolor.a = 1.0;
+			if(texture2D(imgTexture, textureCoordinate+dirs[i]*vec2(fPixelWidth, fPixelHeight)).a > 0.0)
+				scolor.a = 1.0;
         }
     }
-    fcolor *= blendColor;
-    gl_FragColor = fcolor;
+
+    gl_FragColor = scolor;
 }
 //@End

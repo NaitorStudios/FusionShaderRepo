@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,38 +21,52 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
-
 
 uniform float fBloomPower;
 uniform float fBloomStrenght;
 uniform float fContrast;
 
 uniform sampler2D imgTexture;
-
 uniform lowp vec4 blendColor;
 
 out vec4 fragColor;
 
+vec4 GetColor(vec2 xy)
+{
+	vec4 color = texture(imgTexture, xy);
+	return color;
+}
+
 void main(void)
 {
-	vec4 color = texture(imgTexture, textureCoordinate);
+	vec4 color = GetColor(textureCoordinate);
 	vec4 fOldColor = color;
 	vec4 fBlurColor;
 	vec4 fTemp;
 	float fOld;
 	float fBlur;
 
-	vec4 TexT = texture(imgTexture, vec2(textureCoordinate.x, textureCoordinate.y - fBloomPower));
-	vec4 TexTL = texture(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y - fBloomPower));
-	vec4 TexL = texture(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y));
-	vec4 TexBL = texture(imgTexture, vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y + fBloomPower));
-	vec4 TexB = texture(imgTexture, vec2(textureCoordinate.x, textureCoordinate.y + fBloomPower));
-	vec4 TexBR = texture(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y + fBloomPower));
-	vec4 TexR = texture(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y));
-	vec4 TexTR = texture(imgTexture, vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y - fBloomPower));
+	vec4 TexT = GetColor(vec2(textureCoordinate.x, textureCoordinate.y - fBloomPower));
+	vec4 TexTL = GetColor(vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y - fBloomPower));
+	vec4 TexL = GetColor(vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y));
+	vec4 TexBL = GetColor(vec2(textureCoordinate.x - fBloomPower, textureCoordinate.y + fBloomPower));
+	vec4 TexB = GetColor(vec2(textureCoordinate.x, textureCoordinate.y + fBloomPower));
+	vec4 TexBR = GetColor(vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y + fBloomPower));
+	vec4 TexR = GetColor(vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y));
+	vec4 TexTR = GetColor(vec2(textureCoordinate.x + fBloomPower, textureCoordinate.y - fBloomPower));
 
 	fBlurColor = (color+TexT+TexTL+TexL+TexBL+TexB+TexBR+TexR+TexTR) / 9.0;
 

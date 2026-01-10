@@ -1,0 +1,54 @@
+<effect>
+    <name>Dynamic Flow</name>
+    <description>A dynamic flowing pattern shader with pink default and color tweaking.&#xA;
+	Source: https://www.shadertoy.com/view/tdG3Rd
+	</description>
+    <author>ButterMun</author>
+    <BackgroundTexture>1</BackgroundTexture>
+    
+    <parameter>
+        <name>Progress</name>
+        <code>fProgress</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Animation progress</description>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Zoom</name>
+        <code>fZoom</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Zoom level of the wave pattern</description>
+        <value>1.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Offset X</name>
+        <code>fOffsetX</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Horizontal scrolling offset</description>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Offset Y</name>
+        <code>fOffsetY</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Vertical scrolling offset</description>
+        <value>0.0</value>
+    </parameter>
+	
+	<parameter>
+        <name>Warp Intensity</name>
+        <code>fWarp</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Intensity of noise-based distortion</description>
+        <value>0.0</value>
+    </parameter>
+	
+</effect>

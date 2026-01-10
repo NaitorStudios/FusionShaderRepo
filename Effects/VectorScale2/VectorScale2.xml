@@ -1,0 +1,74 @@
+<effect>
+<name>Vector Scaler 2</name>
+<author>Nobuyuki (nobu@subsoap.com)</author>
+<description>An algorithm for smoothly scaling edge textures 
+using preprocessed distance fields stored in the alpha channel.</description>
+<parameter>
+
+		<!--Name of parameter property-->
+		<name>Outline Threshold</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>fBlendOutline</code>
+
+		<!--Description-->
+		<description>Controls threshold level.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>spin</property>
+
+		<!--Default value-->
+		<value>0.5</value>
+
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
+</parameter>
+<parameter>
+	<name>Outline color</name>
+	<code>outlineColor</code>
+	<description></description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>2366701</value>
+</parameter>
+<parameter>
+
+		<!--Name of parameter property-->
+		<name>Fill Threshold</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>fBlendFill</code>
+
+		<!--Description-->
+		<description>Controls threshold level.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>spin</property>
+
+		<!--Default value-->
+		<value>0.5</value>
+
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
+</parameter>
+<parameter>
+	<name>Fill color</name>
+	<code>fillColor</code>
+	<description></description>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16711680</value>
+</parameter>
+</effect>

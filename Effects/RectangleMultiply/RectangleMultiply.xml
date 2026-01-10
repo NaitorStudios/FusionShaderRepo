@@ -1,0 +1,42 @@
+<effect>
+    <name>RectangleMultiply</name>
+    <author>Myp</author>
+    <description>RectangleMultiply</description>
+    <BackgroundTexture>1</BackgroundTexture>
+
+    <parameter>
+        <name>Width</name>
+        <code>fWidth</code>
+        <description>Image width (update if size changes)</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>32.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Height</name>
+        <code>fHeight</code>
+        <description>Image height (update if size changes)</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>32</value>
+    </parameter>
+
+    <parameter>
+        <name>Border</name>
+        <code>fBorder</code>
+        <description>Border thickness</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Color</name>
+        <code>fColor</code>
+        <description>Border color</description>
+        <type>int_float4</type>
+        <property>COLOR</property>
+        <value>0</value>
+    </parameter>
+</effect>

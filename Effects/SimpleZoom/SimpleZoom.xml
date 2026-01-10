@@ -1,0 +1,21 @@
+<effect>
+    <name>SimpleZoom</name>
+    <author>ower396</author>
+
+    <BackgroundTexture>1</BackgroundTexture>
+
+    <sampler>
+        <index>1</index>
+        <filter>linear</filter>
+        <AddressU>border</AddressU>
+        <AddressV>border</AddressV>
+        <BorderColor>-16777216</BorderColor>
+    </sampler>
+
+    <parameter>
+        <name>Zoom</name>
+        <code>zoom</code>
+        <type>float</type>
+        <value>1</value>
+    </parameter>
+</effect>

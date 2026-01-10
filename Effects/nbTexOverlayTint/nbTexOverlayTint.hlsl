@@ -51,8 +51,8 @@ float4 ps_main(in PS_INPUT In) : SV_TARGET
 						   (1 / fPixelHeight) / th);
 
     float4 Color = Demultiply(Tex0.Sample(Tex0Sampler,In.texCoord) * In.Tint);
-	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset) * tint);
-    Out.rgb = lerp(Color.rgb,Out.rgb,Intensity*Out.a);
+	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset));
+    Out.rgb = lerp(Color.rgb,Out.rgb * tint.rgb,Intensity*Out.a);
     Out.a = Color.a;
 	return Out;
 }
@@ -65,8 +65,8 @@ float4 ps_main_pm(in PS_INPUT In) : SV_TARGET
 						   (1 / fPixelHeight) / th);
 	
     float4 Color = Demultiply(Tex0.Sample(Tex0Sampler,In.texCoord) * In.Tint);
-	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset) * tint);
-    Out.rgb = lerp(Color.rgb,Out.rgb,Intensity*Out.a);
+	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset));
+    Out.rgb = lerp(Color.rgb,Out.rgb * tint.rgb,Intensity*Out.a);
     Out.a = Color.a;
     Out.rgb *= Out.a;
     return Out;

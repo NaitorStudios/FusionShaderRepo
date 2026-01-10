@@ -1,0 +1,50 @@
+// Bar_Effect
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D fImage;
+uniform lowp vec4 blendColor;
+
+uniform float fValue;
+
+void main(void) {
+    vec4 p = texture2D(fImage, textureCoordinate);
+    vec4 outputColor = texture2D(imgTexture, textureCoordinate)*blendColor;
+    float result = (p.r + p.g + p.b) / 3.0;
+    if (result < 1.0 - fValue) {
+        outputColor.a = 0.0;
+    }
+    gl_FragColor = outputColor;
+}
+//@End

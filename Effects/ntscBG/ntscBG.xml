@@ -1,0 +1,121 @@
+<effect>
+<name>NTSC for Background</name>
+<description>Emulation of NTSC artifacts inspired by the youtube webseries Petscop. DX11 only at the moment.</description>
+<author>red, DX11 Port and edit by NaitorStudios</author>
+<website>https://unplug.red/</website>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+	<name>Width</name>
+	<code>width</code>
+	<description>Width in pixels, [!] not of the user's screen but of your pixel art [!]. Affects things such as the scanline density. Leave at default if irrelevant.</description>
+	<type>INT</type>
+	<property>SPIN</property>
+	<value>320</value>
+	<min>1</min>
+	<max>10000</max>
+</parameter>
+<parameter>
+	<name>Height</name>
+	<code>height</code>
+	<description>Height in pixels, [!] not of the user's screen but of your pixel art [!]. Affects things such as the scanline density. Leave at default if irrelevant.</description>
+	<type>INT</type>
+	<property>SPIN</property>
+	<value>240</value>
+	<min>1</min>
+	<max>10000</max>
+</parameter>
+<parameter>
+	<name>Quality</name>
+	<code>quality</code>
+	<description>The quality of the effect at the cost of performance, with 1 being the highest quality and 0 being the lowest.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>1.0</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Color blur</name>
+	<code>colorblur</code>
+	<description>Smears the colors. When at 0 performance is greatly improved.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.16</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Scanlines</name>
+	<code>scanlines</code>
+	<description>Scanlines.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.025</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Horizontal blur</name>
+	<code>horizontalblur</code>
+	<description>Blurs the screen. When at 0 performance is improved.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.04</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Fringing</name>
+	<code>fringing</code>
+	<description>Wobbles the screen. When at 0 performance is slightly improved. Don't overdo.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.1</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Edges</name>
+	<code>edges</code>
+	<description>Fades the edges of the screen.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>1</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Color banding</name>
+	<code>colorbanding</code>
+	<description>Color banding. Don't overdo.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.01</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Sharpening</name>
+	<code>sharpening</code>
+	<description>Sharpening. When at 0 performance is greatly improved.</description>
+	<type>FLOAT</type>
+	<property>SPIN</property>
+	<value>0.1</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+<parameter>
+	<name>Invert fringe</name>
+	<code>invertfringe</code>
+	<description>[!] Toggle this value every frame [!]. Affects banding and fringing.</description>
+	<type>BOOL</type>
+	<property>CHECKBOX</property>
+	<value>false</value>
+</parameter>
+
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+</sampler>
+
+</effect>

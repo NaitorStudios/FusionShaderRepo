@@ -1,9 +1,6 @@
 // CS_Tint
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -20,7 +17,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -34,9 +39,8 @@ uniform lowp vec4 blendColor;
 void main(void)
 {
    	vec4 color = texture2D(imgTexture, textureCoordinate);
-	color.rgb = color.rgb*fOriginalPower+(color.rgb*fTintColor.rgb)*fTintPower;
+	color.rgb = color.rgb*fOriginalPower+color.rgb*fTintColor.rgb*fTintPower;
 
-	color *= blendColor;
 	gl_FragColor = color;
 }
 //@End

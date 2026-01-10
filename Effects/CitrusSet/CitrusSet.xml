@@ -1,0 +1,57 @@
+<effect>
+<name>CitrusSet</name>
+<description>None</description>
+<author>Algul</author>
+<parameter>
+		<name>MaxIteration</name>
+		<code>fMaxIter</code>
+		<description>Maximum number of iterations</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>255</value>
+		<!--
+		<min>0.0</min>
+		<max>255.0</max>
+		-->
+</parameter>
+<parameter>
+		<name>Real C</name>
+		<code>fCx</code>
+		<description>Real part of C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>-0.771</value>
+</parameter>
+<parameter>
+		<name>Imaginary C</name>
+		<code>fCy</code>
+		<description>Imaginary part of C</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.115</value>
+</parameter>
+<parameter>
+		<name>Scale</name>
+		<code>fScale</code>
+		<description>Scale</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>3.0</value>
+</parameter>
+<parameter>
+		<name>Offset X</name>
+		<code>fOffsetX</code>
+		<description>None</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Offset Y</name>
+		<code>fOffsetY</code>
+		<description>None</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

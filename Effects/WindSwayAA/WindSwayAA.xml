@@ -2,6 +2,10 @@
 <name>Wind Sway with Antialiasing</name>
 <description>Make a sprite sway and bend, like it is affected by the wind.</description>
 <author>NaitorStudios</author>
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+</sampler>
 <parameter>
 		<name>Time</name>
 		<code>TIME</code>
@@ -17,8 +21,10 @@
 		<type>float</type>
 		<property>edit</property>
 		<value>0.001</value>
-		//<min>0.0</min>
-		//<max>5.0</max>
+		<!--
+		<min>0.0</min>
+		<max>5.0</max>
+		-->
 </parameter>
 <parameter>
 		<name>Min Strength</name>

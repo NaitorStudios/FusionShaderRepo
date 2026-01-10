@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -65,7 +72,7 @@ vec4 TurnGold(vec3 inColor) {
 
 void main(void)
 {
-    vec4 inColor = texture(imgTexture, textureCoordinate);
+    lowp vec4 inColor = texture(imgTexture, textureCoordinate)*blendColor;
     vec4 gold = TurnGold(inColor.rgb);
 
     float goldToGrey = GreyScale(gold.rgb);
@@ -80,7 +87,6 @@ void main(void)
     if (inColor.r == 0.0 && inColor.g == 0.0 && inColor.b == 0.0)
         color.a = 0.0;
 
-    color *= blendColor;
     fragColor = color; //fragColor = color;
 }
 //@End

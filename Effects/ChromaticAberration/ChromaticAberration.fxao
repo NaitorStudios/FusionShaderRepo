@@ -18,6 +18,8 @@ void main() {
 //@End
 
 //@Begin_fragment
+// 19/08/2023: Rewrote code and added intensity
+
 #ifdef GL_ES
     precision mediump float;
 #endif
@@ -31,13 +33,15 @@ uniform float fPixelHeight;
 
 uniform float amountX;
 uniform float amountY;
+uniform float intensity;
 
 void main() {
-    float red = texture2D(imgTexture, vec2(frag_texCoord.x + amountX, frag_texCoord.y + amountY)).r;
-    float green = texture2D(imgTexture, frag_texCoord).g;
-    float blue = texture2D(imgTexture, vec2(frag_texCoord.x - amountX, frag_texCoord.y - amountY)).b;
-    float alpha = texture2D(imgTexture, frag_texCoord).a;
+    vec2 amount = vec2(amountX, amountY);
 
-    gl_FragColor = vec4(red, green, blue, alpha) * blendColor;
+    vec4 color = texture2D(imgTexture, frag_texCoord);
+    color.r = mix(color.r, texture2D(imgTexture, frag_texCoord + amount).r, intensity);
+    color.b = mix(color.b, texture2D(imgTexture, frag_texCoord - amount).b, intensity);
+
+    gl_FragColor = color * blendColor;
 }
 //@End

@@ -1,0 +1,8 @@
+Notes:
+Broken.
+
+Last Updated: 2013-06-18T18:05:00+00:00
+
+=== Shader files ===
+copy2x.xml - Info & Integration
+copy2x.fx - DirectX9 source code

@@ -1,0 +1,192 @@
+// Amiga Copperbar (c) Gigatron 2022 CT Android shader
+//@Begin_vertex
+#ifdef GL_ES
+ precision highp float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+attribute vec4 position;
+attribute vec2 texCoord;
+
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision highp float;
+#endif
+
+varying vec2 textureCoordinate;
+
+uniform float fBlend;
+uniform sampler2D imgTexture;
+uniform vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+ 
+
+uniform float t_timer;
+uniform float speed;
+ 
+//  Gigatron France Sphere Map using iq primitives ;
+//  IQ and some other code from ST;
+//******************************************************
+#define PI 3.14159265358979
+
+ 
+const float pi = 3.14159;
+mat3 xrot(float t)
+{    return mat3(1.0, 0.0, 0.0,
+    0.0, cos(t), -sin(t),
+    0.0, sin(t), cos(t));
+}
+mat3 yrot(float t)
+{    return mat3(cos(t), 0.0, -sin(t),
+    0.0, 1.0, 0.0,
+    sin(t), 0.0, cos(t));
+}
+
+mat3 zrot(float t)
+{    return mat3(cos(t), -sin(t), 0.0,
+    sin(t), cos(t), 0.0,
+    0.0, 0.0, 1.0);
+}
+
+
+float sdSphere( vec3 p, float s )
+{
+    return length(p)-s;
+}
+
+vec2 uv (vec3 p) {
+	float x = p.x;
+    float y = p.y;
+    float z = p.z;
+    float u = atan(x, z) / (2. * PI) + .5;
+    float v = asin(y) / (PI) + .5;
+    return vec2(u,v);
+}
+
+
+
+float sdBox( vec3 p, vec3 b )
+{
+    vec3 d = abs(p) - b;
+    return min(max(d.x,max(d.y,d.z)),0.0) +
+    length(max(d,0.0));
+}
+
+float udBox( vec3 p, vec3 b, float r )
+{
+	return length(max(abs(p)-b,0.0))-r;
+}
+float sdCylinder( vec3 p, vec2 h )
+{
+    vec2 d = abs(vec2(length(p.xz),p.y)) - h;
+    return min(max(d.x,d.y),0.0) + length(max(d,0.0));
+}
+vec2 map(vec3 p)
+{
+    vec2 f=(fract(p.xy) * 2.0 - 1.0) ;
+    vec3 q = vec3(f.x-0.5, f.y, p.z);
+    float br = 0.4;
+    float c = sdCylinder(  p+vec3( 0.0,0.60,-1.0), vec2(3.0,3.0)  );
+   // float b = sdCylinder(p, vec2(1.1,1.3))*br;
+    
+  //  float b= sdBox(p-vec3( 0.0,0.25, 0.0), vec3(0.65) );
+ 
+    float  ss = sdSphere(    p-vec3( 0.0,0.00, 0.0),1.00 )  ;
+  
+    return vec2(ss, ss);
+    
+}
+vec3 normal(vec3 p)
+{
+    vec3 o = vec3(0.02, 0.0, 0.0);
+    return normalize(vec3(map(p+o.xyy).x - map(p-o.xyy).x,
+    map(p+o.yxy).x - map(p-o.yxy).x,
+    map(p+o.yyx).x - map(p-o.yyx).x));
+}
+float trace(vec3 o, vec3 r)
+{
+    float t = 0.0;
+    for (int i = 0; i < 32; ++i) {
+    vec3 p = o + r * t;
+    float d = map(p).x;
+    t += d;
+	}
+return t;
+}
+
+vec4 tex(vec3 p)
+{
+   // tx map !
+    vec3 tw = texture2D(imgTexture, vec2(p.x+0.48,p.y+0.51)).xyz;
+   
+   // vec3 tx = texture(iChannel0, vec2(p.x+0.5,p.y+0.5)).xyz;
+    
+    vec4 tx= texture2D(imgTexture,uv(normalize(p)));
+    
+    return (tx ) / 3.0;
+}
+
+		
+
+void main(void)
+{
+     vec2 uv = 1.-textureCoordinate   ;
+	//vec2 uv = fragCoord.xy / iResolution.xy;
+			uv.y = 1.-uv.y;
+		// uv.x*=2.0;
+					
+		float tm = -t_timer*speed;
+		
+		
+    
+     uv = uv * 2.0 - 1.0;
+    // uv.x *=iResolution.x/iResolution.y;
+	
+	
+    
+    vec3 r = normalize(vec3(uv, 2.0));//1.5
+    vec3 o = vec3(0.0, 0.0, -2.5);
+ 
+    mat3 xfm = yrot(0.0)*xrot(0.00)*zrot(0.);
+    xfm *= yrot(0.4*tm*3.5);// unused !
+    o *= xfm;
+    r *= xfm;
+    float t = trace(o, r);
+    vec3 w = o + r * t;
+    vec3 sn = normal(w);
+    vec2 fd = map(w);
+    vec3 lpos = o-1.8*sin(tm)  ;// remove  
+    vec3 ldel = lpos - w;
+    float llen = length(ldel);
+    ldel /= llen;
+    vec3 refl = reflect(ldel, sn);
+    float prod = max(dot(ldel,sn), 1.5)*1.5;
+    float spow = max(dot(refl,r), 0.1);
+   // vec4 diff = tex(w*0.4);//0.4
+	
+	vec4 diff = tex(vec3(w.x,w.y,w.z));//0.4
+	
+    vec4 spec = vec4(0.0);
+    float fog = 1.0 / (1.0 + t * t * 0.1 + fd.x * 500.0);
+    vec4 fc = (diff * prod + spec * spow) * fog;
+      
+   
+    gl_FragColor= vec4(mix(fc*2.0,vec4(1.0,1.0,1.0,1.0),0.0));
+	 
+	 
+                   //cl *= blendColor;
+    
+}
+//@End
+
+ 

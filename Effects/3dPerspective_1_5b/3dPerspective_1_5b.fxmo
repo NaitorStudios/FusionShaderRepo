@@ -1,0 +1,118 @@
+// 3dPerspective_1_5b
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+
+uniform int iM;
+
+uniform float fH;
+uniform float fV;
+uniform float fR;
+uniform float fD;
+uniform float fZ;
+
+uniform lowp vec4 blendColor;
+
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+// Define a helper function to rotate any vec3 vector about the X axis.
+vec3 rotateX(vec3 vec, float ang) {
+	return vec3(vec.x, (vec.y * cos(ang)) - (vec.z * sin(ang)), (vec.y * sin(ang)) + (vec.z * cos(ang)));
+}
+
+// Define a helper function to rotate any vec3 vector about the Y axis.
+vec3 rotateY(vec3 vec, float ang) {
+	return vec3((vec.x * cos(ang)) + (vec.z * sin(ang)), vec.y, (vec.z * cos(ang)) - (vec.x * sin(ang))); 
+}
+
+// Define a helper function to rotate any vec3 vector about the Z axis. This isn't used here, but I'm including it in case anyone wants to implement it themselves.
+vec3 rotateZ(vec3 vec, float ang) {
+	return vec3((vec.x * cos(ang)) - (vec.y * sin(ang)), (vec.x * sin(ang)) + (vec.y * cos(ang)), vec.z);
+}
+
+float fmod(float a, float b) {
+	return a - (b * trunc(a/b));
+}
+
+void main(void)
+{
+	// Convert the angles from degrees to radians.
+	float dH = radians(fH);
+	float dV = radians(fV);
+	float dR = radians(fR);
+		
+	// Create a point "p" in 3D space from the 2D position of the current pixel. fPixelWidth and fPixelHeight are used to correct for non-square textures. Coordinates are relative to the centre of the texture.
+	// Essentially, we're going to convert the 2D texture into a 3D plane, and then instead of rotating it, we'll move the camera around it.
+	vec3 p = vec3((textureCoordinate.x - 0.5) / fPixelWidth, (textureCoordinate.y - 0.5) / fPixelHeight, 0.0);
+		
+	// Create another point "c" representing the camera, placed infront of the texture (along the X axis).
+	vec3 c = vec3(0.0, 0.0, 0.0 - fD);
+		
+	// Set the origin (where the camera is aimed) to the centre of the texture.
+	vec3 o = vec3(0.5 / fPixelWidth, 0.5 / fPixelHeight, 0.0);
+		
+	// Rotate "p" on the Y-axis and then X-axis, around the origin, and then move it to make its position relative to the original coordinate system again.
+	p = rotateZ(rotateX(rotateY(p, dH), dV), dR) + o;
+	
+	// Repeat the exact same process for the camera "c".
+	c = rotateZ(rotateX(rotateY(c, dH), dV), dR) + o;
+		
+	// Find which side of the card is showing to the camera. Most of the complexity comes from the need to support any angle values, and not just those in the range -180 to +180 degrees.
+	float cH = (fmod((fmod(fH, 360.0) + 450.0), 360.0));
+	float cV = (fmod((fmod(fV, 360.0) + 450.0), 360.0));
+	int f = 0;
+	if (cH > 180.0) { f++; }
+	if (cV > 180.0) { f = int(fmod(float(f + 1), 2.0)); }
+		
+	// Trace a line from the camera "c" to the pixel "p", and find the point along it where Z=0 (where it intersects the texture plane), as a proportion of the total distance between them.
+	// eg. s=0 means the camera's position; s=1 means the pixel's position; 0.5 means halfway between the camera and the pixel.
+	float s = (0.0 - c.z) / (p.z - c.z);
+		
+	// Use linear interpolation to find the X and Y coordinates at the point of intersection.
+	vec3 t = mix(c, p, s);
+	
+	// Convert coordinaates back to texture units (ranging from 0-1, instead of pixels), and scale the image to avoid parts being cut off when the texture is rotated.
+	vec2 xy = ((vec2(t.x * fPixelWidth, t.y * fPixelHeight) - 0.5) / fZ) + 0.5;
+	
+	// Discard pixels outside the card.
+	if (xy.x < 0.0 || xy.y < 0.0 || xy.x > 1.0 || xy.y > 1.0) { discard; }
+	
+	// Sample the texture.
+	if (f==1 && iM == 0) { xy.x = 1.0 - xy.x; }
+	vec4 outColor = texture(imgTexture, xy);
+ 
+	outColor *= blendColor;
+
+	fragColor = outColor; //gl_FragColor
+}
+//@End

@@ -1,0 +1,53 @@
+Voxel Model (version 2)
+by MuddyMole / Sketchy / Adam Hawker
+(free for personal or commercial use)
+
+Model Setup
+-----------
+A voxel model can be thought of as a multiple 2D images stacked on top of one another, with each layer having a thickness of 1 pixel (so whereas a pixel is square, a voxel is a cube).
+
+For use with this shader, all of these images must be combined into a single image texture, which is loaded using the image parameter <imageModel>. Similar to a spritesheet, this image is a two-dimensional grid of frames, with each representing a slice of the three-dimensional model.
+
+The parameters <imageWidth> and <imageHeight> must be set to the dimensions of the main image (in pixels).
+The parameters <imageRows> and <imageColumns> must be set to the number of rows and columns of frames within the main image.
+
+Frames are numbered in order from left to right, and top to bottom, starting at 0. The model may use all or only some of the frames in the main image, so it is necessary to specify a range by setting the <imageFirstFrame> and <imageLastFrame> parameters. By using only some of the frames, it is possible to animate the model or use a single image texture for multiple objects.
+
+
+Camera Setup
+------------
+Changing the parameter <cameraDistance> does not affect the size of the model as one might expect, but it is equivalent to changing the focal length. A small value will make the perspective effect quite pronounced, while a very large value will virtually eliminate it altogether, producing an orthogonal projection. These values are relative to the size of the model.
+
+The parameters <cameraClipNear> and <cameraClipFar> set the minimum and maximum range at which voxels are visible. For optimal performance, they should be set close to the actual minimum and maximum distance of voxels in the model. For example, if the object is a sphere with a radius of 50 voxels, at a distance of 100 from the camera, the closest voxel will be at a distance of 50, and the furthest will be at a distance of 150, so those would likely be suitable values for <cameraClipNear> and <cameraClipFar> respectively.
+
+
+Rotation
+--------
+The parameters <rotateX>, <rotateY> and <rotateZ> are used to rotate the model on the global  X, Y and Z axis respectively, by the specified angle (in degrees).
+Note that the axes do not rotate with the object, so these are not equivalent to yaw, roll and pitch angles. That can be done, but it requires complex maths far beyond the scope of this guide.
+
+The order of rotation is important. Rotating X by 30 degrees and then Y by -30 degrees is NOT the same as rotating Y by -30 degrees and the X by 30 degrees. The order of rotations is specified using the three-digit parameter <rotateOrder>. The sequence of digits represents the sequence of rotations, with X=1, y=2 and Z=3. For example, "132" will rotate on the X axis first, then the Z axis, and then finally the Y axis.
+
+
+Lighting
+--------
+The lighting system uses two types of light - ambient and directional - which are added together, and multiplied by the natural color of the voxel.
+
+Ambient light illuminates all voxels, regardless of which direction they are facing. Its color is set using the parameter <lightAmbient>.
+
+The intensity of directional light is related to the angle of the voxel's surface, relative to the angle of the light vector. A surface which is directly facing the light will be brighter; a surface facing away from the light will have reflect no directional light.
+The direction of the light vector is set using the parameters <lightX>, <lightY> and <lightZ>, while its color is set using the parameter <lightDirectional>.
+
+It is often good to make the ambient light slightly blueish, and the directinal light slightly yellowish.
+
+Note that models should not contain parts only 1 voxel in thickness. The shader only calculates a single surface normal for each voxel, based on which of the neighbouring voxels are empty, and a layer which is only 1 voxel thick will have at least two surfaces, so it is impossible to set the surface normal correctly.
+
+It is possible to disable the lighting effect altogether by setting <lightAmbient> to GetRGB(255, 255, 255), and <lightDirectional> to GetRGB(0, 0, 0).
+
+
+Fog / Darkness
+--------------
+It is possible to simulate fog or darkness, by progressively fading the color of voxels towards a specified color, based on their distance.
+
+The color of the fog/darkness is set using the <fog> parameter.
+The minimum distance at which the fog/darkness starts to appear is set using the <fogNear> parameter. The fog/darkness will reach its maximum (100% opacity) when the distance exceeds the parameter <fogFar>.

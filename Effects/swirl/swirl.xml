@@ -1,0 +1,63 @@
+<effect>
+    <name>Swirl</name>
+    <author>Nomok</author>
+    <BackgroundTexture>1</BackgroundTexture>
+    <sampler>
+        <index>1</index>
+        <filter>linear</filter>
+    </sampler>
+    <parameter>
+        <name>Radius</name>
+        <code>radius</code>
+        <description>Radius of effect.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.5</value>
+    </parameter>
+    <parameter>
+        <name>Angle</name>
+        <code>angle</code>
+        <description>Angle intensity of effect.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>2.0</value>
+    </parameter>
+    <parameter>
+        <name>Offset X</name>
+        <code>offsetX</code>
+        <description>Position offset on the x axis.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.5</value>
+    </parameter>
+    <parameter>
+        <name>Offset Y</name>
+        <code>offsetY</code>
+        <description>Position offset on the y axis.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.5</value>
+    </parameter>
+    <parameter>
+        <name>Width</name>
+        <code>width</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+    <parameter>
+        <name>Height</name>
+        <code>height</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+    <parameter>
+		<name>Overlay Mode</name>
+		<code>overlay</code>
+        <description>Toggles if the effect is being used as an overlay.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+</effect>

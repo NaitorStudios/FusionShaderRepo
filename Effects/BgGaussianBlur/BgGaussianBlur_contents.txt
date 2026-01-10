@@ -1,0 +1,7 @@
+Last Updated: 2021-04-10T16:26:58.212140+00:00
+
+=== Shader files ===
+BgGaussianBlur.xml - Info & Integration
+BgGaussianBlur.fx - DirectX9 source code
+BgGaussianBlur.hlsl - DirectX11 source code
+BgGaussianBlur.fxc - DirectX11 compiled

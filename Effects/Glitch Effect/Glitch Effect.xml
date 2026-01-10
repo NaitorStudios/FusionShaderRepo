@@ -1,0 +1,17 @@
+<effect>
+  <name>Glitch Effect</name>
+  <author>Fadzior</author>
+  <description>Simulates glitch effect</description>
+  <parameter>
+    <name>Glitch Amount</name>
+    <code>distortion_amount</code>
+    <type>float</type>
+    <value>0.1</value>
+  </parameter>
+  <parameter>
+    <name>Time</name>
+    <code>time</code>
+    <type>float</type>
+    <value>0.0</value>
+  </parameter>
+</effect>

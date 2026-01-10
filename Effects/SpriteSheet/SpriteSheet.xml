@@ -1,0 +1,67 @@
+<effect>
+<name>Spritesheet Shader</name>
+<description>Spriteheet shader, an adaptation of the GLSL shader by passiomatic (https://github.com/passiomatic) and based on the CallofAS22's SSMatteIn shader.</description>
+<author>CallofAS22, passiomatic, zhaba.</author>
+
+<sampler>
+<index>1</index>
+<filter>LINEAR</filter>
+</sampler>
+
+<parameter>
+        <name>Spritesheet Texture</name>
+        <code>spriteSheetTex</code>
+        <type>IMAGE</type>
+        <description>Spritesheet texture.</description>
+        <property>IMAGE</property>
+        <value></value>
+</parameter>
+<parameter>
+        <name>Spritesheet Width</name>
+        <code>spriteSheetWidth</code>
+        <description>Spritesheet texture's width.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>0</value>
+</parameter>
+<parameter>
+        <name>Spritesheet Height</name>
+        <code>spriteSheetHeight</code>
+        <description>Spritesheet texture's height.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>0</value>
+</parameter>
+<parameter>
+        <name>Sprite Width</name>
+        <code>spriteWidth</code>
+        <description>Separate sprite width.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>0</value>
+</parameter>
+<parameter>
+        <name>Sprite Height</name>
+        <code>spriteHeight</code>
+        <description>Separate sprite height.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>0</value>
+</parameter>
+<parameter>
+        <name>Columns</name>
+        <code>spriteColumns</code>
+        <description>How many of the spritesheet's columns to use.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>1</value>
+</parameter>
+<parameter>
+        <name>Sprite Index</name>
+        <code>spriteIndex</code>
+        <description>The sprite index, 1-based, left-to-right.</description>
+        <type>int</type>
+        <property>edit</property>
+        <value>1</value>
+</parameter>
+</effect>

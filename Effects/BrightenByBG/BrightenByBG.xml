@@ -12,7 +12,7 @@
 <parameter>
 	<name>Invert amount</name>
 	<code>invert</code>
-	<description>If checked, the background color is inverted (high <> low).</description>
+	<description>If checked, the background color is inverted (high &lt;&gt; low).</description>
 	<type>int</type>
 	<property>checkbox</property>
 	<value>0</value>

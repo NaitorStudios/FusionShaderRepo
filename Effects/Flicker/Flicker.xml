@@ -1,0 +1,29 @@
+<effect>
+<name>Flicker FX</name>
+<description>Tv Flicker dx11</description>
+<author>Sloxone</author>
+<parameter>
+	<name>Flicker</name>
+	<description>Flicker Value</description>
+	<code>tt</code>
+	<type>float</type>
+	<value>0.005</value>
+</parameter>
+<parameter>
+	<name>Speed</name>
+	<description>Speed Value</description>
+	<code>spd</code>
+	<type>float</type>
+	<value>0.01</value>
+</parameter>
+<parameter>
+	<name>Scanline</name>
+    <description>Scanline on/off</description>
+	<code>scl</code>
+	<type>bool</type>
+    <property>CHECKBOX</property>
+	<value>0</value>
+</parameter>
+
+</effect>
+

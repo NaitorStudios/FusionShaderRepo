@@ -1,0 +1,82 @@
+// ColorAdjust
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float Hue;
+uniform float Saturation;
+uniform float Lightness;
+uniform float Contrast;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+const vec3 lumCoeff = vec3(0.2125, 0.7154, 0.0721);
+
+mat3 QuaternionToMatrix(vec4 quat) {
+    vec3 cross = quat.yzx * quat.zxy;
+    vec3 square = quat.xyz * quat.xyz;
+    vec3 wimag = quat.w * quat.xyz;
+
+    square = square + square.yzx;
+
+    vec3 diag = 0.5 - square;
+    vec3 a = cross + wimag;
+    vec3 b = cross - wimag;
+
+    // Manually transpose the matrix by rearranging the vectors
+    return mat3(
+        // Columns are now the transposed rows from HLSL
+        2.0 * vec3(diag.x, a.z, b.y),  // First column
+        2.0 * vec3(b.z, diag.y, a.x),  // Second column
+        2.0 * vec3(a.y, b.x, diag.z)   // Third column
+    );
+}
+
+void main() {
+    vec4 outputColor = texture2D(imgTexture, textureCoordinate) * blendColor;
+    vec3 intensity;
+    vec3 root3 = vec3(0.57735, 0.57735, 0.57735);
+    float half_angle = 0.5 * radians(Hue); // Hue in radians (0 to 360 degrees)
+    vec4 rot_quat = vec4((root3 * sin(half_angle)), cos(half_angle));
+    mat3 rot_Matrix = QuaternionToMatrix(rot_quat);
+
+    outputColor.rgb = rot_Matrix * outputColor.rgb;
+    outputColor.rgb = (outputColor.rgb - 0.5) * (Contrast + 1.0) + 0.5;
+    outputColor.rgb += Lightness;
+
+    intensity = vec3(dot(outputColor.rgb, lumCoeff));
+    outputColor.rgb = mix(intensity, outputColor.rgb, Saturation);
+
+    gl_FragColor = outputColor;
+}
+//@End

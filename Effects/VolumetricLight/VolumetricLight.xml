@@ -1,0 +1,136 @@
+<effect>
+  <name>Volumetric Light</name>
+  <description>Full-scene radial blur with scalar controls</description>
+  <author>NaitorStudios</author>
+  <company></company>
+  <website></website>
+  <sampler>
+  <index>0</index>
+  <filter>linear</filter>
+  <AddressU>clamp</AddressU>
+  <AddressV>clamp</AddressV>
+  </sampler>
+
+  <!-- Core artistic controls -->
+  <parameter>
+    <name>Threshold</name>
+    <code>fThreshold</code>
+    <description>Ray gating threshold (0=everything, 1=only brightest)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.80</value>
+    <min>0.00</min>
+    <max>1.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Threshold Width</name>
+    <code>fThresholdWidth</code>
+    <description>Softness of the threshold gate</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.10</value>
+    <min>0.00</min>
+    <max>1.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Amount</name>
+    <code>fAmount</code>
+    <description>How far it projects (blur radius / density)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.50</value>
+    <min>-5.00</min>
+    <max>5.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Position X</name>
+    <code>fPosX</code>
+    <description>Radial center X in UV space</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.50</value>
+    <min>0.00</min>
+    <max>1.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Position Y</name>
+    <code>fPosY</code>
+    <description>Radial center Y in UV space</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.50</value>
+    <min>0.00</min>
+    <max>1.00</max>
+  </parameter>
+
+  <!-- Useful tuning controls (all scalars) -->
+  <parameter>
+    <name>Decay</name>
+    <code>fDecay</code>
+    <description>Per-step weight decay</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.97</value>
+    <min>0.80</min>
+    <max>1.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Start Weight</name>
+    <code>fStartWeight</code>
+    <description>Initial weight for accumulated samples</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.01</value>
+    <min>0.00</min>
+    <max>2.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Base Contribution</name>
+    <code>fBaseContribution</code>
+    <description>Direct source contribution before blur</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.25</value>
+    <min>0.00</min>
+    <max>2.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Samples</name>
+    <code>fSamples</code>
+    <description>Number of radial samples (float, cast to int)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>24.0</value>
+    <min>1.0</min>
+    <max>128.0</max>
+  </parameter>
+
+  <parameter>
+    <name>Spotlight Scale</name>
+    <code>fSpotlightScale</code>
+    <description>Spotlight falloff around the focal point</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.0</value>
+    <min>0.00</min>
+    <max>4.00</max>
+  </parameter>
+
+  <parameter>
+    <name>Jitter Amount</name>
+    <code>fJitterAmount</code>
+    <description>Anti-banding sample jitter strength</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>1.0</value>
+    <min>0.0</min>
+    <max>2.0</max>
+  </parameter>
+</effect>

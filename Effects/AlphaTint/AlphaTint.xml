@@ -1,0 +1,23 @@
+<effect>
+    <name>TintEffect</name>
+    <description>Tints the image towards a specified color with adjustable intensity.</description>
+    <author>bybyblue, DX11 Port by NaitorStudios</author>
+    <parameter>
+        <name>Tint Color</name>
+        <variable>TintColor</variable>
+        <description>The RGB color to tint towards.</description>
+        <type>INT_FLOAT4</type>
+        <property>COLOR</property>
+        <value>255</value> <!-- Default to red tint -->
+    </parameter>
+    <parameter>
+        <name>Intensity</name>
+        <variable>Intensity</variable>
+        <description>Controls the intensity of the tint.</description>
+        <type>FLOAT</type>
+        <!-- <property>SLIDER</property> -->
+        <value>0.5</value>
+        <min>0.0</min>
+        <max>1.0</max>
+    </parameter>
+</effect>

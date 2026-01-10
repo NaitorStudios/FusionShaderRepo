@@ -1,0 +1,86 @@
+<effect>
+<name>Crop + Hue/Saturation (Photoshop)</name>
+<description>Crops the texture and adjusts hue, saturation and lightness.</description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Hue</name>
+		<description>Takes a value in degrees (-180 to 180).</description>
+		<code>Hue</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-180.0</min>
+		<max>180.0</max>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Saturation</name>
+		<description>Takes a decimal value (0-1). eg: 0.5 = set saturation to 50% of original saturation)</description>
+		<code>Saturation</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-100.0</min>
+		<max>100.0</max>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Lightness</name>
+		<description>Takes a decimal value (0-1). eg. 0.5 = increase lightness by 50% of original lightness</description>
+		<code>Lightness</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-100.0</min>
+		<max>100.0</max>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Left</name>
+		<code>fL</code>
+		<description>Left border width</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Right</name>
+		<code>fR</code>
+		<description>Right border width</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Top</name>
+		<code>fT</code>
+		<description>Top border width</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Bottom</name>
+		<code>fB</code>
+		<description>Bottom border width</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>Alpha</name>
+		<code>fA</code>
+		<description>Transparency of the cropped surface</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+</effect>
+

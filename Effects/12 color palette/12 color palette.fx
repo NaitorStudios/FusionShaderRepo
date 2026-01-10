@@ -21,7 +21,7 @@ PS_OUTPUT ps_main( in PS_INPUT In )
     PS_OUTPUT Out;
 
     Out.Color = tex2D(Tex0, In.Texture);
-	float4 f4 = Out.Color * float4(1, 1, 1, 1.0f);
+	float4 f4 = Out.Color;
 	float red = (round(((Out.Color.r)/85)*255.0)*85)/255.0;
 	float green = (round(((Out.Color.g)/127.5)*255.0)*127.5)/255.0;
 	float blue = (round(((Out.Color.b)/127.5)*255.0)*127.5)/255.0;

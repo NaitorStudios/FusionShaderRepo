@@ -1,0 +1,21 @@
+<effect>
+<name>Space Texture</name>
+<description>Displace Texture</description>
+<author>Gigatron</author>
+<website>http://gigatron3k.free.fr/Intro</website>
+<parameter>
+	<name>Displacement</name>
+	<description>Displacement Offset</description>
+	<code>fDisp</code>
+	<type>float</type>
+	<value>0.01</value>
+</parameter>
+<parameter>
+	<name>Speed</name>
+	<description>Speed of displacement internal MMF2 Timer will used</description>
+	<code>fSpeed</code>
+	<type>float</type>
+	<value>1.0</value>
+</parameter>
+
+</effect>

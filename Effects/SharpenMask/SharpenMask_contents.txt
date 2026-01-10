@@ -1,0 +1,10 @@
+Last Updated: 2022-11-18T14:11:41.723449+00:00
+
+=== Shader files ===
+SharpenMask.xml - Info & Integration
+SharpenMask.fx - DirectX9 source code
+SharpenMask.hlsl - DirectX11 source code
+SharpenMask.fxc - DirectX11 compiled
+
+=== Examples ===
+SharpenMask.mfa

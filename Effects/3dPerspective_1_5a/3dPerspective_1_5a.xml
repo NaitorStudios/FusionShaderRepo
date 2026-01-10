@@ -1,0 +1,109 @@
+<effect>
+<name>3dPerspective 1.5a (advanced)</name>
+<author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
+<description>v1.5a (advanced)</description>
+<parameter>
+  <name>iR</name>
+  <code>iR</code>
+  <description>Image used for reverse side of object</description>
+  <type>IMAGE</type>
+  <property>IMAGE</property>
+  <value></value>
+</parameter>
+<parameter>
+  <name>iM</name>
+  <code>iM</code>
+  <description>Mode: 0=use image parameter; 1=use animation frame (mirrored); 2=use animation frame (non-mirrored)</description>
+  <type>int</type>
+  <property>edit</property>
+  <value>0</value>
+</parameter>
+<parameter>
+  <name>fH</name>
+  <code>fH</code>
+  <description>Horizontal tilt angle (degrees)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+<parameter>
+  <name>fV</name>
+  <code>fV</code>
+  <description>Vertical tilt angle (degrees)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.0</value>
+</parameter>
+<parameter>
+  <name>fD</name>
+  <code>fD</code>
+  <description>Distance of camera (pixels)</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>750.0</value>
+</parameter>
+<parameter>
+  <name>fZ</name>
+  <code>fZ</code>
+  <description>Zoom factor</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.75</value>
+</parameter>
+<parameter>
+  <name>cA</name>
+  <code>cA</code>
+  <description>Ambient light colour</description>
+  <type>int_float4</type>
+  <property>color</property>
+</parameter>
+<parameter>
+  <name>cD</name>
+  <code>cD</code>
+  <description>Directional light colour</description>
+  <type>int_float4</type>
+  <property>color</property>
+</parameter>
+<parameter>
+  <name>fDx</name>
+  <code>fDx</code>
+  <description>X component of the directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.5</value>
+</parameter>
+<parameter>
+  <name>fDy</name>
+  <code>fDy</code>
+  <description>Y component of the directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.75</value>
+</parameter>
+<parameter>
+  <name>fDz</name>
+  <code>fDz</code>
+  <description>Z component of the directional light vector</description>
+  <type>float</type>
+  <property>edit</property>
+  <value>0.25</value>
+</parameter>
+
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+	<filter>linear</filter>
+	<addressU>Border</addressU>
+	<addressV>Border</addressV>
+	<BorderColor>0</BorderColor>
+</sampler>
+
+<sampler>
+	<index>1</index>
+	<filter>linear</filter>
+	<filter>linear</filter>
+	<addressU>Border</addressU>
+	<addressV>Border</addressV>
+	<BorderColor>0</BorderColor>
+</sampler>
+</effect>

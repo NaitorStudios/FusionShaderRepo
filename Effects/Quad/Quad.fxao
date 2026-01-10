@@ -1,9 +1,6 @@
 // Quad
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,10 +16,17 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
-
 
 uniform float xA;
 uniform float yA;
@@ -32,7 +36,6 @@ uniform float xC;
 uniform float yC;
 uniform float xD;
 uniform float yD;
-
 
 uniform sampler2D imgTexture;
 
@@ -44,12 +47,14 @@ uniform float fPixelHeight;
 void main(void)
 {
     float vD = xD + 0.0001;
-    vec4 color = vec4( 0.0 );
+    vec4 color = vec4(0.0);
 
-    float a = (xA - textureCoordinate.x) * (yB - textureCoordinate.y) - (xB - textureCoordinate.x) * (yA - textureCoordinate.y);
-    float b = (xB - textureCoordinate.x) * (yC - textureCoordinate.y) - (xC - textureCoordinate.x) * (yB - textureCoordinate.y);
-    float c = (xC - textureCoordinate.x) * (yD - textureCoordinate.y) - (vD - textureCoordinate.x) * (yC - textureCoordinate.y);
-    float d = (vD - textureCoordinate.x) * (yA - textureCoordinate.y) - (xA - textureCoordinate.x) * (yD - textureCoordinate.y);
+    vec2 newInput = textureCoordinate;
+
+    float a = (xA - newInput.x) * (yB - newInput.y) - (xB - newInput.x) * (yA - newInput.y);
+    float b = (xB - newInput.x) * (yC - newInput.y) - (xC - newInput.x) * (yB - newInput.y);
+    float c = (xC - newInput.x) * (yD - newInput.y) - (vD - newInput.x) * (yC - newInput.y);
+    float d = (vD - newInput.x) * (yA - newInput.y) - (xA - newInput.x) * (yD - newInput.y);
     if (sign(a) == sign(b) && sign(b) == sign(c) && sign(c) == sign(d))
     {
         float a1 = xA;
@@ -65,18 +70,18 @@ void main(void)
 
 
         float aa = a4*b3 - a3*b4;
-        float bb = a4*b1 -a1*b4 + a2*b3 - a3*b2 + textureCoordinate.x*b4 - textureCoordinate.y*a4;
-        float cc = a2*b1 -a1*b2 + textureCoordinate.x*b2 - textureCoordinate.y*a2;
+        float bb = a4*b1 -a1*b4 + a2*b3 - a3*b2 + newInput.x*b4 - newInput.y*a4;
+        float cc = a2*b1 -a1*b2 + newInput.x*b2 - newInput.y*a2;
         float det = sqrt(bb*bb - 4.0*aa*cc);
 
 
         float m = (-bb+det)/(2.0*aa);
-        float l = (textureCoordinate.x-a1-a3*m)/(a2+a4*m);
+        float l = (newInput.x-a1-a3*m)/(a2+a4*m);
 
 
-        color = texture2D(imgTexture, vec2( l, m ));
+        color = texture2D(imgTexture, vec2( l, m ))*blendColor;
     }
-    color *= blendColor;
+
     gl_FragColor = color;
 }
 //@End

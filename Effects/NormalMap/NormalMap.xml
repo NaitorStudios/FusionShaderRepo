@@ -34,7 +34,7 @@
 	</parameter>
 	
 	
-	//LIGHT 1
+	<!--LIGHT 1-->
 	<parameter>
 		<name>Enable light 1</name>
 		<code>lightAenabled</code>
@@ -85,7 +85,7 @@
 	</parameter>	
 	
 	
-	//LIGHT 2
+	<!--LIGHT 2-->
 	<parameter>
 		<name>Enable light 2</name>
 		<code>lightBenabled</code>
@@ -136,7 +136,7 @@
 	</parameter>
 	
 	
-	//LIGHT 3
+	<!--LIGHT 3-->
 	<parameter>
 		<name>Enable light 3</name>
 		<code>lightCenabled</code>
@@ -186,4 +186,3 @@
 		<value>0.2</value>
 	</parameter>
 </effect>
-

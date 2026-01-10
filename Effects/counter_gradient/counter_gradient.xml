@@ -1,0 +1,53 @@
+<effect>
+	<name>Counter Gradient</name>
+	<description>Replacement for counter bars.</description>
+	<author>Nomok</author>
+	<parameter>
+		<name>Gradient Vertical</name>
+		<code>vert</code>
+		<description>Toggles if the gradient is vertical.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Center</name>
+		<code>center</code>
+		<description>Controls the center of the gradient.</description>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>			
+	<parameter>
+		<name>Counter</name>
+		<code>counter</code>
+		<description>Controls the fill.</description>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+	</parameter>	
+	<parameter>
+		<name>Counter Direction</name>
+		<code>dir</code>
+		<description>0 - Left to Right, 1 - Right to Left, 2 - Top to Bottom, 3 - Bottom to Top</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Color 1</name>
+		<code>color1</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>-255</value>
+	</parameter>
+	<parameter>
+		<name>Color 2</name>
+		<code>color2</code>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>-37632</value>
+	</parameter>
+</effect>

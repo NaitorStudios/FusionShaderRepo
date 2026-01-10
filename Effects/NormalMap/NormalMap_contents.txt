@@ -1,0 +1,15 @@
+Last Updated: 2026-01-09T22:12:33.535772+00:00
+
+=== Shader files ===
+NormalMap.xml - Info & Integration
+NormalMap.fx - DirectX9 source code
+NormalMap.hlsl - DirectX11 source code
+NormalMap.fxc - DirectX11 compiled
+NormalMap.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+NormalMap.fxao - Android source code
+NormalMap.fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+
+=== Examples ===
+NormalMap_4540.mfa

@@ -1,9 +1,6 @@
 // SubPx
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -35,16 +40,14 @@ uniform float fPixelHeight;
 void main(void)
 {
 	vec4 color = vec4(0.0, 0.0, 0.0, 0.0);
-	vec2 pos = vec2(x/fPixelWidth,y/fPixelHeight);
-
-	pos = textureCoordinate - pos;
+	vec2 pos = vec2(x,y);
 	if(limit == 1)
 		pos -= floor(pos);
 
-	if(pos.x >= 0.0 && pos.x <= 1.0 && pos.y >= 0.0 && pos.y <= 1.0)
-		color = texture2D(imgTexture, pos);
+	pos = textureCoordinate-pos*vec2(fPixelWidth,fPixelHeight);
 
-	color *= blendColor;
+	if(pos.x>=0.0 && pos.x<=1.0 && pos.y>=0.0 && pos.y<=1.0)
+		color = texture2D(imgTexture, textureCoordinate)*blendColor;
 
 	gl_FragColor = color;
 }

@@ -62,10 +62,29 @@ static const float2 offsets[iterations] = {
 0.489074, 0.103956,
 };
 
-float4 ps_main( in PS_INPUT In ) : SV_TARGET { 
+float4 Demultiply(float4 _color)
+{
+	float4 color = _color;
+	if ( color.a != 0 )
+		color.rgb /= color.a;
+	return color;
+} 
+
+float4 effect(PS_INPUT In, bool PM ) : SV_TARGET {
     float4 o = img.Sample(imgSampler,In.texCoord) * In.Tint;	
     for(int i=0;i<iterations;i++)
         o += img.Sample(imgSampler,In.texCoord+radius*float2(fPixelWidth,fPixelHeight)*offsets[i]) * In.Tint;
     o /= iterations+1;
-    return o;
+	
+	if (!PM)
+		o = Demultiply(o);
+	return o;
+}
+
+float4 ps_main( in PS_INPUT In ) : SV_TARGET {
+	return effect(In, false);
+}
+
+float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET {
+	return effect(In, true);
 }

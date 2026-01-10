@@ -1,9 +1,6 @@
 // MonoExample
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -29,13 +34,11 @@ uniform lowp vec4 blendColor;
 
 void main(void)
 {
-   vec4 color = texture2D(imgTexture, textureCoordinate);
+   vec4 color = texture2D(imgTexture, textureCoordinate)*blendColor;
 
    vec4 f4 = color * vec4(0.299, 0.587, 0.114, 1.0);
    float f = f4.r + f4.g + f4.b;
    color.rgb = vec3(f, f, f);
-
-   color *= blendColor;
 
    gl_FragColor = color;
 }

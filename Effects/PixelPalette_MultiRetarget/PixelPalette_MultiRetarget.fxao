@@ -1,0 +1,61 @@
+// PixelPalette_MultiRetarget
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main()
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+varying vec2 textureCoordinate;
+
+uniform int nPal;
+uniform int lerpA;
+uniform int lerpB;
+uniform float lerpVal;
+
+uniform sampler2D imgTexture;
+uniform sampler2D Palettes;
+
+uniform lowp vec4 blendColor;
+
+void main()
+{
+    vec4 colorOut = texture2D(imgTexture, textureCoordinate);
+    float colorIndex = -1.0;
+    vec4 originalPalette;
+
+    for (int i = 0; i < 256 && colorOut.a > 0.0; i++) {
+        originalPalette = texture2D(Palettes, vec2(float(i) / 256.0, 0.0));
+        if (distance(colorOut.rgb, originalPalette.rgb) == 0.0) {
+            colorIndex = float(i) / 256.0;
+            break;
+        }
+    }
+
+    if (colorIndex > -1.0) {
+        vec4 colorA = texture2D(Palettes, vec2(colorIndex, float(lerpA) / float(nPal)));
+        vec4 colorB = texture2D(Palettes, vec2(colorIndex, float(lerpB) / float(nPal)));
+        colorOut.rgb = mix(colorA.rgb, colorB.rgb, lerpVal);
+    }
+
+    colorOut *= blendColor;
+    gl_FragColor = colorOut;
+}
+//@End

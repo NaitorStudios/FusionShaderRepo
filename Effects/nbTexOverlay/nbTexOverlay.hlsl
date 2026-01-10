@@ -1,12 +1,10 @@
-// Pixel shader input structure
 struct PS_INPUT
 {
-	float4 Tint : COLOR0;
-	float2 texCoord : TEXCOORD0;
-	float4 Position : SV_POSITION;
+  float4 Tint : COLOR0;
+  float2 texCoord : TEXCOORD0;
+  float4 Position : SV_POSITION;
 };
 
-// Pixel shader output structure
 struct PS_OUTPUT
 {
     float4 Color   : SV_TARGET;
@@ -34,42 +32,45 @@ cbuffer PS_PIXELSIZE : register(b1)
 };
 
 
-float4 Demultiply(float4 _color)
+float4 GetColorPM(float2 xy)
 {
-	float4 color = _color;
+	float4 color = Tex0.Sample(Tex0Sampler, xy);
 	if ( color.a != 0 )
 		color.rgb /= color.a;
 	return color;
 }
 
-float4 ps_main(in PS_INPUT In) : SV_TARGET
+float4 GetColorPMOverlay(float2 xy)
 {
-    float4 Out;
-	float2 Offset = float2(xOffset,yOffset);
-    float2 ratio  = float2((1 / fPixelWidth ) / tw,
-						   (1 / fPixelHeight) / th);
-
-    float4 Color = Demultiply(Tex0.Sample(Tex0Sampler,In.texCoord));
-	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset));
-    Out.rgb = lerp(Color.rgb,Out.rgb,Intensity*Out.a);
-    Out.a = Color.a;
-    Out *= In.Tint;
-    //return Out;
-	return Out;
+	float4 color = Overlay.Sample(OverlaySampler, xy);
+	if ( color.a != 0 )
+		color.rgb /= color.a;
+	return color;
 }
 
-float4 ps_main_pm(in PS_INPUT In) : SV_TARGET
+PS_OUTPUT ps_main(in PS_INPUT In)
 {
-    float4 Out;
-	float2 Offset = float2(xOffset,yOffset);
-    float2 ratio  = float2((1 / fPixelWidth ) / tw,
-						   (1 / fPixelHeight) / th);
-	
-    float4 Color = Demultiply(Tex0.Sample(Tex0Sampler,In.texCoord));
-	Out = Demultiply(Overlay.Sample(OverlaySampler, In.texCoord * ratio + Offset));
-    Out.rgb = lerp(Color.rgb,Out.rgb,Intensity*Out.a);
-    Out.a = Color.a;
-    Out.rgb *= Out.a;
-    Out *= In.Tint;
+    PS_OUTPUT Out;
+    float ratioX=  (1 / fPixelWidth) / (float)tw;
+    float ratioY=  (1 / fPixelHeight) / (float)th;
+    float4 testCol = GetColorPM(In.texCoord);
+    Out.Color = GetColorPMOverlay(float2(fmod(In.texCoord.x * ratioX + xOffset,1),fmod(In.texCoord.y * ratioY + yOffset,1)));
+    Out.Color.rgb = lerp(testCol.rgb,Out.Color.rgb,Intensity*Out.Color.a);
+    Out.Color.a = testCol.a;
+    Out.Color *= In.Tint;
+    return Out;
+}
+
+PS_OUTPUT ps_main_pm(in PS_INPUT In)
+{
+    PS_OUTPUT Out;
+    float ratioX=  (1 / fPixelWidth) / (float)tw;
+    float ratioY=  (1 / fPixelHeight) / (float)th;
+    float4 testCol = GetColorPM(In.texCoord);
+    Out.Color = GetColorPMOverlay(float2(fmod(In.texCoord.x * ratioX + xOffset,1),fmod(In.texCoord.y * ratioY + yOffset,1)));
+    Out.Color.rgb = lerp(testCol.rgb,Out.Color.rgb,Intensity*Out.Color.a);
+    Out.Color.a = testCol.a;
+    Out.Color.rgb *= Out.Color.a;
+    Out.Color *= In.Tint;
     return Out;
 }

@@ -1,0 +1,45 @@
+<effect>
+<name>Random Sample Bloom - MipMap Ready - DX11 Only</name>
+<description>A 180-point sample bloom using pre-defined points in a randomized circular pattern. "Mip map ready" meaning if Fusion allows for mipmaps in the future this should just work and look much better.</description>
+<author>n89</author>
+
+<sampler>
+<index>0</index>
+<filter>linear</filter>
+</sampler>
+
+<parameter>
+	<name>Radius</name>
+	<code>radius</code>
+	<description>Radius of the bloom in pixels.</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>200</value>
+</parameter>
+<parameter>
+	<name>Threshold</name>
+	<code>thresh</code>
+	<description>The value below which colors are clamped. (0.5 means anything darker than gray becomes black.)</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.4</value>
+</parameter>
+<parameter>
+	<name>Multiplier</name>
+	<code>multiplier</code>
+	<description>How much to multiply the remaining colors after threshold. Recommended vals: if Thresh 0.5 = Mult 2. Thresh 0.75 = Mult 4. Thresh 0.9 = Mult 10. Etc...</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>4</value>
+</parameter>
+
+<parameter>
+	<name>Boost</name>
+	<code>boost</code>
+	<description>An optional boost to the bloom brightness. Can create sun glare and dreamlike effects. Keep less than 0.5</description>
+	<type>float</type>
+	<property>edit</property>
+	<value>0.3</value>
+</parameter>
+
+</effect>

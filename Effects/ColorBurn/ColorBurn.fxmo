@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -21,49 +18,41 @@ void main()
     gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
 }
 //@End
-//@Begin_fragment//version_####
+//@Begin_fragment
+//version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
-uniform float fC;
-uniform float fP;
-uniform float fX;
-uniform float fY;
-uniform float fPow;
-
 uniform sampler2D imgTexture;
-
-uniform vec4 blendColor;
-
-const int iRem = 0;
+uniform sampler2D bckgTexture;
+uniform lowp vec4 blendColor;
 
 out vec4 fragColor;
 
+vec4 saturate(vec4 value)
+{
+    return clamp(value,vec4(0.0),vec4(1.0));
+}
+
 void main(void)
 {
-   vec4 color;
-   //fC = 1.0f;
-   //fP = 5.0f;
-   //fX = 0.5f;
-   //fY = 0.5f;
-   //fPow = 1;
-   fX = 1.0f-fX;
-   fY = 1.0f-fY;
-   //float dist = pow(fP,pow(sqrt(pow(fX-textureCoordinate.x,2.0f)+pow(fY-textureCoordinate.y,2.0f)),fPow));
-   float dist = pow(fP,pow(sqrt(pow(fX-textureCoordinate.x,2.0f)+pow(fY-textureCoordinate.y,2.0f)),fPow));
-   fC += (fP-1)*0.5f; //Adjust zoom automaticly
-   fC *= 1.0f+(1.0f-dist);
-   fC = max(0.0f,fC);
-   textureCoordinate.x = textureCoordinate.x + fX*(fC-1.0f);
-   textureCoordinate.y = textureCoordinate.y + fY*(fC-1.0f);
-   color = texture(imgTexture, vec2(textureCoordinate.x/fC,textureCoordinate.y/fC));
-   if(iRem == 1 && (textureCoordinate.x/fC < 0.0f || textureCoordinate.x/fC > 1.0f || textureCoordinate.y/fC < 0.0f || textureCoordinate.y/fC > 1.0f)) 
-		color.a = 0;
+	lowp vec4 L = texture(imgTexture, textureCoordinate)*blendColor;
+	lowp vec4 B = texture(bckgTexture, vec2(textureCoordinate.x, textureCoordinate.y));
+	vec4 color = any(equal(L, vec4(0.0))) ? vec4(0.0) : saturate(1.0 - ((1.0 - B)/L));
 
-	color *= blendColor;
-
+	color.a = 1.0;
 
 	fragColor = color; //gl_FragColor
 }

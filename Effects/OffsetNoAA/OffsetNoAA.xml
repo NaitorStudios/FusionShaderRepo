@@ -1,0 +1,28 @@
+<effect>
+<name>Background Offset (No Antialiasing)</name>
+<description>Offsets the background using the object's texture (Red for X, Green for Y).&#xD;This version also uses the object's alpha channel as mask.</description>
+<author>Looki, Edit by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+<name>Width</name>
+<variable>width</variable>
+<type>float</type>
+<value>10</value>
+<description>Width of the shift in pixels.</description>
+</parameter>
+<parameter>
+<name>Height</name>
+<variable>height</variable>
+<type>float</type>
+<value>10</value>
+<description>Height of the shift in pixels.</description>
+</parameter>
+<sampler>
+	<index>0</index>
+	<filter>point</filter>
+</sampler>
+<sampler>
+	<index>1</index>
+	<filter>point</filter>
+</sampler>
+</effect>

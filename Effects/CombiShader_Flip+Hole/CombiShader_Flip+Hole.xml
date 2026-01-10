@@ -1,0 +1,96 @@
+<effect>
+<name>CombiShader: Flip + Hole</name>
+<description>Flip the texture of the object and put a hole into the texture.</description>
+<author>Sphax - Flavien Clermont and Looki, combined by NaitorStudios</author>
+<company></company>
+<website></website>
+<parameter>
+	<name>Flip X</name>
+	<code>iFlipX</code>
+	<description>Flip horizontally</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+<parameter>
+	<name>Flip Y</name>
+	<code>iFlipY</code>
+	<description>Flip vertically</description>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+<parameter>
+		<name>Divisor (Size)</name>
+		<code>fD</code>
+		<description></description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.2</value>
+</parameter>
+<parameter>
+		<name>Exponent (Sharpness)</name>
+		<code>fE</code>
+		<description>Hole sharpness</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Center X</name>
+		<code>fX</code>
+		<description>X</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Center Y</name>
+		<code>fY</code>
+		<description>Y</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Ratio</name>
+		<code>fRatio</code>
+		<description>Ratio of hole size (Calculation: Width/Height) Example: 640/480 = 1.333...</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Coefficient (Alpha)</name>
+		<code>fC</code>
+		<description>Coeff</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Invert Alpha</name>
+		<code>iInvert</code>
+		<description>Invert Alpha</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Hide horizontal half</name>
+		<code>iH</code>
+		<description>0 = Show everything, 1 = Hide left half, 2 = Hide right half</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Hide vertical half</name>
+		<code>iV</code>
+		<description>0 = Show everything, 1 = Hide top half, 2 = Hide bottom half</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>
+

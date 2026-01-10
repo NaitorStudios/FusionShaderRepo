@@ -1,0 +1,49 @@
+<effect>
+<name>Cross-stitch</name>
+<author>asker</author>
+<description>Pixelate with a cross-stitch pattern</description>
+<parameter>
+		<name>Stitch Width</name>
+		<code>stitchWidth</code>
+		<description>Width of one cross-stitch in pixels</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Stitch Height</name>
+		<code>stitchHeight</code>
+		<description>Height of one cross-stitch in pixels</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Pattern Image</name>
+		<code>patternImg</code>
+		<description>Pattern to use for the cross-stitches</description>
+		<type>image</type>
+		<property>image</property>
+</parameter>
+<parameter>
+		<name>Pattern Width</name>
+		<code>patternWidth</code>
+		<description>Number of cross-stitches along X-axis in pattern</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>2</value>
+</parameter>
+<parameter>
+		<name>Pattern Height</name>
+		<code>patternHeight</code>
+		<description>Number of cross-stitches along Y-axis in pattern</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>2</value>
+</parameter>
+<sampler>
+	<index>1</index>
+	<addressU>Wrap</addressU>
+	<addressV>Wrap</addressV>
+</sampler>
+</effect>

@@ -36,9 +36,8 @@ out vec4 fragColor;
 
 void main(void)
 {
-	vec4 color = texture(imgTexture, textureCoordinate);
+	vec4 color = texture(imgTexture, textureCoordinate)*blendColor;
 	color.a = texture(Alpha, textureCoordinate).r;
-	color *= blendColor;
 
 	fragColor = color; //gl_FragColor
 }

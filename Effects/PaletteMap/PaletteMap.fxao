@@ -1,0 +1,107 @@
+// PaletteMap
+
+//@Begin_vertex
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform int Cols;
+uniform int Rows;
+
+uniform sampler2D imgTexture;
+uniform sampler2D palette;
+
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+vec3 rgb2hsl(vec3 color)
+{
+	vec3 hsl; // init to 0 to avoid warnings ? (and reverse if + remove first part)
+	
+	float fmin = min(min(color.r, color.g), color.b);    //Min. value of RGB
+	float fmax = max(max(color.r, color.g), color.b);    //Max. value of RGB
+	float delta = fmax - fmin;             //Delta RGB value
+
+	hsl.z = (fmax + fmin) / 2.0; // Luminance
+
+	if (delta == 0.0)		//This is a gray, no chroma...
+	{
+		hsl.x = 0.0;	// Hue
+		hsl.y = 0.0;	// Saturation
+	}
+	else                                    //Chromatic data...
+	{
+		if (hsl.z < 0.5)
+			hsl.y = delta / (fmax + fmin); // Saturation
+		else
+			hsl.y = delta / (2.0 - fmax - fmin); // Saturation
+		
+		float deltaR = (((fmax - color.r) / 6.0) + (delta / 2.0)) / delta;
+		float deltaG = (((fmax - color.g) / 6.0) + (delta / 2.0)) / delta;
+		float deltaB = (((fmax - color.b) / 6.0) + (delta / 2.0)) / delta;
+
+		if (color.r == fmax )
+			hsl.x = deltaB - deltaG; // Hue
+		else if (color.g == fmax)
+			hsl.x = (1.0 / 3.0) + deltaR - deltaB; // Hue
+		else if (color.b == fmax)
+			hsl.x = (2.0 / 3.0) + deltaG - deltaR; // Hue
+
+		if (hsl.x < 0.0)
+			hsl.x += 1.0; // Hue
+		else if (hsl.x > 1.0)
+			hsl.x -= 1.0; // Hue
+	}
+
+	return hsl;
+}
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate) * blendColor;
+	vec3 hsl = rgb2hsl(color.rgb);
+
+	// Coordinate of palette entry in the palette
+	vec2 coord;
+
+	// Calculate position of the spectrum in the palete (identified by saturation)
+    float cols = float(Cols);
+    float rows = float(Rows);
+
+	float i = hsl.z * cols * rows;
+	coord.x = floor(mod(i, cols)) / cols;
+	coord.y = floor(i / cols) / rows;
+
+	// Add X offset for hue
+	coord.x += 0.9999 * hsl.x / cols;
+	coord.y += 0.9999 * hsl.y / rows;
+
+	// Load palette color
+	color.rgb = texture2D(palette, coord).rgb;
+    gl_FragColor = color;
+}
+//@End

@@ -1,0 +1,8 @@
+Last Updated: 2017-11-15T19:10:58+00:00
+
+=== Shader files ===
+brightness_map.xml - Info & Integration
+brightness_map.fx - DirectX9 source code
+
+=== Examples ===
+Brightness_map.mfa

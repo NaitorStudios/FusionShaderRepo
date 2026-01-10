@@ -18,6 +18,8 @@ void main() {
 //@End
 
 //@Begin_fragment
+// 19/08/2023: fix fPixelWidth in build 295
+
 #ifdef GL_ES
     precision mediump float;
 #endif
@@ -40,7 +42,7 @@ void main() {
     vec2 tempCoords = frag_texCoord;
     float offsetY = sin((frag_texCoord.x + offset) * freq) * amplitude;
 
-    highp float intlv = sin(frag_texCoord.x * (1.0 - period) * fPixelWidth * PI);
+    highp float intlv = sin(frag_texCoord.x * (1.0 - period) / fPixelWidth * PI);
 
     if (intlv >= 0.0) {
         tempCoords.y += offsetY;

@@ -1,7 +1,7 @@
 <effect>
 <name>Shape Mask2</name>
 <description>Mask Background</description>
-<author>mihailsh</author>
+<author>mihailsh, DX11 port by NaitorStudios</author>
 <BackgroundTexture>0</BackgroundTexture>
 <parameter>
 	<name>masktex</name>

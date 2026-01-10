@@ -1,0 +1,13 @@
+Last Updated: 2018-11-26T07:45:46.686177+00:00
+
+=== Shader files ===
+BrightnessContrast.xml - Info & Integration
+BrightnessContrast.fx - DirectX9 source code
+BrightnessContrast.hlsl - DirectX11 source code
+BrightnessContrast.fxc - DirectX11 compiled
+BrightnessContrast.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+
+=== Examples ===
+BrightnessContrast.mfa

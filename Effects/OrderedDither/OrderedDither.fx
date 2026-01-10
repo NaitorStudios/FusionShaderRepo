@@ -6,7 +6,7 @@ float imgHeight;
 float2 offset;
 float2 pick;
 
-float4 ps_main(in float2 texCoord : TEXCOORD0) : COLOR0	{
+float4 ps_dither(in float2 texCoord : TEXCOORD0) : COLOR0	{
 float4 inColor = tex2D( bkd, texCoord );
 float oldLight = (0.3*inColor.r) + (0.6*inColor.g) + (0.1*inColor.b);
 float newLight = int(oldLight * 25) / 25.0;
@@ -23,4 +23,4 @@ float4 outColor = tex2D( pattern, pick );
 return outColor;
 }
 
-technique tech_main	{ pass P0 { PixelShader = compile ps_2_0 ps_main(); }  }
+technique tech_main	{ pass P0 { PixelShader = compile ps_2_0 ps_dither(); }  }

@@ -2,7 +2,7 @@
 <name>Shadow</name>
 <description>Shadowcaster</description>
 <copyright>Free for personal or commercial use</copyright>
-<author>Sketchy / MuddyMole</author>
+<author>Sketchy / MuddyMole, Ports by NaitorStudios</author>
 <parameter>
 		<name>Width</name>
 		<code>width</code>

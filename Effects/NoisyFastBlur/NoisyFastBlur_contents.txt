@@ -1,0 +1,10 @@
+Last Updated: 2021-04-10T14:34:14.447711+00:00
+
+=== Shader files ===
+NoisyFastBlur.xml - Info & Integration
+NoisyFastBlur.fx - DirectX9 source code
+NoisyFastBlur.hlsl - DirectX11 source code
+NoisyFastBlur.fxc - DirectX11 compiled
+
+=== Examples ===
+NoisyFastBlur.mfa

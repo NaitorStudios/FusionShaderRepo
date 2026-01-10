@@ -1,0 +1,14 @@
+Shader Packs: Foxioo Shader Pack
+
+Last Updated: 2026-01-04T22:01:16+00:00
+
+=== Shader files ===
+Division With Secant (Background).xml - Info & Integration
+Division With Secant (Background).fx - DirectX9 source code
+Division With Secant (Background).hlsl - DirectX11 source code
+Division With Secant (Background).fxc - DirectX11 compiled
+Division With Secant (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+Division With Secant (Background).fxao - Android source code
+Division With Secant (Background).fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

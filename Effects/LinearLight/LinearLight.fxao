@@ -1,0 +1,44 @@
+// HardLight
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D bckgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+    vec4 color = vec4(1.0);
+	lowp vec4 L = texture2D(imgTexture, textureCoordinate)*blendColor;
+	lowp vec4 B = texture2D(bckgTexture, textureCoordinate);
+    if(any(lessThan(L, vec4(0.5))))
+	    color = (B+(2.0*L)-1.0);
+    else
+        color = (B+(2.0*(L-0.5)));
+
+    color.a = 1.0;
+
+	gl_FragColor = color;
+}
+//@End

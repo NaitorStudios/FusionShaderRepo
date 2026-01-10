@@ -1,0 +1,80 @@
+// unpack4x4
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+
+int custom_mod(int a, int b) {
+    return a - (a / b) * b;
+}
+
+void main(void)
+{
+    // Calculate grid position (4x4 grid)
+    int gridX = int(textureCoordinate.x * 4.0);
+    int gridY = int(textureCoordinate.y * 4.0);
+    
+    // Calculate selected image based on grid position
+    int selectedImage = gridY * 4 + gridX;
+    
+    // Adjust texture coordinates to fit within the grid cell
+    vec2 gridCellSize = vec2(1.0 / 4.0);
+    vec2 gridOffset = vec2(gridX, gridY) * gridCellSize;
+    vec2 localCoord = (textureCoordinate - gridOffset) / gridCellSize;
+    
+    // Sample the texture using the adjusted coordinates
+    vec4 pixel = texture2D(imgTexture, localCoord);
+    
+    // Get the selected channel based on selectedImage value
+    int channelIndex = selectedImage / 4;
+    int channelShift = 2 * custom_mod(selectedImage, 4);
+    
+    // Extract the value from the selected channel
+    int i;
+    if (channelIndex == 0) {
+        i = int(pixel.r * 255.0);
+    } else if (channelIndex == 1) {
+        i = int(pixel.g * 255.0);
+    } else if (channelIndex == 2) {
+        i = int(pixel.b * 255.0);
+    } else {
+        i = int(pixel.a * 255.0);
+    }
+    
+    // Perform the right shift, then bitwise AND operation
+    int l = custom_mod(i / int(pow(2.0, float(channelShift))), 4);
+    
+    // Normalize the result and set the output color
+    vec4 Out_Color = vec4(float(l) / 3.0, float(l) / 3.0, float(l) / 3.0, 1.0);
+    gl_FragColor = Out_Color;
+}
+//@End

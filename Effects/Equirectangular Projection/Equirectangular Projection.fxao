@@ -1,0 +1,77 @@
+//@Begin_vertex
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+attribute vec4 position;
+attribute vec2 texCoord;
+
+varying vec2 textureCoordinate;
+
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+void main() {
+    textureCoordinate = texCoord;
+    gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+#if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+precision highp float;
+#else
+precision mediump float;
+#endif
+#endif
+
+varying vec2 textureCoordinate;
+
+uniform sampler2D bckgTexture;
+
+uniform lowp vec4 blendColor;
+
+uniform float fHFOV;
+uniform float fVFOV;
+uniform float fXZoom;
+uniform float fYZoom;
+uniform float fX;
+uniform float fY;
+
+vec3 rotateXY(vec3 p, vec2 angle)
+{
+    vec2 c = cos(angle), s = sin(angle);
+    p = vec3(p.x, c.x * p.y + s.x * p.z, -s.x * p.y + c.x * p.z);
+    return vec3(c.y * p.x + s.y * p.z, p.y, -s.y * p.x + c.y * p.z);
+}
+
+void main()
+{
+    float PI = 3.14159265;
+    vec2 iResolution = vec2(fXZoom, fYZoom), iMouse = vec2(fX, fY);
+	//place 0,0 in center from -1 to 1 ndc
+    vec2 uv = textureCoordinate * 2.0 / iResolution.xy - 1.0;
+	
+	//to spherical
+    vec3 camDir = normalize(vec3(uv.xy * vec2(tan(0.5 * fHFOV * PI / 180.0), tan(0.5 * fVFOV * PI / 180.0)), 1.0));
+	
+	//camRot is angle vec in rad
+    vec3 camRot = vec3((iMouse.xy / iResolution.xy - 0.5) * vec2(2.0 * PI, PI), 0.0);
+	
+	//rotate
+    vec3 rd = normalize(rotateXY(camDir, camRot.yx));
+    vec2 texCoord;
+	//radial azmuth polar
+    if (rd.x > 0.0)
+        texCoord = vec2(atan(rd.z / rd.x) + PI / 2.0, acos(-rd.y)) / vec2(2.0 * PI, PI);
+    else
+        texCoord = vec2(atan(rd.z / rd.x) + 3.0 * PI / 2.0, acos(-rd.y)) / vec2(2.0 * PI, PI);
+	
+    vec4 fragColor = texture2D(bckgTexture, texCoord);
+	
+	// Uncomment to visualize input
+	//fragColor = texture(iChannel0, fragCoord.xy/iResolution.xy);
+    gl_FragColor = fragColor;
+}
+//@End

@@ -1,0 +1,14 @@
+<effect>
+<name>Unpack 2</name>
+<author>Sketchy, edit by NaitorStudios</author>
+<description>Image unpacker, 4 more images into alpha channel</description>
+<parameter>
+		<name>selectedImage</name>
+		<code>selectedImage</code>
+		<description>Index of selected image (0-based)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<BackgroundTexture>1</BackgroundTexture>
+</effect>

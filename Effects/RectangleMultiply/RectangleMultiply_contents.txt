@@ -1,0 +1,5 @@
+Last Updated: 2024-12-12T21:32:10+00:00
+
+=== Shader files ===
+RectangleMultiply.xml - Info & Integration
+RectangleMultiply.fx - DirectX9 source code

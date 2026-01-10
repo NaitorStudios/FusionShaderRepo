@@ -1,4 +1,8 @@
-sampler2D img;
+sampler2D img = sampler_state {
+AddressU = border;
+AddressV = border;
+BorderColor = float4(1.0,1.0,1.0,0.0);
+};
 float radius,fPixelWidth,fPixelHeight;
 
 #define iterations 30

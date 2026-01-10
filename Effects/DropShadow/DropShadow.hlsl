@@ -16,7 +16,8 @@ struct PS_OUTPUT
 
 cbuffer PS_VARIABLES : register(b0)
 {
-	float x, y, xScale, yScale, xSkew, ySkew, xCenter, yCenter;
+	float x;
+	float y;
 	float angle;
 	float4 color;
 	float alpha;
@@ -28,67 +29,65 @@ cbuffer PS_PIXELSIZE : register(b1)
 	float fPixelHeight;
 };
 
-float4 Demultiply(float4 _color)
+float2 getshadowxy(float2 xy)
 {
-	float4 color = _color;
-	if ( color.a != 0 )
-		color.xyz /= color.a;
-	return color;
-}
-
-float4 effect(PS_INPUT In, bool PM ) : SV_TARGET
-{ 
-	//Source color
-	float4 ret = Demultiply(Texture0.Sample(TextureSampler0, In.texCoord));
-
-	//Center coord
-	float _xCenter = xCenter * fPixelWidth;
-	float _yCenter = yCenter * fPixelHeight;
-	float2 center = float2(_xCenter, _yCenter);
-	
-	//Determine shadow pixel
 	float2 pixel;
 	if(angle)
 	{
 		float theta = angle/180.0*3.154159;
-		float2 _point = float2(cos(theta)*x - sin(theta)*y, sin(theta)*x + cos(theta)*y);
-		pixel = In.texCoord - float2(_point.x*fPixelWidth, _point.y*fPixelHeight);
+		float2 pnt = float2(cos(theta)*x-sin(theta)*y,sin(theta)*x+cos(theta)*y);
+		pixel = xy-float2(pnt.x*fPixelWidth,pnt.y*fPixelHeight);
 	}
 	//No angle, skip some calculations
 	else
 	{
-		pixel = In.texCoord - float2(x*fPixelWidth, y*fPixelHeight);
+		pixel = xy-float2(x*fPixelWidth,y*fPixelHeight);
 	}
+	return pixel;
+}
+
+float4 ps_main(PS_INPUT In) : SV_TARGET
+{ 
+	//Source color
+	float4 ret = Texture0.Sample(TextureSampler0,In.texCoord) * In.Tint;
 	
-	//Apply skew
-	pixel.x += xSkew * (In.texCoord.y - _yCenter);
-	pixel.y += ySkew * (In.texCoord.x - _xCenter);
-	
-	//Apply scale
-	pixel = (pixel-center) / float2(xScale, yScale) + center;
+	//Determine shadow pixel
+	float2 pixel = getshadowxy(In.texCoord);
 
 	//Exit if no shadow
-	if(pixel.x < 0 || pixel.x > 1 || pixel.y < 0 || pixel.y > 1) {}
+	if(pixel.x<0||pixel.x>1||pixel.y<0||pixel.y>1) {}
 	else
 	{
 		float4 shadow = color;
-		shadow.a = Texture0.Sample(TextureSampler0, pixel).a*alpha;
+		shadow.a = Texture0.Sample(TextureSampler0,pixel).a * In.Tint.a * alpha;
 		//Thank, you Wikipedia. Thanks. *sniffs*
-		float new_a = 1 - (1-ret.a) * (1-shadow.a);
-		ret.rgb = (ret.rgb*ret.a + shadow.rgb*shadow.a*(1-ret.a)) / new_a;
+		float new_a = 1-(1-ret.a)*(1-shadow.a);
+		ret.rgb = (ret.rgb*ret.a+shadow.rgb*shadow.a*(1-ret.a))/new_a;
 		ret.a = new_a;
 	}
 	
-	if (PM)
-		ret.rgb *= ret.a;
-		
-	return ret * In.Tint;
+	return ret;
 }
 
-float4 ps_main( in PS_INPUT In ) : SV_TARGET {
-	return effect(In, false);
-}
+float4 ps_main_pm(PS_INPUT In) : SV_TARGET
+{ 
+	//Source color
+	float4 ret = Texture0.Sample(TextureSampler0,In.texCoord) * In.Tint;
+	
+	//Determine shadow pixel
+	float2 pixel = getshadowxy(In.texCoord);
 
-float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET {
-	return effect(In, true);
+	//Exit if no shadow
+	if(pixel.x<0||pixel.x>1||pixel.y<0||pixel.y>1) {}
+	else
+	{
+		float4 shadow = color;
+		shadow.a = Texture0.Sample(TextureSampler0,pixel).a * In.Tint.a * alpha;
+		//Thank, you Wikipedia. Thanks. *sniffs*
+		float new_a = 1-(1-ret.a)*(1-shadow.a);
+		ret.rgb = (ret.rgb+shadow.rgb*shadow.a*(1-ret.a));
+		ret.a = new_a;
+	}
+	
+	return ret;
 }

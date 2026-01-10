@@ -1,0 +1,14 @@
+Shader Packs: Foxioo Shader Pack
+
+Last Updated: 2026-01-04T22:02:54+00:00
+
+=== Shader files ===
+Fisheye Lens Stereographic (Switch).xml - Info & Integration
+Fisheye Lens Stereographic (Switch).fx - DirectX9 source code
+Fisheye Lens Stereographic (Switch).hlsl - DirectX11 source code
+Fisheye Lens Stereographic (Switch).fxc - DirectX11 compiled
+Fisheye Lens Stereographic (Switch).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+Fisheye Lens Stereographic (Switch).fxao - Android source code
+Fisheye Lens Stereographic (Switch).fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

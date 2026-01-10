@@ -1,0 +1,5 @@
+Last Updated: 2023-05-11T16:11:28.684466+00:00
+
+=== Shader files ===
+UW_Scale3x.xml - Info & Integration
+UW_Scale3x.fx - DirectX9 source code

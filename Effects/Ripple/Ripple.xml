@@ -1,6 +1,7 @@
 <effect>
 <name>Ripple</name>
-<description>Effect inspired by Super Mario World paintings.</description>
+<description>Effect inspired by Super Mario World paintings.
+&#xA;Not compatible with Alpha Channel.</description>
 <author>NaitorStudios</author>
 <company></company>
 <website></website>

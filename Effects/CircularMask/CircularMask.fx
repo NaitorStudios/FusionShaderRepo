@@ -1,11 +1,13 @@
 sampler2D img;
 float fPixelWidth,fPixelHeight,x,y,r,s;
 int i;
+
 float4 ps_main(float2 In : TEXCOORD0) : COLOR0 { 
 	float4 ret = tex2D(img,In);
-	float tmp = sqrt(pow(In.x/fPixelWidth-x,2)+pow(In.y/fPixelHeight-y,2))/r;
+	float tmp = clamp(sqrt(pow(In.x/fPixelWidth-x,2)+pow(In.y/fPixelHeight-y,2))/r,0.0,1.0);
 	tmp = pow(tmp,s);
-	ret.a *= i?1-tmp:tmp;
+	ret.a *= i ? 1 - tmp : tmp;
+	
 	return ret;
 }
 

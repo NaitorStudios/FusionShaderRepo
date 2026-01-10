@@ -45,7 +45,7 @@
 <index>1</index>
 <addressU>border</addressU>
 <addressV>border</addressV>
-<BorderColor>-16777216</BorderColor>;
+<BorderColor>16777216</BorderColor>;
 </sampler>
 </effect>
 

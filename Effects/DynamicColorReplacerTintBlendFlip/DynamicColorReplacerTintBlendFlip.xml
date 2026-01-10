@@ -1,0 +1,151 @@
+<effect>
+<name>Color Replacer Dynamic MP + Tint + Blend modes + Flip</name>
+<author>DX9 by Looki, DX11 and edit by NaitorStudios</author>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+	<name>From</name>
+	<code>from[0]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>8421376</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[1]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[2]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[3]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[4]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[5]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[6]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>From</name>
+	<code>from[7]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>To</name>
+	<code>to[0]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>65280</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[1]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[2]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[3]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[4]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[5]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[6]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>To</name>
+	<code>to[7]</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>0</value>
+</parameter>
+
+<parameter>
+	<name>RGB Tint</name>
+	<code>tint</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>-1</value>
+</parameter>
+<parameter>
+	<name>Blending mode</name>
+	<code>blend</code>
+	<type>int</type>
+	<property>slider</property>
+	<min>0</min>
+	<max>2</max>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Flip X</name>
+	<code>flipX</code>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+<parameter>
+	<name>Flip Y</name>
+	<code>flipY</code>
+	<type>int</type>
+	<property>checkbox</property>
+	<value>0</value>
+</parameter>
+
+</effect>

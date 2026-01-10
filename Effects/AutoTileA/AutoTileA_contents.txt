@@ -1,0 +1,13 @@
+Notes:
+AutotileA and AutotileB are dependent on each other
+
+Shader Packs: HWAautotile (by Sketchy)
+
+Last Updated: 2013-05-08T14:19:51.999985+00:00
+
+=== Shader files ===
+AutoTileA.xml - Info & Integration
+AutoTileA.fx - DirectX9 source code
+
+=== Examples ===
+Autotile examples.mfa

@@ -31,29 +31,28 @@ PS_OUTPUT ps_main( in PS_INPUT In )
     float4 border = tex2D(fBorderImage,In.Texture);
     Out.Color = tex2D(Tex0, In.Texture);
     float result = (gradient.r + gradient.g + gradient.b)/3.0;
-    if( result < 1.0 - fValue){
-    if( fBoolBackground == true ){
-    Out.Color = bg;
+    if ( result < 1.0 - fValue) {
+		if ( fBoolBackground == true ) {
+			Out.Color = bg;
+		} else {
+			Out.Color.a = 0;
+		}
     }
-    else{
-    Out.Color.a = 0;
+    if ( fBoolDraw == true ) {
+		float4 back;
+		back.r = ( bg.r * bg.a * (1.0 - Out.Color.a) + Out.Color.r * Out.Color.a );
+		back.g = ( bg.g * bg.a * (1.0 - Out.Color.a) + Out.Color.g * Out.Color.a );
+		back.b = ( bg.b * bg.a * (1.0 - Out.Color.a) + Out.Color.b * Out.Color.a );
+		back.a = (bg.a* ( 1.0 - Out.Color.a ) + Out.Color.a );
+		Out.Color = back;
     }
-    }
-    if( fBoolDraw == true ){
-    float4 back;
-    back.r = ( bg.r * bg.a * (1.0 - Out.Color.a) + Out.Color.r * Out.Color.a );
-    back.g = ( bg.g * bg.a * (1.0 - Out.Color.a) + Out.Color.g * Out.Color.a );
-    back.b = ( bg.b * bg.a * (1.0 - Out.Color.a) + Out.Color.b * Out.Color.a );
-    back.a = (bg.a* ( 1.0 - Out.Color.a ) + Out.Color.a );
-    Out.Color = back;
-    }
-    if( fBoolBorder == true ){
-    float4 join;
-    join.r = ( border.r * border.a + Out.Color.r * Out.Color.a * (1.0 - border.a) );
-    join.g = ( border.g * border.a + Out.Color.g * Out.Color.a * (1.0 - border.a) );
-    join.b = ( border.b * border.a + Out.Color.b * Out.Color.a * (1.0 - border.a) );
-    join.a = (border.a + Out.Color.a * ( 1.0 - border.a ));
-    Out.Color = join;
+    if ( fBoolBorder == true ) {
+		float4 join;
+		join.r = ( border.r * border.a + Out.Color.r * Out.Color.a * (1.0 - border.a) );
+		join.g = ( border.g * border.a + Out.Color.g * Out.Color.a * (1.0 - border.a) );
+		join.b = ( border.b * border.a + Out.Color.b * Out.Color.a * (1.0 - border.a) );
+		join.a = ( border.a + Out.Color.a * ( 1.0 - border.a ) );
+		Out.Color = join;
     }
     return Out;
 }

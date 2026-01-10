@@ -1,0 +1,29 @@
+<effect>
+<name>Scale and Rotate</name>
+<author>gkinfinity, DX11 Port by NaitorStudios</author>
+<description>Scale and Rotate an image or Layer</description>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+    <name>Scale</name>
+    <code>fScale</code>
+    <description>1.0 is default</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>1.0</value>
+    <min>0</min>
+</parameter>
+<parameter>
+    <name>Rotation Angle</name>
+    <code>fRotationAngle</code>
+    <description>Enter desired rotation in degrees</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0</value>
+</parameter>
+<sampler>
+	<index>1</index>
+	<filter>Point</filter>
+	<AddressU>Wrap</AddressU>
+	<AddressV>Wrap</AddressV>
+</sampler>
+</effect>

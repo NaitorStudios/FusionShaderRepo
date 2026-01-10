@@ -1,0 +1,10 @@
+Notes:
+https://create-games.com/forum_post.asp?id=3031933
+
+Shader Packs: FusionShaders (by Cazra)
+
+Last Updated: 2026-01-09T21:42:18.815294+00:00
+
+=== Shader files ===
+Mode7ish.xml - Info & Integration
+Mode7ish.fx - DirectX9 source code

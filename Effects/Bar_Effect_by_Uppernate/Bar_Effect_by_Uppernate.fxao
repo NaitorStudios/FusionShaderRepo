@@ -1,0 +1,87 @@
+// Bar_Effect_by_Uppernate
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+    textureCoordinate = texCoord;
+    gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D fImage;
+uniform sampler2D fBorderImage;
+uniform sampler2D fBackgroundImage;
+
+uniform float fValue;
+uniform bool fBoolBorder;
+uniform bool fBoolBackground;
+uniform bool fBoolDraw;
+
+uniform lowp vec4 blendColor;
+
+void main(void) {
+    vec4 gradient = texture2D(fImage, textureCoordinate);
+    vec4 bg = texture2D(fBackgroundImage, textureCoordinate);
+    vec4 border = texture2D(fBorderImage, textureCoordinate);
+    vec4 outputColor = texture2D(imgTexture, textureCoordinate) * blendColor;
+
+    float result = (gradient.r + gradient.g + gradient.b) / 3.0;
+
+    // Gradient check
+    if (result < 1.0 - fValue) {
+        if (fBoolBackground) {
+            outputColor = bg;
+        } else {
+            outputColor.a = 0.0;
+        }
+    }
+
+    // Draw logic
+    if (fBoolDraw) {
+        vec4 back;
+        back.r = (bg.r * bg.a * (1.0 - outputColor.a) + outputColor.r * outputColor.a);
+        back.g = (bg.g * bg.a * (1.0 - outputColor.a) + outputColor.g * outputColor.a);
+        back.b = (bg.b * bg.a * (1.0 - outputColor.a) + outputColor.b * outputColor.a);
+        back.a = (bg.a * (1.0 - outputColor.a) + outputColor.a);
+        outputColor = back;
+    }
+
+    // Border logic
+    if (fBoolBorder) {
+        vec4 join;
+        join.r = (border.r * border.a + outputColor.r * outputColor.a * (1.0 - border.a));
+        join.g = (border.g * border.a + outputColor.g * outputColor.a * (1.0 - border.a));
+        join.b = (border.b * border.a + outputColor.b * outputColor.a * (1.0 - border.a));
+        join.a = (border.a + outputColor.a * (1.0 - border.a));
+        outputColor = join;
+    }
+
+    gl_FragColor = outputColor;
+}
+//@End

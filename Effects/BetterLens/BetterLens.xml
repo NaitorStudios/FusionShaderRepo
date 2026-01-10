@@ -1,0 +1,23 @@
+<effect>
+<name>BetterLens</name>
+<description>Zoom the background using the object's texture.</description>
+<author>Looki, modified by ower396</author>
+<sampler>
+<index>1</index>
+<filter>LINEAR</filter>
+</sampler>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+<name>Coeff</name>
+<variable>fCoeff</variable>
+<type>float</type>
+<value>1.0</value>
+</parameter>
+<parameter>
+<name>Base</name>
+<variable>fBase</variable>
+<type>float</type>
+<value>1.0</value>
+</parameter>
+</effect>
+

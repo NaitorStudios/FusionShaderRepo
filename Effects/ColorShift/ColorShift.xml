@@ -1,0 +1,38 @@
+<effect>
+  <name>Color Shift</name>
+  <description>Taking a greyscale image, a start color, and an end color, map the greyscale pixels from the source image to an appropriate color between the start (black) and end (white) colors.</description>
+  <parameter>
+    <name>Black Color</name>
+    <code>black</code>
+    <description>The color corresponding to pure black pixels in the source image.</description>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0.0</value>
+  </parameter>
+  <parameter>
+    <name>Grey Color</name>
+    <code>grey</code>
+    <description>The color corresponding to grey (RGB == 0.5) pixels in the source image.</description>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>0.5</value>
+  </parameter>
+  <parameter>
+    <name>White Color</name>
+    <code>white</code>
+    <description>The color corresponding to pure white pixels in the source image.</description>
+    <type>int_float4</type>
+    <property>COLOR</property>
+    <value>1.0</value>
+  </parameter>
+  <parameter>
+    <name>Offset</name>
+    <code>offset</code>
+    <description>The offset of the shift in the range [0.0, 1.0]. This is added to the value of the source pixel. This will wrap in the event of an overflow or underflow.</description>
+    <type>FLOAT</type>
+    <property>EDIT</property>
+    <value>1.0</value>
+    <min>0.0</min>
+    <max>1.0</max>
+  </parameter>
+</effect>

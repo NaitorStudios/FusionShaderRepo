@@ -16,7 +16,7 @@ struct PS_OUTPUT
 sampler2D Tex0 : register(s1) = sampler_state {
 addressU = border;
 addressV = border;
-BorderColor = float4(0,0,0,1);
+BorderColor = float4(1,1,1,0);
 };
 
 float fWidth;

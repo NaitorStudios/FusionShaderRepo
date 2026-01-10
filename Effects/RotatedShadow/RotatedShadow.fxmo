@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -36,25 +43,31 @@ uniform float fA;
 
 uniform sampler2D imgTexture;
 
-uniform vec4 blendColor;
+uniform lowp vec4 blendColor;
 
 out vec4 fragColor;
 
 void main(void)
 {
+	float vAngle = fAngle*0.0174532925;
+	float dx = cos(vAngle) * fRadius;
+	float dy = sin(vAngle) * fRadius;
 
+	vec2 dxyr;
+	dxyr.x = dx - dy;
+	dxyr.y = dx + dy;
 	vec4 color = texture(imgTexture, textureCoordinate);
+
 	if(color.a < 1.0) {
-		vec4 shade = texture(imgTexture, vec2(textureCoordinate.x-fX, textureCoordinate.y-fY));
-		shade.a *= fA;
-		shade.rgb = fC.rgb;
+		lowp vec4 shade = texture(imgTexture, vec2(textureCoordinate.x-dxyr.x, textureCoordinate.y-dxyr.y));
+    	shade.a *= fA;
+    	shade.rgb = fC.rgb;
 
 		color.r += (shade.r-color.r)*(1.0-color.a);
 		color.g += (shade.g-color.g)*(1.0-color.a);
 		color.b += (shade.b-color.b)*(1.0-color.a);
 		color.a += (shade.a-color.a)*(1.0-color.a);
 	}
-
 	color *= blendColor;
 
 

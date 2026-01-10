@@ -9,4 +9,7 @@ float4 ps_main(in float2 In : TEXCOORD0) : COLOR0 {
 	o.rgb = tex2D(pal, In).rgb;
 	return o;
 }
-technique tech_main { pass P0 { PixelShader  = compile ps_2_0 ps_main(); }}
+technique tech_main { pass P0 { 
+        // shaders
+        VertexShader = NULL;
+PixelShader  = compile ps_2_0 ps_main(); }}

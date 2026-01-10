@@ -1,0 +1,5 @@
+Last Updated: 2020-06-17T23:45:18+00:00
+
+=== Shader files ===
+Sloxone_Spritesheet.xml - Info & Integration
+Sloxone_Spritesheet.fx - DirectX9 source code

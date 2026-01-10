@@ -51,7 +51,7 @@ float4 ps_main( in PS_INPUT In ) : SV_TARGET
 {
 	float4 normal = img.Sample(imgSampler, In.texCoord) * In.Tint;
 	normal = float4(normal.x-0.5, normal.y-0.5, normal.z-0.5, normal.w);
-	float4 background = bkd.Sample(bkdSampler, In.texCoord); //*0.67
+	float4 background = bkd.Sample(bkdSampler, In.texCoord*0.67);
 	float4 color = float4(0,0,0,normal.a);
 	float3 pixelPos = float3(In.texCoord.xy,0);
 	float3 objPos = float3(objX,objY,0);
@@ -63,7 +63,7 @@ float4 ps_main( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightAX-objX)*fPixelWidth+0.5,(lightAY-objY)*fPixelHeight+0.5,lightAZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightABrightness * dist * lightAColor.rgb;
 	}
 	
@@ -72,7 +72,7 @@ float4 ps_main( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightBX-objX)*fPixelWidth+0.5,(lightBY-objY)*fPixelHeight+0.5,lightBZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightBBrightness * dist * lightBColor.rgb;
 	}
 	
@@ -81,7 +81,7 @@ float4 ps_main( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightCX-objX)*fPixelWidth+0.5,(lightCY-objY)*fPixelHeight+0.5,lightCZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightCBrightness * dist * lightCColor.rgb;
 	}
 
@@ -100,7 +100,7 @@ float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET
 {
 	float4 normal = Demultiply(img.Sample(imgSampler, In.texCoord) * In.Tint);
 	normal = float4(normal.x-0.5, normal.y-0.5, normal.z-0.5, normal.w);
-	float4 background = Demultiply(bkd.Sample(bkdSampler, In.texCoord));//*0.67
+	float4 background = Demultiply(bkd.Sample(bkdSampler, In.texCoord*0.67));
 	float4 color = float4(0,0,0,normal.a);
 	float3 pixelPos = float3(In.texCoord.xy,0);
 	float3 objPos = float3(objX,objY,0);
@@ -112,7 +112,7 @@ float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightAX-objX)*fPixelWidth+0.5,(lightAY-objY)*fPixelHeight+0.5,lightAZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightABrightness * dist * lightAColor.rgb;
 	}
 	
@@ -121,7 +121,7 @@ float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightBX-objX)*fPixelWidth+0.5,(lightBY-objY)*fPixelHeight+0.5,lightBZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightBBrightness * dist * lightBColor.rgb;
 	}
 	
@@ -130,7 +130,7 @@ float4 ps_main_pm( in PS_INPUT In ) : SV_TARGET
 		lightPos = float3((lightCX-objX)*fPixelWidth+0.5,(lightCY-objY)*fPixelHeight+0.5,lightCZ);
 		dir = normalize(lightPos - pixelPos);
 		dist = 1/length(lightPos - pixelPos);
-		amount = saturate(dot(normal.xyz,dir));
+		amount = saturate(dot(normal,dir));
 		color.rgb += amount * lightCBrightness * dist * lightCColor.rgb;
 	}
 

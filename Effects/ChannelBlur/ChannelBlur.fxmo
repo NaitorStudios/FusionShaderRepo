@@ -36,8 +36,7 @@ uniform int iB;
 uniform int iA;
 
 uniform sampler2D imgTexture;
-
-uniform vec4 blendColor;
+uniform lowp vec4 blendColor;
 
 out vec4 fragColor;
 

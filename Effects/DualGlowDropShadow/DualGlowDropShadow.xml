@@ -1,0 +1,120 @@
+<effect>
+    <name>Dual Glow with Drop Shadow</name>
+    <description>Combines a drop shadow with dual inner and outer glow effects.</description>
+    <author>Original shaders by Looki, combined by NaitorStudios</author>
+
+    <!-- Drop Shadow Parameters -->
+	<parameter>
+		<name>Shadow X Offset</name>
+		<code>sX</code>
+		<description>X offset in pixels.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>4</value>
+	</parameter>
+	<parameter>
+		<name>Shadow Y Offset</name>
+		<code>sY</code>
+		<description>Y offset in pixels.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>4</value>
+	</parameter>
+	<parameter>
+		<name>Shadow Angle</name>
+		<code>sAngle</code>
+		<description>Angle in degrees. Can be set to the object's angle to prevent the shadow from rotating.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+	<!--<parameter>
+		<name>Shadow Radius</name>
+		<code>sRadius</code>
+		<description>The radius of the shadow's soft border in pixels.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>3</value>
+	</parameter>-->
+	<parameter>
+		<name>Shadow Color</name>
+		<code>sColor</code>
+		<description>The shadow's color.</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+	</parameter>
+	<parameter>
+		<name>Shadow Alpha</name>
+		<code>sAlpha</code>
+		<description>The alpha of the shadow. 0 = invisible, 1 = solid.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+	</parameter>
+
+    <!-- Dual Glow Parameters -->
+	<parameter>
+		<name>Outer glow radius</name>
+		<code>oRadius</code>
+		<description>Radius of the glow in pixels.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>3</value>
+	</parameter>
+	<parameter>
+		<name>Outer glow exponent</name>
+		<code>oExponent</code>
+		<description>The higher, the sharper the glow will be.</description>
+		<type>float</type>
+		<property>float</property>
+		<value>2</value>
+	</parameter>
+	<parameter>
+		<name>Outer glow color</name>
+		<code>oColor</code>
+		<description>The color of the glow.</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>16711680</value>
+	</parameter>
+	<parameter>
+		<name>Outer glow alpha</name>
+		<code>oAlpha</code>
+		<description>The alpha coefficient of the glow.</description>
+		<type>float</type>
+		<property>float</property>
+		<value>1</value>
+	</parameter>
+	<parameter>
+		<name>Inner glow radius</name>
+		<code>iRadius</code>
+		<description>Radius of the glow in pixels.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>5</value>
+	</parameter>
+	<parameter>
+		<name>Inner glow exponent</name>
+		<code>iExponent</code>
+		<description>The higher, the sharper the glow will be.</description>
+		<type>float</type>
+		<property>float</property>
+		<value>2</value>
+	</parameter>
+	<parameter>
+		<name>Inner glow color</name>
+		<code>iColor</code>
+		<description>Tje color of the glow.</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>255</value>
+	</parameter>
+	<sampler>
+		<index>0</index>
+		<AddressU>border</AddressU>
+		<AddressV>border</AddressV>
+		<filter>linear</filter>
+		<BorderColor>16777215</BorderColor>
+	</sampler>
+</effect>

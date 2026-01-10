@@ -1,0 +1,22 @@
+<effect>
+    <name>Diamond Pattern Transition</name>
+    <author>NaitorStudios</author>
+    <description>This shader creates a dynamic diamond pattern based on the pixel size and progress parameters.</description>
+    <parameter>
+        <name>Size</name>
+        <code>size</code>
+        <description>Size of each diamond in pixels. Controls the overall scale of the diamond pattern.</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>10.0</value>
+    </parameter>
+    <parameter>
+        <name>Progress</name>
+        <code>progress</code>
+        <description>Controls the visibility of the diamond pattern. Ranges from 0 (fully visible) to 1 (completely hidden).</description>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+		<preview_value>0.5</preview_value>
+    </parameter>
+</effect>

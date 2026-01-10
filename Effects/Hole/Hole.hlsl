@@ -45,26 +45,21 @@ PS_OUTPUT ps_main( in PS_INPUT In )
     return Out;
 }
 
-float4 GetColorPM(float2 xy, float4 tint)
-{
-	float4 color = Tex0.Sample(Tex0Sampler, xy) * tint;
-	if ( color.a != 0 )
-		color.rgb /= color.a;
-	return color;
-}
-
 PS_OUTPUT ps_main_pm( in PS_INPUT In )
 {
     // Output pixel
     PS_OUTPUT Out;
-    Out.Color = GetColorPM(In.texCoord, In.Tint);
-    if(iH==0 || (iH==1 && In.texCoord.x >fX) || (iH==2 && In.texCoord.x <fX) ) {
-    	if(iV==0 || (iV==1 && In.texCoord.y >fY) || (iV==2 && In.texCoord.y <fY) ) {
+	Out.Color = Tex0.Sample(Tex0Sampler,In.texCoord) * In.Tint;
+    if(iH==0 || (iH==1 && In.texCoord.x >fX) || (iH==2 && In.texCoord.x <fX) )
+	{
+    	if(iV==0 || (iV==1 && In.texCoord.y >fY) || (iV==2 && In.texCoord.y <fY) )
+		{
 		    float a = pow(max(0,min(1,sqrt(pow(In.texCoord.y-fY,2)/fRatio+pow(In.texCoord.x-fX,2)*fRatio)/fD)),fE)*fC;
-		    if(iInvert==1) Out.Color.a *= 1-a;
-		    else Out.Color.a *= a;
-		  }
+		    if(iInvert==1)
+				Out.Color *= 1-a;
+		    else
+				Out.Color *= a;
+		}
     }
-	Out.Color.rgb *= Out.Color.a;
     return Out;
 }

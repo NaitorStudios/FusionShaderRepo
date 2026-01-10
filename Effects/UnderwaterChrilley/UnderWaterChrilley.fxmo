@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -38,7 +45,7 @@ uniform float fWavePeriods;
 uniform bool waveEnabled;
 uniform vec4 fColor;
 
-uniform sampler2D bkd;
+uniform sampler2D bckgTexture;
 uniform sampler2D distort;
 
 uniform lowp vec4 blendColor;
@@ -49,7 +56,7 @@ out vec4 fragColor;
 
 void main(void)
 {
-    vec4 color = texture(bkd, vec2( textureCoordinate.x,textureCoordinate.y));
+    vec4 color = texture(bckgTexture, vec2( textureCoordinate.x,textureCoordinate.y));
 
     vec4 distortColor = texture(distort, vec2( textureCoordinate.x,textureCoordinate.y));
 
@@ -57,16 +64,14 @@ void main(void)
     offset.x = distortColor.r*fDistortStr;
     offset.y = distortColor.g*fDistortStr;
 
-    color =  texture(bkd, vec2(textureCoordinate.x+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.x,textureCoordinate.y+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.y));
+    color =  texture(bckgTexture, vec2(textureCoordinate.x+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.x,textureCoordinate.y+(sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.y));
 
     color += fColor;
 
     if(waveEnabled)
     {
-        color.a = smoothstep(0.01,0.03, textureCoordinate.y+(sin((textureCoordinate.x+fWaveFrequency*fPixelHeight)*fWavePeriods)*fWaveAmplitude)+offset);
+        color.a = smoothstep(0.01,0.03, textureCoordinate.y+(sin((textureCoordinate.x+fWaveFrequency*fPixelHeight)*fWavePeriods)*fWaveAmplitude)+(offset.x+offset.y)/2.0);
     }
-
-    color *= blendColor;
 
     fragColor = color; //gl_FragColor
 }

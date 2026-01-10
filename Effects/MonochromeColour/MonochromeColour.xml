@@ -1,7 +1,7 @@
 <effect>
 <name>Monochrome with color</name>
 <description>Keeps one colour and changes other colours into monochrome</description>
-<author>Neomonkey</author>
+<author>Neomonkey, DX11 port by NaitorStudios</author>
 <parameter>
 	<name>Keep color</name>
 	<code>keep</code>

@@ -1,0 +1,13 @@
+<effect>
+<name>Accurate Sonic Fade (Yellow)</name>
+<description>Accutate Sonic the Hedgehog fade from Megadrive games! Special thanks to Vectorsatyr for code reference!</description>
+<author>DarkD04, DX11 port/edit by NaitorStudios</author>
+<parameter>
+	<name>Transition</name>
+	<code>FadeTransition</code>
+	<description> This value changes the fade. If the value is lower object is darker </description>
+	<type>float</type>
+	<property>edit</property>
+	<value>100</value>
+</parameter>
+</effect>

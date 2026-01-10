@@ -1,0 +1,27 @@
+
+	
+<effect>
+
+<name>FXAA</name>
+<description>FXAA</description>
+<author>fnkycoldmadeanr, DX11 Port by NaitorStudios</author>
+
+<!--Input Parameters-->
+
+<parameter>
+	<name>u_strength</name>
+	<code>u_strength</code>
+	<description></description>
+	<type>float</type>
+	<property>edit</property>
+	<value>8.0</value>
+</parameter>
+
+<sampler>
+<index>0</index>
+<filter>point</filter>
+<AddressU>border</AddressU>
+<AddressV>border</AddressV>
+</sampler>
+
+</effect>

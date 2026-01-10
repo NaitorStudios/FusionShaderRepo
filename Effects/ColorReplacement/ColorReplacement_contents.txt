@@ -1,0 +1,5 @@
+Last Updated: 2026-01-09T22:12:33.535772+00:00
+
+=== Shader files ===
+ColorReplacement.xml - Info & Integration
+ColorReplacement.fx - DirectX9 source code

@@ -1,0 +1,29 @@
+<effect>
+<name>Waist Water</name>
+<author>asker</author>
+<description>Have the character submerged in water</description>
+<parameter>
+		<name>Underwater Alpha</name>
+		<code>alpha</code>
+		<description>Opacity of the part under water</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.1</value>
+</parameter>
+<parameter>
+		<name>Water Start</name>
+		<code>water_start</code>
+		<description>At what point on the sprite does the water start</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.5</value>
+</parameter>
+<parameter>
+		<name>Water End</name>
+		<code>water_end</code>
+		<description>How far down should the water curve</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.65</value>
+</parameter>
+</effect>

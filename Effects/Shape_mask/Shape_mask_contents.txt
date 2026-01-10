@@ -1,0 +1,5 @@
+Last Updated: 2018-01-10T16:13:14+00:00
+
+=== Shader files ===
+Shape_mask.xml - Info & Integration
+Shape_mask.fx - DirectX9 source code

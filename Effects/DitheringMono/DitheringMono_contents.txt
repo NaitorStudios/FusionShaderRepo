@@ -1,0 +1,9 @@
+Last Updated: 2014-01-16T00:28:04+00:00
+
+=== Shader files ===
+DitheringMono.xml - Info & Integration
+DitheringMono.fx - DirectX9 source code
+
+=== Textures ===
+oddplanet.jpg
+sprDither_0.png

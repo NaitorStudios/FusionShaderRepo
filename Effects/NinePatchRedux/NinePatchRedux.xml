@@ -1,0 +1,27 @@
+<effect>
+<name>NinePatch Redux</name>
+<author>asker</author>
+<description>Create custom-scaled graphical boxes with ease</description>
+<parameter>
+		<name>X Scale factor</name>
+		<code>xScale</code>
+		<description>Update this to the object's current X Scale</description>
+		<type>float</type>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Y Scale factor</name>
+		<code>yScale</code>
+		<description>Update this to the object's current Y Scale</description>
+		<type>float</type>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Repeat pattern</name>
+		<code>repeat</code>
+		<description>Enable to have the pattern repeat instead of stretch.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+</effect>

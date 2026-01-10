@@ -1,0 +1,5 @@
+Last Updated: 2022-12-20T21:36:59.745685+00:00
+
+=== Shader files ===
+RadialBlur2.xml - Info & Integration
+RadialBlur2.fx - DirectX9 source code

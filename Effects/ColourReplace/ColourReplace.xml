@@ -1,83 +1,86 @@
 <effect>
-<name>Background Colour Replace</name>
-<description>Replace a specific colour in the background with another, with tolerance amount</description>
-<parameter>
+  <name>Background Colour Replace</name>
+  <description>Replace a specific colour in the background with another, with tolerance amount</description>
+  <author>Unknown, improved and ported to DX11 by NaitorStudios</author>
 
-		// Name of parameter property
-		<name>Target Colour</name>
-
-		// Parameter name (in the .fx file)
-		<code>fTarget</code>
-
-		// Description
-		<description>The Colour to be replaced by another</description>
-
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
-		<property>color</property>
-</parameter>
-<parameter>
-
-		// Name of parameter property
-		<name>Tolerance</name>
-
-		// Parameter name (in the .fx file)
-		<code>fTolerance</code>
-
-		// Description
-		<description>1.0 = Only exact colour replaced, 0.0 = Any colour replaced</description>
-
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
-		<property>edit</property>
-                                <type>float</type>
-
-		// Default value
-		<value>1.0</value>
-
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
-</parameter>
-<parameter>
-
-		// Name of parameter property
-		<name>Use Animation as Tint</name>
-
-		// Parameter name (in the .fx file)
-		<code>fAnimation</code>
-
-		// Description
-		<description>Choose to use animation frames as tint rather than a single colour (no alpha channel)</description>
-
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
-		<property>checkbox</property>
-</parameter>
-<parameter>
-
-		// Name of parameter property
-		<name>Tint Colour</name>
-
-		// Parameter name (in the .fx file)
-		<code>fTint</code>
-
-		// Description
-		<description>Colour to replace the target colour</description>
-
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
-		<property>color</property>
-</parameter>
   <parameter>
-
-    // Name of parameter property
-    <name>Attempt Blending</name>
-
-    // Parameter name (in the .fx file)
-    <code>fBlend</code>
-
-    // Description
-    <description>Attempt to blend tint depending on how close the colour is to target colour.</description>
-
-    // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
-    <property>checkbox</property>
+    <!-- Name of parameter property -->
+    <name>Target Colour</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fTarget</code>
+    <!-- Description -->
+    <description>The Colour to be replaced by another</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>color</property>
+    <type>int_float4</type>
   </parameter>
-<BackgroundTexture>1</BackgroundTexture>
+
+  <parameter>
+    <!-- Name of parameter property -->
+    <name>Tolerance</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fTolerance</code>
+    <!-- Description -->
+    <description>1.0 = Only exact colour replaced, 0.0 = Any colour replaced</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>edit</property>
+    <type>float</type>
+    <!-- Default value -->
+    <value>1.0</value>
+    <!-- Optional: min and max values -->
+    <!--
+    <min>0.0</min>
+    <max>1.0</max>
+    -->
+  </parameter>
+
+  <parameter>
+    <!-- Name of parameter property -->
+    <name>Use Animation as Tint</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fAnimation</code>
+    <!-- Description -->
+    <description>Choose to use animation frames as tint rather than a single colour (no alpha channel)</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>checkbox</property>
+    <type>int</type>
+  </parameter>
+
+  <parameter>
+    <!-- Name of parameter property -->
+    <name>Tint Colour</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fTint</code>
+    <!-- Description -->
+    <description>Colour to replace the target colour</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>color</property>
+    <type>int_float4</type>
+  </parameter>
+
+  <parameter>
+    <!-- Name of parameter property -->
+    <name>Attempt Blending</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fBlend</code>
+    <!-- Description -->
+    <description>Attempt to blend tint depending on how close the colour is to target colour.</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>checkbox</property>
+    <type>int</type>
+  </parameter>
+
+  <parameter>
+    <!-- Name of parameter property -->
+    <name>Invert Effect</name>
+    <!-- Parameter name (in the .fx file) -->
+    <code>fInvert</code>
+    <!-- Description -->
+    <description>Invert the effect, making the object's texture visible only where the target color does not match.</description>
+    <!-- Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR) -->
+    <property>checkbox</property>
+    <type>int</type>
+  </parameter>
+
+  <BackgroundTexture>1</BackgroundTexture>
 </effect>

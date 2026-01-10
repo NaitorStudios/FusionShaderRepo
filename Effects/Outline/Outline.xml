@@ -29,8 +29,8 @@
 	<property>color</property>
 	<value>4278190080</value>
 </parameter>
-</effect>
 <sampler>
 	<index>0</index>
 	<filter>Point</filter>
 </sampler>
+</effect>

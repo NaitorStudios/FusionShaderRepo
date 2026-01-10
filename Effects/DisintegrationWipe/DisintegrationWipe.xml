@@ -1,0 +1,30 @@
+<effect>
+<name>Disintegration Wipe</name>
+<description>Disintegrates the object to the desired angle.</description>
+<author>NaitorStudios</author>
+<company></company>
+<website></website>
+
+<parameter>
+		<name>Progress</name>
+		<code>progress</code>
+		<description></description>
+		<type>float</type>
+		<property>spin</property>
+		<value>0.5</value>
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+		<name>Wipe Angle</name>
+		<code>angle</code>
+		<description>0-Bottom to Top, 90-Left to Right, 180-Top to Bottom, 270-Right to Left</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>90</value>
+</parameter>
+
+
+</effect>
+

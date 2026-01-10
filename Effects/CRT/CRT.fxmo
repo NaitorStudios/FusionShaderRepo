@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -49,14 +56,8 @@ out vec4 fragColor;
 #define PI 3.141592653589
 
 vec2 rubyTextureSize;
-
-vec2 radialDistortion(vec2 coord)
-{
-    coord *= rubyTextureSize/vec2(inputW,inputH);
-    vec2 cc = coord - 0.5;
-    float dist = dot(cc, cc) * distortion;
-    return ((coord + cc * (1.0 + dist) * dist) * 1.0)/rubyTextureSize;
-}
+vec2 rubyInputSize;
+vec2 rubyOutputSize;
 
 vec4 scanlineWeights(float dist, vec4 color)
 {
@@ -67,16 +68,20 @@ vec4 scanlineWeights(float dist, vec4 color)
 
 void main(void)
 {
-	rubyTextureSize = vec2(fPixelWidth, fPixelHeight);
+	rubyTextureSize = 1.0/vec2(fPixelWidth, fPixelHeight);
 
-	vec2 rubyInputSize = vec2(inputW,inputH);
-	vec2 rubyOutputSize = vec2(outputW,outputH);
+	rubyInputSize = rubyTextureSize * vec2(inputW,inputH);
+	rubyOutputSize = rubyTextureSize * vec2(outputW,outputH);
 
-	vec2 one = 1.0/rubyTextureSize;
+	vec2 one = 1.0 / rubyTextureSize;
 
-	vec2 xy = radialDistortion(textureCoordinate);
+	vec2 coord = textureCoordinate * (rubyTextureSize / rubyInputSize);
+	vec2 cc = coord - 0.5;
+	float dist = dot(cc, cc) * distortion;				
+	vec2 xy = (coord + cc * (1.0 + dist) * dist) * rubyInputSize / rubyTextureSize;
 
-	vec2 uv_ratio = fract(xy) - 0.5;
+
+	vec2 uv_ratio = fract(xy * rubyTextureSize) - 0.5;
 
 	xy = (floor(xy*rubyTextureSize) + 0.5)/rubyTextureSize;
 
@@ -88,14 +93,14 @@ void main(void)
 	// Normalize
 	coeffs /= dot(coeffs, vec4(1.0));
 
-	vec4 col  = clamp(vec4(0.0), coeffs.x * TEX2D(xy + vec2(-one.x, 0.0))   + coeffs.y * TEX2D(xy) + coeffs.z * TEX2D(xy + vec2(one.x, 0.0)) + coeffs.w * TEX2D(xy + vec2(2.0 * one.x, 0.0)), vec4(1.0));
-	vec4 col2 = clamp(vec4(0.0), coeffs.x * TEX2D(xy + vec2(-one.x, one.y)) + coeffs.y * TEX2D(xy + vec2(0.0, one.y)) + coeffs.z * TEX2D(xy + one) + coeffs.w * TEX2D(xy + vec2(2.0 * one.x, one.y)), vec4(1.0));
+	vec4 col1 = clamp(coeffs.x * TEX2D(xy + vec2(-one.x, 0.0))   + coeffs.y * TEX2D(xy) + coeffs.z * TEX2D(xy + vec2(one.x, 0.0)) + coeffs.w * TEX2D(xy + vec2(2.0 * one.x, 0.0)), vec4(0.0), vec4(1.0));
+	vec4 col2 = clamp(coeffs.x * TEX2D(xy + vec2(-one.x, one.y)) + coeffs.y * TEX2D(xy + vec2(0.0, one.y)) + coeffs.z * TEX2D(xy + one) + coeffs.w * TEX2D(xy + vec2(2.0 * one.x, one.y)), vec4(0.0), vec4(1.0));
 
-	vec4 weights  = scanlineWeights(abs(uv_ratio.y) , col);
+	vec4 weights1 = scanlineWeights(abs(uv_ratio.y) , col1);
 	vec4 weights2 = scanlineWeights(1.0 - uv_ratio.y, col2);
-	vec3 mul_res  = (col * weights + col2 * weights2).rgb;
+	vec3 mul_res  = (col1 * weights1 + col2 * weights2).rgb;
 
-	float mod_factor = textureCoordinate.x * rubyTextureSize.x * rubyOutputSize.x / rubyInputSize.x;
+	float mod_factor = textureCoordinate.x * rubyOutputSize.x * rubyTextureSize.x / rubyInputSize.x;
 
 	vec3 dotMaskWeights = mix(
       	vec3(1.05, 0.75, 1.05),
@@ -106,9 +111,7 @@ void main(void)
 	mul_res *= dotMaskWeights;
     mul_res = pow(mul_res, vec3(1.0 / (2.0 * inputGamma - outputGamma)));
 
-	vec4 color = vec4(mul_res, 1.0);
-
-	color *= blendColor;
+	vec4 color = vec4(mul_res, 1.0)*blendColor;
 
 	fragColor = color; //gl_FragColor
 }

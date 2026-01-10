@@ -1,0 +1,37 @@
+<effect>
+<name>Projection</name>
+<author></author>
+<description>A shader that projects a 3D view using an equirectangular image</description>
+
+<BackgroundTexture>1</BackgroundTexture>
+
+<sampler>
+    <index>1</index>
+    <filter>linear</filter>
+</sampler>
+
+<parameter>
+    <name>Field of View</name>
+    <code>fovVar</code>
+    <description>FOV of the background image</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.25</value>
+</parameter>
+<parameter>
+    <name>Latitude</name>
+    <code>latitudeVar</code>
+    <description>Latitude of the background image</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>20.0</value>
+</parameter>
+<parameter>
+    <name>Longitude</name>
+    <code>longitudeVar</code>
+    <description>Longitude of the background image</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>40.0</value>
+</parameter>
+</effect>

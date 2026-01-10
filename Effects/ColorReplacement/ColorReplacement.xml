@@ -1,0 +1,134 @@
+<effect>
+    <name>Color Replacement</name>
+    <author>Ported by NaitorStudios</author>
+    <description>Replaces specific colors based on static filter colors with dynamic replacement colors, controlled by Lerp Values.</description>
+
+    <!-- Replacement Colors -->
+    <parameter>
+        <name>Red</name>
+        <code>red</code>
+        <description>Replacement color for red filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>255</value>
+    </parameter>
+
+    <parameter>
+        <name>Green</name>
+        <code>green</code>
+        <description>Replacement color for green filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>65280</value>
+    </parameter>
+	
+	<parameter>
+        <name>Blue</name>
+        <code>blue</code>
+        <description>Replacement color for blue filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>16711680</value>
+    </parameter>
+
+	<parameter>
+        <name>Yellow</name>
+        <code>yellow</code>
+        <description>Replacement color for yellow filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>65535</value>
+    </parameter>
+
+	<parameter>
+        <name>Purple</name>
+        <code>purple</code>
+        <description>Replacement color for purple filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>16711935</value>
+    </parameter>
+
+	<parameter>
+        <name>Cyan</name>
+        <code>cyan</code>
+        <description>Replacement color for cyan filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>16776960</value>
+    </parameter>
+	
+	<parameter>
+        <name>White</name>
+        <code>white</code>
+        <description>Replacement color for white filter color.</description>
+        <type>color</type>
+        <property>color</property>
+        <value>16777215</value>
+    </parameter>
+
+    <!-- Lerp Values -->
+    <parameter>
+        <name>Red Lerp</name>
+        <code>redLerp</code>
+        <description>Lerp value for red color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Green Lerp</name>
+        <code>greenLerp</code>
+        <description>Lerp value for green color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+	
+    <parameter>
+        <name>Blue Lerp</name>
+        <code>blueLerp</code>
+        <description>Lerp value for blue color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+	
+	<parameter>
+        <name>Yellow Lerp</name>
+        <code>yellowLerp</code>
+        <description>Lerp value for yellow color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+	
+	<parameter>
+        <name>Purple Lerp</name>
+        <code>purpleLerp</code>
+        <description>Lerp value for purple color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+	
+	<parameter>
+        <name>Cyan Lerp</name>
+        <code>cyanLerp</code>
+        <description>Lerp value for cyan color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+	
+	<parameter>
+        <name>White Lerp</name>
+        <code>whiteLerp</code>
+        <description>Lerp value for white color replacement.</description>
+        <type>float</type>
+        <property>spin</property>
+        <value>0.0</value>
+    </parameter>
+
+</effect>

@@ -1,0 +1,41 @@
+<effect>
+  <name>Ultra Rare (Directional)</name>
+  <description>Simulates tilt-based directional shimmer with gold tint.</description>
+  <author>YugiGlossBoss</author>
+
+  <parameter>
+    <name>Angle X</name>
+    <code>angleX</code>
+    <description>Controls shimmer direction horizontally (-2.0 to 2.0)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>1.0</value>
+  </parameter>
+
+  <parameter>
+    <name>Angle Y</name>
+    <code>angleY</code>
+    <description>Controls shimmer direction vertically (-2.0 to 2.0)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>1.0</value>
+  </parameter>
+
+  <parameter>
+    <name>Time</name>
+    <code>time</code>
+    <description>Animated shimmer time (driven by events)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0</value>
+  </parameter>
+
+  <parameter>
+    <name>Thickness</name>
+    <code>thickness</code>
+    <description>Foil frequency (5–100)</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>30</value>
+  </parameter>
+</effect>

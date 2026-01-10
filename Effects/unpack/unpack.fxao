@@ -1,0 +1,66 @@
+// unpack
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform int selectedImage;
+
+int custom_mod(int a, int b) {
+    return a - (a / b) * b;
+}
+
+void main(void)
+{
+    vec4 pixel = texture2D(imgTexture, textureCoordinate);
+    float channel_value;
+    
+    // Get the correct channel based on selectedImage
+    if (selectedImage / 4 == 0) {
+        channel_value = pixel.r;
+    } else if (selectedImage / 4 == 1) {
+        channel_value = pixel.g;
+    } else if (selectedImage / 4 == 2) {
+        channel_value = pixel.b;
+    } else {
+        channel_value = pixel.a;
+    }
+
+    int i = int(channel_value * 255.0);
+    int shift = int(2 * custom_mod(selectedImage, 4));
+    
+    // Custom implementation for bitwise shift right and custom modulus
+    int l = custom_mod(i / int(pow(2.0, float(shift))), 4);
+    
+    vec4 Out_Color = vec4(float(l) / 3.0, float(l) / 3.0, float(l) / 3.0, 1.0);
+    gl_FragColor = Out_Color;
+}
+//@End

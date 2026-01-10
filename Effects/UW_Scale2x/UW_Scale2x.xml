@@ -1,7 +1,7 @@
 <effect>
 <name>Scale2x</name>
-<description>Upscale the screen to a higher resolution using a Scale2x upscaling algorithm variant
-created for high efficiency as a shader.
+<description>Upscale the screen to a higher resolution using a Scale2x upscaling algorithm variant&#xA;
+created for high efficiency as a shader.&#xA;
 Special thanks to Salamanderpants for making this extension possible.</description>
 <author>Sebastian Janisz</author>
 <company>Ultimate Walrus</company>
@@ -11,8 +11,10 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Subpixel offset X</name>
 		<code>fSubPixelOffsetX</code>
 		<description>Number of half-pixels to offset the output's X by.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!--Type (int, float or int_float4)-->
+
+		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+
 		<value>0</value>
 </parameter>
 
@@ -21,10 +23,11 @@ Special thanks to Salamanderpants for making this extension possible.</descripti
 		<name>Subpixel offset Y</name>
 		<code>fSubPixelOffsetY</code>
 		<description>Number of half-pixels to offset the output's Y by.</description>
-		<type>float</type> // Type (int, float or int_float4)
-		<property>edit</property> // Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<type>float</type> <!--Type (int, float or int_float4)-->
+
+		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+
 		<value>0</value>
 </parameter>
 
 </effect>
-

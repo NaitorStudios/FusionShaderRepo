@@ -1,0 +1,31 @@
+<effect>
+<name>Panorama (No AA)</name>
+<description>Panorama effect from the FNaF remaster.</description>
+<author>Clickteam (ported by Rhadamus)</author>
+
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+<name>Vertical</name>
+<variable>pDir</variable>
+<type>int</type>
+<property>checkbox</property>
+<value>0</value>
+</parameter>
+
+<parameter>
+<name>Zoom value</name>
+<variable>zoom</variable>
+<type>int</type>
+<value>75</value>
+</parameter>
+
+<parameter>
+<name>Black edges</name>
+<variable>noWrap</variable>
+<type>int</type>
+<property>checkbox</property>
+<value>1</value>
+</parameter>
+</effect>
+

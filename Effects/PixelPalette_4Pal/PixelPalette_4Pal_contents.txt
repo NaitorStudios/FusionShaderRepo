@@ -1,0 +1,5 @@
+Last Updated: 2026-01-09T22:12:33.544781+00:00
+
+=== Shader files ===
+PixelPalette_4Pal.xml - Info & Integration
+PixelPalette_4Pal.fx - DirectX9 source code

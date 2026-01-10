@@ -1,0 +1,52 @@
+<effect>
+    <name>Manipulation Sensation</name>
+    <author>Nomok</author>
+    <BackgroundTexture>1</BackgroundTexture>
+    <sampler>
+        <index>1</index>
+        <filter>linear</filter>
+    </sampler>
+    <parameter>
+        <name>Width</name>
+        <code>width</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+    <parameter>
+        <name>Height</name>
+        <code>height</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>1.0</value>
+    </parameter>
+    <parameter>
+        <name>Offset X</name>
+        <code>offsetX</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>Offset Y</name>
+        <code>offsetY</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>Angle</name>
+        <code>angle</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+		<name>Overlay Mode</name>
+		<code>overlay</code>
+        <description>Toggles if the effect is being used as an overlay.</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>0</value>
+    </parameter>
+</effect>

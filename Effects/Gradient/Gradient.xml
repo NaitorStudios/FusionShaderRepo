@@ -77,7 +77,7 @@
 <parameter>
 		<name>Rotate Gradient</name>
 		<code>iR</code>
-		<description>Rotate gradient 90°.</description>
+		<description>Rotate gradient 90&#176;.</description>
 		<type>int</type>
 		<property>checkbox</property>
 		<value>0</value>

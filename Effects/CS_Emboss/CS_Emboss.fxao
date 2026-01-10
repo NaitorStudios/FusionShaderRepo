@@ -1,9 +1,6 @@
 // CS_Emboss
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -33,14 +38,12 @@ uniform float fPixelHeight;
 
 void main(void)
 {
-    vec2 onePixel = vec2(1.0/fPixelWidth, 1.0/fPixelHeight);
-	vec4 color = vec4(0.5, 0.5, 0.5, 1.0);
-    color.rgb -= texture2D(imgTexture, textureCoordinate - onePixel).rgb*fCoeff;
-    color.rgb += texture2D(imgTexture, textureCoordinate + onePixel).rgb*fCoeff;
+    vec2 onePixel = vec2(fPixelWidth, fPixelHeight);
+	highp vec4 color = vec4(0.5, 0.5, 0.5, 1.0);
+    color.rgb -= (texture2D(imgTexture, textureCoordinate - onePixel)*blendColor).rgb*fCoeff;
+    color.rgb += (texture2D(imgTexture, textureCoordinate + onePixel)*blendColor).rgb*fCoeff;
     float w = (color.r+color.g+color.b)/3.0;
     color.rgb = vec3(w, w, w);
-
-    color *= blendColor;
 
     gl_FragColor = color;
 

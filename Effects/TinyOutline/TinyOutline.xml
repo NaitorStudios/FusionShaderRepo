@@ -1,0 +1,17 @@
+<effect>
+<name>Tiny Outline</name>
+<author>asker</author>
+<description>One Pixel Outline Shader</description>
+<parameter>
+		<name>Color</name>
+		<code>outlineColor</code>
+		<description>Color of the outline</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+<sampler>
+	<index>0</index>
+	<filter>point</filter>
+</sampler>
+</effect>

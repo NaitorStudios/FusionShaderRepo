@@ -1,0 +1,21 @@
+<effect>
+<name>Posterize </name>
+<author>nomok</author>
+	<parameter>
+		<name> Gamma</name>
+		<code>fGam</code>
+		<description>Gamma coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.3</value>
+	</parameter>
+	<parameter>
+		<name>Number of Colors</name>
+		<code>numColors</code>
+		<description>The Number of Colors</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>7.0</value>
+	</parameter>
+</effect>
+

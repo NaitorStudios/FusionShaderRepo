@@ -1,0 +1,20 @@
+<effect>
+    <name>Selective BG Color Swap</name>
+    <author>bybyblue, DX11 port by NaitorStudios</author>
+    <description>Replaces overlapping pixels that match a given RGB</description>
+    <BackgroundTexture>1</BackgroundTexture> <!-- Enables “sampler2D bkd : register(s1);”-->
+    <parameter>
+            <name>Replace Color</name>
+            <code>RGB1</code>
+            <type>int_float4</type>
+            <property>COLOR</property>
+            <value>16777215</value>
+    </parameter>
+    <parameter>
+            <name>New Color</name>
+            <code>RGB2</code>
+            <type>int_float4</type>
+            <property>COLOR</property>
+            <value>0</value>
+    </parameter>
+    </effect>

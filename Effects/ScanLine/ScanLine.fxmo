@@ -87,7 +87,7 @@ void main(void)
 		texCoordOffset = radialDistortion(textureCoordinate, textureCoordinate);
 	}
 
-	vec4 color = texture(imgTexture, textureCoordinate);
+	vec4 color = texture(imgTexture, texCoordOffset);
 
 	color = ScanLine(color, texCoordOffset);
 	color *= blendColor;

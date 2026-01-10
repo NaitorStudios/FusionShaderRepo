@@ -1,0 +1,12 @@
+<effect>
+<name>Color Fill</name>
+<description>Color Fill</description>
+<author>bybyblue, DX11 Port by NaitorStudios</author>
+<parameter>
+	<name>Color</name>
+	<code>c</code>
+	<type>int_float4</type>
+	<property>COLOR</property>
+	<value>16777215</value>
+</parameter>
+</effect>

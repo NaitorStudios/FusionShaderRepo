@@ -1,0 +1,37 @@
+<effect>
+  <name>cleanEdge</name>
+  <description>A pixel art upscaling algorithm for clean rotations</description>
+  <author>Ported by NaitorStudios, original by torcado</author>
+  <parameter>
+    <name>Highest Color</name>
+    <code>highestColor</code>
+    <description>Color with the highest priority.</description>
+    <type>int_float4</type>
+    <property>color</property>
+    <value>-16777216</value>
+  </parameter>
+  <parameter>
+    <name>Similar Threshold</name>
+    <code>similarThreshold</code>
+    <description>Threshold for color similarity.</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>0.0</value>
+  </parameter>
+  <parameter>
+    <name>Line Width</name>
+    <code>lineWidth</code>
+    <description>Width of the line.</description>
+    <type>float</type>
+    <property>edit</property>
+    <value>1.0</value>
+  </parameter>
+  <!--<parameter>
+    <name>Slope</name>
+    <code>slope</code>
+    <description>enables 2:1 slopes. otherwise only uses 45 degree slopes</description>
+    <type>int</type>
+    <property>checkbox</property>
+    <value>1</value>
+  </parameter>-->
+</effect>

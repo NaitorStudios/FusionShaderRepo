@@ -1,0 +1,5 @@
+Last Updated: 2025-01-20T18:14:48.665146+00:00
+
+=== Shader files ===
+ColorAdjust_Photoshop.xml - Info & Integration
+ColorAdjust_Photoshop.fx - DirectX9 source code

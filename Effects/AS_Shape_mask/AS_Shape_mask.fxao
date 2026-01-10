@@ -1,0 +1,71 @@
+//AS_Shape_mask
+
+//@Begin_vertex
+#ifdef GL_ES
+    precision mediump float;
+#endif
+
+attribute vec4 position;
+attribute vec2 texCoord;
+
+varying vec2 frag_texCoord;
+
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+void main() {
+    frag_texCoord = texCoord;
+    gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+
+//@Begin_fragment
+#ifdef GL_ES
+    precision mediump float;
+#endif
+
+varying vec2 frag_texCoord;
+
+uniform sampler2D imgTexture;
+uniform sampler2D u_masktex;
+uniform lowp vec4 blendColor;
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+uniform int mask_x;
+uniform int mask_y;
+uniform int mask_width;
+uniform int mask_height;
+
+
+void main() {
+    vec2 Input = frag_texCoord;
+    vec4 maintexture = texture2D(imgTexture, Input);
+    vec4 color = vec4(0.0);
+
+    if(
+    (Input.x / fPixelWidth < float(mask_x))
+    || (Input.x / fPixelWidth > float(mask_x + mask_width))
+    || (Input.y / fPixelHeight < float(mask_y))
+    || (Input.y / fPixelHeight > float(mask_y + mask_height))
+    )
+    {
+        color = vec4(0.0);
+    }
+    else
+    {
+        vec4 masktexture = texture2D(u_masktex, vec2((Input.x / fPixelWidth - float(mask_x)) / float(mask_width), (Input.y / fPixelHeight - float(mask_y)) / float(mask_height))) * blendColor;
+
+        if(masktexture.a != 0.0)
+        {
+            color.rgb = maintexture.rgb;
+            color.a = masktexture.a;
+        }
+        else
+        {
+            color = vec4(0.0);
+        }
+    }
+    gl_FragColor = color;
+}
+//@End

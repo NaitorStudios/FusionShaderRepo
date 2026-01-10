@@ -1,0 +1,64 @@
+<effect>
+<name>Mandelbrot Set with perturbation</name>
+<description>None</description>
+<author>Algul</author>
+<parameter>
+		<name>MaxIteration</name>
+		<code>fMaxIter</code>
+		<description>Maximum number of iterations</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>255</value>
+		<!--
+		<min>0.0</min>
+		<max>255.0</max>
+		-->
+</parameter>
+<parameter>
+		<name>PerturbationX</name>
+		<code>fPertX</code>
+		<description>Perturbation</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>PerturbationY</name>
+		<code>fPertY</code>
+		<description>Perturbation</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Scale</name>
+		<code>fScale</code>
+		<description>Scale</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>3.0</value>
+</parameter>
+<parameter>
+		<name>Offset X</name>
+		<code>fOffsetX</code>
+		<description>None</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Offset Y</name>
+		<code>fOffsetY</code>
+		<description>None</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Palette</name>
+		<variable>ImageVar</variable>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value>pal.bmp</value>
+</parameter>
+</effect>

@@ -1,0 +1,65 @@
+// Fusion_Angle
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+uniform float angle;
+uniform float hX; // Horizontal offset in pixels
+uniform float hY; // Vertical offset in pixels
+uniform float fPixelWidth; // Width of one pixel in the texture
+uniform float fPixelHeight; // Height of one pixel in the texture
+
+void main(void)
+{
+    float angleRadians = angle * 0.0174532925; // Convert angle to radians
+
+    // Normalize pixel offsets
+    float normalizedX = hX * fPixelWidth;
+    float normalizedY = hY * fPixelHeight;
+
+    // Adjust pixel coordinates to handle non-uniform aspect ratios
+    float dx = (textureCoordinate.x - normalizedX) / fPixelWidth;
+    float dy = (textureCoordinate.y - normalizedY) / fPixelHeight;
+
+    // Calculate the radius in adjusted space
+    float Ray = sqrt(dx * dx + dy * dy);
+
+    // Calculate the angle from center to current pixel in adjusted space
+    float Angle = atan(dy, dx);
+
+    // Apply the rotation transformation and convert back to texture space
+    vec2 texCoord;
+    texCoord.x = normalizedX + cos(Angle + angleRadians) * Ray * fPixelWidth;
+    texCoord.y = normalizedY + sin(Angle + angleRadians) * Ray * fPixelHeight;
+
+    // Sample the texture using the adjusted texture coordinates
+    vec4 outColor = texture2D(imgTexture, texCoord);
+
+    // Apply the tint color
+    outColor *= blendColor;
+
+    gl_FragColor = outColor;
+}
+//@End

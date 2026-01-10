@@ -1,0 +1,53 @@
+<effect>
+<name>Card3D</name>
+<author>asker</author>
+<description>Rotate a card in 3D - v1.0</description>
+<parameter>
+		<name>X Rotation</name>
+		<code>fX</code>
+		<description>X Rotation in degrees</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Y Rotation</name>
+		<code>fY</code>
+		<description>Y Rotation in degrees</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Z Rotation</name>
+		<code>fZ</code>
+		<description>Z Rotation in degrees</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Distance</name>
+		<code>fDist</code>
+		<description>Simulated distance of camera</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Zoom</name>
+		<code>fZoom</code>
+		<description>Camera zoom</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>1.0</value>
+</parameter>
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+	<filter>linear</filter>
+	<addressU>Border</addressU>
+	<addressV>Border</addressV>
+	<BorderColor>0</BorderColor>
+</sampler>
+</effect>

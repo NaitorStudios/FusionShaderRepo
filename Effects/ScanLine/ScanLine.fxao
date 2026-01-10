@@ -61,7 +61,7 @@ vec4 ScanLine(vec4 color, vec2 texCoord)
   // scanline
 	vec4 scanlineColor = vec4(1.0,1.0,1.0,1.0);
 	if (iScanline == 1) {
-    scanlineColor = 1.2 * vec4(1.0,1.0,1.0,1.0) * abs(sin(texCoord.y * 2000.0));
+    	scanlineColor = 1.2 * vec4(1.0,1.0,1.0,1.0) * abs(sin(texCoord.y * 2000.0));
 
 		scanlineColor += iScanLineForca;
 		if (scanlineColor.r > 1.0 ){
@@ -79,10 +79,10 @@ void main(void)
 		texCoordOffset = radialDistortion(textureCoordinate, textureCoordinate);
 	}
 
-	vec4 color = texture2D(imgTexture, textureCoordinate);
+	vec4 color = texture2D(imgTexture, texCoordOffset);
 
 	color = ScanLine(color, texCoordOffset);
-	color *= blendColor;
+	//color *= blendColor;
 	gl_FragColor = color;
 }
 //@End

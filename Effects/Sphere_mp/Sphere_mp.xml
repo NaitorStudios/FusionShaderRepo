@@ -1,0 +1,21 @@
+<effect>
+<name>Sphere Map</name>
+<description>Animated Sphere Map</description>
+<author>Gigatron</author>
+<parameter>
+	<name>Timer</name>
+	<description>Timer Value ; increase this value always set effect parameter 't_timer' to  Timer*0.002</description>
+	<code>t_timer</code>
+	<type>float</type>
+	<value>0.002</value>
+</parameter>
+<parameter>
+	<name>Speed</name>
+	<description>Speed If Animated</description>
+	<code>speed</code>
+	<type>float</type>
+	<value>0.05</value>
+</parameter>
+ 
+ </effect>
+

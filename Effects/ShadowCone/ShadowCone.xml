@@ -1,0 +1,72 @@
+<effect>
+<name>Shadow Cone</name>
+<description>Shadowcaster</description>
+<copyright>Free for personal or commercial use</copyright>
+<author>Sketchy / MuddyMole</author>
+<parameter>
+		<name>Width</name>
+		<code>width</code>
+		<description>Image width (pixels)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Height</name>
+		<code>height</code>
+		<description>Image height (pixels)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Light X</name>
+		<code>lightX</code>
+		<description>X position of light source (pixels)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Light Y</name>
+		<code>lightY</code>
+		<description>Y position of light source (pixels)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+<parameter>
+		<name>Light Radius</name>
+		<code>lightRadius</code>
+		<description>Radius of light circle (pixels)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>100</value>
+</parameter>
+<parameter>
+		<name>Ambient Light</name>
+		<code>lightAmbient</code>
+		<description>Intensity of ambient light (0~255)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>64</value>
+		<min>0</min>
+		<max>255</max>
+</parameter>
+<parameter>
+		<name>Cone Angle</name>
+		<code>coneAngle</code>
+		<description>Direction of cone (Radians)</description>
+		<property>edit</property>
+        <type>float</type>
+		<value>1.0</value>
+</parameter>
+<parameter>
+		<name>Cone Range</name>
+		<code>coneRange</code>
+		<description>Cone's field of view (Radians)</description>
+		<property>edit</property>
+        <type>float</type>
+		<value>1.0</value>
+</parameter>
+</effect>

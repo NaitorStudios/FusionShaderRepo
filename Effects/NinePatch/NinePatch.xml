@@ -4,50 +4,54 @@
 <description>Create custom-scaled graphical boxes with ease.</description>
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>X Scale factor</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>xScale</code>
 
-		// Description
+		<!--Description-->
 		<description>Used to determine non-scaled size.</description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>1.0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>128.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>128.0</max>
+		-->
 </parameter>
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Y Scale factor</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>yScale</code>
 
-		// Description
+		<!--Description-->
 		<description>Used to determine non-scaled size.</description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>1.0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>128.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>128.0</max>
+		-->
 </parameter>
 </effect>

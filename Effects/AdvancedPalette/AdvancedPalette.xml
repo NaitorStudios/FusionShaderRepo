@@ -1,0 +1,53 @@
+<effect>
+<name>Advanced 3-color palette swap</name>
+<author>asker</author>
+<description>Swap up to three different colors to other colors, with custom brightness. If a color swap is enabled, it will swap all pixels where that color is dominant and the other two color channels are of equal value. Brightness of the new color is determined by the channel values.</description>
+<parameter>
+		<name>Swap Red</name>
+		<code>swapRed</code>
+		<description>Enable this to swap pixels where Green = Blue</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Red Replacement Color</name>
+		<code>redColor</code>
+		<description>Color to substitute red pixels with</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>255</value>
+</parameter>
+<parameter>
+		<name>Swap Green</name>
+		<code>swapGreen</code>
+		<description>Enable this to swap pixels where Red = Blue</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Green Replacement Color</name>
+		<code>greenColor</code>
+		<description>Color to substitute green pixels with</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>65280</value>
+</parameter>
+<parameter>
+		<name>Swap Blue</name>
+		<code>swapBlue</code>
+		<description>Enable this to swap pixels where Red = Green</description>
+		<type>int</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Blue Replacement Color</name>
+		<code>blueColor</code>
+		<description>Color to substitute blue pixels with</description>
+		<type>int_float4</type>
+		<property>COLOR</property>
+		<value>16711680</value>
+</parameter>
+</effect>

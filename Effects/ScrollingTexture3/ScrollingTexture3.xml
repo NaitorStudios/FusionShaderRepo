@@ -1,0 +1,97 @@
+<effect>
+<name>Scrolling Texture 3</name>
+<author>Originally made by Nobuyuk, edited by NaitorStudios</author>
+<description>Scrolls the object's tiled texture. </description>
+
+<parameter>
+		<!--Name of parameter property-->
+		<name>Width</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>tw</code>
+
+		<!--Description-->
+		<description>Texture width.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>edit</property>
+
+		<!--Default value-->
+		<value>32.0</value>
+</parameter>
+<parameter>
+		<!--Name of parameter property-->
+		<name>Height</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>th</code>
+
+		<!--Description-->
+		<description>Texture height.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>edit</property>
+
+		<!--Default value-->
+		<value>32.0</value>
+</parameter>
+
+<parameter>
+		<name>xOffset</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>xOffset</code>
+
+		<!--Description-->
+		<description>Texture X offset.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>edit</property>
+
+		<!--Default value-->
+		<value>0.0</value>
+
+		<!--Optional : min and max values, not used by all the parameters-->
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+<parameter>
+		<name>yOffset</name>
+
+		<!--Parameter name (in the .fx file)-->
+		<code>yOffset</code>
+
+		<!--Description-->
+		<description>Texture Y offset.</description>
+
+		<!--Type (int or float)-->
+		<type>float</type>
+
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<property>edit</property>
+
+		<!--Default value-->
+		<value>0.0</value>
+
+		<!--Optional : min and max values, not used by all the parameters-->
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<sampler>
+<index>0</index>
+<filter>point</filter>
+<addressU>wrap</addressU>
+<addressV>wrap</addressV>
+</sampler>
+
+</effect>

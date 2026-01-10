@@ -1,0 +1,19 @@
+Last Updated: 2019-04-29T12:53:39.923194+00:00
+
+=== Shader files ===
+BumpLight.xml - Info & Integration
+BumpLight.fx - DirectX9 source code
+BumpLight.hlsl - DirectX11 source code
+BumpLight.fxc - DirectX11 compiled
+BumpLight.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+
+=== Examples ===
+BumpLight_shadertext.mfa
+
+=== Textures ===
+ship_type1.png
+ship_type1_n.png
+stone1.png
+stone1_n.png

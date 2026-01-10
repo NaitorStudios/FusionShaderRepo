@@ -1,0 +1,11 @@
+Notes:
+Incomplete
+
+Last Updated: 2017-10-05T23:07:00+00:00
+
+=== Shader files ===
+VTX2.xml - Info & Integration
+VTX2.fx - DirectX9 source code
+
+=== Examples ===
+VTX2.mfa

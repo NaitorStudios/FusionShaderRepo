@@ -1,15 +1,12 @@
 // CircularMask
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
 attribute vec4 position;
 attribute vec2 texCoord;
-varying vec2 textureCoordinate;
+varying highp vec2 textureCoordinate;
 
 void main(void)
 {
@@ -21,7 +18,7 @@ void main(void)
 #ifdef GL_ES
 precision mediump float;
 #endif
-varying vec2 textureCoordinate;
+varying highp vec2 textureCoordinate;
 
 uniform float x;
 uniform float y;
@@ -37,20 +34,14 @@ uniform float fPixelHeight;
 
 void main(void)
 {
-   vec4 color = texture2D(imgTexture, textureCoordinate);
-
-   float norm_radius = r/2.0/sqrt(pow(fPixelWidth, 2.0) + pow(fPixelHeight, 2.0));
-   float tmp = sqrt(pow(textureCoordinate.x-x/fPixelWidth, 2.0) + pow(textureCoordinate.y-y/fPixelHeight, 2.0))/norm_radius;
-
-   tmp = pow(abs(tmp),float(s));
-
+   lowp vec4 color = texture2D(imgTexture, textureCoordinate)*blendColor;
+   float tmp = max(0.0, min(1.0, sqrt(pow(textureCoordinate.x/fPixelWidth-x, 2.0) + pow(textureCoordinate.y/fPixelHeight-y, 2.0))/r));
+	tmp = pow(tmp,float(s));
    if(i == 1)
       color.a *= (1.0-tmp);
    else
       color.a *= tmp;
-
-   color *= blendColor;
-
-  gl_FragColor = color;
+   gl_FragColor = color;
 }
 //@End
+

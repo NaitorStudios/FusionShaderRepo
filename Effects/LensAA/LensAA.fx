@@ -1,5 +1,5 @@
 // Global variables
-sampler2D lens = sampler_state {
+sampler2D lens : register(s0) = sampler_state {
     MinFilter = Linear;
     MagFilter = Linear;
 };

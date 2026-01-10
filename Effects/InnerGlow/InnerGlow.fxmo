@@ -2,9 +2,6 @@
 
 //@Begin_vertex
 //version_####
-#ifdef GL_ES
- precision mediump float;
-#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -24,7 +21,17 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -56,11 +63,11 @@ out vec4 fragColor;
 
 void main(void)
 {
-	lowp vec4 fcolor = texture(imgTexture, textureCoordinate);
+	lowp vec4 fcolor = texture(imgTexture, textureCoordinate)*blendColor;
     //fcolor *= vec4(fcolor.r * fcolor.a, fcolor.g * fcolor.a, fcolor.b * fcolor.a, fcolor.a);  //Pre-multiply
 
     float blur = fcolor.a;
-    vec2 scaled = vec2(radius/fPixelWidth, radius/fPixelHeight);
+    vec2 scaled = radius*vec2(fPixelWidth, fPixelHeight);
 
     //Blur the alpha channel
     for(int i=0;i<12;i++)
@@ -69,8 +76,6 @@ void main(void)
 
 	//Blend between glow color and foreground
    fcolor.rgb = mix(color.rgb, fcolor.rgb, pow(blur,exponent));
-
-   fcolor *= blendColor;
 
    fragColor = fcolor; //gl_FragColor
 }

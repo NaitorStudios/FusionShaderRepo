@@ -1,9 +1,6 @@
 // UnderWater
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,22 +16,30 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
+uniform vec4 fColor;
+uniform float fDistortStr;
 uniform float fAmplitude;
 uniform float fFrequency;
 uniform float fPeriods;
-uniform float fDistortStr;
-uniform float fWaveFrequency;
+uniform int waveEnabled;
 uniform float fWaveAmplitude;
+uniform float fWaveFrequency;
 uniform float fWavePeriods;
-uniform bool waveEnabled;
-uniform vec4 fColor;
 
-uniform sampler2D bkd;
-uniform sampler2D distort;
+uniform sampler2D fDistort;
+uniform sampler2D bckgTexture;
 
 uniform lowp vec4 blendColor;
 uniform float fPixelWidth;
@@ -42,24 +47,24 @@ uniform float fPixelHeight;
 
 void main(void)
 {
-    vec4 color = texture2D(bkd, vec2( textureCoordinate.x,textureCoordinate.y));
+    vec2 xy = textureCoordinate;
+    vec2 bckg_xy = xy;
 
-    vec4 distortColor = texture2D(distort, vec2( textureCoordinate.x,textureCoordinate.y));
+    vec4 color = texture2D(bckgTexture, bckg_xy);
+    vec4 distortColor = texture2D(fDistort, xy);
 
     vec2 offset = vec2(fFrequency*fPixelWidth, fFrequency*fPixelHeight);
     offset.x = distortColor.r*fDistortStr;
     offset.y = distortColor.g*fDistortStr;
 
-    color =  texture2D(bkd, vec2(textureCoordinate.x+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.x,textureCoordinate.y+ (sin((textureCoordinate.x+fFrequency)*fPeriods)*fAmplitude)+offset.y));
+    color =  texture2D(bckgTexture, vec2(xy.x+(sin((xy.x+fFrequency)*fPeriods)*fAmplitude)+offset.x, xy.y+(sin((xy.x+fFrequency)*fPeriods)*fAmplitude)+offset.y));
 
-    color += fColor;
+    color.rgb += fColor.rgb;
 
-    if(waveEnabled)
+    if(waveEnabled == 1)
     {
-        color.a = smoothstep(0.01,0.03, textureCoordinate.y+(sin((textureCoordinate.x+fWaveFrequency*fPixelHeight)*fWavePeriods)*fWaveAmplitude)+offset);
+        color.a = smoothstep(0.01, 0.03, xy.y+(sin((xy.x+fWaveFrequency*fPixelHeight)*fWavePeriods)*fWaveAmplitude)+offset.x);
     }
-
-	color *= blendColor;
 
     gl_FragColor = color;
 }

@@ -1,8 +1,8 @@
 sampler2D Tex0 : register(s0); 
 sampler2D Overlay; 
 
-int tw, th = 32;
-float fPixelHeight, fPixelWidth = 1;
+float tw, th = 32;
+float fPixelHeight, fPixelWidth;
 float xOffset, yOffset;
 float4 tint;
 

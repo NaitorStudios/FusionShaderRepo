@@ -1,0 +1,13 @@
+<effect>
+<name>Unpack</name>
+<author>Sketchy, DX9 version by NaitorStudios</author>
+<description>Image unpacker. DX9 version might not be as efficient...</description>
+<parameter>
+		<name>selectedImage</name>
+		<code>selectedImage</code>
+		<description>Index of selected image (0-based)</description>
+		<type>int</type>
+		<property>edit</property>
+		<value>0</value>
+</parameter>
+</effect>

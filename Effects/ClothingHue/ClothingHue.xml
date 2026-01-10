@@ -1,29 +1,31 @@
 <effect>
 <name>Clothing Hue</name>
-<author>WarpZone (Modified from Nobuyuki's shader. Original by Nokola)</author>
+<author>WarpZone (Modified from Nobuyuki's shader. Original by Nokola), DX11 Port by NaitorStudios</author>
 <description>Shifts a sprite's hue, but ignores reds, browns, peach and orange. This makes it ideal for most human characters.</description>
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Hue</name>
 		
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>Hue</code>
 
-		// Description
+		<!--Description-->
 		<description>Controls the hue shift offset.</description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0.0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
 </parameter>
 </effect>

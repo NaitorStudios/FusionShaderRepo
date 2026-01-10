@@ -2,21 +2,23 @@
 <name>Bar Effect</name>
 <description>An Effect to create complex Bars. DX11 port by NaitorStudios</description>
 <parameter>
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Value</name>
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>fValue</code>
-		// Description
+		<!--Description-->
 		<description>The result value of ( initial_value / max_value )</description>
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>edit</property>
-		// Default value
+		<!--Default value-->
 		<value>0.5</value>
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
 </parameter>
 <parameter>
 		<name>Image</name>

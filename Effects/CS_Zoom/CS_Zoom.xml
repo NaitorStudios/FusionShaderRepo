@@ -4,6 +4,15 @@
 <author>Sphax - Flavien Clermont, Improved by NaitorStudios</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>
+
+<sampler>
+	<index>0</index>
+	<filter>linear</filter>
+	<AddressU>border</AddressU>
+	<AddressV>border</AddressV>
+	<BorderColor>16777215</BorderColor>
+</sampler>
+
 <parameter>
 		<name>Width</name>
 		<code>fWidth</code>
@@ -40,12 +49,6 @@
 		<value>0.5</value>
 		<min>0.0</min>
 </parameter>
-	<sampler>
-		<index>0</index>
-		<Filter>linear</Filter>
-		<AddressU>border</AddressU>
-		<AddressV>border</AddressV>
-		<BorderColor>16777215</BorderColor>
-	</sampler>
+
 </effect>
 

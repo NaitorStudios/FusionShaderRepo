@@ -1,0 +1,8 @@
+Last Updated: 2026-01-10T02:19:55.973020+00:00
+
+=== Shader files ===
+VectorScale.xml - Info & Integration
+VectorScale.fx - DirectX9 source code
+
+=== Examples ===
+VectorScale_VecScale2.mfa

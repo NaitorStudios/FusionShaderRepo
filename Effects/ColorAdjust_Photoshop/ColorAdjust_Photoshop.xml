@@ -1,0 +1,36 @@
+<effect>
+<name>Hue/Saturation (Photoshop)</name>
+<description>Adjusts hue, saturation and lightness.</description>
+<author>NaitorStudios</author>
+<parameter>
+		<name>Hue</name>
+		<description>Takes a value in degrees (-180 to 180).</description>
+		<code>Hue</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-180.0</min>
+		<max>180.0</max>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Saturation</name>
+		<description>Takes a decimal value (0-1). eg: 0.5 = set saturation to 50% of original saturation)</description>
+		<code>Saturation</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-100.0</min>
+		<max>100.0</max>
+		<value>0.0</value>
+</parameter>
+<parameter>
+		<name>Lightness</name>
+		<description>Takes a decimal value (0-1). eg. 0.5 = increase lightness by 50% of original lightness</description>
+		<code>Lightness</code>
+		<type>float</type>
+		<property>edit</property>
+		<min>-100.0</min>
+		<max>100.0</max>
+		<value>0.0</value>
+</parameter>
+</effect>
+

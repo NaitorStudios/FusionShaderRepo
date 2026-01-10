@@ -1,0 +1,38 @@
+// Alpha
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main()
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D Alpha;
+uniform lowp vec4 blendColor;
+
+void main()
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate);
+	color.a = texture2D(Alpha, textureCoordinate).r * color.a;
+	color *= blendColor;
+
+	gl_FragColor = color;
+}
+//@End

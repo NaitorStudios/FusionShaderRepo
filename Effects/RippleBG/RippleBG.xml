@@ -1,0 +1,53 @@
+<effect>
+<name>Ripple (for background)</name>
+<description>Effect inspired by Super Mario World paintings.</description>
+<author>NaitorStudios</author>
+<company></company>
+<website></website>
+<BackgroundTexture>1</BackgroundTexture>
+
+<parameter>
+	<name>Step</name>
+	<code>Step</code>
+	<description>This should be continuous to give the sensation of movement.</description>
+	<type>float</type>
+	<property>spin</property>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+
+<parameter>
+	<name>Intensity</name>
+	<code>Intensity</code>
+	<description></description>
+	<type>float</type>
+	<property>spin</property>
+	<value>1.0</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+
+<parameter>
+	<name>X</name>
+	<code>X</code>
+	<description>X position where the ripple starts.</description>
+	<type>float</type>
+	<property>spin</property>
+	<value>0.5</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+
+<parameter>
+	<name>Y</name>
+	<code>Y</code>
+	<description>Y position where the ripple starts.</description>
+	<type>float</type>
+	<property>spin</property>
+	<value>0.5</value>
+	<min>0.0</min>
+	<max>1.0</max>
+</parameter>
+
+</effect>
+

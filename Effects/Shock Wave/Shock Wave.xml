@@ -1,0 +1,14 @@
+<effect>
+<name>Shock Wave</name>
+<author>Ported by NaitorStudios</author>
+<description></description>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>time</name>
+		<code>time</code>
+		<description>Used to determine non-scaled size.</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+</parameter>
+</effect>

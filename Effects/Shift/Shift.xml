@@ -19,13 +19,20 @@
 	<parameter>
 		<name>colorC</name>
 		<code>colorC</code>
-		<description>The second lightest color in the palette</description>
+		<description>The middle color in the palette</description>
 		<type>int_float4</type>
 		<property>color</property>
 	</parameter>
 	<parameter>
 		<name>colorD</name>
 		<code>colorD</code>
+		<description>The second lightest color in the palette</description>
+		<type>int_float4</type>
+		<property>color</property>
+	</parameter>
+	<parameter>
+		<name>colorE</name>
+		<code>colorE</code>
 		<description>The lightest color in the palette</description>
 		<type>int_float4</type>
 		<property>color</property>

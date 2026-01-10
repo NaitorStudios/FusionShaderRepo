@@ -1,0 +1,97 @@
+// Bloom30
+
+//@Begin_vertex
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+ precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+uniform float radius;
+uniform float exponent;
+uniform float coeff;
+
+uniform float fPixelWidth;
+uniform float fPixelHeight;
+
+out vec4 fragColor;
+
+vec4 highlight(vec4 i)
+{
+    return pow(abs(i), vec4(exponent)) * coeff;
+}
+
+void main(void)
+{
+    vec2 offsets[30]; // Declare the array
+
+    // Initialize each element
+    offsets[0] = vec2(1.0, -0.0);
+    offsets[1] = vec2(0.489074, -0.103956);
+    offsets[2] = vec2(0.913545, -0.406737);
+    offsets[3] = vec2(0.404509, -0.293893);
+    offsets[4] = vec2(0.669131, -0.743145);
+    offsets[5] = vec2(0.25, -0.433013);
+    offsets[6] = vec2(0.309017, -0.951057);
+    offsets[7] = vec2(0.0522642, -0.497261);
+    offsets[8] = vec2(-0.104529, -0.994522);
+    offsets[9] = vec2(-0.154509, -0.475528);
+    offsets[10] = vec2(-0.5, -0.866025);
+    offsets[11] = vec2(-0.334565, -0.371572);
+    offsets[12] = vec2(-0.809017, -0.587785);
+    offsets[13] = vec2(-0.456773, -0.203368);
+    offsets[14] = vec2(-0.978148, -0.207912);
+    offsets[15] = vec2(-0.5, 0.0);
+    offsets[16] = vec2(-0.978148, 0.207912);
+    offsets[17] = vec2(-0.456773, 0.203368);
+    offsets[18] = vec2(-0.809017, 0.587786);
+    offsets[19] = vec2(-0.334565, 0.371572);
+    offsets[20] = vec2(-0.5, 0.866025);
+    offsets[21] = vec2(-0.154509, 0.475528);
+    offsets[22] = vec2(-0.104528, 0.994522);
+    offsets[23] = vec2(0.0522642, 0.497261);
+    offsets[24] = vec2(0.309017, 0.951056);
+    offsets[25] = vec2(0.25, 0.433013);
+    offsets[26] = vec2(0.669131, 0.743145);
+    offsets[27] = vec2(0.404508, 0.293893);
+    offsets[28] = vec2(0.913546, 0.406736);
+    offsets[29] = vec2(0.489074, 0.103956);
+
+    // Example usage in a loop
+    vec4 s = texture(imgTexture, textureCoordinate) * blendColor;
+    vec4 o = highlight(s);
+    
+    for(int i = 0; i < 30; i++)
+    {
+        o += highlight(texture(imgTexture, textureCoordinate + radius * vec2(fPixelWidth, fPixelHeight) * offsets[i]));
+    }
+
+    o /= 31.0; // Normalize by the number of samples (iterations + 1)
+    o = s + highlight(o);
+    fragColor = o;
+}
+//@End

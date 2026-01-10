@@ -1,0 +1,29 @@
+<effect>
+	<Name>DCT Shader</Name>
+		<description>Shader para Transformada Discreta del Coseno (DCT) e Inversa (IDCT)</description> 
+			<author>Tu Nombre (Port by Foxioo)</author>
+			
+			<parameter>
+				<name>EffectAmount</name>
+				<variable>EffectAmount</variable>
+				
+				<description></description>
+
+				<type>float</type>
+
+				<value>1</value>
+			</parameter>
+
+			<parameter>
+				<name>Time</name>
+				<variable>Time</variable>
+				
+				<description></description>
+
+				<type>float</type>
+
+				<value>1</value>
+			</parameter>
+
+
+</effect>

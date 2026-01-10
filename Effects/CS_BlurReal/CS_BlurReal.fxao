@@ -1,9 +1,6 @@
 // CS_BlurReal
 
 //@Begin_vertex
-#ifdef GL_ES
- precision mediump float;
-#endif
 uniform mat4 transformMatrix;
 uniform mat4 projectionMatrix;
 
@@ -19,7 +16,15 @@ void main(void)
 //@End
 //@Begin_fragment
 #ifdef GL_ES
- precision mediump float;
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
 #endif
 varying vec2 textureCoordinate;
 
@@ -51,7 +56,7 @@ void main(void)
 			vec4 TexTR = texture2D(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y-fCoeff));
 			vec4 TexF = texture2D(imgTexture, textureCoordinate);
 
-			color = color+(TexF+TexT+TexTL+TexL+TexBL+TexB+TexBR+TexR+TexTR)/(9.0*nSteps);
+			color = color+(TexF+TexT+TexTL+TexL+TexBL+TexB+TexBR+TexR+TexTR)/(9.0*float(nSteps));
 
 			fCoeffCurrent=fCoeffCurrent+fCoeff;
 		}
