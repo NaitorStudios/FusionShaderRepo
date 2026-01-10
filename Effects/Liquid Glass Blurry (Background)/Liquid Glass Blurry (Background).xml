@@ -1,6 +1,7 @@
 <effect>
 	<name>Liquid Glass Blurry (Background)</name>
-		<description>Shader simulates the iOS 26/MacOS Tahoe window effect but is more blurry.</description> 
+		<description>Shader simulates the iOS 26/MacOS Tahoe window effect but is more blurry.
+&#xA;Last Updated: 2026-01-04 22:02</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

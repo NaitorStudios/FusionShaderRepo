@@ -1,6 +1,7 @@
 <effect>
 <name>Background Bloom</name>
-<description>Blurs the background's highlights and applies them to the background.</description>
+<description>Blurs the background's highlights and applies them to the background.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Radius</name>

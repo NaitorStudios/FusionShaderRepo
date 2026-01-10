@@ -1,7 +1,8 @@
 <effect>
 <name>Scrolling Texture 2</name>
 <author>Originally made by Nobuyuk, edited by NaitorStudios</author>
-<description>Apply a tiled texture to the background. Has object scale parameters.</description>
+<description>Apply a tiled texture to the background. Has object scale parameters.
+&#xA;Last Updated: 2026-01-10 02:19</description>
 
 <parameter>
 

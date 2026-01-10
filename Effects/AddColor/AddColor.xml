@@ -2,7 +2,7 @@
   <name>Add Color</name>
   <description>
     Add the color components of the given RGB color to the source image.
-  </description>
+&#xA;Last Updated: 2022-07-12 23:42</description>
   <parameter>
     <name>Color</name>
     <code>color</code>

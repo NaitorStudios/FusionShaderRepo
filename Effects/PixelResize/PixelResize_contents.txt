@@ -1,5 +1,0 @@
-Last Updated: 2013-06-24T03:49:12+00:00
-
-=== Shader files ===
-PixelResize.xml - Info & Integration
-PixelResize.fx - DirectX9 source code

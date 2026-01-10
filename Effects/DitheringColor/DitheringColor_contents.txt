@@ -1,9 +1,0 @@
-Last Updated: 2014-01-16T00:28:14+00:00
-
-=== Shader files ===
-DitheringColor.xml - Info & Integration
-DitheringColor.fx - DirectX9 source code
-
-=== Textures ===
-oddplanet.jpg
-sprDither_0.png

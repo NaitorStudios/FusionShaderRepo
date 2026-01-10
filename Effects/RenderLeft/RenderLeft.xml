@@ -1,7 +1,8 @@
 <effect>
 <name>Render Left</name>
 <author>Arthur Lee</author>
-<description>Render specified amount of columns from left.</description>
+<description>Render specified amount of columns from left.
+&#xA;Last Updated: 2020-03-29 21:26</description>
 <parameter>
 		<name>Fill Amount</name>
 		<code>fillAmount</code>

@@ -1,7 +1,8 @@
 <effect>
 <name>Marching Ants</name>
 <author>Original by Looki, Edit by NaitorStudios</author>
-<description>Draws a 1px border around an object with a stripe pattern that can move.</description>
+<description>Draws a 1px border around an object with a stripe pattern that can move.
+&#xA;Last Updated: 2022-11-17 00:55</description>
 <parameter>
 		<name>Step</name>
 		<description>Always increment 0.5 to get the actual moving.</description>

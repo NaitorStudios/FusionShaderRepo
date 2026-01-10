@@ -1,9 +1,0 @@
-Last Updated: 2023-11-30T18:18:03.277259+00:00
-
-=== Shader files ===
-OrderedDither.xml - Info & Integration
-OrderedDither.fx - DirectX9 source code
-OrderedDither.hlsl - DirectX11 source code
-
-=== Examples ===
-OrderedDither.mfa

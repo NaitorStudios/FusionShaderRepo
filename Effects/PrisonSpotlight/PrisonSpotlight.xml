@@ -1,6 +1,7 @@
 <effect>
 <name>Prison Spotlight Gameboy</name>
-<description>Spotlight shader</description>
+<description>Spotlight shader
+&#xA;Last Updated: 2026-01-10 13:20</description>
 <author>asker</author>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

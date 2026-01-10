@@ -1,5 +1,0 @@
-Last Updated: 2020-01-28T09:00:00+00:00
-
-=== Shader files ===
-DynInShadow.xml - Info & Integration
-DynInShadow.fx - DirectX9 source code

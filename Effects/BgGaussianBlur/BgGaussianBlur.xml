@@ -1,6 +1,7 @@
 <effect>
 <name>Background Gaussian Blur</name>
-<description>12 iterations, using pre-calculated circle.</description>
+<description>12 iterations, using pre-calculated circle.
+&#xA;Last Updated: 2021-04-10 16:26</description>
 <author>Looki</author>
 <parameter>
 	<name>X Radius</name>

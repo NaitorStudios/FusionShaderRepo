@@ -1,7 +1,8 @@
 <effect>
 <name>Gauss Blur 2D</name>
 <author>Defisym</author>
-<description>Creat Gauss Blur</description>
+<description>Creat Gauss Blur
+&#xA;Last Updated: 2021-09-18 03:57</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

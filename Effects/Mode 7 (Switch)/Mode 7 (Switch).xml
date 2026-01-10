@@ -1,6 +1,7 @@
 <effect>
 	<name>Mode 7 (Switch)</name>
-		<description>Shader giving Mode 7 style perspective effect. (Mainly intended for Tails7)</description> 
+		<description>Shader giving Mode 7 style perspective effect. (Mainly intended for Tails7)
+&#xA;Last Updated: 2026-01-10 03:34</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

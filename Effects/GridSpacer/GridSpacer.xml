@@ -1,6 +1,7 @@
 <effect>
 	<name>Grid Spacer</name>
-	<description>Separates tiles with a line.</description>
+	<description>Separates tiles with a line.
+&#xA;Last Updated: 2013-10-30 16:33</description>
 	<author>Sketchy</author>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

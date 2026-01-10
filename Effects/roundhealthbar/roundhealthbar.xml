@@ -1,7 +1,8 @@
 <effect>
 <name>Round Health Bar</name>
 <author>Defisym</author>
-<description>Creat Round Health Bar,Like Diablo</description>
+<description>Creat Round Health Bar,Like Diablo
+&#xA;Last Updated: 2021-09-18 03:57</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

@@ -1,6 +1,7 @@
 <effect>
 <name>Background Bloom 30</name>
-<description>Blurs the image's highlights and applies them to the image. 30 iterations</description>
+<description>Blurs the image's highlights and applies them to the image. 30 iterations
+&#xA;Last Updated: 2025-02-23 19:14</description>
 <author>Looki, NaitorStudios, fnkycoldmadeanr</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

@@ -1,7 +1,8 @@
 <effect>
 <name>QuickBG</name>
 <author>Nobuyuki (nobu@subsoap.com)</author>
-<description>Apply a tiled texture to an object.  Beta 1.</description>
+<description>Apply a tiled texture to an object.  Beta 1.
+&#xA;Last Updated: 2020-12-24 04:15</description>
 
 <parameter>
 		<name>Intensity</name>

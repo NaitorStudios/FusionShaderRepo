@@ -1,6 +1,7 @@
 <effect>
 <name>Color Fill</name>
-<description>Color Fill</description>
+<description>Color Fill
+&#xA;Last Updated: 2025-02-19 17:52</description>
 <author>bybyblue, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>Color</name>

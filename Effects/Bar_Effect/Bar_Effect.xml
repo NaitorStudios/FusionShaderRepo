@@ -1,6 +1,7 @@
 <effect>
 <name>Bar Effect</name>
-<description>An Effect to create complex Bars. DX11 port by NaitorStudios</description>
+<description>An Effect to create complex Bars. DX11 port by NaitorStudios
+&#xA;Last Updated: 2026-01-10 02:19</description>
 <parameter>
 		<!--Name of parameter property-->
 		<name>Value</name>

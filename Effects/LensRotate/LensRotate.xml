@@ -1,6 +1,7 @@
 <effect>
     <name>Lens Distortion with Rotation</name>
-    <description>This shader applies lens distortion to the background based on the object's texture and allows for the rotation of the distortion texture.</description>
+    <description>This shader applies lens distortion to the background based on the object's texture and allows for the rotation of the distortion texture.
+&#xA;Last Updated: 2026-01-09 22:12</description>
     <author>Based on work from Sphax - Flavien Clermont, Looki, Edit by NaitorStudios</author>
 	
 	<!-- Lens Distortion Parameters -->

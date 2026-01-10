@@ -1,5 +1,0 @@
-Last Updated: 2023-01-14T06:02:56.520939+00:00
-
-=== Shader files ===
-CS_BlurAA.xml - Info & Integration
-CS_BlurAA.fx - DirectX9 source code

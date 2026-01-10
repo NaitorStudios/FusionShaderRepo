@@ -1,6 +1,7 @@
 <effect>
 	<name>Division With Hyperbolic Secant (Background)</name>
-		<description>Base and blend colors are divided after which the colors are reduced by the hyperbolic secant function.</description> 
+		<description>Base and blend colors are divided after which the colors are reduced by the hyperbolic secant function.
+&#xA;Last Updated: 2026-01-04 22:01</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

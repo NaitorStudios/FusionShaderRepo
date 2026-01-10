@@ -1,6 +1,7 @@
 <effect>
 <name>Motion Blur (Whole frame only)</name>
-<description>Creates motion blur effect if applied to the whole frame.</description>
+<description>Creates motion blur effect if applied to the whole frame.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Coefficient</name>

@@ -1,5 +1,0 @@
-Last Updated: 2013-04-30T00:40:52.000017+00:00
-
-=== Shader files ===
-Retro palette.xml - Info & Integration
-Retro palette.fx - DirectX9 source code

@@ -1,7 +1,8 @@
 <effect>
 <name>Simple Outline 2</name>
 <author>NekoGlass, DX11 Port and edit by NaitorStudios</author>
-<description>Simple Outline with corner offset</description>
+<description>Simple Outline with corner offset
+&#xA;Last Updated: 2023-02-06 15:12</description>
 
 <parameter>
 		<name>Color</name>

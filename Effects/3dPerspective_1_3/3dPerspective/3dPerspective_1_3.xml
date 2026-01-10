@@ -1,7 +1,8 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.3</description>
+<description>v1.3
+&#xA;Last Updated: 2022-12-04 20:51</description>
 <parameter>
   <name>iR</name>
   <code>iR</code>

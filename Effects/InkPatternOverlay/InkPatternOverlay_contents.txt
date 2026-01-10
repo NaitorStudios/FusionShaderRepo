@@ -1,5 +1,0 @@
-Last Updated: 2024-03-27T12:35:50.801572+00:00
-
-=== Shader files ===
-InkPatternOverlay.xml - Info & Integration
-InkPatternOverlay.fx - DirectX9 source code

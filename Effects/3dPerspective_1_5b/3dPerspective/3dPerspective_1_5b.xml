@@ -1,7 +1,8 @@
 <effect>
 <name>3dPerspective 1.5b (basic)</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.5b (basic), Bonus: Z Rotation.</description>
+<description>v1.5b (basic), Bonus: Z Rotation.
+&#xA;Last Updated: 2023-11-17 14:20</description>
 <parameter>
   <name>iM</name>
   <code>iM</code>

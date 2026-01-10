@@ -1,6 +1,7 @@
 <effect>
 <name>Gamma Correction</name>
-<description>Corrects dark and bright areas using a sine wave.</description>
+<description>Corrects dark and bright areas using a sine wave.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Factor</name>

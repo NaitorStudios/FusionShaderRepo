@@ -1,6 +1,7 @@
 <effect>
 <name>Heat-Haze</name>
-<description>Heat image distortion.</description>
+<description>Heat image distortion.
+&#xA;Last Updated: 2023-02-07 16:18</description>
 <author>Patryk "PsichiX" Budzyński, DX11 port by NaitorStudios</author>
 
 <parameter>

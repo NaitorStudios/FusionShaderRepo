@@ -1,7 +1,8 @@
 <effect>
 <name>Tilt7</name>
 <author>Sketchy / MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Tilt 3D</description>
+<description>Tilt 3D
+&#xA;Last Updated: 2022-11-28 22:38</description>
 <parameter>
 		<name>tiltX</name>
 		<code>tiltX</code>

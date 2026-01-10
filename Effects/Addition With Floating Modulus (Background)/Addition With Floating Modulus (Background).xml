@@ -1,6 +1,7 @@
 <effect>
 	<name>Addition With Floating Modulus (Background)</name>
-		<description>Base and blend colors are added after which the colors are reduced by the floating modulus function.</description> 
+		<description>Base and blend colors are added after which the colors are reduced by the floating modulus function.
+&#xA;Last Updated: 2026-01-04 22:00</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

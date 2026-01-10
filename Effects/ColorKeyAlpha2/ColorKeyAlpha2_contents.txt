@@ -1,5 +1,0 @@
-Last Updated: 2022-04-07T14:11:11.431804+00:00
-
-=== Shader files ===
-ColorKeyAlpha2.xml - Info & Integration
-ColorKeyAlpha2.fx - DirectX9 source code

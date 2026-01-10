@@ -1,6 +1,7 @@
 <effect>
 <name>Lighten</name>
 <author>Looki</author>
-<description>Returns the ligher of two sources.</description>
+<description>Returns the ligher of two sources.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

@@ -1,7 +1,8 @@
 <effect>
 <name>Clothing Hue</name>
 <author>WarpZone (Modified from Nobuyuki's shader. Original by Nokola), DX11 Port by NaitorStudios</author>
-<description>Shifts a sprite's hue, but ignores reds, browns, peach and orange. This makes it ideal for most human characters.</description>
+<description>Shifts a sprite's hue, but ignores reds, browns, peach and orange. This makes it ideal for most human characters.
+&#xA;Last Updated: 2026-01-10 02:19</description>
 <parameter>
 
 		<!--Name of parameter property-->

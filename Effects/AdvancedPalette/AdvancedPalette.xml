@@ -1,7 +1,8 @@
 <effect>
 <name>Advanced 3-color palette swap</name>
 <author>asker</author>
-<description>Swap up to three different colors to other colors, with custom brightness. If a color swap is enabled, it will swap all pixels where that color is dominant and the other two color channels are of equal value. Brightness of the new color is determined by the channel values.</description>
+<description>Swap up to three different colors to other colors, with custom brightness. If a color swap is enabled, it will swap all pixels where that color is dominant and the other two color channels are of equal value. Brightness of the new color is determined by the channel values.
+&#xA;Last Updated: 2025-11-04 16:19</description>
 <parameter>
 		<name>Swap Red</name>
 		<code>swapRed</code>

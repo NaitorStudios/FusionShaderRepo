@@ -1,7 +1,8 @@
 <effect>
 <name>Defocus</name>
 <author>Pixelthief</author>
-<description>Guassian Blurs, Desaturates and Darkens the background</description>
+<description>Guassian Blurs, Desaturates and Darkens the background
+&#xA;Last Updated: 2019-04-09 12:52</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
 		<name>Blur Coefficient</name>

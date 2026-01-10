@@ -2,7 +2,8 @@
 <name>Scale3x BG</name>
 <description>Upscale the screen to a higher resolution using a modified Scale3x upscaling algorithm.&#xA;
 This version samples the background rather than the current layer.&#xA;
-Special thanks to Salamanderpants for sponsorship.</description>
+Special thanks to Salamanderpants for sponsorship.
+&#xA;Last Updated: 2026-01-10 03:34</description>
 <author>Sebastian Janisz</author>
 <company>Ultimate Walrus</company>
 <website>http://ultimatewalrus.com</website>

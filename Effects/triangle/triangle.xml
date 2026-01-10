@@ -1,6 +1,7 @@
 <effect>
 	<name>Triangle</name>
-	<description>Draws a filled triangle.</description>
+	<description>Draws a filled triangle.
+&#xA;Last Updated: 2013-06-27 20:21</description>
 	<author>Sketchy</author>
 	<parameter>
 		<name>Ax</name>

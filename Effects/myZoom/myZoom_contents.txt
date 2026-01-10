@@ -1,5 +1,0 @@
-Last Updated: 2013-06-27T19:19:00+00:00
-
-=== Shader files ===
-myZoom.xml - Info & Integration
-myzoom.fx - DirectX9 source code

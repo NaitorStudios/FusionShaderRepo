@@ -1,7 +1,8 @@
 <effect>
 <name>Waist Water</name>
 <author>asker</author>
-<description>Have the character submerged in water</description>
+<description>Have the character submerged in water
+&#xA;Last Updated: 2025-11-04 16:19</description>
 <parameter>
 		<name>Underwater Alpha</name>
 		<code>alpha</code>

@@ -1,6 +1,7 @@
 <effect>
 <name>Get Color Mask</name>
-<description>Keep Color. Keeps the selected color but replaces all other colors with the specified new color.</description>
+<description>Keep Color. Keeps the selected color but replaces all other colors with the specified new color.
+&#xA;Last Updated: 2020-07-27 01:07</description>
 <author>Looki</author>
 <parameter>
 	<name>Keep color</name>

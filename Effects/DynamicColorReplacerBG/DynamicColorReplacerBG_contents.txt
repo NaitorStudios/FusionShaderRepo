@@ -1,7 +1,0 @@
-Last Updated: 2026-01-09T21:42:58.559122+00:00
-
-=== Shader files ===
-DynamicColorReplacerBG.xml - Info & Integration
-DynamicColorReplacerBG.fx - DirectX9 source code
-DynamicColorReplacerBG.hlsl - DirectX11 source code
-DynamicColorReplacerBG.fxc - DirectX11 compiled

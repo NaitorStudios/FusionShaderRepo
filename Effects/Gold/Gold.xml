@@ -1,6 +1,7 @@
 <effect>
 <name>Gold Shader</name>
-<description>Example of pixel shader, simple monochrome effect, no parameter</description>
+<description>Example of pixel shader, simple monochrome effect, no parameter
+&#xA;Last Updated: 2025-08-02 14:39</description>
 
 <parameter>
         <name>GradientTexture</name>

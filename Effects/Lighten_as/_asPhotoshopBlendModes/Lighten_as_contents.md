@@ -1,0 +1,12 @@
+Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
+
+Last Updated: 2022-06-23 14:20
+
+=== Shader files ===
+Lighten_as.xml - Info & Integration
+Lighten_as.fx - DirectX9 source code
+Lighten_as.hlsl - DirectX11 source code
+Lighten_as.fxc - DirectX11 compiled
+Lighten_as.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

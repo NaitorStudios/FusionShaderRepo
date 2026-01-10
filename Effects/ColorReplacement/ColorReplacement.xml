@@ -1,7 +1,8 @@
 <effect>
     <name>Color Replacement</name>
     <author>Ported by NaitorStudios</author>
-    <description>Replaces specific colors based on static filter colors with dynamic replacement colors, controlled by Lerp Values.</description>
+    <description>Replaces specific colors based on static filter colors with dynamic replacement colors, controlled by Lerp Values.
+&#xA;Last Updated: 2026-01-09 22:12</description>
 
     <!-- Replacement Colors -->
     <parameter>

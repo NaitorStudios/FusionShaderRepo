@@ -1,6 +1,7 @@
 <effect>
 <name>Spin</name>
-<description>3D Spin Effect</description>
+<description>3D Spin Effect
+&#xA;Last Updated: 2014-02-16 20:08</description>
 <parameter>
 	<name>Angle</name>
 	<code>fAngle</code>

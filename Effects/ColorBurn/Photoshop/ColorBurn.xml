@@ -1,6 +1,7 @@
 <effect>
 <name>Color Burn</name>
 <author>Looki</author>
-<description>Burns the lower layer with the upper layer (Result is always darker).</description>
+<description>Burns the lower layer with the upper layer (Result is always darker).
+&#xA;Last Updated: 2025-08-03 01:03</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

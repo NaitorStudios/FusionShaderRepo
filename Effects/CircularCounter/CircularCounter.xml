@@ -1,6 +1,7 @@
 <effect>
 <name>Circular Counter</name>
-<description>Draws a circular counter.</description>
+<description>Draws a circular counter.
+&#xA;Last Updated: 2014-02-24 14:45</description>
 <parameter>
 	<name>CurrentValue</name>
 	<code>fVal</code>

@@ -1,6 +1,7 @@
 <effect>
 <name>Accurate Sonic Fade</name>
-<description>Accutate Sonic the Hedgehog fade from Megadrive games! Special thanks to Vectorsatyr for code reference!</description>
+<description>Accutate Sonic the Hedgehog fade from Megadrive games! Special thanks to Vectorsatyr for code reference!
+&#xA;Last Updated: 2021-09-11 12:54</description>
 <author>DarkD04, DX11 port by NaitorStudios</author>
 <parameter>
 	<name>Transition</name>

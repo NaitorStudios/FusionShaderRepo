@@ -1,6 +1,7 @@
 <effect>
 <name>Deformer</name>
-<description>Deforms to an arbitrary quadrilateral</description>
+<description>Deforms to an arbitrary quadrilateral
+&#xA;Last Updated: 2015-07-07 05:12</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Ax</name>

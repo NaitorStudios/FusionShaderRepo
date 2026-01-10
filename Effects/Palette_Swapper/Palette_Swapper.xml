@@ -1,6 +1,7 @@
 <effect>
 <name>Palette Swapper</name>
-<description>Used to swap the palette of an object, be it an active or a background.</description>
+<description>Used to swap the palette of an object, be it an active or a background.
+&#xA;Last Updated: 2021-10-17 15:20</description>
 <author>Warguy555, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>PaletteTexture</name>

@@ -1,6 +1,7 @@
 <effect>
 <name>Force 16 Colors (For the background)</name>
-<description>Sets all pixels to the nearest of 16 user-specified colors. Based on OpenGL shaders by andreyin and Gigatron.</description>
+<description>Sets all pixels to the nearest of 16 user-specified colors. Based on OpenGL shaders by andreyin and Gigatron.
+&#xA;Last Updated: 2021-10-15 15:30</description>
 <author>Looki, andreyin, Gigatron. Edited and DX9 improved by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

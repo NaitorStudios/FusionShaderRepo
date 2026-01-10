@@ -1,6 +1,7 @@
 <effect>
 <name>Cut through</name>
-<description>Cuts any background shape with non-black color through source image showing "texture" background</description>
+<description>Cuts any background shape with non-black color through source image showing "texture" background
+&#xA;Last Updated: 2017-03-10 20:07</description>
 <author>schrodinger</author>
 <parameter>
 		<name>texture</name>

@@ -1,5 +1,0 @@
-Last Updated: 2021-02-01T23:48:39.330556+00:00
-
-=== Shader files ===
-Fuzzy2x.xml - Info & Integration
-Fuzzy2x.fx - DirectX9 source code

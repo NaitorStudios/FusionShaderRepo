@@ -1,6 +1,7 @@
 <effect>
 <name>QuadMod</name>
-<description>Deforms a texture to an arbitrary convex quadrilateral</description>
+<description>Deforms a texture to an arbitrary convex quadrilateral
+&#xA;Last Updated: 2015-07-08 22:31</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Sketchy / MuddyMole</author>
 <parameter>

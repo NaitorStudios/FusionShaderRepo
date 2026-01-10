@@ -1,6 +1,7 @@
 <effect>
 	<name>Composite Video Compression (Background)</name>
-		<description>The shader simulates analog video compression similar to how a composite cable worked.</description> 
+		<description>The shader simulates analog video compression similar to how a composite cable worked.
+&#xA;Last Updated: 2026-01-04 22:02</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

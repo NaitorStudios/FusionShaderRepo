@@ -1,7 +1,8 @@
 <effect>
 <name>NinePatch (alpha 1)</name>
 <author>Nobuyuki (nobu@subsoap.com), DX11 Port by NaitorStudios</author>
-<description>Create custom-scaled graphical boxes with ease.</description>
+<description>Create custom-scaled graphical boxes with ease.
+&#xA;Last Updated: 2026-01-10 02:19</description>
 <parameter>
 
 		<!--Name of parameter property-->

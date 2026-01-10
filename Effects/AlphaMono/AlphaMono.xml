@@ -1,6 +1,7 @@
 <effect>
 <name>AlphaMono</name>
-<description>AlphaMono</description>
+<description>AlphaMono
+&#xA;Last Updated: 2021-09-18 03:57</description>
 <author>Defisym</author>
 <parameter>
 	<name>Alpha</name>

@@ -1,7 +1,8 @@
 <effect>
 <name>Scrolling Texture 3</name>
 <author>Originally made by Nobuyuk, edited by NaitorStudios</author>
-<description>Scrolls the object's tiled texture. </description>
+<description>Scrolls the object's tiled texture.
+&#xA;Last Updated: 2026-01-09 22:12</description>
 
 <parameter>
 		<!--Name of parameter property-->

@@ -1,6 +1,7 @@
 <effect>
 	<name>Reversed Offset Color (Background)</name>
-		<description>Shader shifts blend colors depending on base color (Reversed Blend! - The effect is visible when _Mixing is outside the range of 0-1!).</description> 
+		<description>Shader shifts blend colors depending on base color (Reversed Blend! - The effect is visible when _Mixing is outside the range of 0-1!).
+&#xA;Last Updated: 2026-01-04 22:02</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

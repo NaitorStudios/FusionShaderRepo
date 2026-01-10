@@ -1,0 +1,12 @@
+Shader Packs: OpenFusionExamples (by defisym)
+
+Last Updated: 2021-09-18 03:57
+
+=== Shader files ===
+roundhealthbar.xml - Info & Integration
+roundhealthbar.fx - DirectX9 source code
+roundhealthbar.hlsl - DirectX11 source code
+roundhealthbar.fxc - DirectX11 compiled
+roundhealthbar.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

@@ -1,5 +1,0 @@
-Last Updated: 2023-02-06T15:12:44.412609+00:00
-
-=== Shader files ===
-Simple_Outline2.xml - Info & Integration
-Simple_Outline2.fx - DirectX9 source code

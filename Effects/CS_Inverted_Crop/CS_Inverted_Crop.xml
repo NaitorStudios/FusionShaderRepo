@@ -1,6 +1,7 @@
 <effect>
 <name>Inverted Crop</name>
-<description>Crop the image and set the transparency of the cropped surface</description>
+<description>Crop the image and set the transparency of the cropped surface
+&#xA;Last Updated: 2021-08-26 00:43</description>
 <author>Sphax - Flavien Clermont, Edit by NaitorStudios</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

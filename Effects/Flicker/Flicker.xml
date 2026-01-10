@@ -1,6 +1,7 @@
 <effect>
 <name>Flicker FX</name>
-<description>Tv Flicker dx11</description>
+<description>Tv Flicker dx11
+&#xA;Last Updated: 2020-05-30 23:20</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Flicker</name>

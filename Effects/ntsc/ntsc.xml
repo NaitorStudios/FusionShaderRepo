@@ -1,6 +1,7 @@
 <effect>
 <name>NTSC</name>
-<description>Emulation of NTSC artifacts inspired by the youtube webseries Petscop. DX11 only atm.</description>
+<description>Emulation of NTSC artifacts inspired by the youtube webseries Petscop. DX11 only atm.
+&#xA;Last Updated: 2022-12-04 17:42</description>
 <author>red, DX11 Port by NaitorStudios</author>
 <website>https://unplug.red/</website>
 <parameter>

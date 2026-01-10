@@ -1,6 +1,7 @@
 <effect>
 	<name>Zoom for Background</name>
-	<description>Zooms in on the centre of an image.</description>
+	<description>Zooms in on the centre of an image.
+&#xA;Last Updated: 2022-11-11 15:08</description>
 	<author>Sketchy, Edit and DX11 Port by NaitorStudios</author>
 	<BackgroundTexture>1</BackgroundTexture>
 	<parameter>

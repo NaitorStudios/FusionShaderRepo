@@ -1,6 +1,7 @@
 <effect>
 <name>8Bit Retro Shader</name>
-<description>Reduces the palette down to 256 colors using 3 red bits, 3 green bits and 2 blue bits.</description>
+<description>Reduces the palette down to 256 colors using 3 red bits, 3 green bits and 2 blue bits.
+&#xA;Last Updated: 2023-01-03 03:28</description>
 <author>Catstronaut</author>
 <dx8>no</dx8>
 </effect>

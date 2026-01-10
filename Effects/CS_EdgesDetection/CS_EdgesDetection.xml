@@ -1,6 +1,7 @@
 <effect>
 <name>Edges detection</name>
-<description>Detect the edges of the picture and draw them instead of the picture itself</description>
+<description>Detect the edges of the picture and draw them instead of the picture itself
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

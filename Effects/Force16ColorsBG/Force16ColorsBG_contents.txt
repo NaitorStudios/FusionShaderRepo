@@ -1,7 +1,0 @@
-Last Updated: 2021-10-15T15:30:22.776853+00:00
-
-=== Shader files ===
-Force16ColorsBG.xml - Info & Integration
-Force16ColorsBG.fx - DirectX9 source code
-Force16ColorsBG.hlsl - DirectX11 source code
-Force16ColorsBG.fxc - DirectX11 compiled

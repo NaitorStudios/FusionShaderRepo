@@ -1,5 +1,6 @@
 <effect>
 <name>Greenify</name>
-<description>Keep only the green component of the output color.</description>
+<description>Keep only the green component of the output color.
+&#xA;Last Updated: 2022-03-20 12:30</description>
 </effect>
 

@@ -1,6 +1,7 @@
 <effect>
 	<name>Texture Mask (Texture)</name>
-		<description>This shader excludes the selected color causing the color to be invisible.</description> 
+		<description>This shader excludes the selected color causing the color to be invisible.
+&#xA;Last Updated: 2026-01-04 22:02</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

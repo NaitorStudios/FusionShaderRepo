@@ -1,7 +1,8 @@
 <effect>
     <name>RectangleMultiply</name>
     <author>Myp</author>
-    <description>RectangleMultiply</description>
+    <description>RectangleMultiply
+&#xA;Last Updated: 2024-12-12 21:32</description>
     <BackgroundTexture>1</BackgroundTexture>
 
     <parameter>

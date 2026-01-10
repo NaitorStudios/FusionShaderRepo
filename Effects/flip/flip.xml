@@ -1,6 +1,7 @@
 <effect>
 	<name>Flip</name>
-	<description>Flips an image horizontally and/or vertically.</description>
+	<description>Flips an image horizontally and/or vertically.
+&#xA;Last Updated: 2013-06-24 23:35</description>
 	<author>Sketchy</author>
 	<parameter>
 		<name>Flip horizontally</name>

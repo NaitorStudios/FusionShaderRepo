@@ -1,6 +1,7 @@
 <effect>
 <name>Mirror</name>
-<description>Displays the a half of the source mirrored on the other one.</description>
+<description>Displays the a half of the source mirrored on the other one.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Mirror X or Y</name>

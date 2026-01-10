@@ -1,6 +1,7 @@
 <effect>
 <name>Directional Blur 1x</name>
-<description>Blurring through direction and coefficient. (Thanks to Sphax for angle conversion)</description>
+<description>Blurring through direction and coefficient. (Thanks to Sphax for angle conversion)
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 
 <parameter>

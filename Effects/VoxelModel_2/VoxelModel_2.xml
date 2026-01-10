@@ -1,7 +1,8 @@
 <effect>
 <name>Voxel Model 2</name>
 <author>MuddyMole / Sketchy / Adam Hawker</author>
-<description>Display 3D voxel models with basic lighting.</description>
+<description>Display 3D voxel models with basic lighting.
+&#xA;Last Updated: 2022-12-16 19:33</description>
 
 <parameter>
   <name>imageModel</name>

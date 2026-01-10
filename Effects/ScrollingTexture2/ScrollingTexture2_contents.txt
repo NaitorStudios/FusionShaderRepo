@@ -1,5 +1,0 @@
-Last Updated: 2026-01-10T02:19:56.220009+00:00
-
-=== Shader files ===
-ScrollingTexture2.xml - Info & Integration
-ScrollingTexture2.fx - DirectX9 source code

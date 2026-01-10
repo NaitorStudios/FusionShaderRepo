@@ -1,6 +1,7 @@
 <effect>
 <name>Lens AA</name>
-<description>Zoom the background using the object's texture. Uses linear resampling for a smooth distortion.</description>
+<description>Zoom the background using the object's texture. Uses linear resampling for a smooth distortion.
+&#xA;Last Updated: 2024-08-19 12:24</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 <sampler>

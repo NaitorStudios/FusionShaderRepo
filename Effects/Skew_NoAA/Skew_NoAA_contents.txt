@@ -1,7 +1,0 @@
-Last Updated: 2026-01-10T02:19:57.984886+00:00
-
-=== Shader files ===
-Skew_NoAA.xml - Info & Integration
-Skew_NoAA.fx - DirectX9 source code
-Skew_NoAA.hlsl - DirectX11 source code
-Skew_NoAA.fxc - DirectX11 compiled

@@ -1,6 +1,7 @@
 <effect>
 <name>Color Dodge_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Dodges the lower layer with the upper layer (Result is always lighter).</description>
+<description>Based on Looki's shader; Dodges the lower layer with the upper layer (Result is always lighter).
+&#xA;Last Updated: 2022-06-23 13:20</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

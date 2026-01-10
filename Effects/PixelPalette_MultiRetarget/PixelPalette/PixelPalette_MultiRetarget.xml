@@ -1,7 +1,8 @@
 <effect>
 	<name>PixelPalette (Multi Palette retarget)</name>
 	<author>TimmyTopHat, Edit by NaitorStudios</author>
-	<description>(Bug: First color appears as black) Change a palette to another, missing colors will not be changed. DX9 limited to 32 colors, DX11 limited to 256 colors. Texture must always have a 256px width, height should be at least 2px, first row is original color, following rows are the replacement palettes. It doesn't play well with Blend Coef on DX11 Premultiplied, use the parameter instead.</description>
+	<description>(Bug: First color appears as black) Change a palette to another, missing colors will not be changed. DX9 limited to 32 colors, DX11 limited to 256 colors. Texture must always have a 256px width, height should be at least 2px, first row is original color, following rows are the replacement palettes. It doesn't play well with Blend Coef on DX11 Premultiplied, use the parameter instead.
+&#xA;Last Updated: 2026-01-09 22:12</description>
 	
 	<!--Palettes-->
 	

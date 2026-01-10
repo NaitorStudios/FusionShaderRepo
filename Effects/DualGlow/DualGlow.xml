@@ -1,6 +1,7 @@
 <effect>
 <name>Dual Glow</name>
-<description>Apply an inner and outer glow to the image.</description>
+<description>Apply an inner and outer glow to the image.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki, Improved by NaitorStudios</author>
 <parameter>
 	<name>Outer radius</name>

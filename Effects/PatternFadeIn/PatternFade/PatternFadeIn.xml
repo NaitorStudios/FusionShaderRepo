@@ -1,7 +1,8 @@
 <effect>
 <name>Pattern Fade In</name>
 <author>Defisym</author>
-<description>Pattern Fade In</description>
+<description>Pattern Fade In
+&#xA;Last Updated: 2022-07-25 15:08</description>
 <parameter>
 		<name>Progress</name>
 		<code>progress</code>

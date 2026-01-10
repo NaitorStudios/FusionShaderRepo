@@ -1,7 +1,8 @@
 <effect>
 <name>Projection</name>
 <author></author>
-<description>A shader that projects a 3D view using an equirectangular image</description>
+<description>A shader that projects a 3D view using an equirectangular image
+&#xA;Last Updated: 2023-01-19 12:09</description>
 
 <BackgroundTexture>1</BackgroundTexture>
 

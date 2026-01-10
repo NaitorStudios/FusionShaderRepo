@@ -1,6 +1,7 @@
 <effect>
   <name>Background Colour Replace</name>
-  <description>Replace a specific colour in the background with another, with tolerance amount</description>
+  <description>Replace a specific colour in the background with another, with tolerance amount
+&#xA;Last Updated: 2026-01-10 02:19</description>
   <author>Unknown, improved and ported to DX11 by NaitorStudios</author>
 
   <parameter>

@@ -1,7 +1,8 @@
 <effect>
 <name>Pixel outline</name>
 <author>Looki</author>
-<description>Draws a 1px border around an object</description>
+<description>Draws a 1px border around an object
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <parameter>
 		<name>Outline color</name>
 		<code>color</code>

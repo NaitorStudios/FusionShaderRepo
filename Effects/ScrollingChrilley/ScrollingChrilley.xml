@@ -1,6 +1,7 @@
 <effect>
 <name>Scrolling</name>
-<description>Scrolls whatever that is underneath it.</description>
+<description>Scrolls whatever that is underneath it.
+&#xA;Last Updated: 2021-12-09 19:30</description>
 <author>chrilley, DX11 port by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

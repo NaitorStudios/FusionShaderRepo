@@ -1,6 +1,7 @@
 <effect>
 <name>Lens (Antialiasing)</name>
-<description>Zoom the background using the object's texture.</description>
+<description>Zoom the background using the object's texture.
+&#xA;Last Updated: 2020-07-21 21:15</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

@@ -1,6 +1,7 @@
 <effect>
 <name>Rotate</name>
-<description>Rotate the picture of the object (not the object itself) - (take care to add a transparent 1 pixel border)</description>
+<description>Rotate the picture of the object (not the object itself) - (take care to add a transparent 1 pixel border)
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Sphax - Flavien Clermont - Edited by Pixelthief. DX11 Port by NaitorStudios</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

@@ -1,6 +1,7 @@
 <effect>
 <name>Looki Background Lens</name>
-<description>Zoom the background using the object's texture.</description>
+<description>Zoom the background using the object's texture.
+&#xA;Last Updated: 2019-04-05 12:05</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

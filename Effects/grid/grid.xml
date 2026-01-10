@@ -1,6 +1,7 @@
 <effect>
 	<name>Grid</name>
-	<description>Converts an image to greyscale.</description>
+	<description>Converts an image to greyscale.
+&#xA;Last Updated: 2013-10-29 19:06</description>
 	<author>Sketchy</author>
 <parameter>
 		<name>Image</name>

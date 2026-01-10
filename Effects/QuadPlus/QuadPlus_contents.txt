@@ -1,8 +1,0 @@
-Last Updated: 2021-12-11T17:23:00.635034+00:00
-
-=== Shader files ===
-QuadPlus.xml - Info & Integration
-QuadPlus.fx - DirectX9 source code
-
-=== Examples ===
-QuadPlus.mfa

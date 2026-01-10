@@ -1,8 +1,0 @@
-Last Updated: 2020-04-04T22:43:06+00:00
-
-=== Shader files ===
-CombiShader_Quad+LinearDodgeAdd.xml - Info & Integration
-CombiShader_Quad+LinearDodgeAdd.fx - DirectX9 source code
-
-=== Examples ===
-CombiShader_Quad+LinearDodgeAdd_Demo.mfa

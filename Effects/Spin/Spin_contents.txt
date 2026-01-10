@@ -1,8 +1,0 @@
-Last Updated: 2014-02-16T20:08:19.999997+00:00
-
-=== Shader files ===
-Spin.xml - Info & Integration
-Spin.fx - DirectX9 source code
-
-=== Examples ===
-Spin_Coin.mfa

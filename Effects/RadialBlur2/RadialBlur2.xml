@@ -1,6 +1,7 @@
 <effect>
 <name>Radial Blur 2</name>
-<description>http://www.gamerendering.com/2008/12/20/radial-blur-filter/</description>
+<description>http://www.gamerendering.com/2008/12/20/radial-blur-filter/
+&#xA;Last Updated: 2022-12-20 21:36</description>
 <author>Looki</author>
 <parameter>
 	<name>Sample strength</name>

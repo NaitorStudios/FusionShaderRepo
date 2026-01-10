@@ -2,7 +2,7 @@
   <name>Add Color HSL</name>
   <description>
     Add the color components of the given HSL color to the source image.
-  </description>
+&#xA;Last Updated: 2022-07-12 23:42</description>
   <parameter>
     <name>Hue</name>
     <code>hue</code>

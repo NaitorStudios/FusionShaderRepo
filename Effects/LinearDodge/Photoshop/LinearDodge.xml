@@ -1,6 +1,7 @@
 <effect>
 <name>Linear Dodge (Add)</name>
 <author>Looki</author>
-<description>Adds the two layers together.</description>
+<description>Adds the two layers together.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

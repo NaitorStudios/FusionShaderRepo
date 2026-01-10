@@ -1,6 +1,7 @@
 <effect>
 <name>Difference</name>
 <author>Looki</author>
-<description>Returns the difference of each color channel pair.</description>
+<description>Returns the difference of each color channel pair.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

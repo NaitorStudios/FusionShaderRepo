@@ -1,7 +1,8 @@
 <effect>
 <name>Voxel Terrain - Background (v0.3)</name>
 <author>Sketchy</author>
-<description>Voxel-based 3D terrain.</description>
+<description>Voxel-based 3D terrain.
+&#xA;Last Updated: 2025-10-31 16:08</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

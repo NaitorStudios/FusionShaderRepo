@@ -1,0 +1,9 @@
+Last Updated: 2025-08-02 14:39
+
+=== Shader files ===
+FlipX.xml - Info & Integration
+FlipX.fx - DirectX9 source code
+FlipX.hlsl - DirectX11 source code
+FlipX.fxc - DirectX11 compiled
+FlipX.fxao - Android source code
+FlipX.fxmo - iOS/Mac source code

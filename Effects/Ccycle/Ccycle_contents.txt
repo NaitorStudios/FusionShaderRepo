@@ -1,5 +1,0 @@
-Last Updated: 2020-08-03T04:36:52+00:00
-
-=== Shader files ===
-Ccycle.xml - Info & Integration
-Ccycle.fx - DirectX9 source code

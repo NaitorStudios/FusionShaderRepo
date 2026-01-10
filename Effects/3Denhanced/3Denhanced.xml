@@ -1,6 +1,7 @@
 <effect>
 <name>3D Enhanced</name>
-<description>A Perspective Shader for use in 3D applications.</description>
+<description>A Perspective Shader for use in 3D applications.
+&#xA;Last Updated: 2025-12-14 20:49</description>
 <author>MuddyMole (based on "3D Shader" by Werbad), Port by NaitorStudios</author>
 
 <sampler>

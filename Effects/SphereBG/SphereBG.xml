@@ -1,7 +1,8 @@
 <effect>
 <name>Sphere BG</name>
 <author>Looki, edit by NaitorStudios</author>
-<description>Put the background texture onto a sphere. Sorry for the display bug at too high perspective-coefficient! Will be fixed soon.</description>
+<description>Put the background texture onto a sphere. Sorry for the display bug at too high perspective-coefficient! Will be fixed soon.
+&#xA;Last Updated: 2023-05-16 12:32</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
 		<name>Coeff</name>

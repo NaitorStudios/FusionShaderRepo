@@ -1,7 +1,0 @@
-Last Updated: 2023-04-29T23:18:18.077204+00:00
-
-=== Shader files ===
-CS_RotateBG.xml - Info & Integration
-CS_RotateBG.fx - DirectX9 source code
-CS_RotateBG.hlsl - DirectX11 source code
-CS_RotateBG.fxc - DirectX11 compiled

@@ -1,6 +1,7 @@
 <effect>
 <name>Pixelate</name>
-<description>Image pixelation.</description>
+<description>Image pixelation.
+&#xA;Last Updated: 2021-05-27 20:55</description>
 
 <parameter>
 <name>Pixel width</name>

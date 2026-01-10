@@ -1,6 +1,7 @@
 <effect>
 <name>Tilemap</name>
-<description>Draw tiled-based graphics.</description>
+<description>Draw tiled-based graphics.
+&#xA;Last Updated: 2021-06-11 21:16</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Map</name>

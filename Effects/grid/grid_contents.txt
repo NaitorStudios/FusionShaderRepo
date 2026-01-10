@@ -1,5 +1,0 @@
-Last Updated: 2013-10-29T19:06:14+00:00
-
-=== Shader files ===
-grid.xml - Info & Integration
-grid.fx - DirectX9 source code

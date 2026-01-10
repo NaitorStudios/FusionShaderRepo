@@ -1,6 +1,7 @@
 <effect>
 <name>Sine Wave</name>
-<description>Effect seen in the battle backgrounds of Earthbound. Can create horizontal and vertical waves at the same time.</description>
+<description>Effect seen in the battle backgrounds of Earthbound. Can create horizontal and vertical waves at the same time.
+&#xA;Last Updated: 2023-08-18 19:57</description>
 <author>Rhadamus</author>
 
 <sampler>

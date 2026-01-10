@@ -1,6 +1,7 @@
 <effect>
 <name>Reflection Filter 2</name>
-<description>Reflects the background inside the area. Now with distortion</description>
+<description>Reflects the background inside the area. Now with distortion
+&#xA;Last Updated: 2021-03-29 23:29</description>
 <author>Pixelthief. Edited by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

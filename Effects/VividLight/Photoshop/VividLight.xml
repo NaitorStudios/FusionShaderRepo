@@ -1,6 +1,7 @@
 <effect>
 <name>Vivid Light</name>
 <author>Looki</author>
-<description>Merges Color Burn and Color Dodge.</description>
+<description>Merges Color Burn and Color Dodge.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

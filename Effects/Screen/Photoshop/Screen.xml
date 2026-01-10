@@ -1,6 +1,7 @@
 <effect>
 <name>Screen</name>
 <author>Looki</author>
-<description>Brightens by lighting the the lower layer based on the lightness of the upper layer (Result is always lighter).</description>
+<description>Brightens by lighting the the lower layer based on the lightness of the upper layer (Result is always lighter).
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

@@ -1,6 +1,7 @@
 <effect>
 <name>Scale2x</name>
-<description>Scales an image using the Scale2x algorithm.</description>
+<description>Scales an image using the Scale2x algorithm.
+&#xA;Last Updated: 2013-06-24 04:31</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Width</name>

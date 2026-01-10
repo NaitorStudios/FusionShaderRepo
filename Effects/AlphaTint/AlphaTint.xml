@@ -1,6 +1,7 @@
 <effect>
     <name>TintEffect</name>
-    <description>Tints the image towards a specified color with adjustable intensity.</description>
+    <description>Tints the image towards a specified color with adjustable intensity.
+&#xA;Last Updated: 2025-06-02 02:17</description>
     <author>bybyblue, DX11 Port by NaitorStudios</author>
     <parameter>
         <name>Tint Color</name>

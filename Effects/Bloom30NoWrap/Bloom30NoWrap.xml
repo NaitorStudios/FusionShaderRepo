@@ -1,6 +1,7 @@
 <effect>
 <name>Bloom 30 (no wrapping)</name>
-<description>Blurs the image's highlights and applies them to the image. 30 iterations</description>
+<description>Blurs the image's highlights and applies them to the image. 30 iterations
+&#xA;Last Updated: 2022-11-17 10:14</description>
 <author>Looki, NaitorStudios, fnkycoldmadeanr</author>
 <parameter>
 	<name>Radius</name>

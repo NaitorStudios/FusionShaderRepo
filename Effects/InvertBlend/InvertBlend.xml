@@ -1,6 +1,7 @@
 <effect>
 <name>Invert blend</name>
-<description>Fades the color to the its opposite based on the difference to the background color.</description>
+<description>Fades the color to the its opposite based on the difference to the background color.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

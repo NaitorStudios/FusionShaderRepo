@@ -1,7 +1,8 @@
 <effect>
 <name>Sprite</name>
 <author>Sketchy</author>
-<description>Multi-directional sprite</description>
+<description>Multi-directional sprite
+&#xA;Last Updated: 2017-10-12 18:38</description>
 <parameter>
 		<name>iYLevel</name>
 		<code>iYLevel</code>

@@ -1,7 +1,8 @@
 <effect>
 <name>Scale and Rotate</name>
 <author>gkinfinity, DX11 Port by NaitorStudios</author>
-<description>Scale and Rotate an image or Layer</description>
+<description>Scale and Rotate an image or Layer
+&#xA;Last Updated: 2023-05-04 12:23</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
     <name>Scale</name>

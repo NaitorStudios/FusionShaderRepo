@@ -1,6 +1,7 @@
 <effect>
 <name>Perspective for Background</name>
-<description>This shader can make the texture look like a 3d-plane (See Andos' perspective object or Mode7)</description>
+<description>This shader can make the texture look like a 3d-plane (See Andos' perspective object or Mode7)
+&#xA;Last Updated: 2022-05-14 17:54</description>
 <author>Looki, edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

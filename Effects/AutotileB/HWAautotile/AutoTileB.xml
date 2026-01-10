@@ -1,6 +1,7 @@
 <effect>
 <name>Auto-Tile (Corners)</name>
-<description>Draw tiled-based graphics.</description>
+<description>Draw tiled-based graphics.
+&#xA;Last Updated: 2013-05-08 14:16</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Map</name>

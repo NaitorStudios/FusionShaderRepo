@@ -1,6 +1,7 @@
 <effect>
   <name>cleanEdge</name>
-  <description>A pixel art upscaling algorithm for clean rotations</description>
+  <description>A pixel art upscaling algorithm for clean rotations
+&#xA;Last Updated: 2024-06-28 18:23</description>
   <author>Ported by NaitorStudios, original by torcado</author>
   <parameter>
     <name>Highest Color</name>

@@ -1,6 +1,7 @@
 <effect>
 <name>Multiply</name>
 <author>Looki</author>
-<description>Multiplies the lower layer with the upper layer.</description>
+<description>Multiplies the lower layer with the upper layer.
+&#xA;Last Updated: 2025-11-26 12:08</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

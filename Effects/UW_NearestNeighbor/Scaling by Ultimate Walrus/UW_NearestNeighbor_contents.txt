@@ -1,5 +1,0 @@
-Last Updated: 2026-01-10T03:34:30.418949+00:00
-
-=== Shader files ===
-UW_NearestNeighbor.xml - Info & Integration
-UW_NearestNeighbor.fx - DirectX9 source code

@@ -1,6 +1,7 @@
 <effect>
 <name>Channel Blur</name>
-<description>Blur single color channels (R,G,B,A)</description>
+<description>Blur single color channels (R,G,B,A)
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki (Thanks to Sphax for original blur)</author>
 
 <parameter>

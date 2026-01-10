@@ -1,7 +1,8 @@
 <effect>
 <name>Red Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Draws a red box.</description>
+<description>Draws a red box.
+&#xA;Last Updated: 2022-02-11 19:22</description>
 <parameter>
 	<name>Green</name>
 	<code>fGreen</code>

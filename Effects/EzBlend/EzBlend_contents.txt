@@ -1,5 +1,0 @@
-Last Updated: 2026-01-10T03:35:18.359010+00:00
-
-=== Shader files ===
-EzBlend.xml - Info & Integration
-EzBlend.fx - DirectX9 source code

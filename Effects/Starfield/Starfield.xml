@@ -1,6 +1,7 @@
 <effect>
 <name>Starfield</name>
-<description>Animated Starfield</description>
+<description>Animated Starfield
+&#xA;Last Updated: 2020-06-04 04:11</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Animation</name>

@@ -1,6 +1,7 @@
 <effect>
 	<name>Photoshop Darken (Background)</name>
-		<description>(The effect comes from the Photoshop) Looks at the color information in each channel and selects the base or blend color - whichever is darker - as the result color. Pixels lighter than the blend color are replaced, and pixels darker than the blend color do not change</description> 
+		<description>(The effect comes from the Photoshop) Looks at the color information in each channel and selects the base or blend color - whichever is darker - as the result color. Pixels lighter than the blend color are replaced, and pixels darker than the blend color do not change
+&#xA;Last Updated: 2026-01-04 22:01</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

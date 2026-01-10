@@ -1,6 +1,7 @@
 <effect>
 <name>XOR</name>
-<description>Bitwise XOR the colors with the background.</description>
+<description>Bitwise XOR the colors with the background.
+&#xA;Last Updated: 2022-09-25 12:09</description>
 <BackgroundTexture>1</BackgroundTexture>
 <author>Cazra, DX11 port by NaitorStudios, thanks to fnkycoldmadeanr</author>
 </effect>

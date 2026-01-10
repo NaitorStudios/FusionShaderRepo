@@ -1,6 +1,7 @@
 <effect>
 <name>Shape Mask</name>
-<description>Mask Background</description>
+<description>Mask Background
+&#xA;Last Updated: 2018-01-10 16:13</description>
 <author>mihailsh</author>
 <BackgroundTexture>1</BackgroundTexture>
 

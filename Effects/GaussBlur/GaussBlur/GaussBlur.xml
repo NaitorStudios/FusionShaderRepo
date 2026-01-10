@@ -1,7 +1,8 @@
 <effect>
 <name>Gauss Blur</name>
 <author>Defisym</author>
-<description>Creat Gauss Blur, Only For DX11</description>
+<description>Creat Gauss Blur, Only For DX11
+&#xA;Last Updated: 2022-11-21 22:10</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

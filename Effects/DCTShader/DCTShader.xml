@@ -1,6 +1,7 @@
 <effect>
 	<Name>DCT Shader</Name>
-		<description>Shader para Transformada Discreta del Coseno (DCT) e Inversa (IDCT)</description> 
+		<description>Shader para Transformada Discreta del Coseno (DCT) e Inversa (IDCT)
+&#xA;Last Updated: 2025-08-12 16:45</description> 
 			<author>Tu Nombre (Port by Foxioo)</author>
 			
 			<parameter>

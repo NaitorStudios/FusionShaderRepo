@@ -1,0 +1,17 @@
+Shader Packs: Looki Full Pack, Looki's Shader Pack 2.0
+
+Last Updated: 2025-08-02 14:39
+
+=== Shader files ===
+Shade.xml - Info & Integration
+Shade.fx - DirectX9 source code
+Shade.hlsl - DirectX11 source code
+Shade.fxc - DirectX11 compiled
+Shade.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+Shade.fxao - Android source code
+Shade.fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+
+=== Examples ===
+ShaderPack.mfa

@@ -1,7 +1,8 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.0.1 - Requires at least 1px of transparent border to work properly</description>
+<description>v1.0.1 - Requires at least 1px of transparent border to work properly
+&#xA;Last Updated: 2022-12-02 15:02</description>
 <parameter>
 		<name>fH</name>
 		<code>fH</code>

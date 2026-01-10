@@ -1,6 +1,7 @@
 <effect>
 	<name>Quad With Reflections (Background)</name>
-		<description>This shader is a modification of the Quad shader created by Adam Hawker (aka Sketchy / MuddyMole) however, this shader contains "pseudo reflections". (Mainly intended for Tails7)</description> 
+		<description>This shader is a modification of the Quad shader created by Adam Hawker (aka Sketchy / MuddyMole) however, this shader contains "pseudo reflections". (Mainly intended for Tails7)
+&#xA;Last Updated: 2026-01-04 22:03</description> 
 			<author>Foxioo and Adam Hawker (aka Sketchy / MuddyMole)</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

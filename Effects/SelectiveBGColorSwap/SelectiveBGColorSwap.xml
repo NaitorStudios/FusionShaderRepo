@@ -1,7 +1,8 @@
 <effect>
     <name>Selective BG Color Swap</name>
     <author>bybyblue, DX11 port by NaitorStudios</author>
-    <description>Replaces overlapping pixels that match a given RGB</description>
+    <description>Replaces overlapping pixels that match a given RGB
+&#xA;Last Updated: 2026-01-09 22:12</description>
     <BackgroundTexture>1</BackgroundTexture> <!-- Enables “sampler2D bkd : register(s1);”-->
     <parameter>
             <name>Replace Color</name>

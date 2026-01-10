@@ -1,6 +1,7 @@
 <effect>
 <name>QuadPlus</name>
-<description>Deforms a texture to an arbitrary convex quadrilateral</description>
+<description>Deforms a texture to an arbitrary convex quadrilateral
+&#xA;Last Updated: 2021-12-11 17:23</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Sketchy / MuddyMole</author>
 <parameter>

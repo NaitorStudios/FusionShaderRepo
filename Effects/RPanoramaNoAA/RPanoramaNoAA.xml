@@ -1,6 +1,7 @@
 <effect>
 <name>Panorama (No AA)</name>
-<description>Panorama effect from the FNaF remaster.</description>
+<description>Panorama effect from the FNaF remaster.
+&#xA;Last Updated: 2024-11-14 07:24</description>
 <author>Clickteam (ported by Rhadamus)</author>
 
 <BackgroundTexture>1</BackgroundTexture>

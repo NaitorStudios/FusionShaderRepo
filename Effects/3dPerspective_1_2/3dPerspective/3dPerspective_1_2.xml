@@ -1,7 +1,8 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy</author>
-<description>v1.2</description>
+<description>v1.2
+&#xA;Last Updated: 2022-12-04 17:17</description>
 <parameter>
 		<name>iR</name>
 		<code>iR</code>

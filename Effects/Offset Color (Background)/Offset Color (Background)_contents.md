@@ -1,0 +1,14 @@
+Shader Packs: Foxioo Shader Pack
+
+Last Updated: 2026-01-04 22:02
+
+=== Shader files ===
+Offset Color (Background).xml - Info & Integration
+Offset Color (Background).fx - DirectX9 source code
+Offset Color (Background).hlsl - DirectX11 source code
+Offset Color (Background).fxc - DirectX11 compiled
+Offset Color (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+Offset Color (Background).fxao - Android source code
+Offset Color (Background).fxmo - iOS/Mac source code
+
+* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

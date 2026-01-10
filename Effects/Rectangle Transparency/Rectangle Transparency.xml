@@ -1,6 +1,7 @@
 <effect>
 <name>Rectangle Transparency</name>
-<description>Make the center of a Rectangle semi-transparent while retaining it's shape.</description>
+<description>Make the center of a Rectangle semi-transparent while retaining it's shape.
+&#xA;Last Updated: 2025-02-19 20:09</description>
 <author>bybyblue, DX11 port by NaitorStudios</author>
 <parameter>
 	<name>Canvas W</name>

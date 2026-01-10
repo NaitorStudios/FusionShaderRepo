@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <effect>
   <name>CRTVert</name>
-  <description>Simulates a CRT display for a retro look.</description>
+  <description>Simulates a CRT display for a retro look.
+&#xA;Last Updated: 2025-08-02 14:39</description>
   <author>Looki</author>
   <parameter>
     <name>Phase</name>

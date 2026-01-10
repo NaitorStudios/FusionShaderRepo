@@ -1,5 +1,0 @@
-Last Updated: 2023-06-16T13:53:45.901394+00:00
-
-=== Shader files ===
-Shockwave.xml - Info & Integration
-Shockwave.fx - DirectX9 source code

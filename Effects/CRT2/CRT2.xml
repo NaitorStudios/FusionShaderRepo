@@ -1,6 +1,7 @@
 <effect>
 <name>CRT (Custom)</name>
-<description>Simulates a CRT display for a retro look.</description>
+<description>Simulates a CRT display for a retro look.
+&#xA;Last Updated: 2022-03-07 18:53</description>
 <author>Looki, Edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <sampler>

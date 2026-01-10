@@ -1,7 +1,0 @@
-Last Updated: 2022-10-28T01:27:14.329643+00:00
-
-=== Shader files ===
-ntscBG.xml - Info & Integration
-ntscBG.fx - DirectX9 source code
-ntscBG.hlsl - DirectX11 source code
-ntscBG.fxc - DirectX11 compiled

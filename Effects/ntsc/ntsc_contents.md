@@ -1,0 +1,10 @@
+Last Updated: 2022-12-04 17:42
+
+=== Shader files ===
+ntsc.xml - Info & Integration
+ntsc.fx - DirectX9 source code
+ntsc.hlsl - DirectX11 source code
+ntsc.fxc - DirectX11 compiled
+
+=== Examples ===
+ntsc.mfa

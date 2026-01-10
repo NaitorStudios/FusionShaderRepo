@@ -1,6 +1,7 @@
 <effect>
 <name>Hue/Saturation (Photoshop)</name>
-<description>Adjusts hue, saturation and lightness.</description>
+<description>Adjusts hue, saturation and lightness.
+&#xA;Last Updated: 2025-01-20 18:14</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Hue</name>

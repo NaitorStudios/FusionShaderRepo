@@ -1,6 +1,7 @@
 <effect>
 <name>Difference_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Returns the difference of each color channel pair.</description>
+<description>Based on Looki's shader; Returns the difference of each color channel pair.
+&#xA;Last Updated: 2022-02-06 03:48</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

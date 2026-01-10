@@ -1,6 +1,7 @@
 <effect>
 <name>Dithering Mono</name>
-<description>Dithering black and white.</description>
+<description>Dithering black and white.
+&#xA;Last Updated: 2014-01-16 00:28</description>
 
 <parameter>
 <name>Dither pattern image</name>

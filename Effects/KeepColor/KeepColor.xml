@@ -1,6 +1,7 @@
 <effect>
 <name>Keep Color</name>
-<description>Keeps the selected color but replaces all other colors with the specified new color.</description>
+<description>Keeps the selected color but replaces all other colors with the specified new color.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Keep color</name>

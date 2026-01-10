@@ -1,7 +1,8 @@
 <effect>
 <name>Brighten by background</name>
 <author>Looki</author>
-<description>Brighten the pixels by the average of the object's background.</description>
+<description>Brighten the pixels by the average of the object's background.
+&#xA;Last Updated: 2026-01-09 21:42</description>
 <parameter>
 		<name>Amount</name>
 		<code>amount</code>

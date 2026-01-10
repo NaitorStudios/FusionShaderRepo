@@ -1,0 +1,9 @@
+Last Updated: 2025-08-02 14:39
+
+=== Shader files ===
+Squeeze.xml - Info & Integration
+Squeeze.fx - DirectX9 source code
+Squeeze.hlsl - DirectX11 source code
+Squeeze.fxc - DirectX11 compiled
+Squeeze.fxao - Android source code
+Squeeze.fxmo - iOS/Mac source code

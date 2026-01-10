@@ -1,6 +1,7 @@
 <effect>
 <name>Panorama</name>
-<description>Panorama effect from the FNaF remaster.</description>
+<description>Panorama effect from the FNaF remaster.
+&#xA;Last Updated: 2020-04-23 12:28</description>
 <author>Clickteam (ported by Rhadamus)</author>
 
 <BackgroundTexture>1</BackgroundTexture>

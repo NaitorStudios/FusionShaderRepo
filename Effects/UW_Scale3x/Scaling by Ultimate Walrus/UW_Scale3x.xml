@@ -2,7 +2,8 @@
 <name>Scale3x</name>
 <description>Upscale the screen to a higher resolution using a Scale3x upscaling algorithm variant
 created for high efficiency as a shader.
-Special thanks to Salamanderpants for sponsorship.</description>
+Special thanks to Salamanderpants for sponsorship.
+&#xA;Last Updated: 2023-05-11 16:11</description>
 <author>Sebastian Janisz</author>
 <company>Ultimate Walrus</company>
 <website>http://ultimatewalrus.com</website>
@@ -11,8 +12,10 @@ Special thanks to Salamanderpants for sponsorship.</description>
 		<name>Subpixel offset X</name>
 		<code>fSubPixelOffsetX</code>
 		<description>Number of third-pixels to offset the output's X by.</description>
-		<type>float</type> <!--Type (int, float or int_float4)-->
-		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<type>float</type> <!--Type (int, float or int_float4)-->
+
+		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+
 		<value>0</value>
 </parameter>
 
@@ -21,8 +24,10 @@ Special thanks to Salamanderpants for sponsorship.</description>
 		<name>Subpixel offset Y</name>
 		<code>fSubPixelOffsetY</code>
 		<description>Number of third-pixels to offset the output's Y by.</description>
-		<type>float</type> <!--Type (int, float or int_float4)-->
-		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+		<type>float</type> <!--Type (int, float or int_float4)-->
+
+		<property>edit</property> <!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
+
 		<value>0</value>
 </parameter>
 

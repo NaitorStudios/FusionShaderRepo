@@ -1,7 +1,0 @@
-Last Updated: 2022-07-17T12:16:47.177221+00:00
-
-=== Shader files ===
-BgGlitch.xml - Info & Integration
-BgGlitch.fx - DirectX9 source code
-BgGlitch.hlsl - DirectX11 source code
-BgGlitch.fxc - DirectX11 compiled

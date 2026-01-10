@@ -1,6 +1,7 @@
 <effect>
 <name>Exclusion_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Masks the difference of the layers using the darkness of the lower layer.</description>
+<description>Based on Looki's shader; Masks the difference of the layers using the darkness of the lower layer.
+&#xA;Last Updated: 2022-06-23 13:46</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

@@ -1,6 +1,7 @@
 <effect>
 <name>Sonic Fade</name>
-<description>Fades an object in or out (to black), while applying two custom colors when fading. This effect is seen in the classic Sonic games.</description>
+<description>Fades an object in or out (to black), while applying two custom colors when fading. This effect is seen in the classic Sonic games.
+&#xA;Last Updated: 2025-08-02 14:39</description>
 <author>Looki</author>
 <parameter>
 	<name>Time</name>

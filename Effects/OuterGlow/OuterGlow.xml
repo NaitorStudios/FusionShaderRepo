@@ -1,6 +1,7 @@
 <effect>
 <name>Outer Glow</name>
-<description>Apply an outer glow to the image.</description>
+<description>Apply an outer glow to the image.
+&#xA;Last Updated: 2022-05-03 18:23</description>
 <author>Looki, edit by NaitorStudios</author>
 <parameter>
 	<name>Radius</name>
