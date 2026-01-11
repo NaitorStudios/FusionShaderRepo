@@ -2,7 +2,7 @@
 <name>Alpha Dither</name>
 <author>Sketchy, DX11 port by NaitorStudios</author>
 <description>Simulates alpha channel transparency using ordered dithering.
-&#xA;Last Updated: 2022-02-16 15:08</description>
+&#xA;Last Updated: 2026-01-11 00:53</description>
 <parameter>
 		<name>Multiplier</name>
 		<code>multiplier</code>

@@ -1,7 +1,7 @@
 <effect>
 <name>Background Blur 30</name>
 <description>Blur the background using 30 iterations.
-&#xA;Last Updated: 2025-10-06 00:08</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Looki, Edited and ported to DX11 by NaitorStudios</author>
 <parameter>
 	<name>Radius</name>

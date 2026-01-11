@@ -1,6 +1,6 @@
 Shader Packs: FusionShaders (by Cazra)
 
-Last Updated: 2022-03-20 12:30
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 Blueify.xml - Info & Integration

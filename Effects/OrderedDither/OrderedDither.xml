@@ -1,7 +1,7 @@
 <effect>
 	<name>OrderedDither</name>
 	<description>Dithers an image.
-&#xA;Last Updated: 2023-11-30 18:18</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 	<author>Sketchy</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

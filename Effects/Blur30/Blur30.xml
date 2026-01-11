@@ -1,7 +1,7 @@
 <effect>
 <name>Blur 30</name>
 <description>Blur the image using 30 iterations.
-&#xA;Last Updated: 2025-09-30 01:55</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Looki, DX11 port by NaitorStudios</author>
 <parameter>
 	<name>Radius</name>

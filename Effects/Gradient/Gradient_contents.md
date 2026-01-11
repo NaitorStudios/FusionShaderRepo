@@ -1,6 +1,6 @@
 Shader Packs: Looki Full Pack, Looki's Shader Pack 2.0
 
-Last Updated: 2026-01-09 21:44
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 Gradient.xml - Info & Integration

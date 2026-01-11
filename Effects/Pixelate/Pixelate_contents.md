@@ -1,7 +1,7 @@
 Notes:
 AKA. CF25_PixelateEffect
 
-Last Updated: 2021-05-27 20:55
+Last Updated: 2026-01-11 00:56
 
 === Shader files ===
 Pixelate.xml - Info & Integration

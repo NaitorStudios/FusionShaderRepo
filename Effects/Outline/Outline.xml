@@ -1,7 +1,7 @@
 <effect>
 <name>Outline</name>
 <description>Draws an outline around an object
-&#xA;Last Updated: 2026-01-09 21:46</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 	<description>It's not working correctly under DX11.</description>
 	<author></author>
 <parameter>

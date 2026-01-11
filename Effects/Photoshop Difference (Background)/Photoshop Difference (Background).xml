@@ -1,7 +1,7 @@
 <effect>
 	<name>Photoshop Difference (Background)</name>
 		<description>(The effect comes from the Photoshop) Looks at the color information in each channel and subtracts either the blend color from the base color or the base color from the blend color, depending on which has the greater brightness value. Blending with white inverts the base color values; blending with black produces no change
-&#xA;Last Updated: 2026-01-04 22:01</description> 
+&#xA;Last Updated: 2026-01-11 00:56</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

@@ -3,7 +3,7 @@ https://create-games.com/forum_post.asp?id=303193
 
 Shader Packs: FusionShaders (by Cazra)
 
-Last Updated: 2022-03-20 12:30
+Last Updated: 2026-01-11 00:56
 
 === Shader files ===
 Redify.xml - Info & Integration

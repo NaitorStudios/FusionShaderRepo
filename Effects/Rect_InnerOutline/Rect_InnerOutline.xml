@@ -1,7 +1,7 @@
 <effect>
 <name>Rectangle Inner Border</name>
 <description>Adds a border with custom (pixel) size to the object. Object size must be specified.
-&#xA;Last Updated: 2026-01-10 02:19</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Original by bybyblue, Edit and DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>Object Width</name>

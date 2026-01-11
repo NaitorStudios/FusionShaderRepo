@@ -1,6 +1,6 @@
 Shader Packs: SpriteLamps pack (by Emil Macko)
 
-Last Updated: 2020-09-04 16:09
+Last Updated: 2026-01-11 00:56
 
 === Shader files ===
 SpriteLampsToon.xml - Info & Integration

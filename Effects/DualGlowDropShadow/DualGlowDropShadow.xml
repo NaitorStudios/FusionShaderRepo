@@ -1,7 +1,7 @@
 <effect>
     <name>Dual Glow with Drop Shadow</name>
     <description>Combines a drop shadow with dual inner and outer glow effects.
-&#xA;Last Updated: 2026-01-09 22:12</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
     <author>Original shaders by Looki, combined by NaitorStudios</author>
 
     <!-- Drop Shadow Parameters -->

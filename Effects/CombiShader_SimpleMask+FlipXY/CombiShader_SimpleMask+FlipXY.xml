@@ -1,7 +1,7 @@
 <effect>
 <name>CombiShader: Simple Mask + Flip Toggle</name>
 <description>Colors and flip an object.
-&#xA;Last Updated: 2022-01-18 18:50</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Simple Mask by Looki, Flip Toggle by chrilley, Combined by NaitorStudios</author>
 <parameter>
 		<name>Color</name>

@@ -2,7 +2,7 @@
   <name>Glitch Effect</name>
   <author>Fadzior</author>
   <description>Simulates glitch effect
-&#xA;Last Updated: 2024-06-04 22:02</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
   <parameter>
     <name>Glitch Amount</name>
     <code>distortion_amount</code>

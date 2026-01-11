@@ -1,7 +1,7 @@
 <effect>
 <name>Sonic Fade White</name>
 <description>Fades an object in or out (to black), while applying two custom colors when fading. This effect is seen in the classic Sonic games.
-&#xA;Last Updated: 2020-03-17 18:11</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Looki</author>
 <parameter>
 	<name>Time</name>

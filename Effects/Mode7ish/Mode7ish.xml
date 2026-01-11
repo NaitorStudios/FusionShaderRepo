@@ -1,14 +1,14 @@
 <effect>
   <name>Mode7-ish Shader</name>
-  <description>
-    Projects an image onto the canvas of the active object using this
-    shader, using a 3D perspective effect similar to Mode7. The perspective is
-    controlled by a camera which provides a position and an angle for the user's
-    POV in the Mode7-projected space. From here, the main image is transformed
-    so that it appears to be a slanted plane that is pinched toward the horizon.
-    Additional camera controls are also provided for further controlling the
-    field of view.
-&#xA;Last Updated: 2026-01-10 03:33</description>
+  <author>Cazra</author>
+  <description>Projects an image onto the canvas of the active object using this
+shader, using a 3D perspective effect similar to Mode7. The perspective is
+controlled by a camera which provides a position and an angle for the user's
+POV in the Mode7-projected space. From here, the main image is transformed
+so that it appears to be a slanted plane that is pinched toward the horizon.
+Additional camera controls are also provided for further controlling the
+field of view.
+&#xA;Last Updated: 2026-01-11 00:55</description>
   <parameter>
     <name>Camera X</name>
     <code>camX</code>

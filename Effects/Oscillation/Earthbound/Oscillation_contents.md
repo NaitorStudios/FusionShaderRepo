@@ -3,7 +3,7 @@ earthbound backgrounds.mfa
 
 Shader Packs: Earthbound pack (by Rhadamus)
 
-Last Updated: 2023-08-18 19:57
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 Oscillation.xml - Info & Integration

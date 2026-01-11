@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-10 03:34
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 CPU Foilage (Switch).xml - Info & Integration

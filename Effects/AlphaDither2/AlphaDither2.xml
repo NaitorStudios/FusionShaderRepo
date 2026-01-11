@@ -2,7 +2,7 @@
 <name>Alpha Dither</name>
 <author>Sketchy</author>
 <description>Simulates alpha channel transparency using ordered dithering.
-&#xA;Last Updated: 2021-03-04 14:10</description>
+&#xA;Last Updated: 2026-01-11 00:53</description>
 <parameter>
 		<name>Multiplier</name>
 		<code>multiplier</code>

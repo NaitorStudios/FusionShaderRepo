@@ -1,7 +1,7 @@
 <effect>
 <name>Color Grading 3</name>
 <description>Uses up to two 3d lookup tables (LUTs) to modify background image colors.
-&#xA;Last Updated: 2020-09-09 22:03</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Sketchy / MuddyMole / NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

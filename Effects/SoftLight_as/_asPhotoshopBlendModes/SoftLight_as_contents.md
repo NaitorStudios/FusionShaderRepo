@@ -1,6 +1,6 @@
 Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
 
-Last Updated: 2022-06-23 14:47
+Last Updated: 2026-01-11 00:56
 
 === Shader files ===
 SoftLight_as.xml - Info & Integration

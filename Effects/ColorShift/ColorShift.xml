@@ -1,7 +1,8 @@
 <effect>
   <name>Color Shift</name>
+  <author>Cazra</author>
   <description>Taking a greyscale image, a start color, and an end color, map the greyscale pixels from the source image to an appropriate color between the start (black) and end (white) colors.
-&#xA;Last Updated: 2024-01-30 14:34</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
   <parameter>
     <name>Black Color</name>
     <code>black</code>

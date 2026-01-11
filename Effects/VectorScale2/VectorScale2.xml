@@ -3,7 +3,7 @@
 <author>Nobuyuki (nobu@subsoap.com)</author>
 <description>An algorithm for smoothly scaling edge textures 
 using preprocessed distance fields stored in the alpha channel.
-&#xA;Last Updated: 2026-01-10 02:19</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 
 		<!--Name of parameter property-->

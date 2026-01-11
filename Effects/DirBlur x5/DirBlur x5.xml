@@ -1,7 +1,7 @@
 <effect>
 <name>Directional Blur 5x</name>
 <description>Blurring through direction and coefficient. (Thanks to Sphax for angle conversion)
-&#xA;Last Updated: 2024-11-14 07:24</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>ower396, Base shader by Looki</author>
 
 <parameter>

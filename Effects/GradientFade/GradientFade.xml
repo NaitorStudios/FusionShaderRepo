@@ -1,7 +1,7 @@
 <effect>
 	<name>Gradient Fade</name>
 	<description>Gradually fades an image.
-&#xA;Last Updated: 2022-09-05 16:54</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 	<author>Sketchy, DX11 Port by NaitorStudios</author>
 	<parameter>
 		<name>Start Y</name>

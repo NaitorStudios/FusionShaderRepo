@@ -2,7 +2,7 @@
 <name>Saturation Mask 2</name>
 <author>Sketchy, Edit and DX11 Port by NaitorStudios</author>
 <description>Sets the saturation of the bottom layer according to the lightness of the top layer.
-&#xA;Last Updated: 2022-03-02 20:31</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <BackgroundTexture>1</BackgroundTexture>
 
 <parameter>

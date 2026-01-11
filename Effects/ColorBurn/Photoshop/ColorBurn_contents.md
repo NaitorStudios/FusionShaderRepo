@@ -1,6 +1,6 @@
 Shader Packs: Looki Full Pack
 
-Last Updated: 2025-08-03 01:03
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 ColorBurn.xml - Info & Integration

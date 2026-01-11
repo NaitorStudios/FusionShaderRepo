@@ -1,7 +1,7 @@
 <effect>
 <name>Offset Ripple Fade</name>
 <description>Offsets by using a texture parameter (Red for X, Green for Y) and then fades in ripples.
-&#xA;Last Updated: 2023-05-03 17:36</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <author>Pixelthief</author>
 <parameter>
 		<name>Width</name>

@@ -1,7 +1,7 @@
 <effect>
 	<name>Normal map</name>
 	<description>Normal map pixel shader with 3 different colored lights
-&#xA;Last Updated: 2026-01-09 22:12</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 	<BackgroundTexture>1</BackgroundTexture>
 	
 	<author>Anders Riggelsen</author>

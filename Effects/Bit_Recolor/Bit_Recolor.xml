@@ -1,7 +1,7 @@
 <effect>
 <name>BitColor</name>
 <description>Recolor the zone with a limited bit number for each color
-&#xA;Last Updated: 2020-05-26 17:02</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <BackgroundTexture>1</BackgroundTexture>
 <author>Sleepy</author>
 <parameter>

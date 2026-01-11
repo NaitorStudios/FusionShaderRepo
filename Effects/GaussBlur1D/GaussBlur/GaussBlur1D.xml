@@ -2,7 +2,7 @@
 <name>Gauss Blur 1D</name>
 <author>Defisym</author>
 <description>Creat BackGround Gauss Blur 1D, Only For DX11
-&#xA;Last Updated: 2021-09-18 03:57</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

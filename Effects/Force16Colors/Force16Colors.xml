@@ -1,7 +1,7 @@
 <effect>
 <name>Force 16 Colors</name>
 <description>Sets all pixels to the nearest of 16 user-specified colors. Based on OpenGL shaders by andreyin and Gigatron.
-&#xA;Last Updated: 2022-05-01 13:25</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Looki, andreyin, Gigatron. Updated by NaitorStudios</author>
 <parameter>
 	<name>Brightness</name>

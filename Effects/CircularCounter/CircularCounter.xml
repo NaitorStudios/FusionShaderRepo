@@ -1,7 +1,8 @@
 <effect>
 <name>Circular Counter</name>
+<author>Hawker</author>
 <description>Draws a circular counter.
-&#xA;Last Updated: 2014-02-24 14:45</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 	<name>CurrentValue</name>
 	<code>fVal</code>

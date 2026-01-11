@@ -1,7 +1,7 @@
 <effect>
 <name>BetterLensXY</name>
 <description>Zoom the background using the object's texture.
-&#xA;Last Updated: 2024-11-14 07:24</description>
+&#xA;Last Updated: 2026-01-11 00:53</description>
 <author>ower396, based off of Looki's zoom shader</author>
 <sampler>
 <index>1</index>

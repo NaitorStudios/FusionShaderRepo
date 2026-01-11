@@ -3,6 +3,6 @@
 <author>NaitorStudios</author>
 <description>Adds the red, green and blue channel values of the blend color to the RGB values of the base color.&#xA;
 If the resulting sum for a channel is 255 or greater, it receives a value of 255; if less than 255, a value of 0.
-&#xA;Last Updated: 2026-01-10 13:14</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

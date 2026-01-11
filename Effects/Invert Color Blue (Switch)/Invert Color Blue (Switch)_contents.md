@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-04 22:02
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 Invert Color Blue (Switch).xml - Info & Integration

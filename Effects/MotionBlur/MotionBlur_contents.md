@@ -3,7 +3,7 @@ I don't think this works on mobile yet because it has to be applied to the frame
 
 Shader Packs: Looki Full Pack
 
-Last Updated: 2025-08-02 14:39
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 MotionBlur.xml - Info & Integration

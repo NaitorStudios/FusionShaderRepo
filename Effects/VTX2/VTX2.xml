@@ -2,7 +2,7 @@
 <name>VTX2</name>
 <author>Sketchy</author>
 <description>Voxel terrain, using a heightmap
-&#xA;Last Updated: 2017-10-05 23:07</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

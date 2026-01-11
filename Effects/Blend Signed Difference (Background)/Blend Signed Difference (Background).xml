@@ -1,7 +1,7 @@
 <effect>
 	<name>Blend Signed Difference (Background)</name>
 		<description>The blend color is subtracted from the base color, then this is divided by 2, and 0.6 is added at the very end
-&#xA;Last Updated: 2026-01-04 22:01</description> 
+&#xA;Last Updated: 2026-01-11 00:54</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

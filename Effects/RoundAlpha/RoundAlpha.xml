@@ -1,7 +1,7 @@
 <effect>
 	<name>RoundAlpha</name>
 	<description>Rounds pixel alpha to 0 or 1.
-&#xA;Last Updated: 2014-09-29 18:00</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 	<author>Sketchy</author>
                 <parameter>
 		<name>Text color</name>

@@ -1,6 +1,7 @@
 <effect>
 <name>Vertex Shader Test</name>
-
+<author>PsichiX</author>
+<description>Last Updated: 2026-01-11 00:56</description>
 <parameter>
 <name>Camera X</name>
 <code>uCamX</code>

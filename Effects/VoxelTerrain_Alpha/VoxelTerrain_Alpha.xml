@@ -2,7 +2,7 @@
 <name>Voxel Terrain Alpha</name>
 <author>Sketchy</author>
 <description>Alpha Voxel-based 3D terrain.
-&#xA;Last Updated: 2022-12-10 14:23</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

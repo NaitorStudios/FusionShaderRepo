@@ -1,7 +1,7 @@
 <effect>
 <name>Wind Sway (vertically inverted)</name>
 <description>Make a sprite sway and bend, like it is affected by the wind.
-&#xA;Last Updated: 2026-01-10 02:23</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Time</name>

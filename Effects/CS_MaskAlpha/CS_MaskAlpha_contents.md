@@ -1,6 +1,6 @@
 Shader Packs: Complex Shaders Pack v2 (by Complex Softwares)
 
-Last Updated: 2025-08-02 14:39
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 CS_MaskAlpha.xml - Info & Integration

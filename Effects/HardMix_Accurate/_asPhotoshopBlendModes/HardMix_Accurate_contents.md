@@ -1,6 +1,6 @@
 Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
 
-Last Updated: 2026-01-10 13:14
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 HardMix_Accurate.xml - Info & Integration

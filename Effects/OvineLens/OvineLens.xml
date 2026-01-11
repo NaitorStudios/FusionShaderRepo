@@ -1,7 +1,7 @@
 <effect>
 	<name>OvineLens</name>
 	<description>Apply the lens effect of the supplied image to the object (white = magnified, black = normal size)
-&#xA;Last Updated: 2020-09-12 17:14</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 	<author>Looki - Modified by AndyH@Ovine.net</author>
 	<parameter>
 		<name>Lens</name>

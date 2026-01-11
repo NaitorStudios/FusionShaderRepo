@@ -1,7 +1,8 @@
 <effect>
 <name>Spin</name>
+<author>Hawker</author>
 <description>3D Spin Effect
-&#xA;Last Updated: 2014-02-16 20:08</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 	<name>Angle</name>
 	<code>fAngle</code>

@@ -2,7 +2,7 @@
 <name>Hole</name>
 <author>Looki</author>
 <description>This shader can put a hole into the texture. You can use it for searching games.
-&#xA;Last Updated: 2025-11-26 12:08</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <parameter>
 		<name>Divisor (Size)</name>
 		<code>fD</code>

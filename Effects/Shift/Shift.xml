@@ -1,7 +1,7 @@
 <effect>
 <name>Shift</name>
 <description>Shift shades of a 4-color palette, based on the red component of a mask
-&#xA;Last Updated: 2017-10-22 02:43</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Sketchy/MuddyMole</author>
 	<parameter>
 		<name>colorA</name>

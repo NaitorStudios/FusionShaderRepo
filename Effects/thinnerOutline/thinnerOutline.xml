@@ -2,7 +2,7 @@
 <name>Thinner Pixel outline</name>
 <author>Looki, modified by TheRidiculousR</author>
 <description>Draws a 1px border around an object
-&#xA;Last Updated: 2023-01-04 01:29</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 		<name>Outline color</name>
 		<code>color</code>

@@ -2,7 +2,7 @@
 <name>Card3D - Foil</name>
 <author>asker</author>
 <description>Rotate a card in 3D with one of two foil effects - v1.0
-&#xA;Last Updated: 2025-11-04 16:19</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 		<name>X Rotation</name>
 		<code>fX</code>

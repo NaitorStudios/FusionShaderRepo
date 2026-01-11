@@ -2,7 +2,7 @@
 <name>Pixel outline (No Diagonals)</name>
 <author>Looki / VFuzball, DX11 Port by NaitorStudios</author>
 <description>Draws a 1px border around an object in the 4 cardinal directions
-&#xA;Last Updated: 2021-08-30 12:18</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 		<name>Outline color</name>
 		<code>color</code>

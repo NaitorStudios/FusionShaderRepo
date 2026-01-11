@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-10 03:33
+Last Updated: 2026-01-11 00:53
 
 === Shader files ===
 Better Bloom (Background).xml - Info & Integration

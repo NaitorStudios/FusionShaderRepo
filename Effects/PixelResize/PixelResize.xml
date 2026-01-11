@@ -1,7 +1,7 @@
 <effect>
 <name>Pixel Resize</name>
 <description>Scales an image using the pixel resize algorithm.
-&#xA;Last Updated: 2013-06-24 03:49</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Width</name>

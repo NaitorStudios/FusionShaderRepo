@@ -2,7 +2,7 @@
 <name>Hue Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
 <description>Draws a hue box.
-&#xA;Last Updated: 2022-02-11 19:22</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <parameter>
 	<name>Saturation</name>
 	<code>fSaturation</code>

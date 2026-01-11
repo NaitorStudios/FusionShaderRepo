@@ -1,7 +1,7 @@
 <effect>
 <name>Color Adjust for Background</name>
 <description>Adjusts hue, saturation, lightness and contrast.
-&#xA;Last Updated: 2022-09-16 23:41</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Sketchy, Edit and DX11 Port by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

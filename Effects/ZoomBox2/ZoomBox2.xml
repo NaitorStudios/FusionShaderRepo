@@ -1,7 +1,7 @@
 <effect>
 <name>ZoomBox (for objects/layers/frame)</name>
 <description>Displays a window containing a zoomed portion of the background.
-&#xA;Last Updated: 2022-09-12 00:07</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Sketchy/MuddyMole, Edit and DX11 Port by NaitorStudios</author>
 	<parameter>
 		<name>sourceX</name>

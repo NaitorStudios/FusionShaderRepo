@@ -1,7 +1,8 @@
 <effect>
   <name>Hue Map</name>
+  <author>Cazra</author>
   <description>Map input image from HSL to RGB. The input color's red component is used as the hue. The other components are ignored.
-&#xA;Last Updated: 2022-03-20 12:30</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
   <parameter>
     <name>hue offset</name>
     <code>hue0</code>

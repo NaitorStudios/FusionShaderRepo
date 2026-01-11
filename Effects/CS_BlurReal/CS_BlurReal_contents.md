@@ -3,7 +3,7 @@ Broken on DX9 (Uses PS_3_0, which is broken for years and probably isn't going t
 
 Shader Packs: Complex Shaders Pack v2 (by Complex Softwares)
 
-Last Updated: 2025-08-02 14:39
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 CS_BlurReal.xml - Info & Integration

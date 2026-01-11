@@ -1,7 +1,7 @@
 <effect>
 	<name>Photoshop Linear Burn (Background)</name>
 		<description>(The effect comes from the Photoshop) Looks at the color information in each channel and darkens the base color to reflect the blend color by decreasing the brightness. Blending with white produces no change
-&#xA;Last Updated: 2026-01-04 22:01</description> 
+&#xA;Last Updated: 2026-01-11 00:56</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

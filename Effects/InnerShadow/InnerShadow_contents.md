@@ -1,7 +1,7 @@
 Notes:
 Originally Inner Glow from Looki
 
-Last Updated: 2022-11-22 12:37
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 InnerShadow.xml - Info & Integration

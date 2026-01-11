@@ -1,7 +1,7 @@
 <effect>
 <name>Background Blur</name>
 <description>12 iterations, using pre-calculated circle.
-&#xA;Last Updated: 2025-08-02 14:39</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <author>Looki</author>
 <parameter>
 	<name>X Radius</name>

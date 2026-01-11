@@ -1,7 +1,7 @@
 <effect>
 <name>Slide</name>
 <description>Offsets images based on a parameter.
-&#xA;Last Updated: 2025-08-02 14:39</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Jacob Pariseau</author>
 <parameter>
   <name>Slide X Coefficient</name>

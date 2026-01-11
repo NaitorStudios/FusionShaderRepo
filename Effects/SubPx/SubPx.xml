@@ -1,7 +1,7 @@
 <effect>
 <name>Sub-Pixel</name>
 <description>Offset an image by pixels. Mainly used for sub-pixel positioning.
-&#xA;Last Updated: 2025-09-05 20:07</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Looki</author>
 <parameter>
 <sampler>

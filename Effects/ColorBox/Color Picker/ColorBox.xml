@@ -2,7 +2,7 @@
 <name>Color Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
 <description>Draws a color box.
-&#xA;Last Updated: 2022-02-11 19:22</description>
+&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 	<name>Hue</name>
 	<code>fHue</code>

@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-04 22:01
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 Krita Penumbra D (Background).xml - Info & Integration

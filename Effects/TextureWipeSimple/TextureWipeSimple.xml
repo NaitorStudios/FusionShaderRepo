@@ -3,7 +3,7 @@
 <description>Create transitions for it on: https://eevee.itch.io/particle-wipe-generator
 &#xA;Because of a issue on Fusion, when applied to Layers it only works perfectly on DX11 Premultiplied mode.
 &#xA;It can only be used applied to a Layer or Frame on Windows (at least up to build 295)
-&#xA;Last Updated: 2026-01-08 19:40</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

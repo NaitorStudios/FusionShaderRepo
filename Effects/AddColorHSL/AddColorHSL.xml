@@ -1,8 +1,8 @@
 <effect>
   <name>Add Color HSL</name>
-  <description>
-    Add the color components of the given HSL color to the source image.
-&#xA;Last Updated: 2022-07-12 23:42</description>
+  <author>Cazra</author>
+  <description>Add the color components of the given HSL color to the source image.
+&#xA;Last Updated: 2026-01-11 00:53</description>
   <parameter>
     <name>Hue</name>
     <code>hue</code>

@@ -1,6 +1,6 @@
 Shader Packs: Looki Full Pack
 
-Last Updated: 2026-01-09 21:42
+Last Updated: 2026-01-11 00:54
 
 === Shader files ===
 BrightenByBG.xml - Info & Integration

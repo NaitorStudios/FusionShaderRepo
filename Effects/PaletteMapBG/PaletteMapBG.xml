@@ -1,7 +1,7 @@
 <effect>
 <name>Palette Map for Background</name>
 <description>Fades the color to the its opposite based on the difference to the background color.
-&#xA;Last Updated: 2022-08-26 23:03</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Looki, background edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

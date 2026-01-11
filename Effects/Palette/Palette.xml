@@ -2,7 +2,7 @@
 <name>Palette</name>
 <author>Sketchy</author>
 <description>256 Colour Palette.
-&#xA;Last Updated: 2022-02-13 23:20</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <parameter>
 	<name>Palette Image (16 x 16 Pixels).</name> <code>Palette</code>
 	<type>IMAGE</type> <property>IMAGE</property>

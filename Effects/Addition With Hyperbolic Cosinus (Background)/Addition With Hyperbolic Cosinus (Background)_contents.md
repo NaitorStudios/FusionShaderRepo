@@ -1,6 +1,6 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-04 22:00
+Last Updated: 2026-01-11 00:53
 
 === Shader files ===
 Addition With Hyperbolic Cosinus (Background).xml - Info & Integration

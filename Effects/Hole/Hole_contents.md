@@ -1,6 +1,6 @@
 Shader Packs: Looki Full Pack, Looki's Shader Pack 2.0
 
-Last Updated: 2025-11-26 12:08
+Last Updated: 2026-01-11 00:55
 
 === Shader files ===
 Hole.xml - Info & Integration

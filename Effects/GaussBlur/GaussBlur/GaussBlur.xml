@@ -2,7 +2,7 @@
 <name>Gauss Blur</name>
 <author>Defisym</author>
 <description>Creat Gauss Blur, Only For DX11
-&#xA;Last Updated: 2022-11-21 22:10</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

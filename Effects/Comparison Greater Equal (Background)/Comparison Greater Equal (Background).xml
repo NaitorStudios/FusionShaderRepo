@@ -1,7 +1,7 @@
 <effect>
 	<name>Comparison Greater Equal (Background)</name>
 		<description>It compares the color between the base and blend separately for each RGB channel, indicating whether the color is greater or equal.
-&#xA;Last Updated: 2026-01-04 22:01</description> 
+&#xA;Last Updated: 2026-01-11 00:54</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

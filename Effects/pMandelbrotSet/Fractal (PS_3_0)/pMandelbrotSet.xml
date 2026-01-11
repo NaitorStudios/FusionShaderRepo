@@ -1,7 +1,7 @@
 <effect>
 <name>Mandelbrot Set with perturbation</name>
 <description>None
-&#xA;Last Updated: 2026-01-10 02:19</description>
+&#xA;Last Updated: 2026-01-11 00:56</description>
 <author>Algul</author>
 <parameter>
 		<name>MaxIteration</name>

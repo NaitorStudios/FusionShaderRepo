@@ -2,7 +2,7 @@
 <name>Marching Ants (Layer)</name>
 <author>Original by Looki, Edit by NaitorStudios</author>
 <description>Draws a 1px border around objects on a layer with a stripe pattern that can move.
-&#xA;Last Updated: 2021-11-18 18:37</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <parameter>
 		<name>Step</name>
 		<description>Always increment 0.5 to get the actual moving.</description>

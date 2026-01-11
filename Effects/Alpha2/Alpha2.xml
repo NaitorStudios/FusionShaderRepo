@@ -2,7 +2,7 @@
 <name>Alpha Channel 2</name>
 <author>Sketchy, Edit and ports by NaitorStudios</author>
 <description>Loads an alpha channel, multiplies the original alpha by the mask alpha.
-&#xA;Last Updated: 2023-10-19 17:54</description>
+&#xA;Last Updated: 2026-01-11 00:53</description>
 <parameter>
 	<name>Mask image.</name> <code>Alpha</code>
 	<type>IMAGE</type> <property>IMAGE</property>

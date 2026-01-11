@@ -1,7 +1,7 @@
 <effect>
 <name>OR</name>
 <description>Bitwise OR the colors with the background.
-&#xA;Last Updated: 2022-10-14 17:37</description>
+&#xA;Last Updated: 2026-01-11 00:55</description>
 <author>Cazra, DX11 port by NaitorStudios, thanks to fnkycoldmadeanr</author>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

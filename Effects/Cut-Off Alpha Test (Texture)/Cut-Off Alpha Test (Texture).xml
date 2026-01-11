@@ -1,7 +1,7 @@
 <effect>
 	<name>Cut-Off Alpha Test (Texture)</name>
 		<description>This shader gives the effect of pre-rendered sprites, but with monoalpha, which means that the closer the color is to being transparent, the darker it becomes, and when the color is to be completely transparent, alpha is activated to "cut" it.
-&#xA;Last Updated: 2026-01-04 22:02</description> 
+&#xA;Last Updated: 2026-01-11 00:54</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>
