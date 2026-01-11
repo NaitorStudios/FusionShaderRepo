@@ -1,5 +1,6 @@
 <effect>
 <name>Tinted Lens</name>
+<description>Applies a lens distortion effect with customizable tinting, parameters control the distortion strength and the tint parameters blend a specified color over the base image.</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 

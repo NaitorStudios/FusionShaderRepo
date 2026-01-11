@@ -1,6 +1,6 @@
 <effect>
 <name>Mask</name>
-<description>Mask</description>
+<description>Converts an image to grayscale and then inverts the colors, creating a negative effect where light areas become dark and vice versa. It works by blending the RGB channels using standard luminance weights and then flipping the resulting grayscale value.</description>
 <author>Eagle4 - Willay Clement</author>
 <company>Complex-softwares</company>
 </effect>

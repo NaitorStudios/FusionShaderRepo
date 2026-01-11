@@ -1,6 +1,6 @@
 <effect>
 <name>Shadow</name>
-<description>Shadowcaster</description>
+<description>This shader creates a dynamic light source that illuminates areas around it while casting shadows on nearby objects, with adjustable light position, radius, and ambient light levels. It calculates how much light reaches each pixel based on distance from the light source and whether the light is blocked by opaque objects.</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Sketchy / MuddyMole, Ports by NaitorStudios</author>
 <parameter>

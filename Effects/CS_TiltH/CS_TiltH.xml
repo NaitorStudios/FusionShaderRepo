@@ -1,6 +1,6 @@
 <effect>
 <name>Tilt H</name>
-<description>Horizontal tilt</description>
+<description>Applies a horizontal tilt effect to an image by shifting pixels based on a tilt coefficient, creating a skewed or slanted visual appearance. The effect modifies the horizontal texture coordinates of each pixel, with the amount of tilt controlled by a parameter that ranges from -1 to 1.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

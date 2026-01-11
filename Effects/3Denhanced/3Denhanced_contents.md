@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2025-12-14 20:49  
+**Last Updated:** 2026-01-11 15:18  
 
 ## Shader files
 - **3Denhanced.xml** — Info & Integration

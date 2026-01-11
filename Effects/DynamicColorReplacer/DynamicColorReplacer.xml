@@ -1,5 +1,6 @@
 <effect>
 <name>Color Replacer Dynamic MP</name>
+<description>Replaces specified colors in an image with new colors, using multiple passes to handle different sets of color replacements.</description>
 <author>DX9 by Looki, DX11 by NaitorStudios</author>
 
 <parameter>

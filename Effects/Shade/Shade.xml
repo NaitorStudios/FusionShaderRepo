@@ -1,6 +1,6 @@
 <effect>
 <name>Shading</name>
-<description></description>
+<description>Applies a colored shadow behind, offset along the X and Y axes. The shadow color and transparency can be adjusted via parameters.</description>
 <author>Looki</author>
 <parameter>
 		<name>X Offset</name>

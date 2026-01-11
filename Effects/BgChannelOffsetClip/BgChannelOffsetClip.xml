@@ -1,5 +1,6 @@
 <effect>
 <name>Background Channel Offset Clip</name>
+<description>Offsets the red, green, blue, and alpha channels of a background texture independently in X and Y directions, then clips the result based on user-defined boundaries.</description>
 <author>Looki, Edit by NaitorStudios</author>
 <parameter>
 	<name>R X Offset</name>

@@ -1,6 +1,6 @@
 <effect>
 <name>AlphaMono</name>
-<description>AlphaMono</description>
+<description>This shader applies a monochrome effect to an image with adjustable transparency, optionally using a background texture for blending. It converts the input texture to grayscale, then mixes it with the original color based on the specified alpha value.</description>
 <author>Defisym</author>
 <parameter>
 	<name>Alpha</name>

@@ -1,7 +1,7 @@
 <effect>
 <name>Shock Wave</name>
 <author>Ported by NaitorStudios</author>
-<description></description>
+<description>This shader creates a shock wave effect that emanates from the center of the image, with the wave's radius growing over time. The effect distorts the image around the wavefront, creating a visual impression of a spreading ripple or blast wave.</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
 		<name>time</name>

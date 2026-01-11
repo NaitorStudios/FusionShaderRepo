@@ -1,6 +1,6 @@
 <effect>
 <name>REPLACECOLOUR2</name>
-<description></description>
+<description>Switches individual color channels by other color channels (including Alpha), with blending capabilities.</description>
 <author>PEANUTBUTTERFINGERS</author>
 <parameter>
 		<name>RED</name>

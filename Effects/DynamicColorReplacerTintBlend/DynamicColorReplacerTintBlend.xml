@@ -1,5 +1,6 @@
 <effect>
 <name>Color Replacer Dynamic MP + Tint + Blend modes</name>
+<description>Replaces specified colors in an image with new colors, using multiple passes to handle different sets of color replacements. Has an extra Tint parameter, since RGB Coef may not work on DX9 version and supports additive or subtractive blending with a background texture.</description>
 <author>DX9 by Looki, DX11 and edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 

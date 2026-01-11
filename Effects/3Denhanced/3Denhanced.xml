@@ -1,6 +1,6 @@
 <effect>
 <name>3D Enhanced</name>
-<description>A Perspective Shader for use in 3D applications.</description>
+<description>Creates a 3D perspective effect by distorting texture coordinates to simulate depth, with controls for adjusting the height, center, and lighting of left and right sides of the view. It uses cross-ratio metrology to accurately map the texture, giving the illusion of a 3D scene from a 2D image.</description>
 <author>MuddyMole (based on "3D Shader" by Werbad), Port by NaitorStudios</author>
 
 <sampler>

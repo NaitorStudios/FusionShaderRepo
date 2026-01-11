@@ -1,6 +1,7 @@
 <effect>
 <name>Julia Set v1</name>
-<description>None</description>
+<description>Generates a Julia set fractal by iterating a complex quadratic function for each pixel, with adjustable parameters for the constant C, scale, offset, and maximum iterations.&#xA;
+Notes: DirectX 9 Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically the texture coordinates, so this shader may not work.</description>
 <author>Algul</author>
 <parameter>
 		<name>MaxIteration</name>

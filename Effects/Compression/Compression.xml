@@ -1,7 +1,7 @@
 <effect>
     <name>Compression</name>
     <author>Defisym</author>
-    <description>Compression</description>
+    <description>Reduces color depth by rounding pixel values to fewer color levels, creating a compressed or posterized visual effect. It also downsamples the texture based on a specified sampler size to further compress the image.</description>
     <parameter>
         <name>Level Num</name>
         <code>levelNum</code>

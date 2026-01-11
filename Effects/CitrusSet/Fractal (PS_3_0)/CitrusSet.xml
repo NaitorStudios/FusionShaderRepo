@@ -1,6 +1,7 @@
 <effect>
 <name>CitrusSet</name>
-<description>None</description>
+<description>Generates a fractal pattern using an iterative mathematical formula, where each pixel's color is determined by how quickly the iteration escapes to infinity, with parameters controlling the fractal's shape, scale, and position. The output is a colorful visualization of the fractal set defined by the specified complex constants and iteration limits.&#xA;
+Notes: DirectX 9 Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically the texture coordinates, so this shader may not work.</description>
 <author>Algul</author>
 <parameter>
 		<name>MaxIteration</name>

@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** OpenFusionExamples (by defisym)
 
-**Last Updated:** 2023-02-25 15:48  
+**Last Updated:** 2026-01-11 14:43  
 
 ## Shader files
 - **CompressionBG.xml** — Info & Integration

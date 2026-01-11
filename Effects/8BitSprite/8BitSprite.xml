@@ -1,7 +1,7 @@
 <effect>
 <name>8-bit Sprite</name>
 <author>MuddyMole / Sketchy</author>
-<description>256 colour palette, flip/mirror, alpha dithering.</description>
+<description>Applies a pixelated 8-bit look to images using a custom 256 color palette, optional flipping or rotation, and alpha-based dithering to simulate low-resolution graphics.</description>
 <parameter>
 	<name>Palette Image (16 x 16 Pixels).</name> <code>Palette</code>
 	<type>IMAGE</type>

@@ -1,7 +1,7 @@
 <effect>
 <name>3dPerspective 1.5a (advanced)</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.5a (advanced)</description>
+<description>Creates a 3D perspective effect by rotating a 2D texture in 3D space and applying lighting, with options to use a separate image for the reverse side of the object. It supports adjustable tilt angles, camera distance, zoom, and light direction for realistic rendering.</description>
 <parameter>
   <name>iR</name>
   <code>iR</code>

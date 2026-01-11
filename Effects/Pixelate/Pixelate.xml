@@ -1,6 +1,7 @@
 <effect>
 <name>Pixelate</name>
-<description>Image pixelation.</description>
+<description>Creates a pixelated effect by rounding texture coordinates to the nearest pixel grid and sampling the texture at those locations. The effect can be controlled by adjusting the width and height of the pixel grid, allowing for customizable pixelation levels.&#xA;
+Notes: AKA. CF25_PixelateEffect</description>
 
 <parameter>
 <name>Pixel width</name>

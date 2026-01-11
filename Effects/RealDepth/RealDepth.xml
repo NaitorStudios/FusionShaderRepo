@@ -1,6 +1,6 @@
 <effect>
 <name>Real Depth Buffer</name>
-<description></description>
+<description>This shader outputs a depth buffer with an adjustable depth value, allowing for custom depth rendering while preserving the original texture color. It enables precise control over depth values for effects like depth-based post-processing or custom depth testing.</description>
 <author>Sketchy/MuddyMole</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

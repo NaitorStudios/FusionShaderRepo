@@ -1,6 +1,6 @@
 <effect>
 <name>FakeDepth</name>
-<description></description>
+<description>This shader extracts depth information from the background texture and remaps it to create a fake depth-based coloring effect, where the foreground pixels are replaced with color values derived from the background's depth data. The effect simulates depth-based coloring by converting background pixel values into RGB components based on modular arithmetic, producing a pseudo-depth visualization.</description>
 <author>Sketchy/MuddyMole</author>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

@@ -1,6 +1,7 @@
 <effect>
 <name>Auto-Tile (Edges)</name>
-<description>Draw tiled-based graphics.</description>
+<description>Draw tiled-based graphics.&#xA;
+Notes: AutotileA and AutotileB are dependent on each other</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Map</name>

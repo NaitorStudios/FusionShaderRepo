@@ -1,6 +1,6 @@
 <effect>
 <name>Mandlebrot</name>
-<description>Mandlebrot</description>
+<description>Generates a Mandelbrot fractal pattern by iterating on complex numbers and mapping the iteration count to pixel colors. The shader scales and centers the fractal view based on input parameters.</description>
 <author>Flipperku</author>
 <sampler>
 	<index>0</index>

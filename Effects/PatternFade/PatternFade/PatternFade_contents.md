@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** OpenFusionExamples (by defisym)
 
-**Last Updated:** 2022-07-25 15:08  
+**Last Updated:** 2026-01-11 14:44  
 
 ## Shader files
 - **PatternFade.xml** — Info & Integration

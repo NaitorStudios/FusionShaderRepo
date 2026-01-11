@@ -1,8 +1,9 @@
 <effect>
 <name>Texture Wipe (Simple)</name>
-<description>Create transitions for it on: https://eevee.itch.io/particle-wipe-generator
-&#xA;Because of a issue on Fusion, when applied to Layers it only works perfectly on DX11 Premultiplied mode.
-&#xA;It can only be used applied to a Layer or Frame on Windows (at least up to build 295)</description>
+<description>Create transitions for it on: https://eevee.itch.io/particle-wipe-generator &#xA;
+Because of a issue on Fusion, when applied to Layers it only works perfectly on DX11 Premultiplied mode.&#xA;
+It can only be used applied to a Layer or Frame on Windows (at least up to build 295)&#xA;
+Notes: Full version available at NaitorStudios Patreon, Ko-Fi or itch.io</description>
 <author>NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

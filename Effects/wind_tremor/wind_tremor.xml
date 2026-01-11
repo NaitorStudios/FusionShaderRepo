@@ -1,6 +1,6 @@
 <effect>
 	<name>wind tremor</name>
-	<description></description>
+	<description>Creates a subtle wind-like trembling effect on textures by shifting the horizontal texture coordinates based on the vertical position and a weight value. The effect can be adjusted using two parameters: raito controls the intensity of the wave movement, and weight determines how strong the trembling appears.</description>
 	
 	<author>azarl</author>
 	<website>localhost</website>

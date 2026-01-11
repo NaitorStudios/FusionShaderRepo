@@ -1,6 +1,6 @@
 <effect>
 <name>GrasWave</name>
-<description>Sinus wave</description>
+<description>Distorts texture coordinates along the y-axis using a sinusoidal wave pattern, creating a wave-like effect on the texture. The amplitude, frequency, and number of wave periods can be adjusted to control the intensity and appearance of the wave.</description>
 <author>Jens van Dijk - Sphax - Flavien Clermont</author>
 <company>Nijumi Games</company>
 <website>http://www.nijumi.de</website>

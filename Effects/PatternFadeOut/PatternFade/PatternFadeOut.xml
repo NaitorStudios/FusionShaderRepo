@@ -1,7 +1,7 @@
 <effect>
 <name>Pattern Fade Out</name>
 <author>Defisym</author>
-<description>Pattern Fade Out</description>
+<description>Fades out a pattern or image based on progress, with an option to apply the effect to either a texture or the current picture. The shader uses a mask to gradually remove parts of the image, revealing the underlying content.</description>
 <parameter>
 		<name>Progress</name>
 		<code>progress</code>

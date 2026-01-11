@@ -1,5 +1,6 @@
 <effect>
 <name>Channel Offset</name>
+<description>Offsets the red, green, blue, and alpha channels of an image by different x and y amounts.</description>
 <author>Looki</author>
 <parameter>
 	<name>R X Offset</name>

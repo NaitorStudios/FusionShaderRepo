@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Looki Full Pack
 
-**Last Updated:** 2023-05-03 08:42  
+**Last Updated:** 2025-08-02 14:39  
 
 ## Shader files
 - **SonicFade.xml** — Info & Integration
@@ -12,4 +12,4 @@
 - **SonicFade.fxmo** — iOS/Mac source code  
 
 ## Examples
-- sonic_fade.mfa  
+- SonicFade_sonic_fade.mfa  

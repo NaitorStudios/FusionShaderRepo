@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Looki Full Pack, Looki's Shader Pack 2.0
 
-**Last Updated:** 2022-07-29 22:20  
+**Last Updated:** 2025-08-02 14:39  
 
 ## Shader files
 - **ChannelBlur.xml** — Info & Integration

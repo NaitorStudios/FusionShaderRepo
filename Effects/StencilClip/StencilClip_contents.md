@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** FusionShaders (by Cazra)
 
-**Last Updated:** 2026-01-11 03:33  
+**Last Updated:** 2026-01-11 15:53  
 
 ## Shader files
 - **StencilClip.xml** — Info & Integration

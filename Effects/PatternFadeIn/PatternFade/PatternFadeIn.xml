@@ -1,7 +1,7 @@
 <effect>
 <name>Pattern Fade In</name>
 <author>Defisym</author>
-<description>Pattern Fade In</description>
+<description>Fades in a pattern image over time, blending it with the original picture based on a progress setting. The effect can either fade to a solid color or to the current picture, with the mode determining the final output.</description>
 <parameter>
 		<name>Progress</name>
 		<code>progress</code>

@@ -1,6 +1,6 @@
 <effect>
 <name>Blur + Noise</name>
-<description>Simple blur</description>
+<description>Applies a multi-sample blur effect with added noise for texture filtering, using a configurable coefficient to control the blur intensity. Combines multiple texture samples in a 3x3 grid around each pixel to produce a smooth blurred output.</description>
 <author>Sphax - Flavien Clermont, Edited by NaitorStudios</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

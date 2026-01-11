@@ -1,6 +1,7 @@
 <effect>
 <name>Starfield</name>
-<description>Animated Starfield</description>
+<description>Animated Starfield.&#xA;
+Notes: DX11 ONLY.</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Animation</name>

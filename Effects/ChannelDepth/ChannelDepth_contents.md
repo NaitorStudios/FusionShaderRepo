@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Looki Full Pack, Looki's Shader Pack 2.0
 
-**Last Updated:** 2022-07-29 22:20  
+**Last Updated:** 2026-01-11 03:39  
 
 ## Shader files
 - **ChannelDepth.xml** — Info & Integration

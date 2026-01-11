@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2017-10-21 05:04  
+**Last Updated:** 2017-10-22 02:43  
 
 ## Shader files
 - **Shift.xml** — Info & Integration
@@ -7,6 +7,6 @@
 
 ## Examples
 - Shift.mfa
-- shift2.mfa
-- shifteg.mfa
-- shifteg2.mfa  
+- Shift_2.mfa
+- Shift_eg.mfa
+- Shift_eg2.mfa  

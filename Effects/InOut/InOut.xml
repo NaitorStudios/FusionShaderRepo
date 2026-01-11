@@ -1,6 +1,6 @@
 <effect>
 <name>Channel In/Out</name>
-<description></description>
+<description>Allows you to remap and blend the red, green, blue, and alpha channels of an image, letting you control how much of each channel is used and how it mixes with the original. You can use it to isolate or combine color channels, or apply selective color adjustments to an image.</description>
 <author>Looki</author>
 <parameter>
 		<name>Red</name>

@@ -55,7 +55,7 @@
 ## Shader Pack: CTFShaders (by OWER396) (8 shaders)
 - **SimpleZoom.xml** — SimpleZoom
 - **RPanoramaNoAA.xml** — Panorama (No AA)
-- **MosaicBG.xml** — Background Mosaic
+- **MosaicBG.xml** — Mosaic (for background)
 - **DirBlur x5.xml** — Directional Blur 5x
 - **DirBlur x4.xml** — Directional Blur 4x
 - **BetterLensXY.xml** — BetterLensXY
@@ -204,7 +204,7 @@
 
 ## Shader Pack: Complex Shaders Pack v2 (by Complex Softwares) (53 shaders)
 - **CS_Bloom2D.xml** — Bloom 2D
-- **CS_MaskNV.xml** — CS_MaskNV
+- **CS_MaskNV.xml** — Mask: Night Vision
 - **CS_MaskAlpha.xml** — Mask Alpha
 - **CS_EdgesDetection.xml** — Edges detection
 - **CS_ZoomOffsetTiled.xml** — Zoom+Offset+Tiled
@@ -215,7 +215,7 @@
 - **CS_Resize.xml** — Resize
 - **CS_Zoom.xml** — Zoom
 - **CS_ZoomOffset.xml** — Zoom+Offset
-- **CS_MaskSepia.xml** — CS_MaskSepia
+- **CS_MaskSepia.xml** — Mask: Sepia
 - **CS_MaskBlue.xml** — Mask: Blue
 - **CS_MaskGreen.xml** — Mask: Green
 - **CS_MaskRed.xml** — Mask: Red

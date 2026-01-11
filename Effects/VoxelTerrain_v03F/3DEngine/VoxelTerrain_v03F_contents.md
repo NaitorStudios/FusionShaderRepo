@@ -4,7 +4,7 @@ Alpha, check: https://create-games.com/forum_post.asp?id=303193
 
 **Shader Packs:** 3dEngine/VoxelTerrain pack (by Sketchy)
 
-**Last Updated:** 2017-10-14 21:46  
+**Last Updated:** 2026-01-11 21:14  
 
 ## Shader files
 - **VoxelTerrain_v03F.xml** — Info & Integration

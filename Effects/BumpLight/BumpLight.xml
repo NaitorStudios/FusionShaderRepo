@@ -1,7 +1,7 @@
 <effect>
 <name>Bump Light</name>
 <author>mihailsh</author>
-<description>Light Effect</description>
+<description>Creates a lighting effect by using a normal map to simulate surface details and calculate how light interacts with those details, allowing for realistic highlights and shadows on textured surfaces. It supports adjustable light position, color, and ambient lighting to control the appearance of the effect.</description>
 <BackgroundTexture>0</BackgroundTexture>
 
 

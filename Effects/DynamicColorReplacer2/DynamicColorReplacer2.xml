@@ -1,5 +1,6 @@
 <effect>
-<name>Color Replacer Dynamic MP</name>
+<name>Color Replacer Dynamic MP (Color Array)</name>
+<description>Replaces specified colors in an image with new colors, using multiple passes to handle different sets of color replacements. This version uses color array parameters, which can be easily expanded if limits allow (mostly on DX11).</description>
 <author>Looki</author>
 
 <parameter>

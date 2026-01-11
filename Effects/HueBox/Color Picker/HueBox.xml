@@ -1,7 +1,7 @@
 <effect>
 <name>Hue Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Draws a hue box.</description>
+<description>Transforms UV coordinates into an RGB color space, allowing users to adjust the saturation and lightness of a hue box.</description>
 <parameter>
 	<name>Saturation</name>
 	<code>fSaturation</code>

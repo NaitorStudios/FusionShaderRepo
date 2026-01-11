@@ -1,6 +1,6 @@
 <effect>
 <name>Shape Mask2</name>
-<description>Mask Background</description>
+<description>This shader masks out parts of the background image based on a separate mask texture, allowing only specific areas to show through while hiding the rest. It uses adjustable coordinates and dimensions to define the masked region and applies the mask to either reveal or hide parts of the main image.</description>
 <author>mihailsh, DX11 port by NaitorStudios</author>
 <BackgroundTexture>0</BackgroundTexture>
 <parameter>

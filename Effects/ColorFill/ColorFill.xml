@@ -1,6 +1,6 @@
 <effect>
 <name>Color Fill</name>
-<description>Color Fill</description>
+<description>Replaces the color of every pixel with a solid fill color while preserving the original alpha channel. It takes a single color parameter and applies it uniformly across the entire image.</description>
 <author>bybyblue, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>Color</name>

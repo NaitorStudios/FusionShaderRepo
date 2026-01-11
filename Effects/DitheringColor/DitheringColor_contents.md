@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2014-01-16 00:28  
+**Last Updated:** 2026-01-11 14:52  
 
 ## Shader files
 - **DitheringColor.xml** — Info & Integration

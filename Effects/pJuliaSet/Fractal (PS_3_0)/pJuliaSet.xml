@@ -1,6 +1,7 @@
 <effect>
 <name>Julia Set with perturbation</name>
-<description>None</description>
+<description>Generates a Julia set fractal using perturbation theory for improved accuracy at high iterations, with controls for scale, offset, perturbation values, and iteration count, and applies a color palette to the output.&#xA;
+Notes: DirectX 9 Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically the texture coordinates, so this shader may not work.</description>
 <author>Algul</author>
 <parameter>
 		<name>MaxIteration</name>

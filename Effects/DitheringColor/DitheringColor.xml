@@ -1,6 +1,6 @@
 <effect>
 <name>Dithering Color</name>
-<description>Dithering color.</description>
+<description>Applies dithering to colors using a pattern texture to create a stippled effect. The shader compares the base texture color against a dither pattern and outputs the resulting binary color values.</description>
 
 <parameter>
 <name>Dither pattern image</name>

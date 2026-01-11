@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2025-01-30 13:32  
+**Last Updated:** 2026-01-11 14:38  
 
 ## Shader files
 - **BgChannelOffset.xml** — Info & Integration

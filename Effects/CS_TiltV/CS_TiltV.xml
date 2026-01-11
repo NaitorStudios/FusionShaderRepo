@@ -1,6 +1,6 @@
 <effect>
 <name>Tilt V</name>
-<description>Vertical tilt</description>
+<description>Applies a vertical tilt effect to textures by skewing the image vertically based on a tilt coefficient, creating a sense of perspective or angle. The effect modifies the vertical texture coordinates in a way that makes the image appear as if it's leaning or tilted vertically.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

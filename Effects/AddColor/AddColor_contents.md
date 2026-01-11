@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** FusionShaders (by Cazra)
 
-**Last Updated:** 2026-01-11 03:39  
+**Last Updated:** 2026-01-11 15:51  
 
 ## Shader files
 - **AddColor.xml** — Info & Integration

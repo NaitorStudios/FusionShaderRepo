@@ -1,6 +1,6 @@
 <effect>
 <name>Blured Shadow</name>
-<description>Simple blur</description>
+<description>Creates a soft, blurred shadow effect by sampling the texture at multiple offset positions and averaging their colors. It allows control over the blur intensity and shadow color through adjustable parameters.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

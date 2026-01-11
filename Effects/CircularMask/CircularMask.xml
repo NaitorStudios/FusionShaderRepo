@@ -1,5 +1,6 @@
 <effect>
 <name>Circular mask</name>
+<description>Applies a circular mask to an image, allowing only the area inside the circle to show through while masking out the rest. The mask's position, size, and sharpness can be adjusted, and the effect can be inverted.</description>
 <author>Looki, Improved by NaitorStudios</author>
 <parameter>
 	<name>X</name>

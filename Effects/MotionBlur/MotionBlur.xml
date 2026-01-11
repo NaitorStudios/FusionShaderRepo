@@ -1,6 +1,7 @@
 <effect>
 <name>Motion Blur (Whole frame only)</name>
-<description>Creates motion blur effect if applied to the whole frame.</description>
+<description>Creates motion blur effect if applied to the whole frame.&#xA;
+Notes: I don't think this works on Android, iOS and Mac yet because it has to be applied to the frame...</description>
 <author>Looki</author>
 <parameter>
 	<name>Coefficient</name>

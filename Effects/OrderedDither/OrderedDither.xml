@@ -1,6 +1,6 @@
 <effect>
 	<name>OrderedDither</name>
-	<description>Dithers an image.</description>
+	<description>Dithers an image using a pattern texture to create a stippled or halftone effect, based on the brightness of each pixel and a configurable image size.</description>
 	<author>Sketchy</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

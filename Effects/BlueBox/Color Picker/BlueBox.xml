@@ -1,7 +1,7 @@
 <effect>
 <name>Blue Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Draws a blue box.</description>
+<description>Renders a colored box with adjustable red and green components, using texture coordinates for the blue channel. The shader outputs a pixel color based on the specified RGB values and the X texture coordinate.</description>
 <parameter>
 	<name>Green</name>
 	<code>fGreen</code>

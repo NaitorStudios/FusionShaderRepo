@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2023-05-11 15:41  
+**Last Updated:** 2025-08-02 14:39  
 
 ## Shader files
 - **NormalMap.xml** — Info & Integration
@@ -12,4 +12,4 @@
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
 ## Examples
-- NormalMap 4540.mfa  
+- NormalMap_4540.mfa  

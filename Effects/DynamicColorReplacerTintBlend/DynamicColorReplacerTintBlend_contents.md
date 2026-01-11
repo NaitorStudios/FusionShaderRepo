@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2023-06-23 12:10  
+**Last Updated:** 2026-01-11 14:02  
 
 ## Shader files
 - **DynamicColorReplacerTintBlend.xml** — Info & Integration

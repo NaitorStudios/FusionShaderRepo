@@ -1,6 +1,7 @@
 <effect>
   <name>Volumetric Light</name>
-  <description>Full-scene radial blur with scalar controls</description>
+  <description>Full-scene radial blur with scalar controls&#xA;
+  Notes: DX11 ONLY at the moment.</description>
   <author>NaitorStudios</author>
   <company></company>
   <website></website>

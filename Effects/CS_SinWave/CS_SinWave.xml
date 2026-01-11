@@ -1,6 +1,6 @@
 <effect>
 <name>SinWave</name>
-<description>Sinus wave</description>
+<description>Creates a sinusoidal wave distortion effect along the Y-axis of a texture, allowing control over amplitude, frequency, and horizontal offset.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

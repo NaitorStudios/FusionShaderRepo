@@ -1,6 +1,6 @@
 <effect>
 <name>Squish Sprite</name>
-<description></description>
+<description>Distorts a sprite by stretching it horizontally and creating a bulging or squishing effect based on a mathematical function. It allows the sprite to appear to push outward or inward at its edges, with the effect controlled by a parameter that influences how much the sprite bulges.</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Time</name>

@@ -1,6 +1,6 @@
 <effect>
 <name>Simple Mask</name>
-<description>Colors an object.</description>
+<description>Colors an object with a tint and transparency effect based on the specified color and visibility parameters.</description>
 <author>Looki</author>
 <parameter>
 		<name>Color</name>

@@ -1,6 +1,6 @@
 <effect>
 <name>Channel Shift</name>
-<description>Shift R,G,B.A.</description>
+<description>Shifts the red, green, blue, and alpha channels of an image by independent X and Y offsets, creating a color channel displacement effect.</description>
 <author>Looki</author>
 <parameter>
 	<name>R X Offset</name>

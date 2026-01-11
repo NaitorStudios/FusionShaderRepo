@@ -1,7 +1,8 @@
 <effect>
 <name>Sprite</name>
 <author>Sketchy</author>
-<description>Multi-directional sprite</description>
+<description>Multi-directional sprite&#xA;
+Notes: Alpha, check: https://create-games.com/forum_post.asp?id=3031933</description>
 <parameter>
 		<name>iYLevel</name>
 		<code>iYLevel</code>

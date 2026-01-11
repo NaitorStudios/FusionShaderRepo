@@ -1,7 +1,7 @@
 <effect>
 <name>3dPerspective 1.5b (basic)</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.5b (basic), Bonus: Z Rotation.</description>
+<description>Creates a 3D perspective effect by rotating a 2D image around the X, Y, and Z axes, allowing users to control tilt, roll, zoom, and camera distance for a realistic 3D viewing experience. It supports mirroring the reverse side of the image and includes parameters for adjusting the horizontal, vertical, and roll angles, as well as the camera's distance and zoom level.</description>
 <parameter>
   <name>iM</name>
   <code>iM</code>

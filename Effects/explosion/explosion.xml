@@ -1,6 +1,6 @@
 <effect>
 <name>Explosion</name>
-<description></description>
+<description>Creates an animated explosion effect by distorting texture coordinates and blending them with a glowing light color based on the distance from the center. The effect expands outward over time, simulating the rapid growth and brightness of an explosion.</description>
 <author>Hawke</author>
 <parameter>
 		<name>fTime</name>

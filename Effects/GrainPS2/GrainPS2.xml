@@ -1,6 +1,6 @@
 <effect>
 <name>Grain ps_2_0</name>
-<description></description>
+<description>Adds configurable noise grain effect to textures with adjustable strength and channel control.</description>
 <author>Looki</author>
 <parameter>
 		<name>Seed</name>

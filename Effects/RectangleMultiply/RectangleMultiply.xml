@@ -1,7 +1,7 @@
 <effect>
     <name>RectangleMultiply</name>
     <author>Myp</author>
-    <description>RectangleMultiply</description>
+    <description>This shader creates a bordered rectangle by multiplying the colors of a background image with the main image only within the rectangle's area, leaving the border area as a solid color. The rectangle's size, border thickness, and color are customizable parameters.</description>
     <BackgroundTexture>1</BackgroundTexture>
 
     <parameter>

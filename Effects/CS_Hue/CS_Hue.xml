@@ -1,6 +1,6 @@
 <effect>
 <name>Hue</name>
-<description>Change the Hue</description>
+<description>The shader shifts the color hue of an image by interpolating between the red, green, and blue color channels based on a parameter value, allowing for color tinting effects. It cycles through different hue transformations depending on the parameter's range, enabling a wide spectrum of color adjustments.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

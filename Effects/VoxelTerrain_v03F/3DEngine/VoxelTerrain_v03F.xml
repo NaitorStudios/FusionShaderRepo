@@ -1,7 +1,8 @@
 <effect>
 <name>Voxel Terrain - Foreground (v0.3)</name>
 <author>Sketchy</author>
-<description>Voxel-based 3D terrain.</description>
+<description>Voxel-based 3D terrain.&#xA;
+Notes: Alpha, check: https://create-games.com/forum_post.asp?id=303193</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

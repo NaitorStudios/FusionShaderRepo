@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2022-08-26 23:06  
+**Last Updated:** 2026-01-11 15:22  
 
 ## Shader files
 - **8BitSprite.xml** — Info & Integration

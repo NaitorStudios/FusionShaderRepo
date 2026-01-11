@@ -1,6 +1,6 @@
 <effect>
 <name>Simple Circle Transition</name>
-<description></description>
+<description>Creates a circular mask that grows from the center of the screen over time, revealing the underlying image in a expanding circle pattern. The effect is controlled by a time parameter that determines how large the circle has become.</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Time</name>

@@ -1,6 +1,6 @@
 <effect>
 <name>Flip Vertically</name>
-<description>...</description>
+<description>Flips the input texture vertically by mirroring it along the horizontal axis.</description>
 <author>...</author>
 <company>...</company>
 </effect>

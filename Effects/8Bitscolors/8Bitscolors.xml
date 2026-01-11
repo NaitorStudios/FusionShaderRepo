@@ -1,6 +1,6 @@
 <effect>
 <name>8Bits Colors</name>
-<description>8Bits Palette Colors</description>
+<description>Applies a retro 8-bit color palette effect to images, reducing the color depth to mimic the look of classic video game consoles and computer systems. It offers multiple built-in color palettes and additional controls for brightness, pixelation, and dithering to enhance the vintage aesthetic.</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Brightness</name>

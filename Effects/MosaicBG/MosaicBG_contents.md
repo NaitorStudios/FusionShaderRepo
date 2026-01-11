@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** CTFShaders (by OWER396)
 
-**Last Updated:** 2024-11-14 07:24  
+**Last Updated:** 2026-01-11 14:55  
 
 ## Shader files
 - **MosaicBG.xml** — Info & Integration

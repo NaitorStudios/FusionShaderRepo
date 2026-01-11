@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Looki Full Pack
 
-**Last Updated:** 2025-08-02 14:39  
+**Last Updated:** 2026-01-11 14:40  
 
 ## Shader files
 - **CircularMask.xml** — Info & Integration

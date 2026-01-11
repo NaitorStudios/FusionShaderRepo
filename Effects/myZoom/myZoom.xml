@@ -1,6 +1,6 @@
 <effect>
 	<name>myZoom</name>
-	<description>Zooms an image.</description>
+	<description>Zooms an image by scaling the texture coordinates based on the zoom factor, creating a magnified view of the original image.</description>
 	<author>Sketchy</author>
 	<parameter>
 		<name>Zoom</name>

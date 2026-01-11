@@ -1,6 +1,6 @@
 <effect>
 <name>Windy Grass</name>
-<description></description>
+<description>Creates a windy grass effect by animating texture coordinates based on sine waves and time, with parameters controlling movement intensity, animation speed, and fade opacity.</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Intensity</name>

@@ -1,8 +1,6 @@
 <effect>
   <name>Add Color</name>
-  <description>
-    Add the color components of the given RGB color to the source image.
-  </description>
+  <description>Add the color components of the given RGB color to the source image.</description>
   <author>Cazra</author>
   <parameter>
     <name>Color</name>

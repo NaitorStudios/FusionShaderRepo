@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2025-08-01 19:35  
+**Last Updated:** 2026-01-11 14:58  
 
 ## Shader files
 - **Posterize.xml** — Info & Integration

@@ -1,6 +1,7 @@
 <effect>
 <name>Redify</name>
-<description>Keep only the red component of the output color.</description>
+<description>Keep only the red component of the output color.&#xA;
+Notes: https://create-games.com/forum_post.asp?id=303193</description>
 <author>Cazra</author>
 </effect>
 

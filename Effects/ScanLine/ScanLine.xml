@@ -1,6 +1,6 @@
 <effect>
 <name>Scanline</name>
-<description>Efeito de TV</description>
+<description>Simulates vintage TV effects including scanlines, chromatic aberration, and radial distortion to give a CRT monitor appearance.</description>
 <author>Vortex Game Studios</author>
 
 <parameter>

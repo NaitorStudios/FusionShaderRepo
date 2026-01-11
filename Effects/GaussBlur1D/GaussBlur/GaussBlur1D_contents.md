@@ -1,10 +1,10 @@
 ## Info
 **Notes:**
-Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically the texture coordinates, so this shader may not work.
+DirectX 9 Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically the texture coordinates, so this shader may not work.
 
 **Shader Packs:** OpenFusionExamples (by defisym)
 
-**Last Updated:** 2021-09-18 03:57  
+**Last Updated:** 2026-01-11 21:06  
 
 ## Shader files
 - **GaussBlur1D.xml** — Info & Integration

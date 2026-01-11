@@ -1,6 +1,6 @@
 <effect>
 <name>Noisy Fast Blur</name>
-<description></description>
+<description>Applies a noisy blur effect by displacing texture coordinates based on random noise, creating a soft, grainy blur appearance. The strength parameter controls the intensity of the displacement, with higher values producing more pronounced blur effects.</description>
 <author>NaitorStudios</author>
 <company></company>
 <website></website>

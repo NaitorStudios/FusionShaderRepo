@@ -1,6 +1,6 @@
 <effect>
 <name>Shape Mask</name>
-<description>Mask Background</description>
+<description>This shader uses a mask texture to determine which parts of the background texture to display, while rendering the rest with a specified outer color. It effectively creates a shape-based mask that replaces the background where the mask is fully opaque.</description>
 <author>mihailsh</author>
 <BackgroundTexture>1</BackgroundTexture>
 

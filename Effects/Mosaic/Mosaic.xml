@@ -1,6 +1,6 @@
 <effect>
 <name>Mosaic</name>
-<description>Mosaic</description>
+<description>Creates a pixelated mosaic effect by dividing the image into a grid of colored boxes, with the number of columns and rows determined by the parameters. The X and Y offsets shift the position of the boxes to create a tiled pattern.</description>
 <author>Looki</author>
 
 <parameter>

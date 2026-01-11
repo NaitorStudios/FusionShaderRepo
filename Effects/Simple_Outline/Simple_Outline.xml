@@ -1,7 +1,7 @@
 <effect>
 <name>Simple Outline</name>
 <author>NekoGlass, DX11 Port by NaitorStudios</author>
-<description>Simple Outline</description>
+<description>Creates a colored outline around objects by sampling pixels in multiple directions and comparing their alpha values to the original pixel's alpha, then blending the result with the outline color. It supports both 4-direction and 8-direction outline modes with adjustable thickness.</description>
 
 <parameter>
 		<name>Color</name>

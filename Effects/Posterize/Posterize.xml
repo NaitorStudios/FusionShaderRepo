@@ -1,5 +1,6 @@
 <effect>
 <name>Posterize </name>
+<description>Applies gamma correction and color quantization to create a posterized image effect with adjustable gamma coefficient and number of colors.</description>
 <author>nomok</author>
 	<parameter>
 		<name> Gamma</name>

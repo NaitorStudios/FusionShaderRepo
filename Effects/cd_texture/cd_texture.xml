@@ -1,6 +1,6 @@
 <effect>
 <name>CD Texture</name>
-<description>Texture BG</description>
+<description>Applies a texture overlay with adjustable positioning, scaling, and opacity to a base texture, supporting blend modes and optional visibility control.</description>
 <author>Claude Deschenes, DX11 Port by NaitorStudios</author>
 <company>CDE</company>
 

@@ -1,6 +1,6 @@
 <effect>
 <name>Shadow Cone</name>
-<description>Shadowcaster</description>
+<description>Creates a dynamic lighting effect that casts a cone-shaped shadow from a specified light source, simulating how light interacts with objects in a scene. The shader calculates how much light reaches each pixel based on the light's position, radius, and directional cone, while also applying ambient lighting to ensure shadows appear natural and realistic.</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Sketchy / MuddyMole</author>
 <parameter>

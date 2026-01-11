@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Looki Full Pack, Looki's Shader Pack 2.0
 
-**Last Updated:** 2025-08-02 14:39  
+**Last Updated:** 2026-01-11 15:00  
 
 ## Shader files
 - **SimpleMask.xml** — Info & Integration

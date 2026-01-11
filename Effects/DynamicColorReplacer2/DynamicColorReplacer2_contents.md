@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2021-01-07 16:36  
+**Last Updated:** 2026-01-11 14:00  
 
 ## Shader files
 - **DynamicColorReplacer2.xml** — Info & Integration

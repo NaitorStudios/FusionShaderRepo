@@ -1,5 +1,6 @@
 <effect>
     <name>Swirl</name>
+    <description></description>
     <author>Nomok</author>
     <BackgroundTexture>1</BackgroundTexture>
     <sampler>

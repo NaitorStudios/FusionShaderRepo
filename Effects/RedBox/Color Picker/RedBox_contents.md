@@ -4,7 +4,7 @@ Color Picker example.zip
 
 **Shader Packs:** Color Picker pack (by MuddyMole)
 
-**Last Updated:** 2022-02-11 19:22  
+**Last Updated:** 2026-01-11 14:55  
 
 ## Shader files
 - **RedBox.xml** — Info & Integration

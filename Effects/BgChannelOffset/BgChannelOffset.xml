@@ -1,5 +1,6 @@
 <effect>
 <name>Background Channel Offset</name>
+<description>Offsets the red, green, blue, and alpha channels of a background texture by different amounts in the X and Y directions.</description>
 <author>Looki, DX11 port by NaitorStudios</author>
 <parameter>
 	<name>R X Offset</name>

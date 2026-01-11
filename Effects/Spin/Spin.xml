@@ -1,6 +1,6 @@
 <effect>
 <name>Spin</name>
-<description>3D Spin Effect</description>
+<description>Rotates a 2D image around its center point in 3D space, creating a spinning effect.</description>
 <author>Hawker</author>
 <parameter>
 	<name>Angle</name>

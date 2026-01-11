@@ -1,6 +1,6 @@
 <effect>
 	<name>Alpha Fish (Texture)</name>
-		<description>Fish...?</description> 
+		<description>This shader renders a stylized fish-like figure using procedural shapes and color blending, with customizable visibility and texture mixing. It combines multiple geometric elements like circles and gradients to create a layered fish silhouette with highlights and shadows.</description>
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

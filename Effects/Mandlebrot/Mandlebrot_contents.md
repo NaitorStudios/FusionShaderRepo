@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2023-02-06 14:11  
+**Last Updated:** 2026-01-11 14:40  
 
 ## Shader files
 - **Mandlebrot.xml** — Info & Integration

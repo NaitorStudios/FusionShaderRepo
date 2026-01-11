@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2025-08-01 19:28  
+**Last Updated:** 2026-01-11 15:02  
 
 ## Shader files
 - **swirl.xml** — Info & Integration

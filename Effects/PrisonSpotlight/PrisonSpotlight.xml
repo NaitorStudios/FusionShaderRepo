@@ -1,6 +1,6 @@
 <effect>
 <name>Prison Spotlight Gameboy</name>
-<description>Spotlight shader</description>
+<description>A spotlight effect by mapping pixel brightness to a set of predefined grayscale colors, creating a retro gameboy-style lighting look. It uses a background texture to determine brightness and selects the closest matching color from a palette to apply to the main texture.</description>
 <author>asker</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

@@ -1,5 +1,6 @@
 <effect>
 <name>Underwater Palette</name>
+<description>Creates a underwater effect by remapping colors from the background with a predetermined palette.</description>
 <author>Looki (edited by HezMania and Nihil)</author>
 
 <parameter>

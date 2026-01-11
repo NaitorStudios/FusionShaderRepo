@@ -1,7 +1,7 @@
 <effect>
 <name>PatternFade</name>
 <author>Defisym</author>
-<description>Pattern Fade</description>
+<description>Fades an image in or out based on a pattern, allowing control over the transition's progress, direction, and range. It can use either a solid color or a texture to define the fading pattern.</description>
 <parameter>
 		<name>Progress</name>
 		<code>progress</code>

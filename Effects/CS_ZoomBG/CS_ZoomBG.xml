@@ -1,6 +1,6 @@
 <effect>
 <name>Zoom Background</name>
-<description>Zoom in and out</description>
+<description>Zooms into or out of an image by scaling the texture coordinates around a specified center point, allowing for magnification or reduction of the displayed content. It provides controls for adjusting the zoom level and center position for both X and Y axes.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares, edit by NaitorStudios</company>
 <website>http://complex.softwares.free.fr</website>

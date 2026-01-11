@@ -1,7 +1,7 @@
 <effect>
 <name>Tilt7</name>
 <author>Sketchy / MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Tilt 3D</description>
+<description>Applies a 3D tilt effect by rotating and projecting texture coordinates based on X and Y tilt angles, with depth of field control for perspective distortion.</description>
 <parameter>
 		<name>tiltX</name>
 		<code>tiltX</code>

@@ -1,5 +1,6 @@
 <effect>
     <name>SimpleZoom</name>
+    <description>Zooms into the center of an image by scaling the texture coordinates, creating a magnified view of the middle portion of the input image. The zoom factor determines how much to magnify, with values greater than 1 zooming in and values less than 1 zooming out.</description>
     <author>ower396</author>
 
     <BackgroundTexture>1</BackgroundTexture>

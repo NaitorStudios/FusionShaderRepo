@@ -4,7 +4,7 @@ AutotileA and AutotileB are dependent on each other
 
 **Shader Packs:** HWAautotile (by Sketchy)
 
-**Last Updated:** 2013-05-08 14:16  
+**Last Updated:** 2026-01-11 20:55  
 
 ## Shader files
 - **AutoTileB.xml** — Info & Integration

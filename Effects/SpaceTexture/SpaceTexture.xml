@@ -1,6 +1,6 @@
 <effect>
 <name>Space Texture</name>
-<description>Displace Texture</description>
+<description>Displaces texture coordinates based on a displacement map and time-based animation, creating a dynamic, flowing distortion effect with color modulation.</description>
 <author>Gigatron</author>
 <website>http://gigatron3k.free.fr/Intro</website>
 <parameter>

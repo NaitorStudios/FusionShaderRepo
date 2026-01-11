@@ -1,6 +1,6 @@
 <effect>
 <name>Flip Horizontally (for background)</name>
-<description>...</description>
+<description>Flips the input texture horizontally by mirroring it along the vertical axis.</description>
 <author>...</author>
 <company>...</company>
 <BackgroundTexture>1</BackgroundTexture>

@@ -1,6 +1,6 @@
 <effect>
 <name>3D Shader</name>
-<description>A Perspective Shader for use in 3D applications</description>
+<description>Creates a 3D perspective effect by clipping and transforming texture coordinates based on adjustable height, center, and light parameters, producing a depth-perception illusion. It uses a series of customizable values to control how the texture is mapped and lit across the surface.</description>
 <author>Werbad</author>
 <parameter>
 		<name>Left Height</name>

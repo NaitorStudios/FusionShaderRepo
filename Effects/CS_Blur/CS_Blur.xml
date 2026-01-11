@@ -1,6 +1,6 @@
 <effect>
 <name>Blur</name>
-<description>Simple blur</description>
+<description>Applies a simple 3x3 box blur by sampling neighboring pixels and averaging their colors based on a configurable coefficient.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

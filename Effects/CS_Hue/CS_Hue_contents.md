@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Complex Shaders Pack v2 (by Complex Softwares)
 
-**Last Updated:** 2025-08-02 14:39  
+**Last Updated:** 2026-01-11 14:46  
 
 ## Shader files
 - **CS_Hue.xml** — Info & Integration

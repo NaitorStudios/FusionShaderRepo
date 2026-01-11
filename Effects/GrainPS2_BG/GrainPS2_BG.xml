@@ -1,6 +1,6 @@
 <effect>
 <name>Grain ps_2_0 for background</name>
-<description></description>
+<description>Adds configurable noise grain effect to textures with adjustable strength and channel control. This version applies to the background.</description>
 <author>Looki, edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

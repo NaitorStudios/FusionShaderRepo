@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2025-08-02 14:39  
+**Last Updated:** 2026-01-11 15:19  
 
 ## Shader files
 - **3D Shader.xml** — Info & Integration

@@ -1,5 +1,5 @@
 <effect>
-<description>Generate Gradients.</description>
+<description>Generates customizable gradients with multiple types (simple, diagonal, sine) and options for inversion, rotation, and masking. Supports adjustable colors, alpha values, offset, coefficient, and visibility for creating varied gradient effects.</description>
 <author>Looki</author>
 <name>Gradient</name>
 <parameter>
@@ -77,7 +77,7 @@
 <parameter>
 		<name>Rotate Gradient</name>
 		<code>iR</code>
-		<description>Rotate gradient 90°.</description>
+		<description>Rotate gradient 90ï¿½.</description>
 		<type>int</type>
 		<property>checkbox</property>
 		<value>0</value>

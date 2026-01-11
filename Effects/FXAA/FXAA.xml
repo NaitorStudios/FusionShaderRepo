@@ -3,7 +3,7 @@
 <effect>
 
 <name>FXAA</name>
-<description>FXAA</description>
+<description>Applies fast approximate anti-aliasing to smooth jagged edges in rasterized graphics, reducing visual artifacts while maintaining performance. It analyzes pixel colors and blends them based on edge detection to produce cleaner image output.</description>
 <author>fnkycoldmadeanr, DX11 Port by NaitorStudios</author>
 
 <!--Input Parameters-->

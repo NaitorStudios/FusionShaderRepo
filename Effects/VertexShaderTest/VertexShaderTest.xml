@@ -1,5 +1,6 @@
 <effect>
 <name>Vertex Shader Test</name>
+<description>Applies an orthographic projection transformation to render textures within a specified camera viewport, supporting skewing effects through adjustable horizontal and vertical skew parameters. It maps texture coordinates to screen space using a custom orthographic matrix defined by camera position, size, and depth range.</description>
 
 <parameter>
 <name>Camera X</name>

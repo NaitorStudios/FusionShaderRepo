@@ -1,7 +1,7 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.4</description>
+<description>Applies 3D perspective transformation to a 2D texture by simulating camera rotation and translation around the texture plane, with adjustable tilt angles, distance, zoom, and lighting parameters. It has a reverse side texture and supports multiple rendering modes including image-based, animated frame-based, and mirrored frame-based views with adjustable tilt, zoom, and lighting parameters.</description>
 <parameter>
   <name>iR</name>
   <code>iR</code>

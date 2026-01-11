@@ -1,5 +1,5 @@
 ## Info
-**Last Updated:** 2021-04-10 00:19  
+**Last Updated:** 2026-01-11 14:41  
 
 ## Shader files
 - **CS_BluredShadow.xml** — Info & Integration

@@ -1,6 +1,6 @@
 <effect>
 <name>Blur Antialiasing</name>
-<description>Simple blur</description>
+<description>Applies a multi-sampled blur effect by averaging pixel colors and alpha values from a 3x3 neighborhood around each texel, using a configurable coefficient to control the blur intensity.</description>
 <author>Sphax - Flavien Clermont</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>

@@ -1,6 +1,6 @@
 <effect>
 <name>Flicker FX</name>
-<description>Tv Flicker dx11</description>
+<description>Creates a television-like flickering effect with adjustable intensity and speed, and optional scanlines.</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Flicker</name>

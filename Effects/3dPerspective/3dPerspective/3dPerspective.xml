@@ -1,7 +1,10 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.0.1 - Requires at least 1px of transparent border to work properly</description>
+<description>
+v1.0.1 - Creates a 3D perspective effect by simulating camera movement and rotation, allowing users to pan horizontally, tilt vertically, adjust distance, and zoom.&#xA;
+It requires a 1px transparent border around the image to properly handle edge pixels during the transformation.
+</description>
 <parameter>
 		<name>fH</name>
 		<code>fH</code>

@@ -1,6 +1,6 @@
 <effect>
 <name>Simple Fill with Alpha</name>
-<description>Colors an object.</description>
+<description>Colors an object with a solid fill while preserving the input alpha value. The shader blends the base texture color with a uniform color and outputs the result with the specified alpha channel.</description>
 <author>Looki</author>
 <parameter>
 		<name>Color</name>
