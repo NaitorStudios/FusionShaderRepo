@@ -1,7 +1,6 @@
 <effect>
 	<name>Division With Hyperbolic Cosecant (Background)</name>
-		<description>Base and blend colors are divided after which the colors are reduced by the hyperbolic cosecant function.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>Base and blend colors are divided after which the colors are reduced by the hyperbolic cosecant function.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

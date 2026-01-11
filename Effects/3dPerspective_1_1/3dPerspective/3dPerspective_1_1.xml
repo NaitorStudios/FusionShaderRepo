@@ -1,8 +1,7 @@
 <effect>
 <name>3dPerspective</name>
 <author>MuddyMole/Sketchy, Ports by NaitorStudios</author>
-<description>v1.1
-&#xA;Last Updated: 2026-01-11 00:53</description>
+<description>v1.1</description>
 <parameter>
 		<name>fH</name>
 		<code>fH</code>

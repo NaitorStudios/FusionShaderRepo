@@ -1,4 +1,4 @@
-Last Updated: 2026-01-11 00:55
+Last Updated: 2023-05-03 17:36
 
 === Shader files ===
 OffsetRippleFade.xml - Info & Integration
@@ -7,6 +7,5 @@ OffsetRippleFade.hlsl - DirectX11 source code
 OffsetRippleFade.fxc - DirectX11 compiled
 OffsetRippleFade.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
 OffsetRippleFade.fxao - Android source code
-OffsetRippleFade.fxmo - iOS/Mac source code
 
 * Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

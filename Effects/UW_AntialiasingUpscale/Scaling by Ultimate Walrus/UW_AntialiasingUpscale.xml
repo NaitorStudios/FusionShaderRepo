@@ -1,8 +1,7 @@
 <effect>
 <name>Antialiasing upscale</name>
 <description>Upscale the screen to a higher resolution using antialiasing.&#xA;
-Special thanks to Salamanderpants for making this extension possible.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+Special thanks to Salamanderpants for making this extension possible.</description>
 <author>Sebastian Janisz</author>
 <company>Ultimate Walrus</company>
 <website>http://ultimatewalrus.com</website>

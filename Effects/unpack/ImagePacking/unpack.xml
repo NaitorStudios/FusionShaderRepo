@@ -1,8 +1,7 @@
 <effect>
 <name>Unpack</name>
 <author>Sketchy, DX9 version by NaitorStudios</author>
-<description>Image unpacker. DX9 version might not be as efficient...
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Image unpacker. DX9 version might not be as efficient...</description>
 <parameter>
 		<name>selectedImage</name>
 		<code>selectedImage</code>

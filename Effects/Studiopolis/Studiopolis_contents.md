@@ -1,4 +1,6 @@
-Last Updated: 2026-01-11 00:56
+License: Free for commercial and not commercial, no attribution needed
+
+Last Updated: 2017-03-12 21:21
 
 === Shader files ===
 Studiopolis.xml - Info & Integration

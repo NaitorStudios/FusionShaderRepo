@@ -1,7 +1,6 @@
 <effect>
 	<name>Void (Background)</name>
-		<description>This effect draws stars in the texture and blurs the background using noise.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>This effect draws stars in the texture and blurs the background using noise.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

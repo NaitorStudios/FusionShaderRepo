@@ -1,7 +1,6 @@
 <effect>
 <name>Overlay</name>
 <author>Looki</author>
-<description>Muliplies the light colors and screens the dark colors.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Muliplies the light colors and screens the dark colors.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

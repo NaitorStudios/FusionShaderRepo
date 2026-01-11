@@ -1,7 +1,6 @@
 <effect>
 	<name>Photoshop Dissolve (Texture)</name>
-		<description>(The effect comes from Photoshop) Applies a random alpha color change to texture pixels. A random value is generated for each pixel, and if this value is below _Mixing, the pixel becomes fully transparent.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+		<description>(The effect comes from Photoshop) Applies a random alpha color change to texture pixels. A random value is generated for each pixel, and if this value is below _Mixing, the pixel becomes fully transparent.</description>
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

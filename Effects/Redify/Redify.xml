@@ -1,7 +1,6 @@
 <effect>
 <name>Redify</name>
+<description>Keep only the red component of the output color.</description>
 <author>Cazra</author>
-<description>Keep only the red component of the output color.
-&#xA;Last Updated: 2026-01-11 00:56</description>
 </effect>
 

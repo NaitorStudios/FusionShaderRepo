@@ -44,7 +44,7 @@ void main(void)
     float y = float(int((textureCoordinate.y-fOy/fPixelHeight)*fY));
 
 
-    vec4 color = texture2D(bckgTexture,vec2((x/fX + fOx/fPixelWidth), (y/fY + fOy/fPixelHeight)));
+    vec4 color = texture2D(bckgTexture,vec2((x/fX + fOx/fPixelWidth), 1.0-(y/fY + fOy/fPixelHeight)));
 
     color *= blendColor;
 

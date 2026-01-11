@@ -1,7 +1,6 @@
 <effect>
 <name>Sprite Sheet FX</name>
-<description>Sprite Sheet FX DX9
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Sprite Sheet FX DX9</description>
 <author>Sloxone,Gigatron 2016</author>
 <parameter>
 	<name>Sprite X Pos</name>

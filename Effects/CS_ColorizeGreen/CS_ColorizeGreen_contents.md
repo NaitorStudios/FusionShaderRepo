@@ -1,6 +1,6 @@
 Shader Packs: Complex Shaders Pack v2 (by Complex Softwares)
 
-Last Updated: 2026-01-11 00:54
+Last Updated: 2025-08-02 14:39
 
 === Shader files ===
 CS_ColorizeGreen.xml - Info & Integration
@@ -8,7 +8,5 @@ CS_ColorizeGreen.fx - DirectX9 source code
 CS_ColorizeGreen.hlsl - DirectX11 source code
 CS_ColorizeGreen.fxc - DirectX11 compiled
 CS_ColorizeGreen.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-CS_ColorizeGreen.fxao - Android source code
-CS_ColorizeGreen.fxmo - iOS/Mac source code
 
 * Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.

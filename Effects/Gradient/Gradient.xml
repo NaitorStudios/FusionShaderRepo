@@ -1,6 +1,5 @@
 <effect>
-<description>Generate Gradients.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Generate Gradients.</description>
 <author>Looki</author>
 <name>Gradient</name>
 <parameter>
@@ -78,7 +77,7 @@
 <parameter>
 		<name>Rotate Gradient</name>
 		<code>iR</code>
-		<description>Rotate gradient 90&#176;.</description>
+		<description>Rotate gradient 90°.</description>
 		<type>int</type>
 		<property>checkbox</property>
 		<value>0</value>

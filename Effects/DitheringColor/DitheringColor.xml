@@ -1,7 +1,6 @@
 <effect>
 <name>Dithering Color</name>
-<description>Dithering color.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Dithering color.</description>
 
 <parameter>
 <name>Dither pattern image</name>

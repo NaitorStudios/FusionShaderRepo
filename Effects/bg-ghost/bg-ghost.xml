@@ -1,8 +1,7 @@
 <effect>
 <name>BG Ghost</name>
+<description>Lightens the background color, using the source image as a mask.</description>
 <author>Cazra</author>
-<description>Lightens the background color, using the source image as a mask.
-&#xA;Last Updated: 2026-01-11 00:53</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>
 

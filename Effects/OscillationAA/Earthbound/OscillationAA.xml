@@ -1,7 +1,6 @@
 <effect>
 <name>Oscillation (Antialiased)</name>
-<description>Effect seen in the battle backgrounds of Earthbound. Can create horizontal and vertical oscillations at the same time.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Effect seen in the battle backgrounds of Earthbound. Can create horizontal and vertical oscillations at the same time.</description>
 <author>Rhadamus</author>
 
 <sampler>

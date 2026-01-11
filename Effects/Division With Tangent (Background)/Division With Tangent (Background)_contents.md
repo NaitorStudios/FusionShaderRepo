@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:54
+License: MIT License
+
+Last Updated: 2026-01-04 22:01
 
 === Shader files ===
 Division With Tangent (Background).xml - Info & Integration

@@ -1,7 +1,6 @@
 <effect>
 <name>CombiShader: Flip + Hole</name>
-<description>Flip the texture of the object and put a hole into the texture.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Flip the texture of the object and put a hole into the texture.</description>
 <author>Sphax - Flavien Clermont and Looki, combined by NaitorStudios</author>
 <company></company>
 <website></website>

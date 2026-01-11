@@ -1,7 +1,6 @@
 <effect>
 <name>Blueify</name>
+<description>Keep only the blue component of the output color.</description>
 <author>Cazra</author>
-<description>Keep only the blue component of the output color.
-&#xA;Last Updated: 2026-01-11 00:54</description>
 </effect>
 

@@ -1,7 +1,6 @@
 <effect>
     <name>Radial Wipe</name>
-    <description>Fades alpha smoothly from the center of the object.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+    <description>Fades alpha smoothly from the center of the object.</description>
     <author>ButterMun</author>
     <company></company>
     <website></website>

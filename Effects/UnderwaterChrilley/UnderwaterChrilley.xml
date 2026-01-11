@@ -1,7 +1,6 @@
 <effect>
 <name>Underwater Effect</name>
-<description>Distorts everything layered behind it, water style.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Distorts everything layered behind it, water style.</description>
 <author>chrilley</author>
 <copyright>For free and/or commercial use.</copyright>
 <BackgroundTexture>1</BackgroundTexture>

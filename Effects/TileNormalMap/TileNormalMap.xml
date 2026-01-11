@@ -1,8 +1,7 @@
 <effect>
 <name>TileNormalMap</name>
 <author>Andos, Sketchy, SolarB. DX11 Port by NaitorStudios</author>
-<description>Apply a normal map from a tileset to an object
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Apply a normal map from a tileset to an object</description>
 
 <!--TEXTURE-->
 

@@ -1,7 +1,6 @@
 <effect>
 <name>Squeeze</name>
-<description>Pinch an image towards its center, spiralling inwards.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Pinch an image towards its center, spiralling inwards.</description>
 <author>Pixelthief.</author>
 <parameter>
 		<name>Coefficient</name>

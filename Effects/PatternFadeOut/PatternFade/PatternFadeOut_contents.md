@@ -1,6 +1,6 @@
 Shader Packs: OpenFusionExamples (by defisym)
 
-Last Updated: 2026-01-11 00:56
+Last Updated: 2022-07-25 15:08
 
 === Shader files ===
 PatternFadeOut.xml - Info & Integration

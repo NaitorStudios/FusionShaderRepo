@@ -3,7 +3,7 @@ earthbound backgrounds.mfa
 
 Shader Packs: Earthbound pack (by Rhadamus)
 
-Last Updated: 2026-01-11 00:56
+Last Updated: 2023-08-18 19:57
 
 === Shader files ===
 SineWave.xml - Info & Integration

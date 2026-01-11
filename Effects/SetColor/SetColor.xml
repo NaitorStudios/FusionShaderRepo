@@ -1,7 +1,6 @@
 <effect>
 <name>SetColor</name>
-<description>Simple example of shader with one parameter. &#xA;Previously known as "White.fx" shader.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Simple example of shader with one parameter. &#xA;Previously known as "White.fx" shader.</description>
 <parameter>
 
 		<!--Name of parameter property-->

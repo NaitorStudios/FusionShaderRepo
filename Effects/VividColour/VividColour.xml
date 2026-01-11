@@ -1,7 +1,6 @@
 <effect>
 <name>BlendColor</name>
-<description>Blend the object with a color.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Blend the object with a color.</description>
 <parameter>
 
 		<!--Name of parameter property-->

@@ -1,8 +1,7 @@
 <effect>
     <name>Compression</name>
     <author>Defisym</author>
-    <description>Compression
-&#xA;Last Updated: 2026-01-11 00:54</description>
+    <description>Compression</description>
     <parameter>
         <name>Level Num</name>
         <code>levelNum</code>

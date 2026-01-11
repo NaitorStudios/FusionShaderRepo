@@ -2,7 +2,9 @@
 
 //@Begin_vertex
 //version_####
-
+#ifdef GL_ES
+ precision mediump float;
+#endif
 in vec2 position;
 
 uniform mat3 projectionMatrix;
@@ -22,17 +24,7 @@ void main()
 //@Begin_fragment
 //version_####
 #ifdef GL_ES
-    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
-        #define HIGH_PRECISION_SUPPORTED
-    #endif
-#else
-    #define HIGH_PRECISION_SUPPORTED
-#endif
-
-#ifdef HIGH_PRECISION_SUPPORTED
-    precision highp float;
-#else
-    precision mediump float;
+ precision mediump float;
 #endif
 in vec2 textureCoordinate;
 
@@ -59,8 +51,8 @@ vec3 lerp(vec3 x, vec3 y, float s)
 void main(void)
 {
     //Get Texture scaling ratios.
-    float ratioX=  (1.0/fPixelWidth) / float(tw);
-    float ratioY=  (1.0/fPixelHeight) / float(th);
+    float ratioX=  2.0 / float(tw);
+    float ratioY=  2.0 / float(th);
 
     vec2 uv = textureCoordinate;
 
@@ -68,15 +60,17 @@ void main(void)
     vec4 ocolor = vec4(0.0);
     if(icolor.a != 0.0)
     {
-        ocolor = texture(Overlay, vec2((uv.x*ratioX + xOffset), (uv.y*ratioY + yOffset)));
+        ocolor = texture(Overlay, vec2((uv.x/ratioX + xOffset), (uv.y/ratioY + yOffset)));
 
         // Alpha Overlay
         float new_a = 1.0-(1.0-ocolor.a)*(1.0-icolor.a);
         ocolor.rgb = (ocolor.rgb*ocolor.a+icolor.rgb*icolor.a*(1.0-ocolor.a))/new_a;
-        ocolor.rgb = mix(icolor.rgb, ocolor.rgb, Intensity);
+        ocolor.rgb = lerp(icolor.rgb, ocolor.rgb, Intensity);
         ocolor.a = icolor.a;
     }
+    vec4 color = ocolor;
+    color *= blendColor;
 
-    fragColor = ocolor * blendColor;
+    fragColor = color;
 }
 //@End

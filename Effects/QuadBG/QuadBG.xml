@@ -1,7 +1,6 @@
 <effect>
 <name>Quad for Background</name>
-<description>Deforms a texture to an arbitrary convex quadrilateral
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Deforms a texture to an arbitrary convex quadrilateral</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Sketchy / MuddyMole</author>
 <BackgroundTexture>1</BackgroundTexture>

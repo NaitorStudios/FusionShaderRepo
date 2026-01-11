@@ -1,7 +1,6 @@
 <effect>
 <name>Color Adjust</name>
-<description>Adjusts hue, saturation, lightness and contrast.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Adjusts hue, saturation, lightness and contrast.</description>
 <author>Sketchy, Ports by NaitorStudios</author>
 <parameter>
 		<name>Hue</name>

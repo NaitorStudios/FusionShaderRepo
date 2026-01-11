@@ -1,7 +1,6 @@
 <effect>
 <name>GameBoy</name>
-<description>Editable GameBoy's color shader
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Editable GameBoy's color shader</description>
 <BackgroundTexture>1</BackgroundTexture>
 <author>Sleepy, DX11 Port by NaitorStudios</author>
 <parameter>

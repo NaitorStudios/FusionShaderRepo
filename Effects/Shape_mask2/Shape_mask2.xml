@@ -1,7 +1,6 @@
 <effect>
 <name>Shape Mask2</name>
-<description>Mask Background
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Mask Background</description>
 <author>mihailsh, DX11 port by NaitorStudios</author>
 <BackgroundTexture>0</BackgroundTexture>
 <parameter>

@@ -1,7 +1,6 @@
 <effect>
 	<name>Equirectangular Projection</name>
-	<description>Takes an equirectangular image and projects a view with 3D perspective.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+	<description>Takes an equirectangular image and projects a view with 3D perspective.</description>
 	<author>rosme on Shadertoy (converted by Tuparman) (Ported to DX11 by RadiusNic)</author>
 <BackgroundTexture>1</BackgroundTexture>
   <sampler>

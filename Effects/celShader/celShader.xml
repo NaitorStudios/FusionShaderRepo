@@ -1,5 +1,6 @@
 <effect>
 <name>Cel Shader</name>
+<description>This shader simplifies colors into bold, flat regions by grouping similar color values together, creating a stylized, comic book-like appearance. It uses adjustable parameters to control the sharpness of the color transitions and the brightness levels of the final output.</description>
 <author>Unknown, DX11 Port by NaitorStudios</author>
 <parameter>
 	<name>hardness</name>

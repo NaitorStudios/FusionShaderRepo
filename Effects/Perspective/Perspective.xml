@@ -1,7 +1,6 @@
 <effect>
 <name>Perspective</name>
-<description>This shader can make the texture look like a 3d-plane (See Andos' perspective object or Mode7)
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>This shader can make the texture look like a 3d-plane (See Andos' perspective object or Mode7)</description>
 <author>Looki</author>
 <parameter>
 		<name>Top width</name>

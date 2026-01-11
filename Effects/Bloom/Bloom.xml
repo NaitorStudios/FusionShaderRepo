@@ -1,7 +1,6 @@
 <effect>
 <name>Bloom</name>
-<description>Blurs the image's highlights and applies them to the image.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Blurs the image's highlights and applies them to the image.</description>
 <author>Looki</author>
 <parameter>
 	<name>Radius</name>

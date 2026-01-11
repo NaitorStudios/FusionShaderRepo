@@ -1,8 +1,7 @@
 <effect>
 	<name>PixelPalette with lerp (Edit)</name>
 	<author>TimmyTopHat, Edit by NaitorStudios</author>
-	<description>Change a palette to another, missing colors will not be changed. DX9 limited to 32 colors, DX11 limited to 256 colors. Both requires a texture with 256x2 pixels. It doesn't play well with Blend Coef on DX11 Premultiplied, use the parameter instead.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+	<description>Change a palette to another, missing colors will not be changed. DX9 limited to 32 colors, DX11 limited to 256 colors. Both requires a texture with 256x2 pixels. It doesn't play well with Blend Coef on DX11 Premultiplied, use the parameter instead.</description>
 	
 	<!--Palettes-->
 	

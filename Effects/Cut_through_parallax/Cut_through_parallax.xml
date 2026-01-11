@@ -1,7 +1,6 @@
 <effect>
 <name>Cut through and parallax</name>
-<description>Cuts any background shape with non-black color through source image showing "texture" background, background texture can be parallaxed by setting offset and coefficient values
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Cuts any background shape with non-black color through source image showing "texture" background, background texture can be parallaxed by setting offset and coefficient values</description>
 <author>schrodinger</author>
 <company>Lizard King</company>
 <copyright>Free for commercial and not commercial, no attribution needed</copyright>

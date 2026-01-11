@@ -1,7 +1,6 @@
 <effect>
 <name>Radial Blur (for background)</name>
-<description>http://www.gamerendering.com/2008/12/20/radial-blur-filter/
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>http://www.gamerendering.com/2008/12/20/radial-blur-filter/</description>
 <author>Looki, edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

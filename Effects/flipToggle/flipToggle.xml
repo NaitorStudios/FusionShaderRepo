@@ -1,7 +1,6 @@
 <effect>
 <name>Flip Toggle</name>
-<description>Flips object's texture based on toggle.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Flips object's texture based on toggle.</description>
 <author>chrilley</author>
 
 <parameter>

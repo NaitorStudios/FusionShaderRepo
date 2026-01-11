@@ -2,8 +2,7 @@
 <name>Easy Blend</name>
 <author>Nobuyuki (nobu@subsoap.com)</author>
 <description>Easy, generic blending using a lookup texture.&#xA;
-  No Shader knowledge required!
-&#xA;Last Updated: 2026-01-11 00:54</description>
+  No Shader knowledge required!</description>
 
 <BackgroundTexture>1</BackgroundTexture>
 

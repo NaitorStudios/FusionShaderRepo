@@ -1,8 +1,7 @@
 <effect>
 <name>Nobu's Texture Overlay (Modded by SolarB)</name>
 <author>Nobuyuki (nobu@subsoap.com), DX11 port by NaitorStudios</author>
-<description>Apply a non-tiled texture to an object.  Beta 2.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Apply a non-tiled texture to an object.  Beta 2.</description>
 
 <parameter>
 

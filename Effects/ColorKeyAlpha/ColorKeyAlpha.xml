@@ -1,7 +1,6 @@
 <effect>
 <name>Color Key Alpha</name>
-<description>Select a color transparency
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Select a color transparency</description>
 <author>Zetcom, DX11 port by NaitorStudios</author>
 <parameter>
 		<name>Alpha Color</name>

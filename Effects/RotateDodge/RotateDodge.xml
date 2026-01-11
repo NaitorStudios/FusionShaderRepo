@@ -1,8 +1,7 @@
 <effect>
 <name>Rotate Dodge</name>
 <author>Looki</author>
-<description>Dodges the lower layer with the upper layer (Result is always lighter).
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Dodges the lower layer with the upper layer (Result is always lighter).</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
 	<name>Angle</name>

@@ -1,8 +1,7 @@
 <effect>
 <name>Unpack (4x4)</name>
 <author>Sketchy, Edit by NaitorStudios</author>
-<description>Image unpacker. DX9 version might not be as efficient...
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Image unpacker. DX9 version might not be as efficient...</description>
 <sampler>
 	<index>0</index>
 	<filter>point</filter>

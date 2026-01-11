@@ -1,7 +1,6 @@
 <effect>
 <name>Full Color (Float)</name>
-<description>Sets the color of the entire sprite to only one RGB value. Values range from 0.0 to 1.0
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Sets the color of the entire sprite to only one RGB value. Values range from 0.0 to 1.0</description>
 <author>YohananDiamond, EX64</author>
 <copyright>Free for commercial and not commercial, no attribution needed</copyright>
 <parameter>

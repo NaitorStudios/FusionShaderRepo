@@ -1,8 +1,7 @@
 <effect>
     <name>Diamond Pattern Transition</name>
     <author>NaitorStudios</author>
-    <description>This shader creates a dynamic diamond pattern based on the pixel size and progress parameters.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+    <description>This shader creates a dynamic diamond pattern based on the pixel size and progress parameters.</description>
     <parameter>
         <name>Size</name>
         <code>size</code>

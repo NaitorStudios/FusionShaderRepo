@@ -1,8 +1,7 @@
 <effect>
 <name>Hue Shifter</name>
 <author>Nobuyuki (Original by Nokola), DX11 Port by NaitorStudios</author>
-<description>Shifts the hue of the surface.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Shifts the hue of the surface.</description>
 <parameter>
 
 		<!--Name of parameter property-->

@@ -1,7 +1,6 @@
 <effect>
 	<name>Counter Gradient</name>
-	<description>Replacement for counter bars.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+	<description>Replacement for counter bars.</description>
 	<author>Nomok</author>
 	<parameter>
 		<name>Gradient Vertical</name>

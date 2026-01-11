@@ -1,7 +1,6 @@
 <effect>
 <name>Display</name>
-<description>Add scanlines to texture.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Add scanlines to texture.</description>
 <author>Looki</author>
 <parameter>
 		<name>Amplitude</name>

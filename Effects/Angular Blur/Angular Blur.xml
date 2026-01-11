@@ -3,7 +3,7 @@
 	<author>ower396</author>
 	<description>Directional blur, but better&#xA;
 	https://www.ronja-tutorials.com/post/023-postprocessing-blur
-&#xA;Last Updated: 2026-01-11 00:53</description>
+	</description>
 	<BackgroundTexture>1</BackgroundTexture>
 
 	<sampler>

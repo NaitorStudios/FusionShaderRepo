@@ -1,6 +1,6 @@
 Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
 
-Last Updated: 2026-01-11 00:56
+Last Updated: 2022-06-23 14:48
 
 === Shader files ===
 Subtract_PS.xml - Info & Integration

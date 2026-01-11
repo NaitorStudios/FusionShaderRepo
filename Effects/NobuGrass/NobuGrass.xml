@@ -1,7 +1,6 @@
 <effect>
 <name>Nobu's Grass effect</name>
-<description>Alpha shader for tile depth illusion
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Alpha shader for tile depth illusion</description>
 <parameter>
 
 		<!--Name of parameter property-->

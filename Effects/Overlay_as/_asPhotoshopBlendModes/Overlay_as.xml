@@ -1,7 +1,6 @@
 <effect>
 <name>Overlay_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Muliplies the light colors and screens the dark colors.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Based on Looki's shader; Muliplies the light colors and screens the dark colors.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

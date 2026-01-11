@@ -1,8 +1,7 @@
 <effect>
 <name>Inner Stroke</name>
 <author>NaitorStudios</author>
-<description>Draws a stroke around an object in the inner side. It doesn't support Alpha Channel.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Draws a stroke around an object in the inner side. It doesn't support Alpha Channel.</description>
 <parameter>
 		<name>Stroke color</name>
 		<code>sColor</code>

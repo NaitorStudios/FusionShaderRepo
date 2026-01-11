@@ -1,7 +1,6 @@
 <effect>
 <name>Rotate and Sub-Pixel positioning</name>
-<description>Rotation + Sub-Pixel positioning. When using MMF's rotate-function and a sub px shader, the shader would rotate also, which looks awful!
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Rotation + Sub-Pixel positioning. When using MMF's rotate-function and a sub px shader, the shader would rotate also, which looks awful!</description>
 <author>Looki (Thanks to Sphax for rotate algorithm)</author>
 <parameter>
 		<name>Angle</name>

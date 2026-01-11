@@ -1,7 +1,6 @@
 <effect>
 	<name>Blend Color Green (Background)</name>
-		<description>Shader applies green colors from base to blend.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>Shader applies green colors from base to blend.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

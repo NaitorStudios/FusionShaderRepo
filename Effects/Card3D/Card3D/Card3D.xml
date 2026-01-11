@@ -1,8 +1,7 @@
 <effect>
 <name>Card3D</name>
 <author>asker</author>
-<description>Rotate a card in 3D - v1.0
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Rotate a card in 3D - v1.0</description>
 <parameter>
 		<name>X Rotation</name>
 		<code>fX</code>

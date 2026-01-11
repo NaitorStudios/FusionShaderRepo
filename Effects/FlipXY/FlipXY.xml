@@ -1,7 +1,6 @@
 <effect>
 <name>Flip Horizontally and vertically</name>
-<description>This shader combines the flip horizontally shader and the flip vertically shader.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>This shader combines the flip horizontally shader and the flip vertically shader.</description>
 <author>Happygreenfrog</author>
 <company>...</company>
 </effect>

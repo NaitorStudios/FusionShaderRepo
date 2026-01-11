@@ -1,7 +1,6 @@
 <effect>
 <name>SharpenMask</name>
-<description>Sharpens the bottom layer according to the lightness of the top layer.&#xA;Blend Coef works differently in DX11 Premultiplied.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Sharpens the bottom layer according to the lightness of the top layer.&#xA;Blend Coef works differently in DX11 Premultiplied.</description>
 <author>Sketchy (based on "CS_Sharpen" shader by Sphax - Flavien Clermont)&#xA;DX11 port by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

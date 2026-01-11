@@ -1,7 +1,6 @@
 <effect>
 <name>Water</name>
-<description>Water layer effect.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Water layer effect.</description>
 
 <parameter>
 <name>Normal map texture</name>

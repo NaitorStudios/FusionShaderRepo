@@ -1,8 +1,7 @@
 <effect>
 <name>VTX</name>
 <author>Sketchy</author>
-<description>Voxel terrain, using a heightmap
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Voxel terrain, using a heightmap</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

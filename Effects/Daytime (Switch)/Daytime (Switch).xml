@@ -1,7 +1,6 @@
 <effect>
 	<name>Daytime (Switch)</name>
-		<description>Shader simulates color shades according to the hour.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>Shader simulates color shades according to the hour.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

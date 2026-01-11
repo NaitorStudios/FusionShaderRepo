@@ -1,4 +1,4 @@
-Last Updated: 2026-01-11 00:56
+Last Updated: 2017-10-21 05:04
 
 === Shader files ===
 Shift.xml - Info & Integration
@@ -6,6 +6,6 @@ Shift.fx - DirectX9 source code
 
 === Examples ===
 Shift.mfa
-Shift_2.mfa
-Shift_eg.mfa
-Shift_eg2.mfa
+shift2.mfa
+shifteg.mfa
+shifteg2.mfa

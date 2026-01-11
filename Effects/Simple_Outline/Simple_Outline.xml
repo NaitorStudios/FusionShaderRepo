@@ -1,8 +1,7 @@
 <effect>
 <name>Simple Outline</name>
 <author>NekoGlass, DX11 Port by NaitorStudios</author>
-<description>Simple Outline
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Simple Outline</description>
 
 <parameter>
 		<name>Color</name>

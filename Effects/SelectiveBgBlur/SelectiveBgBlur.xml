@@ -1,7 +1,6 @@
 <effect>
 <name>Selective Background Blur</name>
-<description>Blur the image using 30 iterations.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Blur the image using 30 iterations.</description>
 <author>Looki</author>
 <parameter>
 	<name>Radius</name>

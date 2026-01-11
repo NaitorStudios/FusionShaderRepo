@@ -1,7 +1,6 @@
 <effect>
 <name>Pin Light</name>
 <author>Looki</author>
-<description>Changes lower layer depending on how bright the upper layer is.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Changes lower layer depending on how bright the upper layer is.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

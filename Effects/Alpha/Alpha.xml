@@ -1,8 +1,7 @@
 <effect>
 <name>Alpha Channel</name>
 <author>Sketchy, Ports by NaitorStudios</author>
-<description>Loads an alpha channel
-&#xA;Last Updated: 2026-01-11 00:53</description>
+<description>Loads an alpha channel</description>
 <parameter>
 	<name>Mask image.</name> <code>Alpha</code>
 	<type>IMAGE</type> <property>IMAGE</property>

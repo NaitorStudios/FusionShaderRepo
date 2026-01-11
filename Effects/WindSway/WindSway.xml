@@ -1,7 +1,6 @@
 <effect>
 <name>Wind Sway</name>
-<description>Make a sprite sway and bend, like it is affected by the wind.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Make a sprite sway and bend, like it is affected by the wind.</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Time</name>

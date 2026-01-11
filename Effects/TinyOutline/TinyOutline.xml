@@ -1,8 +1,7 @@
 <effect>
 <name>Tiny Outline</name>
 <author>asker</author>
-<description>One Pixel Outline Shader
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>One Pixel Outline Shader</description>
 <parameter>
 		<name>Color</name>
 		<code>outlineColor</code>

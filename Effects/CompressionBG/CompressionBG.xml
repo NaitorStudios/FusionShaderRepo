@@ -1,8 +1,7 @@
 <effect>
     <name>Compression (Background)</name>
     <author>Defisym, edit by NaitorStudios</author>
-    <description>Compression
-&#xA;Last Updated: 2026-01-11 00:54</description>
+    <description>Compression</description>
 	<BackgroundTexture>1</BackgroundTexture>
     <parameter>
         <name>Level Num</name>

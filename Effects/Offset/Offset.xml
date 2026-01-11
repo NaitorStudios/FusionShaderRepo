@@ -1,7 +1,6 @@
 <effect>
 <name>Background Offset</name>
-<description>Offsets the background using the object's texture (Red for X, Green for Y).
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Offsets the background using the object's texture (Red for X, Green for Y).</description>
 <author>Looki</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

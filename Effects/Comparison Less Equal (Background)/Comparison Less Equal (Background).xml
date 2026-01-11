@@ -1,7 +1,6 @@
 <effect>
 	<name>Comparison Less Equal (Background)</name>
-		<description>TIt compares the color between the base and blend separately for each RGB channel, indicating whether the color is less or equal
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>TIt compares the color between the base and blend separately for each RGB channel, indicating whether the color is less or equal</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

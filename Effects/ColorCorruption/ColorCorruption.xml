@@ -1,7 +1,6 @@
 <effect>
 <name>Color Corruption</name>
-<description>Corrupts color data like Baldi
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Corrupts color data like Baldi</description>
 <author>Ported by NaitorStudios</author>
 <company></company>
 <website></website>
@@ -35,3 +34,4 @@
 </parameter>
 
 </effect>
+

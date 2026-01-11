@@ -1,7 +1,6 @@
 <effect>
 	<name>Freeze (Switch)</name>
-		<description>The shader gives a freezing effect.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>The shader gives a freezing effect.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

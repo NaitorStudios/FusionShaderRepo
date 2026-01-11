@@ -1,8 +1,7 @@
 <effect>
 <name>Sphere</name>
 <author>Looki</author>
-<description>Put the texture onto a sphere. Sorry for the display bug at too high perspective-coefficient! Will be fixed soon.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Put the texture onto a sphere. Sorry for the display bug at too high perspective-coefficient! Will be fixed soon.</description>
 <parameter>
 		<name>Coeff</name>
 		<code>fC</code>

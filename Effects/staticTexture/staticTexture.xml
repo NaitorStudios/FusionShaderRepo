@@ -1,7 +1,6 @@
 <effect>
 	<name>Static Texture</name>
-	<description>Replaces RGB:255,0,0 with a static texture
-&#xA;Last Updated: 2026-01-11 00:56</description>
+	<description>Replaces RGB:255,0,0 with a static texture</description>
 	<author>Sketchy, DX11 Port by NaitorStudios</author>
 	<parameter>
 		<name>Texture</name>

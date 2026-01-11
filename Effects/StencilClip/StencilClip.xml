@@ -1,14 +1,15 @@
 <effect>
   <name>Stencil Clip</name>
-  <description>Use the color of the background pixels as the clipping area for the foreground pixels.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+  <description>
+    Use the color of the background pixels as the clipping area for the foreground pixels.
+  </description>
   <author>Cazra, DX11 port by NaitorStudios</author>
   <parameter>
     <name>Stencil Color</name>
     <code>stencilColor</code>
     <description>
-      The background color used to determine our stencil area.
-      As long as a background pixel matches this color within some tolerance,
+      The background color used to determine our stencil area.&#xA;
+      As long as a background pixel matches this color within some tolerance,&#xA;
       the foreground pixel will be kept.
     </description>
     <type>int_float4</type>

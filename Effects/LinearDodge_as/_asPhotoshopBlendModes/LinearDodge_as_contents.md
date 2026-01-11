@@ -1,6 +1,6 @@
 Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
 
-Last Updated: 2026-01-11 00:55
+Last Updated: 2022-06-23 14:35
 
 === Shader files ===
 LinearDodge_as.xml - Info & Integration

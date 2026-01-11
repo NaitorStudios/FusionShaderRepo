@@ -1,8 +1,7 @@
 <effect>
 <name>Bar Effect</name>
+<description>An Effect to create complex Bars. DX11 port by NaitorStudios</description>
 <author>Uppernate / BartekB, DX11 port by NaitorStudios</author>
-<description>An Effect to create complex Bars. DX11 port by NaitorStudios
-&#xA;Last Updated: 2026-01-11 00:53</description>
 <parameter>
 		<!--Name of parameter property-->
 		<name>Value</name>

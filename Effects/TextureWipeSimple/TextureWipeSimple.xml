@@ -2,8 +2,7 @@
 <name>Texture Wipe (Simple)</name>
 <description>Create transitions for it on: https://eevee.itch.io/particle-wipe-generator
 &#xA;Because of a issue on Fusion, when applied to Layers it only works perfectly on DX11 Premultiplied mode.
-&#xA;It can only be used applied to a Layer or Frame on Windows (at least up to build 295)
-&#xA;Last Updated: 2026-01-11 00:56</description>
+&#xA;It can only be used applied to a Layer or Frame on Windows (at least up to build 295)</description>
 <author>NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
@@ -25,6 +24,41 @@
 		<min>0.0</min>
 		<max>1.0</max>
 </parameter>
+
+<parameter>
+	<name>Use Alpha</name>
+	<code>alphaWipe</code>
+	<description>ON: Wipe the alpha channel. OFF: Wipe to color specified bellow.</description>
+	<type>bool</type>
+	<property>checkbox</property>
+	<value>1</value>
+</parameter>
+<parameter>
+		<name>Wipe Color</name>
+		<code>cWipe</code>
+		<description>Color of the transition.</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+
+<parameter>
+		<name>Use Halo</name>
+		<code>useHalo</code>
+		<description>It's similar to a outline.</description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>1</value>
+</parameter>
+<parameter>
+		<name>Halo Color</name>
+		<code>cHalo</code>
+		<description>Color for the Halo.</description>
+		<type>INT_FLOAT4</type>
+		<property>COLOR</property>
+		<value>0</value>
+</parameter>
+
 <parameter>
 		<name>Ramp</name>
 		<code>ramp</code>

@@ -1,8 +1,7 @@
 <effect>
 <name>Soft Shadow</name>
 <author>asker</author>
-<description>Pixelate with a cross-stitch pattern
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Pixelate with a cross-stitch pattern</description>
 <parameter>
 		<name>Color</name>
 		<code>shadowColor</code>

@@ -1,8 +1,7 @@
 <effect>
 <name>Simple Color Burn</name>
 <author>Nobuyuki (nobu@subsoap.com)</author>
-<description>Applies a color coefficient to an object using the Color Burn algorithm.  Based on Looki's shader.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Applies a color coefficient to an object using the Color Burn algorithm.  Based on Looki's shader.</description>
 <parameter>
 
 		<!--Name of parameter property-->

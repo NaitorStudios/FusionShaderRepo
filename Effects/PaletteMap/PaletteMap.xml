@@ -1,7 +1,6 @@
 <effect>
 <name>Palette Map</name>
-<description>Fades the color to the its opposite based on the difference to the background color.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Fades the color to the its opposite based on the difference to the background color.</description>
 <author>Looki</author>
 <parameter>
 	<name>Palette</name>

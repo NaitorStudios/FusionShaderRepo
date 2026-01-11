@@ -1,7 +1,6 @@
 <effect>
 <name>DisplayIMG</name>
-<description>Draws the active image when the background color matches a specified one.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Draws the active image when the background color matches a specified one.</description>
 <author>Yonatankr, DX11 port by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

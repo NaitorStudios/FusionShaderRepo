@@ -1,8 +1,7 @@
 <effect>
 <name>NinePatch Redux</name>
 <author>asker</author>
-<description>Create custom-scaled graphical boxes with ease
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Create custom-scaled graphical boxes with ease</description>
 <parameter>
 		<name>X Scale factor</name>
 		<code>xScale</code>

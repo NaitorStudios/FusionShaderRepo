@@ -1,7 +1,6 @@
 <effect>
 <name>Screen_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Brightens by lighting the the lower layer based on the lightness of the upper layer (Result is always lighter).
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Based on Looki's shader; Brightens by lighting the the lower layer based on the lightness of the upper layer (Result is always lighter).</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

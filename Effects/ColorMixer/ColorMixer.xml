@@ -1,7 +1,6 @@
 <effect>
 <name>Color Mixer</name>
-<description>Mix three different colors based on the RGB value of the input
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Mix three different colors based on the RGB value of the input</description>
 <author>Looki</author>
 <parameter>
 	<name>Red</name>

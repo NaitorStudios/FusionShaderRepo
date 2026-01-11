@@ -1,7 +1,6 @@
 <effect>
 	<name>Windows Aero (Background)</name>
-		<description>Shader simulates the Windows 7/Vista window effect.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>Shader simulates the Windows 7/Vista window effect.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

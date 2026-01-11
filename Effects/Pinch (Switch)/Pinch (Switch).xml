@@ -1,7 +1,6 @@
 <effect>
 	<name>Pinch (Switch)</name>
-		<description>This shader makes a pinch distortion effect.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>This shader makes a pinch distortion effect.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

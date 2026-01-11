@@ -1,8 +1,7 @@
 <effect>
 <name>Voxel Terrain Alpha</name>
 <author>Sketchy</author>
-<description>Alpha Voxel-based 3D terrain.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Alpha Voxel-based 3D terrain.</description>
 <parameter>
 		<name>imgHeightmap</name>
 		<code>imgHeightmap</code>

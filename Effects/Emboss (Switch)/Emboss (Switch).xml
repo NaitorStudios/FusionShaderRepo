@@ -1,7 +1,6 @@
 <effect>
 	<name>Emboss (Switch)</name>
-		<description>This shader gives an "Emboss" effect by detecting edges at pixels.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>This shader gives an "Emboss" effect by detecting edges at pixels.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

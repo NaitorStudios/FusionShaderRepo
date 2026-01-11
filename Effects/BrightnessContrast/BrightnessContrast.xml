@@ -1,7 +1,6 @@
 <effect>
 <name>Brightness and Contrast</name>
-<description>Adjusts the brightness and contrast.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Adjusts the brightness and contrast.</description>
 <author>Sketchy</author>
 <parameter>
 		<name>Brightness</name>

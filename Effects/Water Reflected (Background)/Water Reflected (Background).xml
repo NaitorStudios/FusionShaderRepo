@@ -1,7 +1,6 @@
 <effect>
 	<name>Water Reflected (Background)</name>
-		<description>The shader provides an advanced water effect from a 2D view with reflection.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>The shader provides an advanced water effect from a 2D view with reflection.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

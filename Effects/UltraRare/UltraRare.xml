@@ -1,7 +1,6 @@
 <effect>
   <name>Ultra Rare (Directional)</name>
-  <description>Simulates tilt-based directional shimmer with gold tint.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+  <description>Simulates tilt-based directional shimmer with gold tint.</description>
   <author>YugiGlossBoss</author>
 
   <parameter>

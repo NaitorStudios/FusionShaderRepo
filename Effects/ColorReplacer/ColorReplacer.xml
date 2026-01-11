@@ -1,7 +1,6 @@
 <effect>
 <name>Color Replacer</name>
-<description>Lets you specify replacement values for 9 given colors. Useful fur custom character colorization.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Lets you specify replacement values for 9 given colors. Useful fur custom character colorization.</description>
 <author>Looki</author>
 <parameter>
 	<name>Red</name>

@@ -1,7 +1,6 @@
 <effect>
 	<name>Logical IMPLY (Background)</name>
-		<description>This shader is a modification of the "AND" shader created by Cazra. The colors are bit by a logic gate IMPLY for base and blend colors.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>This shader is a modification of the "AND" shader created by Cazra. The colors are bit by a logic gate IMPLY for base and blend colors.</description> 
 			<author>Foxioo, Cazra</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

@@ -1,8 +1,7 @@
 <effect>
 <name>Ring Health Bar</name>
 <author>Defisym</author>
-<description>Creat Ring Health Bar
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Creat Ring Health Bar</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

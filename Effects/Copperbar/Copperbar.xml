@@ -1,7 +1,6 @@
 <effect>
 <name>Copper Bar FX</name>
-<description>Amiga Copper Bar dx9
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Amiga Copper Bar dx9</description>
 <author>Gigatron</author>
 <parameter>
 	<name>Timer</name>

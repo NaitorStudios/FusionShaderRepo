@@ -226,7 +226,7 @@
 	<property>COLOR</property>
 	<value>0</value>
 </parameter>
-<!---
+<!--
 <parameter>
 	<name>From</name>
 	<code>from16</code>

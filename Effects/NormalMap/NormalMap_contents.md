@@ -1,4 +1,4 @@
-Last Updated: 2026-01-11 00:55
+Last Updated: 2023-05-11 15:41
 
 === Shader files ===
 NormalMap.xml - Info & Integration
@@ -12,4 +12,4 @@ NormalMap.fxmo - iOS/Mac source code
 * Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
 
 === Examples ===
-NormalMap_4540.mfa
+NormalMap 4540.mfa

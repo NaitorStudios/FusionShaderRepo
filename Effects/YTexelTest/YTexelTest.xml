@@ -1,6 +1,5 @@
 <effect>
 <name>Y Texel Test</name>
+<description>Tests which direction the Y axis increases in texel space.</description>
 <author>Cazra</author>
-<description>Tests which direction the Y axis increases in texel space.
-&#xA;Last Updated: 2026-01-11 00:56</description>
 </effect>

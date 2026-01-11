@@ -1,7 +1,6 @@
 <effect>
 <name>Spritesheet Shader</name>
-<description>Spriteheet shader, an adaptation of the GLSL shader by passiomatic (https://github.com/passiomatic) and based on the CallofAS22's SSMatteIn shader.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Spriteheet shader, an adaptation of the GLSL shader by passiomatic (https://github.com/passiomatic) and based on the CallofAS22's SSMatteIn shader.</description>
 <author>CallofAS22, passiomatic, zhaba.</author>
 
 <sampler>

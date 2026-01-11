@@ -1,7 +1,6 @@
 <effect>
 <name>Soft Light</name>
 <author>Looki</author>
-<description>Multiplies darke tones and screens light tones.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Multiplies darke tones and screens light tones.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

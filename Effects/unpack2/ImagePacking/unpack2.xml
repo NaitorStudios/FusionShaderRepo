@@ -1,8 +1,7 @@
 <effect>
 <name>Unpack 2</name>
 <author>Sketchy, edit by NaitorStudios</author>
-<description>Image unpacker, 4 more images into alpha channel
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Image unpacker, 4 more images into alpha channel</description>
 <parameter>
 		<name>selectedImage</name>
 		<code>selectedImage</code>

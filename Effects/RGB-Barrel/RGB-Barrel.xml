@@ -1,7 +1,6 @@
 <effect>
 <name>RGB Barrel</name>
+<description>Rotate the RGB output colors.</description>
 <author>Cazra</author>
-<description>Rotate the RGB output colors.
-&#xA;Last Updated: 2026-01-11 00:56</description>
 </effect>
 

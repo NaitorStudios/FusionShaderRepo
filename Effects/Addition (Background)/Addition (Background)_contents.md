@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:53
+License: MIT License
+
+Last Updated: 2025-11-29 04:22
 
 === Shader files ===
 Addition (Background).xml - Info & Integration

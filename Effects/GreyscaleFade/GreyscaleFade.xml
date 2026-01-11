@@ -1,7 +1,6 @@
 <effect>
 <name>Greyscale Fade</name>
-<description>Fade to/from black using a greyscale image.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Fade to/from black using a greyscale image.</description>
 <author>Shadoku</author>
 <parameter>
 		<name>Fade Percent</name>

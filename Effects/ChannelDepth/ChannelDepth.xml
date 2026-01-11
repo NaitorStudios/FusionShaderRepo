@@ -1,8 +1,7 @@
 <effect>
 <name>Channel Depth</name>
+<description>Change depth of single color channels (R,G,B)</description>
 <author>ComplexSoftwares</author>
-<description>Change depth of single color channels (R,G,B)
-&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 		<name>Offset</name>
 		<code>fOffset</code>

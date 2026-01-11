@@ -1,7 +1,6 @@
 <effect>
 	<name>Liquid Glass (Background)</name>
-		<description>Shader simulates the iOS 26/MacOS Tahoe window effect.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>Shader simulates the iOS 26/MacOS Tahoe window effect.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

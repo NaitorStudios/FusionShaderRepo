@@ -1,7 +1,6 @@
 <effect>
 	<name>Noise Blur (Switch)</name>
-		<description>This effect uses noise to shift pixels, creating a pseudo blur.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>This effect uses noise to shift pixels, creating a pseudo blur.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

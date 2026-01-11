@@ -1,7 +1,6 @@
 <effect>
 <name>Crop + Hue/Saturation (Photoshop)</name>
-<description>Crops the texture and adjusts hue, saturation and lightness.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Crops the texture and adjusts hue, saturation and lightness.</description>
 <author>NaitorStudios</author>
 <parameter>
 		<name>Hue</name>

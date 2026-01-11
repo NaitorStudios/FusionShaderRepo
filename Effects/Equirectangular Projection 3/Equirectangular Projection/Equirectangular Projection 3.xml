@@ -1,7 +1,6 @@
 <effect>
 	<name>Equirectangular Projection 3</name>
-	<description>Takes an equirectangular image and projects a view with 3D perspective. This version uses a texture parameter so it doesn't require massive app resolutions to work well.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+	<description>Takes an equirectangular image and projects a view with 3D perspective. This version uses a texture parameter so it doesn't require massive app resolutions to work well.</description>
 	<author>Edit by NaitorStudios. rosme on Shadertoy (converted by Tuparman) (Originally ported to DX11 by RadiusNic)</author>
   <sampler>
     <index>0</index>

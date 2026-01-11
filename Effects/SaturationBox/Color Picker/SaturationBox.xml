@@ -1,8 +1,7 @@
 <effect>
 <name>Saturation Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Draws a saturation box.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Draws a saturation box.</description>
 <parameter>
 	<name>Hue</name>
 	<code>fHue</code>

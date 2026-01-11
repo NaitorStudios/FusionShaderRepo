@@ -1,8 +1,7 @@
 <effect>
 <name>Depth</name>
+<description>Change depth of color.</description>
 <author>ComplexSoftwares</author>
-<description>Change depth of color.
-&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 		<name>Offset</name>
 		<code>fOffset</code>

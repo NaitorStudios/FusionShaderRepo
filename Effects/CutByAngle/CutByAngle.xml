@@ -1,8 +1,7 @@
 <effect>
 <name>Cut by Angle</name>
+<description>Cut an object using a normalised vector (from an angle) with an offset</description>
 <author>Uppernate</author>
-<description>Cut an object using a normalised vector (from an angle) with an offset
-&#xA;Last Updated: 2026-01-11 00:54</description>
 <parameter>
 		<name>Offset X</name>
 		<code>fOffsetX</code>

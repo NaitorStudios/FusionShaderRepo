@@ -1,6 +1,6 @@
 <effect>
 <name>Chromatic Aberration</name>
-<description>Last Updated: 2026-01-11 00:54</description>
+<description>This shader creates a color fringe effect by shifting the red and blue color channels independently in opposite directions, producing a chromatic aberration that adds a subtle visual distortion to the image. The effect can be controlled by adjusting the horizontal and vertical amounts of the shift, as well as the intensity of the distortion.</description>
 <author>Rhadamus</author>
 
 <parameter>

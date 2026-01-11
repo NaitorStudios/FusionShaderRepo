@@ -1,7 +1,6 @@
 <effect>
 <name>Inner Shadow</name>
-<description>Blurs the edges of the image and fills them with a color. You can offset the shadow.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Blurs the edges of the image and fills them with a color. You can offset the shadow.</description>
 <author>NaitorStudios (Originally Inner Glow from Looki)</author>
 <parameter>
 	<name>Radius</name>

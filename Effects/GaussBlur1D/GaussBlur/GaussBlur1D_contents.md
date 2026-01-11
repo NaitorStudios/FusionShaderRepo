@@ -3,7 +3,7 @@ Pixel Shader version 3.0 is broken on Fusion for a long time, more specifically 
 
 Shader Packs: OpenFusionExamples (by defisym)
 
-Last Updated: 2026-01-11 00:55
+Last Updated: 2021-09-18 03:57
 
 === Shader files ===
 GaussBlur1D.xml - Info & Integration

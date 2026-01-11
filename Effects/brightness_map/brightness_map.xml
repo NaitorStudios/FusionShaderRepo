@@ -1,7 +1,6 @@
 <effect>
 <name>Brightness map</name>
-<description>The shader changes an object's opacity basing on an image map
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>The shader changes an object's opacity basing on an image map</description>
 <author>Schrodinger</author>
 <company>Lizardking</company>
 <copyright>Public domain, free for any use</copyright>

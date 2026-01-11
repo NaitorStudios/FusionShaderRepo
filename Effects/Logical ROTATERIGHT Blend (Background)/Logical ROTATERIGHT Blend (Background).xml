@@ -1,7 +1,6 @@
 <effect>
 	<name>Logical ROTATERIGHT Blend (Background)</name>
-		<description>This shader is a modification of the "AND" shader created by Cazra. The colors are shifted by a RIGHTSHIFT for blend based on base colors and loops the bits when they go out of range.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>This shader is a modification of the "AND" shader created by Cazra. The colors are shifted by a RIGHTSHIFT for blend based on base colors and loops the bits when they go out of range.</description> 
 			<author>Foxioo, Cazra</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

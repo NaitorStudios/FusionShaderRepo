@@ -1,7 +1,6 @@
 <effect>
 	<name>SpriteLampsToon</name>
-	<description>Creates 2D Toon light effects with a normal map.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+	<description>Creates 2D Toon light effects with a normal map.</description>
 	<author>Emil Macko</author>
 	<BackgroundTexture>1</BackgroundTexture>
 	

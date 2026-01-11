@@ -1,7 +1,6 @@
 <effect>
 <name>CRT Mania</name>
-<description>Simulates a CRT display for a retro look.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Simulates a CRT display for a retro look.</description>
 <author>Looki</author>
 <parameter>
 	<name>Phase</name>

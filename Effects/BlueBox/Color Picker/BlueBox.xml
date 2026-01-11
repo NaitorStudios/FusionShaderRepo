@@ -1,8 +1,7 @@
 <effect>
 <name>Blue Box</name>
 <author>MuddyMole, DX11 Port by NaitorStudios</author>
-<description>Draws a blue box.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Draws a blue box.</description>
 <parameter>
 	<name>Green</name>
 	<code>fGreen</code>

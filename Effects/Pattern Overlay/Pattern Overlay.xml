@@ -1,8 +1,7 @@
 <effect>
 <name>Pattern Overlay</name>
 <author>Looki</author>
-<description>Overlay the image with a pattern.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Overlay the image with a pattern.</description>
 
 <parameter>
 		<name>X Offset</name>

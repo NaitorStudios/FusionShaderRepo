@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:55
+License: MIT License
+
+Last Updated: 2026-01-04 22:01
 
 === Shader files ===
 Multiplication With Hyperbolic Cotangent (Background).xml - Info & Integration

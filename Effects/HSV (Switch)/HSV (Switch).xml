@@ -1,7 +1,6 @@
 <effect>
 	<name>HSV (Switch)</name>
-		<description>Shader allows changing hue, saturation and value.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>Shader allows changing hue, saturation and value.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

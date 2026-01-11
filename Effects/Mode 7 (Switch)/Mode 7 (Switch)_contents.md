@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:55
+License: MIT License
+
+Last Updated: 2026-01-11 03:33
 
 === Shader files ===
 Mode 7 (Switch).xml - Info & Integration

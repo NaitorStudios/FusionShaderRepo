@@ -1,14 +1,15 @@
 <effect>
   <name>Mode7-ish Shader</name>
+  <description>
+    Projects an image onto the canvas of the active object using this
+    shader, using a 3D perspective effect similar to Mode7. The perspective is
+    controlled by a camera which provides a position and an angle for the user's
+    POV in the Mode7-projected space. From here, the main image is transformed
+    so that it appears to be a slanted plane that is pinched toward the horizon.
+    Additional camera controls are also provided for further controlling the
+    field of view.
+  </description>
   <author>Cazra</author>
-  <description>Projects an image onto the canvas of the active object using this
-shader, using a 3D perspective effect similar to Mode7. The perspective is
-controlled by a camera which provides a position and an angle for the user's
-POV in the Mode7-projected space. From here, the main image is transformed
-so that it appears to be a slanted plane that is pinched toward the horizon.
-Additional camera controls are also provided for further controlling the
-field of view.
-&#xA;Last Updated: 2026-01-11 00:55</description>
   <parameter>
     <name>Camera X</name>
     <code>camX</code>
@@ -29,10 +30,10 @@ field of view.
     <name>Camera zoom</name>
     <code>zoom</code>
     <description>
-      A multiplier for how zoomed in the camera is.&#xA;
-      1.0 = normal.&#xA;
-      &lt; 1.0 is zoomed out.&#xA;
-      &gt; 1.0 is zoomed in.
+      A multiplier for how zoomed in the camera is.
+      1.0 = normal.
+      &lt; 1.0 is zoomed out.
+      > 1.0 is zoomed in.
     </description>
     <type>FLOAT</type>
     <property>EDIT</property>

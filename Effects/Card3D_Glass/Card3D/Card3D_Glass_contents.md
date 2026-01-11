@@ -1,6 +1,6 @@
 Shader Packs: FusionShaders (by awsker)
 
-Last Updated: 2026-01-11 00:54
+Last Updated: 2025-11-04 16:19
 
 === Shader files ===
 Card3D_Glass.xml - Info & Integration

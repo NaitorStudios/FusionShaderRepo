@@ -1,7 +1,6 @@
 <effect>
 <name>Outline</name>
-<description>Draws an outline around an object
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Draws an outline around an object</description>
 	<description>It's not working correctly under DX11.</description>
 	<author></author>
 <parameter>
@@ -30,6 +29,7 @@
 	<property>color</property>
 	<value>4278190080</value>
 </parameter>
+
 <sampler>
 	<index>0</index>
 	<filter>Point</filter>

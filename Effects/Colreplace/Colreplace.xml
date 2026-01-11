@@ -1,7 +1,6 @@
 <effect>
 <name>Color Replacer</name>
-<description>Color Replacer MMF2.5 Dx11
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Color Replacer MMF2.5 Dx11</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Source Color</name>

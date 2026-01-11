@@ -1,7 +1,6 @@
 <effect>
 <name>Mandlebrot</name>
-<description>Mandlebrot
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Mandlebrot</description>
 <author>Flipperku</author>
 <sampler>
 	<index>0</index>

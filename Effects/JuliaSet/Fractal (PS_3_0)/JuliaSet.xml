@@ -1,7 +1,6 @@
 <effect>
 <name>Julia Set</name>
-<description>None
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>None</description>
 <author>Algul</author>
 <parameter>
 		<name>MaxIteration</name>

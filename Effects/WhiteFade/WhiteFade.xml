@@ -1,7 +1,6 @@
 <effect>
 <name>White Fade</name>
-<description>Fades the texture to a targeted monochromatic color by a %
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Fades the texture to a targeted monochromatic color by a %</description>
 <author>Pixelthief</author>
 <parameter>
 		<name>Fade Coef (float)</name>

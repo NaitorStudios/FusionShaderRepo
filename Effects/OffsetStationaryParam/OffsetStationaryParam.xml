@@ -1,7 +1,6 @@
 <effect>
 <name>Background Offset stationary parameter</name>
-<description>Offsets the background using a texture parameter (Red for X, Green for Y).
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Offsets the background using a texture parameter (Red for X, Green for Y).</description>
 <author>Looki &amp; pixelthief</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

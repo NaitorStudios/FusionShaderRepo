@@ -1,7 +1,6 @@
 <effect>
 	<name>Sinus Wave Offset (Switch)</name>
-		<description>Shader moves colors through sinus wave
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>Shader moves colors through sinus wave</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

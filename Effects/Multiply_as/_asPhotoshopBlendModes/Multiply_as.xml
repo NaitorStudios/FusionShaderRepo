@@ -1,7 +1,6 @@
 <effect>
 <name>Multiply_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Multiplies the lower layer with the upper layer.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Based on Looki's shader; Multiplies the lower layer with the upper layer.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

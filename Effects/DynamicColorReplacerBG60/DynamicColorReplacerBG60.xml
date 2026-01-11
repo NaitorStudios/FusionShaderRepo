@@ -1,5 +1,6 @@
 <effect>
 <name>BG Color Replacer Dynamic (60 Colors)</name>
+<description>Replaces specific colors with new colors, using up to 60 predefined color mappings to transform the source texture.</description>
 <author>Looki, DX11 Port by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 

@@ -1,7 +1,6 @@
 <effect>
 <name>NTSC for Background</name>
-<description>Emulation of NTSC artifacts inspired by the youtube webseries Petscop. DX11 only at the moment.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Emulation of NTSC artifacts inspired by the youtube webseries Petscop. DX11 only at the moment.</description>
 <author>red, DX11 Port and edit by NaitorStudios</author>
 <website>https://unplug.red/</website>
 <BackgroundTexture>1</BackgroundTexture>

@@ -1,8 +1,7 @@
 <effect>
 <name>Color Wheel</name>
 <author>MuddyMole</author>
-<description>Draws a color wheel.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Draws a color wheel.</description>
 
 <parameter>
 	<name>Width</name>

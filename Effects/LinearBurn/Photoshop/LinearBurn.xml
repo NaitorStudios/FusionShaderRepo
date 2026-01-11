@@ -1,7 +1,6 @@
 <effect>
 <name>Linear Burn (Subtract)</name>
 <author>Looki</author>
-<description>Like multiply, but more intense.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Like multiply, but more intense.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

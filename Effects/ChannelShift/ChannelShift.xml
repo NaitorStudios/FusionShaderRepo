@@ -1,7 +1,6 @@
 <effect>
 <name>Channel Shift</name>
-<description>Shift R,G,B.A.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Shift R,G,B.A.</description>
 <author>Looki</author>
 <parameter>
 	<name>R X Offset</name>

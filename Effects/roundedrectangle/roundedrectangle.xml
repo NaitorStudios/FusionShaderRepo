@@ -1,8 +1,7 @@
 <effect>
 <name>Rounded Rectangle</name>
 <author>Defisym</author>
-<description>Creat Rounded Rectangles
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Creat Rounded Rectangles</description>
 <parameter>
 		<name>Radius</name>
 		<code>fR</code>

@@ -1,7 +1,6 @@
 <effect>
 <name>Funky Fisheye</name>
-<description>A customizable Fisheye Lens overlay.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>A customizable Fisheye Lens overlay.</description>
 <author>Nomok</author>
 <BackgroundTexture>1</BackgroundTexture>
   <sampler>

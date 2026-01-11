@@ -1,7 +1,6 @@
 <effect>
 	<name>Squeeze (Switch)</name>
-		<description>(This effect is an attempt to recreate Squeeze from the Alight Motion) Distorts texture by squeezing it along one axis while expanding it along the other axis.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>(This effect is an attempt to recreate Squeeze from the Alight Motion) Distorts texture by squeezing it along one axis while expanding it along the other axis.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

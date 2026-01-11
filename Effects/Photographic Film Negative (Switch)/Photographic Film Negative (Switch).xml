@@ -1,7 +1,6 @@
 <effect>
 	<name>Photographic Film Negative (Switch)</name>
-		<description>This shader converts colors from film photos so that the colors are legible.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>This shader converts colors from film photos so that the colors are legible.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

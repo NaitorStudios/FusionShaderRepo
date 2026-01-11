@@ -1,7 +1,6 @@
 <effect>
 <name>Bayer Dither FX</name>
-<description>Bayer Dither MMF2.5 Dx11
-&#xA;Last Updated: 2026-01-11 00:53</description>
+<description>Bayer Dither MMF2.5 Dx11</description>
 <author>Sloxone</author>
 <parameter>
 	<name>Level</name>

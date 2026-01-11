@@ -1,8 +1,7 @@
 <effect>
 <name>Saturation</name>
 <author>Sketchy</author>
-<description>Sets the relative saturation of the background.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Sets the relative saturation of the background.</description>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
 	<name>Saturation</name>

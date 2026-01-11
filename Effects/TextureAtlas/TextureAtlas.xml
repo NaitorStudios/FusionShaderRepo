@@ -1,7 +1,6 @@
 <effect>
 <name>Texture Atlas Shader</name>
-<description>Texture atlas shader with custom selection XY scale and position.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Texture atlas shader with custom selection XY scale and position.</description>
 <author>zhaba</author>
 
 <sampler>

@@ -1,7 +1,6 @@
 <effect>
 	<name>Zoom</name>
-	<description>Zooms in on the centre of an image.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+	<description>Zooms in on the centre of an image.</description>
 	<author>Sketchy, DX11 Port by NaitorStudios</author>
 	<parameter>
 		<name>Zoom</name>

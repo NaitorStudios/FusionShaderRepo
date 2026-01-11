@@ -1,8 +1,7 @@
 <effect>
 <name>Pixel outline with Opacity</name>
 <author>Looki</author>
-<description>Draws a 1px border around an object
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Draws a 1px border around an object</description>
 <parameter>
 		<name>Outline color</name>
 		<code>color</code>

@@ -1,7 +1,6 @@
 <effect>
 	<name>Krita Interpolation - 2X (Background)</name>
-		<description>(The effect comes from the Krita) Applies Interpolation blend mode to base and blend layers, then duplicates to repeat interpolation blending.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>(The effect comes from the Krita) Applies Interpolation blend mode to base and blend layers, then duplicates to repeat interpolation blending.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

@@ -1,8 +1,7 @@
 <effect>
 <name>Voxel Model 1</name>
 <author>MuddyMole/Sketchy</author>
-<description>Voxel Mode (v1)
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Voxel Mode (v1)</description>
 <parameter>
   <name>imgModel</name>
   <code>imgModel</code>

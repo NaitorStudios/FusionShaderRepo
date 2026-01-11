@@ -1,8 +1,7 @@
 <effect>
 <name>8-bit Sprite</name>
 <author>MuddyMole / Sketchy</author>
-<description>256 colour palette, flip/mirror, alpha dithering.
-&#xA;Last Updated: 2026-01-11 00:53</description>
+<description>256 colour palette, flip/mirror, alpha dithering.</description>
 <parameter>
 	<name>Palette Image (16 x 16 Pixels).</name> <code>Palette</code>
 	<type>IMAGE</type>

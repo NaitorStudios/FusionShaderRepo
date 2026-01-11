@@ -1,7 +1,6 @@
 <effect>
 <name>Linear Burn (Subtract)_as</name>
 <author>CallofAS, DX11 port by NaitorStudios</author>
-<description>Based on Looki's shader; Like multiply, but more intense.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Based on Looki's shader; Like multiply, but more intense.</description>
 <BackgroundTexture>1</BackgroundTexture>
 </effect>

@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:53
+License: MIT License
+
+Last Updated: 2026-01-04 22:00
 
 === Shader files ===
 Addition With Cotangent (Background).xml - Info & Integration

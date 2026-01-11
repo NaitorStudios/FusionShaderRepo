@@ -1,7 +1,6 @@
 <effect>
 	<name>TV Analog Noise (Switch)</name>
-		<description>The shader simulates analog white noise from a TV.
-&#xA;Last Updated: 2026-01-11 00:56</description> 
+		<description>The shader simulates analog white noise from a TV.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

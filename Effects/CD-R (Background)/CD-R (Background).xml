@@ -1,7 +1,6 @@
 <effect>
 	<name>CD-R (Background)</name>
-		<description>The shader simulates the effect on the CDs underneath.
-&#xA;Last Updated: 2026-01-11 00:54</description> 
+		<description>The shader simulates the effect on the CDs underneath.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

@@ -1,7 +1,6 @@
 <effect>
 <name>Sine offset</name>
-<description>Sine offset effect from the FNaF remaster.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Sine offset effect from the FNaF remaster.</description>
 <author>Clickteam (ported by Rhadamus)</author>
 
 <BackgroundTexture>1</BackgroundTexture>

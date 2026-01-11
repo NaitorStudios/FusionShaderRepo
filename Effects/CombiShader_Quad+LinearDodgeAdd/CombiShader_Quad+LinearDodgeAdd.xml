@@ -1,7 +1,6 @@
 <effect>
 <name>CombiShader: Quad + Linear Dodge (Add)</name>
-<description>Deforms a texture to an arbitrary convex quadrilateral
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Deforms a texture to an arbitrary convex quadrilateral</description>
 <copyright>Free for personal or commercial use</copyright>
 <author>Quad: Sketchy / MuddyMole; Linear Dodge: Looki; Combi: Steffen Roth</author>
 <BackgroundTexture>1</BackgroundTexture>

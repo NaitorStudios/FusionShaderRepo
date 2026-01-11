@@ -1,6 +1,6 @@
 Shader Packs: _asPhotoshopBlendModes (by CallofAS22)
 
-Last Updated: 2026-01-11 00:54
+Last Updated: 2022-06-23 13:20
 
 === Shader files ===
 ColorDodge_as.xml - Info & Integration

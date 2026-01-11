@@ -1,8 +1,7 @@
 <effect>
 <name>Pixelate 2</name>
+<description>Collapses image data into pixels</description>
 <author>ChrisBurrows</author>
-<description>Collapses image data into pixels
-&#xA;Last Updated: 2026-01-11 00:56</description>
 
 <parameter>
         <name>PixelSize</name>

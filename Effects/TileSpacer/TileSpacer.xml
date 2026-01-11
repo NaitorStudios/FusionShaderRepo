@@ -1,7 +1,6 @@
 <effect>
 	<name>Tile Spacer</name>
-	<description>Creates a single pixel space between tiles.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+	<description>Creates a single pixel space between tiles.</description>
 	<author>Sketchy</author>
 	<BackgroundTexture>1</BackgroundTexture>
 	<parameter>

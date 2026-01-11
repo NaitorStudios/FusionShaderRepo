@@ -1,6 +1,8 @@
 Shader Packs: Foxioo Shader Pack
 
-Last Updated: 2026-01-11 00:56
+License: MIT License
+
+Last Updated: 2026-01-04 22:03
 
 === Shader files ===
 Quad With Glass Reflections (Background).xml - Info & Integration

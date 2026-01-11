@@ -1,8 +1,7 @@
 <effect>
 <name>Pattern Fade Out</name>
 <author>Defisym</author>
-<description>Pattern Fade Out
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Pattern Fade Out</description>
 <parameter>
 		<name>Progress</name>
 		<code>progress</code>

@@ -1,7 +1,6 @@
 <effect>
 	<name>myZoom</name>
-	<description>Zooms an image.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+	<description>Zooms an image.</description>
 	<author>Sketchy</author>
 	<parameter>
 		<name>Zoom</name>

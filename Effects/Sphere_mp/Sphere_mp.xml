@@ -1,7 +1,6 @@
 <effect>
 <name>Sphere Map</name>
-<description>Animated Sphere Map
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Animated Sphere Map</description>
 <author>Gigatron</author>
 <parameter>
 	<name>Timer</name>

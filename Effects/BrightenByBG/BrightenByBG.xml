@@ -1,8 +1,7 @@
 <effect>
 <name>Brighten by background</name>
 <author>Looki</author>
-<description>Brighten the pixels by the average of the object's background.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Brightens the input image by adding a portion of the average background color, with an option to invert the background before blending. The effect uses a 3x3 sampling of the background texture to calculate the average color for the brightening effect.</description>
 <parameter>
 		<name>Amount</name>
 		<code>amount</code>
@@ -13,7 +12,7 @@
 <parameter>
 	<name>Invert amount</name>
 	<code>invert</code>
-	<description>If checked, the background color is inverted (high &lt;&gt; low).</description>
+	<description>If checked, the background color is inverted (high &lt;> low).</description>
 	<type>int</type>
 	<property>checkbox</property>
 	<value>0</value>

@@ -1,7 +1,6 @@
 <effect>
 <name>Random Sample Bloom - MipMap Ready - DX11 Only</name>
-<description>A 180-point sample bloom using pre-defined points in a randomized circular pattern. "Mip map ready" meaning if Fusion allows for mipmaps in the future this should just work and look much better.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>A 180-point sample bloom using pre-defined points in a randomized circular pattern. "Mip map ready" meaning if Fusion allows for mipmaps in the future this should just work and look much better.</description>
 <author>n89</author>
 
 <sampler>

@@ -1,7 +1,6 @@
 <effect>
 <name>Vignette</name>
-<description>Darkens and tints the edges of the screen.
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Darkens and tints the edges of the screen.</description>
 <author>NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

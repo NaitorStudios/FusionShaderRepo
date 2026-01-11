@@ -1,7 +1,6 @@
 <effect>
 <name>Altscale</name>
-<description>Scales an image using the Scale2x algorithm.
-&#xA;Last Updated: 2026-01-11 00:53</description>
+<description>Scales an image using the Scale2x algorithm.</description>
 <author>Sketchy</author>
 <parameter>
 		<name>bitmap_width</name>

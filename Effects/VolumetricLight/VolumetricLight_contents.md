@@ -1,7 +1,7 @@
 Notes:
 DX11 ONLY at the moment.
 
-Last Updated: 2026-01-11 00:56
+Last Updated: 2025-10-09 13:15
 
 === Shader files ===
 VolumetricLight.xml - Info & Integration

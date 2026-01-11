@@ -1,7 +1,6 @@
 <effect>
 <name>Color Pallette</name>
-<description>Establish a pallette for an object.
-&#xA;Last Updated: 2026-01-11 00:54</description>
+<description>Establish a pallette for an object.</description>
 <author>Modified off Looki</author>
 <parameter>
 	<name>Color 000</name>

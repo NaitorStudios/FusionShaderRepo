@@ -1,7 +1,6 @@
 <effect>
 <name>Reflection Filter with Mask</name>
-<description>Reflects the background inside the area
-&#xA;Last Updated: 2026-01-11 00:56</description>
+<description>Reflects the background inside the area</description>
 <author>Pixelthief, modified by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>

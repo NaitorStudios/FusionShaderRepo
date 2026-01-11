@@ -1,7 +1,6 @@
 <effect>
 	<name>MS Paint (Switch)</name>
-		<description>This shader uses the classic 28-color palette from MS Paint and also adds dithering.
-&#xA;Last Updated: 2026-01-11 00:55</description> 
+		<description>This shader uses the classic 28-color palette from MS Paint and also adds dithering.</description> 
 			<author>Foxioo</author>
 			<copyright>Copyright (C) 2024-2026 Foxioo</copyright>
 			<website>https://github.com/FoxiooOfficial</website>

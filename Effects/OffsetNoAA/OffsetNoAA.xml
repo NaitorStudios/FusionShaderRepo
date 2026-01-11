@@ -1,7 +1,6 @@
 <effect>
 <name>Background Offset (No Antialiasing)</name>
-<description>Offsets the background using the object's texture (Red for X, Green for Y).&#xD;This version also uses the object's alpha channel as mask.
-&#xA;Last Updated: 2026-01-11 00:55</description>
+<description>Offsets the background using the object's texture (Red for X, Green for Y).&#xD;This version also uses the object's alpha channel as mask.</description>
 <author>Looki, Edit by NaitorStudios</author>
 <BackgroundTexture>1</BackgroundTexture>
 <parameter>
