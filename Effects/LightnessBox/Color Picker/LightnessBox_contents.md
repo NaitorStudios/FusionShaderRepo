@@ -1,7 +1,4 @@
 ## Info
-**Notes:**
-Color Picker example.zip
-
 **Shader Packs:** Color Picker pack (by MuddyMole)
 
 **Last Updated:** 2022-02-11 19:23  

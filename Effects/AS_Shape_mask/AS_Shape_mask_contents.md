@@ -1,7 +1,4 @@
 ## Info
-**Notes:**
-Multiple shader files are loose in the original Git.
-
 **Last Updated:** 2023-08-30 10:50  
 
 ## Shader files

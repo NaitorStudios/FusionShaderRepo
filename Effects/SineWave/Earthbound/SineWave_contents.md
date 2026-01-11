@@ -1,7 +1,4 @@
 ## Info
-**Notes:**
-earthbound backgrounds.mfa
-
 **Shader Packs:** Earthbound pack (by Rhadamus)
 
 **Last Updated:** 2023-08-18 19:57  

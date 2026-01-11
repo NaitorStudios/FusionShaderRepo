@@ -1,7 +1,4 @@
 ## Info
-**Notes:**
-Originally Inner Glow from Looki
-
 **Last Updated:** 2022-11-22 12:37  
 
 ## Shader files
