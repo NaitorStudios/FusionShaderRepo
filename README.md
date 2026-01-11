@@ -12,6 +12,28 @@ https://ko-fi.com/naitorstudios
 
 As a goal, I'll be porting and creating more shaders, making examples of usage (and perhaps a gif preview), and in the future a software to download, search and manage the shaders.
 
-Notes: Foxioo Shader Pack is the only pack I would recommend downloading from the original source instead of separated files.
+Foxioo Shader Pack is the only pack I would recommend downloading from the original source instead of separated files.
 Reason being it has a nice folder structure and it's well maintained by the author.
 You can download it here: https://github.com/FoxiooOfficial/FoxiooShaderPack/releases
+
+## Compatibility Coverage (Current vs Original)
+
+| Metric | Current | Delta | Original |
+| --- | ---: | ---: | ---: |
+| DX9 only (DX9, no DX9+, no DX11) | 147 | -25 | 172 |
+| DX9 in general (DX9 or DX9+) | 1002 | +394 | 608 |
+| DX11 ports (DX11 or DX9+) | 866 | +420 | 446 |
+| DX11 exclusive (DX11, no DX9+) | 11 | +1 | 10 |
+| Android ports | 594 | +443 | 151 |
+| iOS/Mac ports | 545 | +405 | 140 |
+
+## Totals
+
+- Shader list entries: 1014 (was 620, +394)
+- Shaders in Repo (XML files): 915
+- List entries not in Repo: 99 (paid or private)
+- Shaders with new ports since original: 163
+
+Notes:
+- "New ports" counts shaders present in both lists that gained any of: DX11, Android, iOS or Mac.
+
