@@ -1,10 +1,10 @@
-Last Updated: 2026-01-11 03:23
+## Info
+**Last Updated:** 2026-01-11 03:23  
 
-=== Shader files ===
-nbTexOverlayTint.xml - Info & Integration
-nbTexOverlayTint.fx - DirectX9 source code
-nbTexOverlayTint.hlsl - DirectX11 source code
-nbTexOverlayTint.fxc - DirectX11 compiled
-nbTexOverlayTint.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **nbTexOverlayTint.xml** — Info & Integration
+- **nbTexOverlayTint.fx** — DirectX9 source code
+- **nbTexOverlayTint.hlsl** — DirectX11 source code
+- **nbTexOverlayTint.fxc** — DirectX11 compiled
+- **nbTexOverlayTint.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

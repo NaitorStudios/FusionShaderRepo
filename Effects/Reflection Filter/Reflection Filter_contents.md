@@ -1,15 +1,15 @@
-Last Updated: 2025-08-02 14:39
+## Info
+**Last Updated:** 2025-08-02 14:39  
 
-=== Shader files ===
-Reflection Filter.xml - Info & Integration
-Reflection Filter.fx - DirectX9 source code
-Reflection Filter.hlsl - DirectX11 source code
-Reflection Filter.fxc - DirectX11 compiled
-Reflection Filter.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Reflection Filter.fxao - Android source code
-Reflection Filter.fxmo - iOS/Mac source code
+## Shader files
+- **Reflection Filter.xml** — Info & Integration
+- **Reflection Filter.fx** — DirectX9 source code
+- **Reflection Filter.hlsl** — DirectX11 source code
+- **Reflection Filter.fxc** — DirectX11 compiled
+- **Reflection Filter.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Reflection Filter.fxao** — Android source code
+- **Reflection Filter.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-Reflection Filter_LensTest2.mfa
+## Examples
+- Reflection Filter_LensTest2.mfa  

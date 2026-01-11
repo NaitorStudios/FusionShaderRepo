@@ -1,18 +1,17 @@
-Last Updated: 2024-08-15 14:00
+## Info
+**Last Updated:** 2024-08-15 14:00  
 
-=== Shader files ===
-Shadow.xml - Info & Integration
-Shadow.fx - DirectX9 source code
-Shadow.hlsl - DirectX11 source code
-Shadow.fxc - DirectX11 compiled
-Shadow.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Shadow.fxao - Android source code
-Shadow.fxmo - iOS/Mac source code
+## Shader files
+- **Shadow.xml** — Info & Integration
+- **Shadow.fx** — DirectX9 source code
+- **Shadow.hlsl** — DirectX11 source code
+- **Shadow.fxc** — DirectX11 compiled
+- **Shadow.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Shadow.fxao** — Android source code
+- **Shadow.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-Shadow.mfa
-*Shadow_.mf2backup.mfa
-
-*mf2backup files are backup versions for Multimedia Fusion 2.0
+## Examples
+- Shadow.mfa
+- *Shadow_.mf2backup.mfa*
+*mf2backup files are backup versions for Multimedia Fusion 2.0*  

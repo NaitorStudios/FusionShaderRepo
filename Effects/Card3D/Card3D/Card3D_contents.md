@@ -1,15 +1,15 @@
-Shader Packs: FusionShaders (by awsker)
+## Info
+**Shader Packs:** FusionShaders (by awsker)
 
-Last Updated: 2025-11-04 16:19
+**Last Updated:** 2025-11-04 16:19  
 
-=== Shader files ===
-Card3D.xml - Info & Integration
-Card3D.fx - DirectX9 source code
-Card3D.hlsl - DirectX11 source code
-Card3D.fxc - DirectX11 compiled
-Card3D.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+## Shader files
+- **Card3D.xml** — Info & Integration
+- **Card3D.fx** — DirectX9 source code
+- **Card3D.hlsl** — DirectX11 source code
+- **Card3D.fxc** — DirectX11 compiled
+- **Card3D.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-Card3D_card rotate.mfa
+## Examples
+- Card3D_card rotate.mfa  

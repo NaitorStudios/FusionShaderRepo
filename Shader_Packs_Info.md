@@ -1,679 +1,679 @@
-Shader Pack: HWAautotile (by Sketchy)
-- AutoTileA.xml — Auto-Tile (Edges)
-- AutoTileB.xml — Auto-Tile (Corners)
+## Shader Pack: HWAautotile (by Sketchy) (2 shaders)
+- **AutoTileA.xml** — Auto-Tile (Edges)
+- **AutoTileB.xml** — Auto-Tile (Corners)  
 
-Shader Pack: ssMatter pack (by CallofAS22)
-- SSMatteWith.xml — SSMatte With
-- SSMatteOut.xml — SSMatte Out
-- SSMatteIn.xml — SSMatte in
+## Shader Pack: ssMatter pack (by CallofAS22) (3 shaders)
+- **SSMatteWith.xml** — SSMatte With
+- **SSMatteOut.xml** — SSMatte Out
+- **SSMatteIn.xml** — SSMatte in  
 
-Shader Pack: SpriteLamps pack (by Emil Macko)
-- SpriteLamps.xml — SpriteLamps
-- SpriteLampsQuadratic.xml — SpriteLampsQuadratic
-- SpriteLampsToon.xml — SpriteLampsToon
+## Shader Pack: SpriteLamps pack (by Emil Macko) (3 shaders)
+- **SpriteLamps.xml** — SpriteLamps
+- **SpriteLampsQuadratic.xml** — SpriteLampsQuadratic
+- **SpriteLampsToon.xml** — SpriteLampsToon  
 
-Shader Pack: 3dEngine/VoxelTerrain pack (by Sketchy)
-- VoxelTerrain_v03F.xml — Voxel Terrain - Foreground (v0.3)
-- VoxelTerrain_v03B.xml — Voxel Terrain - Background (v0.3)
-- Sprite.xml — Sprite
-- P3D_sprites_test.xml — P3D Sprites Test
+## Shader Pack: 3dEngine/VoxelTerrain pack (by Sketchy) (4 shaders)
+- **VoxelTerrain_v03F.xml** — Voxel Terrain - Foreground (v0.3)
+- **VoxelTerrain_v03B.xml** — Voxel Terrain - Background (v0.3)
+- **Sprite.xml** — Sprite
+- **P3D_sprites_test.xml** — P3D Sprites Test  
 
-Shader Pack: shader pack # 1 (by mihailsh)
-- Black_white_film.xml — Black_white_film
-- old_crt_shader.xml — old_crt_shader
-- God_Rays.xml — God_Rays
-- old_cinema_film.xml — old_cinema_film
-- Cartoon_Shading.xml — Cartoon Shading
+## Shader Pack: shader pack # 1 (by mihailsh) (5 shaders)
+- **Black_white_film.xml** — Black_white_film
+- **old_crt_shader.xml** — old_crt_shader
+- **God_Rays.xml** — God_Rays
+- **old_cinema_film.xml** — old_cinema_film
+- **Cartoon_Shading.xml** — Cartoon Shading  
 
-Shader Pack: Alpha Channel shader pack (by NaitorStudios)
-- AlphaClamp.xml — Alpha Clamp
-- AlphaColor.xml — Alpha Color
-- AlphaSharpener.xml — Alpha Sharpener
-- AlphaThreshold.xml — Alpha Threshold
-- AlphaBlend.xml — Alpha Blend
+## Shader Pack: Alpha Channel shader pack (by NaitorStudios) (5 shaders)
+- **AlphaClamp.xml** — Alpha Clamp
+- **AlphaColor.xml** — Alpha Color
+- **AlphaSharpener.xml** — Alpha Sharpener
+- **AlphaThreshold.xml** — Alpha Threshold
+- **AlphaBlend.xml** — Alpha Blend  
 
-Shader Pack: Color Picker pack (by MuddyMole)
-- ColorWheel.xml — Color Wheel
-- BlueBox.xml — Blue Box
-- GreenBox.xml — Green Box
-- SaturationBox.xml — Saturation Box
-- LightnessBox.xml — Lightness Box
-- RedBox.xml — Red Box
-- ColorBox.xml — Color Box
-- HueBox.xml — Hue Box
+## Shader Pack: Color Picker pack (by MuddyMole) (8 shaders)
+- **ColorWheel.xml** — Color Wheel
+- **BlueBox.xml** — Blue Box
+- **GreenBox.xml** — Green Box
+- **SaturationBox.xml** — Saturation Box
+- **LightnessBox.xml** — Lightness Box
+- **RedBox.xml** — Red Box
+- **ColorBox.xml** — Color Box
+- **HueBox.xml** — Hue Box  
 
-Shader Pack: Earthbound pack (by Rhadamus)
-- SineWaveAA.xml — Sine Wave (Antialiased)
-- SineWave.xml — Sine Wave
-- OscillationAA.xml — Oscillation (Antialiased)
-- Oscillation.xml — Oscillation
-- InterleavedWaveVAA.xml — Interleaved Sine Wave (Vertical, Antialiased)
-- InterleavedWaveV.xml — Interleaved Sine Wave (Vertical)
-- InterleavedWaveHAA.xml — Interleaved Sine Wave (Horizontal, Antialiased)
-- InterleavedWaveH.xml — Interleaved Sine Wave (Horizontal)
+## Shader Pack: Earthbound pack (by Rhadamus) (8 shaders)
+- **SineWaveAA.xml** — Sine Wave (Antialiased)
+- **SineWave.xml** — Sine Wave
+- **OscillationAA.xml** — Oscillation (Antialiased)
+- **Oscillation.xml** — Oscillation
+- **InterleavedWaveVAA.xml** — Interleaved Sine Wave (Vertical, Antialiased)
+- **InterleavedWaveV.xml** — Interleaved Sine Wave (Vertical)
+- **InterleavedWaveHAA.xml** — Interleaved Sine Wave (Horizontal, Antialiased)
+- **InterleavedWaveH.xml** — Interleaved Sine Wave (Horizontal)  
 
-Shader Pack: CTFShaders (by OWER396)
-- SimpleZoom.xml — SimpleZoom
-- RPanoramaNoAA.xml — Panorama (No AA)
-- MosaicBG.xml — Mosaic (for background)
-- DirBlur x5.xml — Directional Blur 5x
-- DirBlur x4.xml — Directional Blur 4x
-- BetterLensXY.xml — BetterLensXY
-- BetterLens.xml — BetterLens
-- Angular Blur.xml — Angular Blur
+## Shader Pack: CTFShaders (by OWER396) (8 shaders)
+- **SimpleZoom.xml** — SimpleZoom
+- **RPanoramaNoAA.xml** — Panorama (No AA)
+- **MosaicBG.xml** — Background Mosaic
+- **DirBlur x5.xml** — Directional Blur 5x
+- **DirBlur x4.xml** — Directional Blur 4x
+- **BetterLensXY.xml** — BetterLensXY
+- **BetterLens.xml** — BetterLens
+- **Angular Blur.xml** — Angular Blur  
 
-Shader Pack: FusionShaders (by awsker)
-- WaistWater.xml — Waist Water
-- TinyOutline.xml — Tiny Outline
-- SoftShadow.xml — Soft Shadow
-- PrisonSpotlight.xml — Prison Spotlight Gameboy
-- NinePatchRedux.xml — NinePatch Redux
-- CrossStitch_DropShadow.xml — Cross-stitch With Drop Shadow
-- CrossStitch.xml — Cross-stitch
-- Card3D_Glass.xml — Card3D - Glass
-- Card3D_Foil.xml — Card3D - Foil
-- Card3D.xml — Card3D
-- AdvancedPalette.xml — Advanced 3-color palette swap
+## Shader Pack: FusionShaders (by awsker) (11 shaders)
+- **WaistWater.xml** — Waist Water
+- **TinyOutline.xml** — Tiny Outline
+- **SoftShadow.xml** — Soft Shadow
+- **PrisonSpotlight.xml** — Prison Spotlight Gameboy
+- **NinePatchRedux.xml** — NinePatch Redux
+- **CrossStitch_DropShadow.xml** — Cross-stitch With Drop Shadow
+- **CrossStitch.xml** — Cross-stitch
+- **Card3D_Glass.xml** — Card3D - Glass
+- **Card3D_Foil.xml** — Card3D - Foil
+- **Card3D.xml** — Card3D
+- **AdvancedPalette.xml** — Advanced 3-color palette swap  
 
-Shader Pack: Dissapear effects shader pack 2D (by mihailsh)
-- v_wave.xml — v_wave
-- h_wave.xml — h_wave
-- diss_noise.xml — diss_noise
-- diss_alpha_effect.xml — diss_alpha_effect
-- diss2_up.xml — diss2_up
-- diss2_swirl.xml — diss2_swirl
-- diss2_right.xml — diss2_right
-- diss2_left.xml — diss2_left
-- diss2_down.xml — diss2_down
-- diss2_center.xml — diss2_center
-- diss_scanlines_up.xml — diss_scanlines_up
-- diss_scanlines_down.xml — diss_scanlines_down
+## Shader Pack: Dissapear effects shader pack 2D (by mihailsh) (12 shaders)
+- **v_wave.xml** — v_wave
+- **h_wave.xml** — h_wave
+- **diss_noise.xml** — diss_noise
+- **diss_alpha_effect.xml** — diss_alpha_effect
+- **diss2_up.xml** — diss2_up
+- **diss2_swirl.xml** — diss2_swirl
+- **diss2_right.xml** — diss2_right
+- **diss2_left.xml** — diss2_left
+- **diss2_down.xml** — diss2_down
+- **diss2_center.xml** — diss2_center
+- **diss_scanlines_up.xml** — diss_scanlines_up
+- **diss_scanlines_down.xml** — diss_scanlines_down  
 
-Shader Pack: OpenFusionExamples (by defisym)
-- ringhealthbar2.xml — Ring Health Bar 2
-- CompressionBG.xml — Compression (Background)
-- Compression.xml — Compression
-- GaussBlur.xml — Gauss Blur
-- DotMatrix.xml — Dot Matrix
-- PatternFadeOut.xml — Pattern Fade Out
-- PatternFadeIn.xml — Pattern Fade In
-- PatternFade.xml — PatternFade
-- roundhealthbar.xml — Round Health Bar
-- roundedrectangle.xml — Rounded Rectangle
-- ringhealthbar.xml — Ring Health Bar
-- GaussBlur2D.xml — Gauss Blur 2D
-- GaussBlur1D.xml — Gauss Blur 1D
-- AlphaMono.xml — AlphaMono
+## Shader Pack: OpenFusionExamples (by defisym) (14 shaders)
+- **ringhealthbar2.xml** — Ring Health Bar 2
+- **CompressionBG.xml** — Compression (Background)
+- **Compression.xml** — Compression
+- **GaussBlur.xml** — Gauss Blur
+- **DotMatrix.xml** — Dot Matrix
+- **PatternFadeOut.xml** — Pattern Fade Out
+- **PatternFadeIn.xml** — Pattern Fade In
+- **PatternFade.xml** — PatternFade
+- **roundhealthbar.xml** — Round Health Bar
+- **roundedrectangle.xml** — Rounded Rectangle
+- **ringhealthbar.xml** — Ring Health Bar
+- **GaussBlur2D.xml** — Gauss Blur 2D
+- **GaussBlur1D.xml** — Gauss Blur 1D
+- **AlphaMono.xml** — AlphaMono  
 
-Shader Pack: FusionShaders (by Cazra)
-- ColorShift.xml — Color Shift
-- StencilClip.xml — Stencil Clip
-- AND.xml — AND
-- OR.xml — OR
-- XOR.xml — XOR
-- AddColorHSL.xml — Add Color HSL
-- AddColor.xml — Add Color
-- YTexelTest.xml — Y Texel Test
-- RGB-Barrel.xml — RGB Barrel
-- Redify.xml — Redify
-- Mode7ish.xml — Mode7-ish Shader
-- HueMap.xml — Hue Map
-- Greenify.xml — Greenify
-- Blueify.xml — Blueify
-- bg-ghost.xml — BG Ghost
+## Shader Pack: FusionShaders (by Cazra) (15 shaders)
+- **ColorShift.xml** — Color Shift
+- **StencilClip.xml** — Stencil Clip
+- **AND.xml** — AND
+- **OR.xml** — OR
+- **XOR.xml** — XOR
+- **AddColorHSL.xml** — Add Color HSL
+- **AddColor.xml** — Add Color
+- **YTexelTest.xml** — Y Texel Test
+- **RGB-Barrel.xml** — RGB Barrel
+- **Redify.xml** — Redify
+- **Mode7ish.xml** — Mode7-ish Shader
+- **HueMap.xml** — Hue Map
+- **Greenify.xml** — Greenify
+- **Blueify.xml** — Blueify
+- **bg-ghost.xml** — BG Ghost  
 
-Shader Pack: Looki's Shader Pack 2.0
-- GrainPS2.xml — Grain ps_2_0
-- Hole.xml — Hole
-- InOut.xml — Channel In/Out
-- Shade.xml — Shading
-- Perspective.xml — Perspective
-- ChannelShift.xml — Channel Shift
-- Sphere.xml — Sphere
-- Gradient.xml — Gradient
-- Depth.xml — Depth
-- Mirror.xml — Mirror
-- RotateSub.xml — Rotate and Sub-Pixel positioning
-- SimpleMask.xml — Simple Mask
-- Mosaic.xml — Mosaic
-- ChannelBlur.xml — Channel Blur
-- Display.xml — Display
-- ChannelDepth.xml — Channel Depth
-- ChannelInvert.xml — Channel Invert
-- DirBlur x3.xml — Directional Blur 3x
-- DirBlur x2.xml — Directional Blur 2x
-- DirBlur x1.xml — Directional Blur 1x
+## Shader Pack: Looki's Shader Pack 2.0 (20 shaders)
+- **GrainPS2.xml** — Grain ps_2_0
+- **Hole.xml** — Hole
+- **InOut.xml** — Channel In/Out
+- **Shade.xml** — Shading
+- **Perspective.xml** — Perspective
+- **ChannelShift.xml** — Channel Shift
+- **Sphere.xml** — Sphere
+- **Gradient.xml** — Gradient
+- **Depth.xml** — Depth
+- **Mirror.xml** — Mirror
+- **RotateSub.xml** — Rotate and Sub-Pixel positioning
+- **SimpleMask.xml** — Simple Mask
+- **Mosaic.xml** — Mosaic
+- **ChannelBlur.xml** — Channel Blur
+- **Display.xml** — Display
+- **ChannelDepth.xml** — Channel Depth
+- **ChannelInvert.xml** — Channel Invert
+- **DirBlur x3.xml** — Directional Blur 3x
+- **DirBlur x2.xml** — Directional Blur 2x
+- **DirBlur x1.xml** — Directional Blur 1x  
 
-Shader Pack: _asPhotoshopBlendModes (by CallofAS22)
-- ColorBurn_Accurate.xml — Color Burn (Accurate)
-- ColorBurn_as.xml — Color Burn_as
-- Divide_PS.xml — Divide (Photoshop)
-- Color_PS.xml — Color (Photoshop)
-- Subtract_PS.xml — Subtract (Photoshop)
-- HardMix_as.xml — Hard Mix_as
-- HardMix_Accurate.xml — Hard Mix (Accurate)
-- SoftLight_as.xml — Soft Light_as
-- Screen_as.xml — Screen_as
-- PinLight_as.xml — Pin Light_as
-- Overlay_as.xml — Overlay_as
-- Multiply_as.xml — Multiply_as
-- LinearLight_as.xml — Linear Light_as
-- LinearDodge_as.xml — Linear Dodge (Add)_as
-- LinearBurn_as.xml — Linear Burn (Subtract)_as
-- Lighten_as.xml — Lighten_as
-- HardLight_as.xml — Hard Light_as
-- Exclusion_as.xml — Exclusion_as
-- Difference_as.xml — Difference_as
-- Darken_as.xml — Darken_as
-- VividLight_as.xml — Vivid Light_as
-- ColorDodge_as.xml — Color Dodge_as
+## Shader Pack: _asPhotoshopBlendModes (by CallofAS22) (22 shaders)
+- **ColorBurn_Accurate.xml** — Color Burn (Accurate)
+- **ColorBurn_as.xml** — Color Burn_as
+- **Divide_PS.xml** — Divide (Photoshop)
+- **Color_PS.xml** — Color (Photoshop)
+- **Subtract_PS.xml** — Subtract (Photoshop)
+- **HardMix_as.xml** — Hard Mix_as
+- **HardMix_Accurate.xml** — Hard Mix (Accurate)
+- **SoftLight_as.xml** — Soft Light_as
+- **Screen_as.xml** — Screen_as
+- **PinLight_as.xml** — Pin Light_as
+- **Overlay_as.xml** — Overlay_as
+- **Multiply_as.xml** — Multiply_as
+- **LinearLight_as.xml** — Linear Light_as
+- **LinearDodge_as.xml** — Linear Dodge (Add)_as
+- **LinearBurn_as.xml** — Linear Burn (Subtract)_as
+- **Lighten_as.xml** — Lighten_as
+- **HardLight_as.xml** — Hard Light_as
+- **Exclusion_as.xml** — Exclusion_as
+- **Difference_as.xml** — Difference_as
+- **Darken_as.xml** — Darken_as
+- **VividLight_as.xml** — Vivid Light_as
+- **ColorDodge_as.xml** — Color Dodge_as  
 
-Shader Pack: P3D - A framework for 3D applications (by Lizard King)
-- P3D_ipm_gh8g.xml — P3D ipm - Ground Heightmap 8bit Grayscale
-- P3D_ipm_gh8gi.xml — P3D ipm - Ground Heightmap 8bit Grayscale Interpolated
-- P3D_ipm_gh16i.xml — P3D ipm - Ground Heightmap 16bit Interpolated
-- P3D_ipm_gh16.xml — P3D ipm - Ground Heightmap 16bit
-- P3D_ipm_gh8am.xml — P3D ipm - Ground Heightmap 8bit Alpha Mirror
-- P3D_ipm_gh16m.xml — P3D ipm - Ground Heightmap 16bit Mirror
-- P3D_skybox.xml — P3D Skybox
-- P3D_ipm_IS_bd_h.xml — P3D ipm - IS Displaced Volume _ half
-- P3D_ipm_IS_bd.xml — P3D ipm - IS Displaced Volume
-- P3D_ipm_IS_Skydome.xml — P3D ipm - IS Skydome
-- P3D_ipm_IS_brca.xml — P3D ipm - IS Box Repeat Cubemap Absolute coords
-- P3D_ipm_gh16im.xml — P3D ipm - Ground Heightmap 16bit Interpolated Mirror
-- P3D_sprites.xml — P3D Sprites
-- P3D_ipm_IS_cr.xml — P3D ipm - IS Cylinder Repeat
-- P3D_ipm_IS_br.xml — P3D ipm - IS Box Repeat
-- P3D_ipm_IS_c_at.xml — P3D ipm - IS Cylinder alpha through
-- P3D_ipm_IS_bra.xml — P3D ipm - IS Box Repeat Absolute coords
-- P3D_ipm_IS_qm.xml — P3D ipm - IS Quadrilateral Mesh
-- P3D_ipm_IS_tm.xml — P3D ipm - IS Triangle Mesh
-- P3D_ipm_gh8a.xml — P3D ipm - Ground Heightmap 8bit Alpha
-- P3D_ipm_IS_bv.xml — P3D ipm - IS Voxbox
-- P3D_ipm_p_r.xml — P3D ipm - Planes (repeat)
-- P3D_ipm_p_t.xml — P3D ipm - Planes (triangle)
-- P3D_ipm_IS_Skybox.xml — P3D ipm - IS Skybox
-- P3D_ipm_IS_c.xml — P3D ipm - IS Cylinder
-- P3D_ipm_p.xml — P3D ipm - Planes
-- P3D_ipm_IS_brc.xml — P3D ipm - IS Box Repeat Cubemap
-- P3D_ipm_IS_b.xml — P3D ipm - IS Box
-- P3DX11_background.xml — P3DX11 Background
-- P3DX11_display.xml — P3DX11 Display
-- P3D_ipm_IS_s.xml — P3D ipm - IS Sphere
-- P3D_ipm_IS_s_at.xml — P3D ipm - IS Sphere alpha through
+## Shader Pack: P3D - A framework for 3D applications (by Lizard King) (32 shaders)
+- **P3D_ipm_gh8g.xml** — P3D ipm - Ground Heightmap 8bit Grayscale
+- **P3D_ipm_gh8gi.xml** — P3D ipm - Ground Heightmap 8bit Grayscale Interpolated
+- **P3D_ipm_gh16i.xml** — P3D ipm - Ground Heightmap 16bit Interpolated
+- **P3D_ipm_gh16.xml** — P3D ipm - Ground Heightmap 16bit
+- **P3D_ipm_gh8am.xml** — P3D ipm - Ground Heightmap 8bit Alpha Mirror
+- **P3D_ipm_gh16m.xml** — P3D ipm - Ground Heightmap 16bit Mirror
+- **P3D_skybox.xml** — P3D Skybox
+- **P3D_ipm_IS_bd_h.xml** — P3D ipm - IS Displaced Volume _ half
+- **P3D_ipm_IS_bd.xml** — P3D ipm - IS Displaced Volume
+- **P3D_ipm_IS_Skydome.xml** — P3D ipm - IS Skydome
+- **P3D_ipm_IS_brca.xml** — P3D ipm - IS Box Repeat Cubemap Absolute coords
+- **P3D_ipm_gh16im.xml** — P3D ipm - Ground Heightmap 16bit Interpolated Mirror
+- **P3D_sprites.xml** — P3D Sprites
+- **P3D_ipm_IS_cr.xml** — P3D ipm - IS Cylinder Repeat
+- **P3D_ipm_IS_br.xml** — P3D ipm - IS Box Repeat
+- **P3D_ipm_IS_c_at.xml** — P3D ipm - IS Cylinder alpha through
+- **P3D_ipm_IS_bra.xml** — P3D ipm - IS Box Repeat Absolute coords
+- **P3D_ipm_IS_qm.xml** — P3D ipm - IS Quadrilateral Mesh
+- **P3D_ipm_IS_tm.xml** — P3D ipm - IS Triangle Mesh
+- **P3D_ipm_gh8a.xml** — P3D ipm - Ground Heightmap 8bit Alpha
+- **P3D_ipm_IS_bv.xml** — P3D ipm - IS Voxbox
+- **P3D_ipm_p_r.xml** — P3D ipm - Planes (repeat)
+- **P3D_ipm_p_t.xml** — P3D ipm - Planes (triangle)
+- **P3D_ipm_IS_Skybox.xml** — P3D ipm - IS Skybox
+- **P3D_ipm_IS_c.xml** — P3D ipm - IS Cylinder
+- **P3D_ipm_p.xml** — P3D ipm - Planes
+- **P3D_ipm_IS_brc.xml** — P3D ipm - IS Box Repeat Cubemap
+- **P3D_ipm_IS_b.xml** — P3D ipm - IS Box
+- **P3DX11_background.xml** — P3DX11 Background
+- **P3DX11_display.xml** — P3DX11 Display
+- **P3D_ipm_IS_s.xml** — P3D ipm - IS Sphere
+- **P3D_ipm_IS_s_at.xml** — P3D ipm - IS Sphere alpha through  
 
-Shader Pack: Complex Shaders Pack v2 (by Complex Softwares)
-- CS_Bloom2D.xml — Bloom 2D
-- CS_MaskNV.xml — Mask: Night Vision
-- CS_MaskAlpha.xml — Mask Alpha
-- CS_EdgesDetection.xml — Edges detection
-- CS_ZoomOffsetTiled.xml — Zoom+Offset+Tiled
-- CS_Crop.xml — Crop
-- CS_Flip.xml — Flip
-- CS_MoveCircle.xml — Movement: Circle
-- CS_Rotate.xml — Rotate
-- CS_Resize.xml — Resize
-- CS_Zoom.xml — Zoom
-- CS_ZoomOffset.xml — Zoom+Offset
-- CS_MaskSepia.xml — Mask: Sepia
-- CS_MaskBlue.xml — Mask: Blue
-- CS_MaskGreen.xml — Mask: Green
-- CS_MaskRed.xml — Mask: Red
-- CS_TiltV.xml — Tilt V
-- CS_Flag.xml — Flag
-- CS_SinWave.xml — SinWave
-- CS_TiltH.xml — Tilt H
-- CS_TiltHV.xml — Tilt HV
-- CS_Blur.xml — Blur
-- CS_BlurBorders.xml — Blur borders
-- CS_BlurReal.xml — Blur Real
-- CS_BlurXY.xml — Blur XY
-- CS_Sharpen.xml — Sharpen
-- CS_Emboss.xml — Emboss
-- CS_Glow.xml — Glow
-- CS_GlowTotal.xml — Glow Total
-- CS_UnderWater.xml — Under Water
-- CS_BlackAndWhite.xml — Black and White
-- CS_BumpMapping.xml — Bump Mapping
-- CS_RGB2RBG.xml — RGB to RBG
-- CS_RGB2BGR.xml — RGB to BGR
-- CS_RGB2BRG.xml — RGB to BRG
-- CS_RGB2GBR.xml — RGB to GBR
-- CS_RGB2GRB.xml — RGB to GRB
-- CS_ColorizePartsRGB.xml — Colorize: Parts RGB
-- CS_ColorizePartsRGBYCM.xml — Colorize: Parts RGBYCM
-- CS_ColorizePartsWRGB.xml — Colorize: Parts WRGB
-- CS_ColorizeRed.xml — Colorize: Red
-- CS_ColorizeYellow.xml — Colorize: Yellow
-- CS_ColorizeBlue.xml — Colorize: Blue
-- CS_ColorizeCyan.xml — Colorize: Cyan
-- CS_ColorizeGreen.xml — Colorize: Green
-- CS_ColorizeGrey.xml — Colorize: Grey
-- CS_ColorizeMagenta.xml — Colorize: Magenta
-- CS_InvertContrast.xml — Invert and Contrast
-- CS_Saturation0.xml — Saturation 0
-- CS_Saturation.xml — Saturation
-- CS_Tint.xml — Tint
-- CS_Brightness.xml — Brightness
-- CS_Hue.xml — Hue
+## Shader Pack: Complex Shaders Pack v2 (by Complex Softwares) (53 shaders)
+- **CS_Bloom2D.xml** — Bloom 2D
+- **CS_MaskNV.xml** — CS_MaskNV
+- **CS_MaskAlpha.xml** — Mask Alpha
+- **CS_EdgesDetection.xml** — Edges detection
+- **CS_ZoomOffsetTiled.xml** — Zoom+Offset+Tiled
+- **CS_Crop.xml** — Crop
+- **CS_Flip.xml** — Flip
+- **CS_MoveCircle.xml** — Movement: Circle
+- **CS_Rotate.xml** — Rotate
+- **CS_Resize.xml** — Resize
+- **CS_Zoom.xml** — Zoom
+- **CS_ZoomOffset.xml** — Zoom+Offset
+- **CS_MaskSepia.xml** — CS_MaskSepia
+- **CS_MaskBlue.xml** — Mask: Blue
+- **CS_MaskGreen.xml** — Mask: Green
+- **CS_MaskRed.xml** — Mask: Red
+- **CS_TiltV.xml** — Tilt V
+- **CS_Flag.xml** — Flag
+- **CS_SinWave.xml** — SinWave
+- **CS_TiltH.xml** — Tilt H
+- **CS_TiltHV.xml** — Tilt HV
+- **CS_Blur.xml** — Blur
+- **CS_BlurBorders.xml** — Blur borders
+- **CS_BlurReal.xml** — Blur Real
+- **CS_BlurXY.xml** — Blur XY
+- **CS_Sharpen.xml** — Sharpen
+- **CS_Emboss.xml** — Emboss
+- **CS_Glow.xml** — Glow
+- **CS_GlowTotal.xml** — Glow Total
+- **CS_UnderWater.xml** — Under Water
+- **CS_BlackAndWhite.xml** — Black and White
+- **CS_BumpMapping.xml** — Bump Mapping
+- **CS_RGB2RBG.xml** — RGB to RBG
+- **CS_RGB2BGR.xml** — RGB to BGR
+- **CS_RGB2BRG.xml** — RGB to BRG
+- **CS_RGB2GBR.xml** — RGB to GBR
+- **CS_RGB2GRB.xml** — RGB to GRB
+- **CS_ColorizePartsRGB.xml** — Colorize: Parts RGB
+- **CS_ColorizePartsRGBYCM.xml** — Colorize: Parts RGBYCM
+- **CS_ColorizePartsWRGB.xml** — Colorize: Parts WRGB
+- **CS_ColorizeRed.xml** — Colorize: Red
+- **CS_ColorizeYellow.xml** — Colorize: Yellow
+- **CS_ColorizeBlue.xml** — Colorize: Blue
+- **CS_ColorizeCyan.xml** — Colorize: Cyan
+- **CS_ColorizeGreen.xml** — Colorize: Green
+- **CS_ColorizeGrey.xml** — Colorize: Grey
+- **CS_ColorizeMagenta.xml** — Colorize: Magenta
+- **CS_InvertContrast.xml** — Invert and Contrast
+- **CS_Saturation0.xml** — Saturation 0
+- **CS_Saturation.xml** — Saturation
+- **CS_Tint.xml** — Tint
+- **CS_Brightness.xml** — Brightness
+- **CS_Hue.xml** — Hue  
 
-Shader Pack: Looki Full Pack
-- RotateDodge.xml — Rotate Dodge
-- Colorizer.xml — Colorizer
-- TintedLens.xml — Tinted Lens
-- PaletteMap.xml — Palette Map
-- SonicFade.xml — Sonic Fade
-- DropShadow.xml — Drop Shadow
-- ColorReplacer.xml — Color Replacer
-- MotionBlur.xml — Motion Blur (Whole frame only)
-- CRT.xml — CRT
-- Gamma.xml — Gamma Correction
-- ChannelOffset.xml — Channel Offset
-- ColorMixer.xml — Color Mixer
-- RadialBlur.xml — Radial Blur
-- Pattern Overlay.xml — Pattern Overlay
-- BrightnessSaturation.xml — Brightness + Saturation
-- SubPx.xml — Sub-Pixel
-- KeepColor.xml — Keep Color
-- BgBloom.xml — Background Bloom
-- Bloom.xml — Bloom
-- SelectiveBgBlur.xml — Selective Background Blur
-- Offset.xml — Background Offset
-- DualGlow.xml — Dual Glow
-- InnerGlow.xml — Inner Glow
-- InvertBlend.xml — Invert blend
-- BrightenByBG.xml — Brighten by background
-- Lens.xml — Lens
-- CircularMask.xml — Circular mask
-- PixelOutline.xml — Pixel outline
-- BGInvert.xml — Invert background
-- BgBlur.xml — Background Blur
-- PinLight.xml — Pin Light
-- SoftLight.xml — Soft Light
-- Screen.xml — Screen
-- Overlay.xml — Overlay
-- HardLight.xml — Hard Light
-- HardMix.xml — Hard Mix
-- LinearBurn.xml — Linear Burn (Subtract)
-- LinearDodge.xml — Linear Dodge (Add)
-- LinearLight.xml — Linear Light
-- Exclusion.xml — Exclusion
-- Difference.xml — Difference
-- Darken.xml — Darken
-- Lighten.xml — Lighten
-- Multiply.xml — Multiply
-- ColorBurn.xml — Color Burn
-- ColorDodge.xml — Color Dodge
-- VividLight.xml — Vivid Light
-- GrainPS2.xml — Grain ps_2_0
-- Hole.xml — Hole
-- InOut.xml — Channel In/Out
-- Shade.xml — Shading
-- Perspective.xml — Perspective
-- ChannelShift.xml — Channel Shift
-- Sphere.xml — Sphere
-- Gradient.xml — Gradient
-- Depth.xml — Depth
-- Mirror.xml — Mirror
-- RotateSub.xml — Rotate and Sub-Pixel positioning
-- SimpleMask.xml — Simple Mask
-- Mosaic.xml — Mosaic
-- ChannelBlur.xml — Channel Blur
-- Display.xml — Display
-- ChannelDepth.xml — Channel Depth
-- ChannelInvert.xml — Channel Invert
-- DirBlur x3.xml — Directional Blur 3x
-- DirBlur x2.xml — Directional Blur 2x
-- DirBlur x1.xml — Directional Blur 1x
+## Shader Pack: Looki Full Pack (67 shaders)
+- **RotateDodge.xml** — Rotate Dodge
+- **Colorizer.xml** — Colorizer
+- **TintedLens.xml** — Tinted Lens
+- **PaletteMap.xml** — Palette Map
+- **SonicFade.xml** — Sonic Fade
+- **DropShadow.xml** — Drop Shadow
+- **ColorReplacer.xml** — Color Replacer
+- **MotionBlur.xml** — Motion Blur (Whole frame only)
+- **CRT.xml** — CRT
+- **Gamma.xml** — Gamma Correction
+- **ChannelOffset.xml** — Channel Offset
+- **ColorMixer.xml** — Color Mixer
+- **RadialBlur.xml** — Radial Blur
+- **Pattern Overlay.xml** — Pattern Overlay
+- **BrightnessSaturation.xml** — Brightness + Saturation
+- **SubPx.xml** — Sub-Pixel
+- **KeepColor.xml** — Keep Color
+- **BgBloom.xml** — Background Bloom
+- **Bloom.xml** — Bloom
+- **SelectiveBgBlur.xml** — Selective Background Blur
+- **Offset.xml** — Background Offset
+- **DualGlow.xml** — Dual Glow
+- **InnerGlow.xml** — Inner Glow
+- **InvertBlend.xml** — Invert blend
+- **BrightenByBG.xml** — Brighten by background
+- **Lens.xml** — Lens
+- **CircularMask.xml** — Circular mask
+- **PixelOutline.xml** — Pixel outline
+- **BGInvert.xml** — Invert background
+- **BgBlur.xml** — Background Blur
+- **PinLight.xml** — Pin Light
+- **SoftLight.xml** — Soft Light
+- **Screen.xml** — Screen
+- **Overlay.xml** — Overlay
+- **HardLight.xml** — Hard Light
+- **HardMix.xml** — Hard Mix
+- **LinearBurn.xml** — Linear Burn (Subtract)
+- **LinearDodge.xml** — Linear Dodge (Add)
+- **LinearLight.xml** — Linear Light
+- **Exclusion.xml** — Exclusion
+- **Difference.xml** — Difference
+- **Darken.xml** — Darken
+- **Lighten.xml** — Lighten
+- **Multiply.xml** — Multiply
+- **ColorBurn.xml** — Color Burn
+- **ColorDodge.xml** — Color Dodge
+- **VividLight.xml** — Vivid Light
+- **GrainPS2.xml** — Grain ps_2_0
+- **Hole.xml** — Hole
+- **InOut.xml** — Channel In/Out
+- **Shade.xml** — Shading
+- **Perspective.xml** — Perspective
+- **ChannelShift.xml** — Channel Shift
+- **Sphere.xml** — Sphere
+- **Gradient.xml** — Gradient
+- **Depth.xml** — Depth
+- **Mirror.xml** — Mirror
+- **RotateSub.xml** — Rotate and Sub-Pixel positioning
+- **SimpleMask.xml** — Simple Mask
+- **Mosaic.xml** — Mosaic
+- **ChannelBlur.xml** — Channel Blur
+- **Display.xml** — Display
+- **ChannelDepth.xml** — Channel Depth
+- **ChannelInvert.xml** — Channel Invert
+- **DirBlur x3.xml** — Directional Blur 3x
+- **DirBlur x2.xml** — Directional Blur 2x
+- **DirBlur x1.xml** — Directional Blur 1x  
 
-Shader Pack: Foxioo Shader Pack
-- Logical LEFTSHIFT Blend (Background).xml — Logical LEFTSHIFT Blend (Background)
-- Logical LEFTSHIFT Base (Background).xml — Logical LEFTSHIFT Base (Background)
-- Logical ROTATELEFT Base (Background).xml — Logical ROTATELEFT Base (Background)
-- Logical ARLEFTSHIFT Blend (Background).xml — Logical ARLEFTSHIFT Blend (Background)
-- Logical ARLEFTSHIFT Base (Background).xml — Logical ARLEFTSHIFT Base (Background)
-- Comparison Equal (Background).xml — Comparison Equal (Background)
-- Comparison Less Equal (Background).xml — Comparison Less Equal (Background)
-- Comparison Greater (Background).xml — Comparison Greater (Background)
-- Comparison Less (Background).xml — Comparison Less (Background)
-- Comparison Greater Equal (Background).xml — Comparison Greater Equal (Background)
-- Comparison Different (Background).xml — Comparison Different (Background)
-- Logical ARRIGHTSHIFT Blend (Background).xml — Logical ARRIGHTSHIFT Blend (Background)
-- Logical ARRIGHTSHIFT Base (Background).xml — Logical ARRIGHTSHIFT Base (Background)
-- Logical ROTATERIGHT Blend (Background).xml — Logical ROTATERIGHT Blend (Background)
-- Logical ROTATERIGHT Base (Background).xml — Logical ROTATERIGHT Base (Background)
-- Logical ROTATELEFT Blend (Background).xml — Logical ROTATELEFT Blend (Background)
-- Logical XNIMPLY (Background).xml — Logical XNIMPLY (Background)
-- Logical XIMPLY (Background).xml — Logical XIMPLY (Background)
-- Logical RIGHTSHIFT Blend (Background).xml — Logical RIGHTSHIFT Blend (Background)
-- Windows Aero Tinted (Background).xml — Windows Aero Tinted (Background)
-- Windows Aero Clean (Background).xml — Windows Aero Clean (Background)
-- Windows Aero (Background).xml — Windows Aero (Background)
-- Water Reflected (Background).xml — Water Reflected (Background)
-- Void (Background).xml — Void (Background)
-- VHS (Texture).xml — VHS (Texture)
-- VHS (Background).xml — VHS (Background)
-- Vector Gradient Blur (Switch).xml — Vector Gradient Blur (Switch)
-- Vector Gradient Bloom (Switch).xml — Vector Gradient Bloom (Switch)
-- TV Analog Noise (Switch).xml — TV Analog Noise (Switch)
-- Texture Mask (Texture).xml — Texture Mask (Texture)
-- Temperature (Switch).xml — Temperature (Switch)
-- Swirl (Switch).xml — Swirl (Switch)
-- Superholo (Switch).xml — Superholo (Switch)
-- Subtraction With Tangent (Background).xml — Subtraction With Tangent (Background)
-- Subtraction With Square Root (Background).xml — Subtraction With Square Root (Background)
-- Subtraction With Sinus (Background).xml — Subtraction With Sinus (Background)
-- Subtraction With Secant (Background).xml — Subtraction With Secant (Background)
-- Subtraction With Round (Background).xml — Subtraction With Round (Background)
-- Subtraction With Reciprocal Square Root (Background).xml — Subtraction With Reciprocal Square Root (Background)
-- Subtraction With Power (Background).xml — Subtraction With Power (Background)
-- Subtraction With Hyperbolic Tangent (Background).xml — Subtraction With Hyperbolic Tangent (Background)
-- Subtraction With Hyperbolic Sinus (Background).xml — Subtraction With Hyperbolic Sinus (Background)
-- Subtraction With Hyperbolic Secant (Background).xml — Subtraction With Hyperbolic Secant (Background)
-- Subtraction With Hyperbolic Cotangent (Background).xml — Subtraction With Hyperbolic Cotangent (Background)
-- Subtraction With Hyperbolic Cosinus (Background).xml — Subtraction With Hyperbolic Cosinus (Background)
-- Subtraction With Hyperbolic Cosecant (Background).xml — Subtraction With Hyperbolic Cosecant (Background)
-- Subtraction With Floating Modulus (Background).xml — Subtraction With Floating Modulus (Background)
-- Subtraction With Cotangent (Background).xml — Subtraction With Cotangent (Background)
-- Subtraction With Cosinus (Background).xml — Subtraction With Cosinus (Background)
-- Subtraction With Cosecant (Background).xml — Subtraction With Cosecant (Background)
-- Subtraction With Arctangent (Background).xml — Subtraction With Arctangent (Background)
-- Subtraction With Arcsinus (Background).xml — Subtraction With Arcsinus (Background)
-- Subtraction With Arccosinus (Background).xml — Subtraction With Arccosinus (Background)
-- Subtraction (Background).xml — Subtraction (Background)
-- Straight To Premultiplied Alpha (Texture).xml — Straight To Premultiplied Alpha (Texture)
-- Squeeze (Switch).xml — Squeeze (Switch)
-- Sinus Wave Offset (Switch).xml — Sinus Wave Offset (Switch)
-- Sinus Wave (Switch).xml — Sinus Wave (Switch)
-- Simulation Of Tritanopia (Switch).xml — Simulation Of Tritanopia (Switch)
-- Simulation Of Tritanomaly (Switch).xml — Simulation Of Tritanomaly (Switch)
-- Simulation Of Protanopia (Switch).xml — Simulation Of Protanopia (Switch)
-- Simulation Of Protanomaly (Switch).xml — Simulation Of Protanomaly (Switch)
-- Simulation Of Deuteranopia (Switch).xml — Simulation Of Deuteranopia (Switch)
-- Simulation Of Deuteranomaly (Switch).xml — Simulation Of Deuteranomaly (Switch)
-- Simulation Of Achromatopsia (Switch).xml — Simulation Of Achromatopsia (Switch)
-- Simulation Of Achromatomaly (Switch).xml — Simulation Of Achromatomaly (Switch)
-- Simulation Color Blindness AIO (Switch).xml — Simulation Color Blindness AIO (Switch)
-- Shear (Switch).xml — Shear (Switch)
-- Sharpness (Switch).xml — Sharpness (Switch)
-- Sepia (Switch).xml — Sepia (Switch)
-- Self Offset Color (Texture+Background).xml — Self Offset Color (Texture+Background)
-- Segmented Liquid-Crystal Display (Switch).xml — Segmented Liquid-Crystal Display (Switch)
-- RPB Foilage (Background).xml — RPB Foilage (Background)
-- Ripple Radial (Switch).xml — Ripple Radial (Switch)
-- Reversed Offset Color (Background).xml — Reversed Offset Color (Background)
-- Recolor Monochrome Tint-To-White (Switch).xml — Recolor Monochrome Tint-To-White (Switch)
-- Recolor Monochrome Luminated (Switch).xml — Recolor Monochrome Luminated (Switch)
-- Recolor Monochrome (Switch).xml — Recolor Monochrome (Switch)
-- Rainbow Foilage (Switch).xml — Rainbow Foilage (Switch)
-- Quad With Reflections (Background).xml — Quad With Reflections (Background)
-- Quad With Reflections (Background) [Legacy].xml — Quad With Reflections (Background) [Legacy]
-- Quad With Metalic Reflections (Background).xml — Quad With Metalic Reflections (Background)
-- Quad With Metalic Reflections (Background) [Legacy].xml — Quad With Metalic Reflections (Background) [Legacy]
-- Quad With Glass Reflections (Background).xml — Quad With Glass Reflections (Background)
-- Quad With Glass Reflections (Background) [Legacy].xml — Quad With Glass Reflections (Background) [Legacy]
-- Quad With Floor Reflection (Background).xml — Quad With Floor Reflection (Background)
-- Quad Wire-Frame (Texture).xml — Quad Wire-Frame (Texture)
-- Quad Test Without Border (Texture).xml — Quad Test Without Border (Texture)
-- Quad PSX (Texture).xml — Quad PSX (Texture)
-- Quad Mask (Texture).xml — Quad Mask (Texture)
-- Quad Mask (Texture) [Legacy].xml — Quad Mask (Texture) [Legacy]
-- Quad Inverted Mask (Texture).xml — Quad Inverted Mask (Texture)
-- Quad Inverted Mask (Texture) [Legacy].xml — Quad Inverted Mask (Texture) [Legacy]
-- Quad Fixed (Texture).xml — Quad Fixed (Texture)
-- Quad Fixed (Texture) [Legacy].xml — Quad Fixed (Texture) [Legacy]
-- Quad Fixed (Texture) [Antialiasing].xml — Quad Fixed (Texture) [Antialiasing]
-- Quad Fixed (Texture) [Antialiasing] [Legacy].xml — Quad Fixed (Texture) [Antialiasing] [Legacy]
-- Quad Colored Vertex Manhattan (Texture).xml — Quad Colored Vertex With Manhattan Distance (Texture)
-- Quad Colored Vertex Manhattan (Texture) [Legacy].xml — Quad Colored Vertex With Manhattan Distance (Texture) [Legacy]
-- Quad Colored Vertex (Texture).xml — Quad Colored Vertex (Texture)
-- Quad Colored Vertex (Texture) [Legacy].xml — Quad Colored Vertex (Texture) [Legacy]
-- Quad Colored Solid (Texture).xml — Quad Colored Solid (Texture)
-- Quad Colored Solid (Texture) [Legacy].xml — Quad Colored Solid (Texture) [Legacy]
-- Quad Affine (Texture).xml — Quad Affine (Texture)
-- PVZA Flower Cooldown (Texture).xml — Plants VS Zombies Adventures Flower Cooldown (Texture)
-- Premultiplied To Straight Alpha (Texture).xml — Premultiplied To Straight Alpha (Texture)
-- Polar (Switch).xml — Polar (Switch)
-- Pinch (Switch).xml — Pinch (Switch)
-- Photoshop Vivid Light (Background).xml — Photoshop Vivid Light (Background)
-- Photoshop Soft Light (Background).xml — Photoshop Soft Light (Background)
-- Photoshop Screen (Background).xml — Photoshop Screen (Background)
-- Photoshop Saturation (Background).xml — Photoshop Saturation (Background)
-- Photoshop Pin Light (Background).xml — Photoshop Pin Light (Background)
-- Photoshop Overlay (Background).xml — Photoshop Overlay (Background)
-- Photoshop Luminosity (Background).xml — Photoshop Luminosity (Background)
-- Photoshop Linear Light (Background).xml — Photoshop Linear Light (Background)
-- Photoshop Linear Burn (Background).xml — Photoshop Linear Burn (Background)
-- Photoshop Lighter Color (Background).xml — Photoshop Lighter Color (Background)
-- Photoshop Lighten (Background).xml — Photoshop Lighten (Background)
-- Photoshop Hue (Background).xml — Photoshop Hue (Background)
-- Photoshop Hard Mix (Background).xml — Photoshop Hard Mix (Background)
-- Photoshop Hard Light (Background).xml — Photoshop Hard Light (Background)
-- Photoshop Exclusion (Background).xml — Photoshop Exclusion (Background)
-- Photoshop Dissolve (Texture).xml — Photoshop Dissolve (Texture)
-- Photoshop Difference (Background).xml — Photoshop Difference (Background)
-- Photoshop Darker Color (Background).xml — Photoshop Darker Color (Background)
-- Photoshop Darken (Background).xml — Photoshop Darken (Background)
-- Photoshop Color Dodge (Background).xml — Photoshop Color Dodge (Background)
-- Photoshop Color Burn (Background).xml — Photoshop Color Burn (Background)
-- Photoshop Color (Background).xml — Photoshop Color (Background)
-- Photographic Film Negative (Switch).xml — Photographic Film Negative (Switch)
-- PaintDotNET Reflect (Background).xml — PaintDOTNet Reflect (Background)
-- PaintDotNET Glow (Background).xml — PaintDOTNet Glow (Background)
-- Oscillation (Switch).xml — Oscillation (Switch)
-- Offset Color (Background).xml — Offset Color (Background)
-- Normal Map (Switch).xml — Normal Map (Switch)
-- Noise Blur (Switch).xml — Noise Blur (Switch)
-- Multiplication With Tangent (Background).xml — Multiplication With Tangent (Background)
-- Multiplication With Square Root (Background).xml — Multiplication With Square Root (Background)
-- Multiplication With Sinus (Background).xml — Multiplication With Sinus (Background)
-- Multiplication With Secant (Background).xml — Multiplication With Secant (Background)
-- Multiplication With Round (Background).xml — Multiplication With Round (Background)
-- Multiplication With Reciprocal Square Root (Background).xml — Multiplication With Reciprocal Square Root (Background)
-- Multiplication With Power (Background).xml — Multiplication With Power (Background)
-- Multiplication With Hyperbolic Tangent (Background).xml — Multiplication With Hyperbolic Tangent (Background)
-- Multiplication With Hyperbolic Sinus (Background).xml — Multiplication With Hyperbolic Sinus (Background)
-- Multiplication With Hyperbolic Secant (Background).xml — Multiplication With Hyperbolic Secant (Background)
-- Multiplication With Hyperbolic Cotangent (Background).xml — Multiplication With Hyperbolic Cotangent (Background)
-- Multiplication With Hyperbolic Cosinus (Background).xml — Multiplication With Hyperbolic Cosinus (Background)
-- Multiplication With Hyperbolic Cosecant (Background).xml — Multiplication With Hyperbolic Cosecant (Background)
-- Multiplication With Floating Modulus (Background).xml — Multiplication With Floating Modulus (Background)
-- Multiplication With Cotangent (Background).xml — Multiplication With Cotangent (Background)
-- Multiplication With Cosinus (Background).xml — Multiplication With Cosinus (Background)
-- Multiplication With Cosecant (Background).xml — Multiplication With Cosecant (Background)
-- Multiplication With Arctangent (Background).xml — Multiplication With Arctangent (Background)
-- Multiplication With Arcsinus (Background).xml — Multiplication With Arcsinus (Background)
-- Multiplication With Arccosinus (Background).xml — Multiplication With Arccosinus (Background)
-- Multiplication (Background).xml — Multiplication (Background)
-- MS Paint (Switch).xml — MS Paint (Switch)
-- Mode 7 (Switch).xml — Mode 7 (Switch)
-- Mode 7 (Switch) [Antialiasing].xml — Mode 7 (Switch) [Antialiasing]
-- Mangaish (Switch).xml — Mangaish (Switch)
-- Logical XOR (Background).xml — Logical XOR (Background)
-- Logical XNOR (Background).xml — Logical XNOR (Background)
-- Logical OR (Background).xml — Logical OR (Background)
-- Logical NOR (Background).xml — Logical NOR (Background)
-- Logical NIMPLY (Background).xml — Logical NIMPLY (Background)
-- Logical NAND (Background).xml — Logical NAND (Background)
-- Logical IMPLY (Background).xml — Logical IMPLY (Background)
-- Logical AND (Background).xml — Logical AND (Background)
-- Liquid Wave Bending (Switch).xml — Liquid Wave Bending (Switch)
-- Liquid Glass Blurry (Background).xml — Liquid Glass Blurry (Background)
-- Liquid Glass (Background).xml — Liquid Glass (Background)
-- Light (Background).xml — Light (Background)
-- Kuwahara Filter (Switch).xml — Kuwahara Filter (Switch)
-- Krita Reflect-Freeze (Background).xml — Krita Reflect-Freeze (Background)
-- Krita Reeze (Background).xml — Krita Reeze (Background)
-- Krita Penumbra D (Background).xml — Krita Penumbra D (Background)
-- Krita Penumbra C (Background).xml — Krita Penumbra C (Background)
-- Krita Penumbra B (Background).xml — Krita Penumbra B (Background)
-- Krita Penumbra A (Background).xml — Krita Penumbra A (Background)
-- Krita Parallel (Background).xml — Krita Parallel (Background)
-- Krita Negation (Background).xml — Krita Negation (Background)
-- Krita Interpolation (Background).xml — Krita Interpolation (Background)
-- Krita Interpolation - 2X (Background).xml — Krita Interpolation - 2X (Background)
-- Krita Helow (Background).xml — Krita Helow (Background)
-- Krita Heat-Glow and Freeze-Reflect Hybrid (Background).xml — Krita Heat-Glow and Freeze-Reflect Hybrid (Background)
-- Krita Heat-Glow (Background).xml — Krita Heat-Glow (Background)
-- Krita Heat (Background).xml — Krita Heat (Background)
-- Krita Hard Mix Softer (Background).xml — Krita Hard Mix Softer (Background)
-- Krita Glow-Heat (Background).xml — Krita Glow-Heat (Background)
-- Krita Glow (Background).xml — Krita Glow (Background)
-- Krita Gleat (Background).xml — Krita Gleat (Background)
-- Krita Freeze-Reflect (Background).xml — Krita Freeze-Reflect (Background)
-- Krita Freeze (Background).xml — Krita Freeze (Background)
-- Krita Frect (Background).xml — Krita Frect (Background)
-- Krita Arcus Tangens (Background).xml — Krita Arcus Tangens (Background)
-- Krita Additive Subtractive (Background).xml — Krita Additive Subtractive (Background)
-- Klisza (Background).xml — Klisza (Background)
-- Kaleidoscope (Switch).xml — Kaleidoscope (Switch)
-- JPEG Compression (Switch).xml — JPEG Compression (Switch)
-- Invert Color Yellow (Switch).xml — Invert Color Yellow (Switch)
-- Invert Color Red (Switch).xml — Invert Color Red (Switch)
-- Invert Color Magenta (Switch).xml — Invert Color Magenta (Switch)
-- Invert Color Green (Switch).xml — Invert Color Green (Switch)
-- Invert Color Cyan (Switch).xml — Invert Color Cyan (Switch)
-- Invert Color Blue (Switch).xml — Invert Color Blue (Switch)
-- Invert Brightness (Switch) [Rework].xml — Invert Brightness (Switch) [Rework]
-- Invert Brightness (Switch) [Legacy].xml — Invert Brightness (Switch) [Legacy]
-- HSV (Switch).xml — HSV (Switch)
-- HSL (Switch) [Rework].xml — HSL (Switch) [Rework]
-- HSL (Switch) [Legacy].xml — HSL (Switch) [Legacy]
-- HSI (Switch).xml — HSI (Switch)
-- GIMP Grain Merge (Background).xml — GIMP Grain Merge (Background)
-- GIMP Grain Extract (Background).xml — GIMP Grain Extract (Background)
-- Geometry Dash Glass Blocks (Background).xml — Geometry Dash Glass Blocks (Background)
-- genshin shader 3.xml — genshin shader 3
-- Genshin Impact Natlan Outline (Background).xml — Genshin Impact Natlan Outline (Background)
-- Frutiger Aero (Background).xml — Frutiger Aero (Background)
-- Freeze (Switch).xml — Freeze (Switch)
-- Foliage Wind (Switch).xml — Foliage Wind (Switch)
-- Flip (Switch).xml — Flip (Switch)
-- Fisheye Lens Stereographic (Switch).xml — Fisheye Lens Stereographic (Switch)
-- Fisheye Lens Rectilinear (Switch).xml — Fisheye Lens Rectilinear (Switch)
-- Fisheye Lens Orthographic (Switch).xml — Fisheye Lens Orthographic (Switch)
-- Fisheye Lens Equisolid Angle (Switch).xml — Fisheye Lens Equisolid Angle (Switch)
-- Fisheye Lens Equidistant (Switch).xml — Fisheye Lens Equidistant (Switch)
-- End Portal (Texture).xml — End Portal (Texture)
-- Enchantment Glint (Switch).xml — Enchantment Glint (Switch)
-- Emboss (Switch).xml — Emboss (Switch)
-- Duo Recolor Monochrome Tint-To-White (Switch).xml — Duo Recolor Monochrome Tint-To-White (Switch)
-- Duo Recolor Monochrome Luminated (Switch).xml — Duo Recolor Monochrome Luminated (Switch)
-- Duo Recolor Monochrome (Switch).xml — Duo Recolor Monochrome (Switch)
-- Division With Tangent (Background).xml — Division With Tangent (Background)
-- Division With Square Root (Background).xml — Division With Square Root (Background)
-- Division With Sinus (Background).xml — Division With Sinus (Background)
-- Division With Secant (Background).xml — Division With Secant (Background)
-- Division With Round (Background).xml — Division With Round (Background)
-- Division With Reciprocal Square Root (Background).xml — Division With Reciprocal Square Root (Background)
-- Division With Power (Background).xml — Division With Power (Background)
-- Division With Hyperbolic Tangent (Background).xml — Division With Hyperbolic Tangent (Background)
-- Division With Hyperbolic Sinus (Background).xml — Division With Hyperbolic Sinus (Background)
-- Division With Hyperbolic Secant (Background).xml — Division With Hyperbolic Secant (Background)
-- Division With Hyperbolic Cotangent (Background).xml — Division With Hyperbolic Cotangent (Background)
-- Division With Hyperbolic Cosinus (Background).xml — Division With Hyperbolic Cosinus (Background)
-- Division With Hyperbolic Cosecant (Background).xml — Division With Hyperbolic Cosecant (Background)
-- Division With Floating Modulus (Background).xml — Division With Floating Modulus (Background)
-- Division With Cotangent (Background).xml — Division With Cotangent (Background)
-- Division With Cosinus (Background).xml — Division With Cosinus (Background)
-- Division With Cosecant (Background).xml — Division With Cosecant (Background)
-- Division With Arctangent (Background).xml — Division With Arctangent (Background)
-- Division With Arcsinus (Background).xml — Division With Arcsinus (Background)
-- Division With Arccosinus (Background).xml — Division With Arccosinus (Background)
-- Division (Background).xml — Division (Background)
-- Deltarune Vessel Background (Switch).xml — Deltarune Vessel Background (Switch)
-- Deltarune Jevil Background Fight (Switch).xml — Deltarune Jevil Background Fight (Switch)
-- Deltarune Freeze (Texture).xml — Deltarune Freeze (Texture)
-- Deltarune Church Prophecy Panel (Texture).xml — Deltarune Church Prophecy Panel (Texture)
-- Daytime (Switch).xml — Daytime (Switch)
-- Cut-Off Alpha Test (Texture).xml — Cut-Off Alpha Test (Texture)
-- CPU Foilage (Switch).xml — CPU Foilage (Switch)
-- Correction With Tangent (Switch).xml — Correction With Tangent (Switch)
-- Correction With Square Root (Switch).xml — Correction With Square Root (Switch)
-- Correction With Sinus (Switch).xml — Correction With Sinus (Switch)
-- Correction With Secant (Switch).xml — Correction With Secant (Switch)
-- Correction With Round (Switch).xml — Correction With Round (Switch)
-- Correction With Reciprocal Square Root (Switch).xml — Correction With Reciprocal Square Root (Switch)
-- Correction With Power (Switch).xml — Correction With Power (Switch)
-- Correction With Hyperbolic Tangent (Switch).xml — Correction With Hyperbolic Tangent (Switch)
-- Correction With Hyperbolic Sinus (Switch).xml — Correction With Hyperbolic Sinus (Switch)
-- Correction With Hyperbolic Secant (Switch).xml — Correction With Hyperbolic Secant (Switch)
-- Correction With Hyperbolic Cotangent (Switch).xml — Correction With Hyperbolic Cotangent (Switch)
-- Correction With Hyperbolic Cosinus (Switch).xml — Correction With Hyperbolic Cosinus (Switch)
-- Correction With Hyperbolic Cosecant (Switch).xml — Correction With Hyperbolic Cosecant (Switch)
-- Correction With Floating Modulus (Switch).xml — Correction With Floating Modulus (Switch)
-- Correction With Cotangent (Switch).xml — Correction With Cotangent (Switch)
-- Correction With Cosinus (Switch).xml — Correction With Cosinus (Switch)
-- Correction With Cosecant (Switch).xml — Correction With Cosecant (Switch)
-- Correction With Arctangent (Switch).xml — Correction With Arctangent (Switch)
-- Correction With Arcsinus (Switch).xml — Correction With Arcsinus (Switch)
-- Correction With Arccosinus (Switch).xml — Correction With Arccosinus (Switch)
-- Conversion To YUV (Switch).xml — Conversion To YUV (Switch)
-- Conversion To Y'PbPr (Switch).xml — Conversion To Y'PbPr (Switch)
-- Conversion To YIQ (Switch).xml — Conversion To YIQ (Switch)
-- Conversion To Y'DbDr (Switch).xml — Conversion To Y'DbDr (Switch)
-- Conversion To Y'CoCg (Switch).xml — Conversion To Y'CoCg (Switch)
-- Conversion To Y'CbCr (Switch).xml — Conversion To Y'CbCr (Switch)
-- Conversion To ICtCp (Switch).xml — Conversion To ICtCp (Switch)
-- Conversion To CMYK (Switch).xml — Conversion To CMYK (Switch)
-- Composite Video Compression (Texture).xml — Composite Video Compression (Texture)
-- Composite Video Compression (Background).xml — Composite Video Compression (Background)
-- Colorful Grayout Foilage (Switch).xml — Colorful Grayout Foilage (Switch)
-- Color Combiner (Switch).xml — Color Combiner (Switch)
-- Color Accent (Switch).xml — Color Accent (Switch)
-- Codebook (Switch).xml — Codebook (Switch)
-- CMYK Halftone Dot (Switch).xml — CMYK Halftone Dot (Switch)
-- CMYK (Switch).xml — CMYK (Switch)
-- CIELab (Switch).xml — CIELab (Switch)
-- Chromatic Aberration (Switch).xml — Chromatic Aberration (Switch)
-- Chroma Key Inverted (Texture).xml — Chroma Key Color Inverted (Texture)
-- Chroma Key Color (Texture).xml — Chroma Key Color (Texture)
-- CD-R Blu (Background).xml — CD-R Blu (Background)
-- CD-R (Background).xml — CD-R (Background)
-- Burn (Switch).xml — Burn (Switch)
-- Bulge (Switch).xml — Bulge (Switch)
-- Blend Value (Background).xml — Blend Value (Background)
-- Blend Stamp (Background).xml — Blend Stamp (Background)
-- Blend Signed Difference (Background).xml — Blend Signed Difference (Background)
-- Blend Phoenix (Background).xml — Blend Phoenix (Background)
-- Blend Inverted (Background).xml — Blend Inverted (Background)
-- Blend Intensity (Background).xml — Blend Intensity (Background)
-- Blend Color Yellow (Background).xml — Blend Color Yellow (Background)
-- Blend Color Red (Background).xml — Blend Color Red (Background)
-- Blend Color Magenta (Background).xml — Blend Color Magenta (Background)
-- Blend Color Green (Background).xml — Blend Color Green (Background)
-- Blend Color Cyan (Background).xml — Blend Color Cyan (Background)
-- Blend Color Blue (Background).xml — Blend Color Blue (Background)
-- Blend Average (Background).xml — Blend Average (Background)
-- Better Bloom (Background).xml — Better Bloom (Background)
-- Bend (Switch).xml — Bend (Switch)
-- Aura (Background).xml — Aura (Background)
-- Animeish (Switch) [Legacy].xml — Animeish (Switch) [Legacy]
-- Anime Zoom! Effect (Switch).xml — Anime Zoom! Effect (Switch)
-- Ambient (Switch).xml — Ambient (Switch)
-- Alpha Fish (Texture).xml — Alpha Fish (Texture)
-- Aerochrome Film (Switch).xml — Aerochrome Film (Switch)
-- Addition With Tangent (Background).xml — Addition With Tangent (Background)
-- Addition With Square Root (Background).xml — Addition With Square Root (Background)
-- Addition With Sinus (Background).xml — Addition With Sinus (Background)
-- Addition With Secant (Background).xml — Addition With Secant (Background)
-- Addition With Round (Background).xml — Addition With Round (Background)
-- Addition With Reciprocal Square Root (Background).xml — Addition With Reciprocal Square Root (Background)
-- Addition With Power (Background).xml — Addition With Power (Background)
-- Addition With Hyperbolic Tangent (Background).xml — Addition With Hyperbolic Tangent (Background)
-- Addition With Hyperbolic Sinus (Background).xml — Addition With Hyperbolic Sinus (Background)
-- Addition With Hyperbolic Secant (Background).xml — Addition With Hyperbolic Secant (Background)
-- Addition With Hyperbolic Cotangent (Background).xml — Addition With Hyperbolic Cotangent (Background)
-- Addition With Hyperbolic Cosinus (Background).xml — Addition With Hyperbolic Cosinus (Background)
-- Addition With Hyperbolic Cosecant (Background).xml — Addition With Hyperbolic Cosecant (Background)
-- Addition With Floating Modulus (Background).xml — Addition With Floating Modulus (Background)
-- Addition With Cotangent (Background).xml — Addition With Cotangent (Background)
-- Addition With Cosinus (Background).xml — Addition With Cosinus (Background)
-- Addition With Cosecant (Background).xml — Addition With Cosecant (Background)
-- Addition With Arctangent (Background).xml — Addition With Arctangent (Background)
-- Addition With Arcsinus (Background).xml — Addition With Arcsinus (Background)
-- Addition With Arccosinus (Background).xml — Addition With Arccosinus (Background)
-- Addition (Background).xml — Addition (Background)
-- Active (Texture).xml — Active (Texture)
-- Logical RIGHTSHIFT Base (Background).xml — Logical RIGHTSHIFT Base (Background)
-- Unity Bloom (Texutre+Background).xml — Unity Bloom (Texture+Background)
+## Shader Pack: Foxioo Shader Pack (350 shaders)
+- **Logical LEFTSHIFT Blend (Background).xml** — Logical LEFTSHIFT Blend (Background)
+- **Logical LEFTSHIFT Base (Background).xml** — Logical LEFTSHIFT Base (Background)
+- **Logical ROTATELEFT Base (Background).xml** — Logical ROTATELEFT Base (Background)
+- **Logical ARLEFTSHIFT Blend (Background).xml** — Logical ARLEFTSHIFT Blend (Background)
+- **Logical ARLEFTSHIFT Base (Background).xml** — Logical ARLEFTSHIFT Base (Background)
+- **Comparison Equal (Background).xml** — Comparison Equal (Background)
+- **Comparison Less Equal (Background).xml** — Comparison Less Equal (Background)
+- **Comparison Greater (Background).xml** — Comparison Greater (Background)
+- **Comparison Less (Background).xml** — Comparison Less (Background)
+- **Comparison Greater Equal (Background).xml** — Comparison Greater Equal (Background)
+- **Comparison Different (Background).xml** — Comparison Different (Background)
+- **Logical ARRIGHTSHIFT Blend (Background).xml** — Logical ARRIGHTSHIFT Blend (Background)
+- **Logical ARRIGHTSHIFT Base (Background).xml** — Logical ARRIGHTSHIFT Base (Background)
+- **Logical ROTATERIGHT Blend (Background).xml** — Logical ROTATERIGHT Blend (Background)
+- **Logical ROTATERIGHT Base (Background).xml** — Logical ROTATERIGHT Base (Background)
+- **Logical ROTATELEFT Blend (Background).xml** — Logical ROTATELEFT Blend (Background)
+- **Logical XNIMPLY (Background).xml** — Logical XNIMPLY (Background)
+- **Logical XIMPLY (Background).xml** — Logical XIMPLY (Background)
+- **Logical RIGHTSHIFT Blend (Background).xml** — Logical RIGHTSHIFT Blend (Background)
+- **Windows Aero Tinted (Background).xml** — Windows Aero Tinted (Background)
+- **Windows Aero Clean (Background).xml** — Windows Aero Clean (Background)
+- **Windows Aero (Background).xml** — Windows Aero (Background)
+- **Water Reflected (Background).xml** — Water Reflected (Background)
+- **Void (Background).xml** — Void (Background)
+- **VHS (Texture).xml** — VHS (Texture)
+- **VHS (Background).xml** — VHS (Background)
+- **Vector Gradient Blur (Switch).xml** — Vector Gradient Blur (Switch)
+- **Vector Gradient Bloom (Switch).xml** — Vector Gradient Bloom (Switch)
+- **TV Analog Noise (Switch).xml** — TV Analog Noise (Switch)
+- **Texture Mask (Texture).xml** — Texture Mask (Texture)
+- **Temperature (Switch).xml** — Temperature (Switch)
+- **Swirl (Switch).xml** — Swirl (Switch)
+- **Superholo (Switch).xml** — Superholo (Switch)
+- **Subtraction With Tangent (Background).xml** — Subtraction With Tangent (Background)
+- **Subtraction With Square Root (Background).xml** — Subtraction With Square Root (Background)
+- **Subtraction With Sinus (Background).xml** — Subtraction With Sinus (Background)
+- **Subtraction With Secant (Background).xml** — Subtraction With Secant (Background)
+- **Subtraction With Round (Background).xml** — Subtraction With Round (Background)
+- **Subtraction With Reciprocal Square Root (Background).xml** — Subtraction With Reciprocal Square Root (Background)
+- **Subtraction With Power (Background).xml** — Subtraction With Power (Background)
+- **Subtraction With Hyperbolic Tangent (Background).xml** — Subtraction With Hyperbolic Tangent (Background)
+- **Subtraction With Hyperbolic Sinus (Background).xml** — Subtraction With Hyperbolic Sinus (Background)
+- **Subtraction With Hyperbolic Secant (Background).xml** — Subtraction With Hyperbolic Secant (Background)
+- **Subtraction With Hyperbolic Cotangent (Background).xml** — Subtraction With Hyperbolic Cotangent (Background)
+- **Subtraction With Hyperbolic Cosinus (Background).xml** — Subtraction With Hyperbolic Cosinus (Background)
+- **Subtraction With Hyperbolic Cosecant (Background).xml** — Subtraction With Hyperbolic Cosecant (Background)
+- **Subtraction With Floating Modulus (Background).xml** — Subtraction With Floating Modulus (Background)
+- **Subtraction With Cotangent (Background).xml** — Subtraction With Cotangent (Background)
+- **Subtraction With Cosinus (Background).xml** — Subtraction With Cosinus (Background)
+- **Subtraction With Cosecant (Background).xml** — Subtraction With Cosecant (Background)
+- **Subtraction With Arctangent (Background).xml** — Subtraction With Arctangent (Background)
+- **Subtraction With Arcsinus (Background).xml** — Subtraction With Arcsinus (Background)
+- **Subtraction With Arccosinus (Background).xml** — Subtraction With Arccosinus (Background)
+- **Subtraction (Background).xml** — Subtraction (Background)
+- **Straight To Premultiplied Alpha (Texture).xml** — Straight To Premultiplied Alpha (Texture)
+- **Squeeze (Switch).xml** — Squeeze (Switch)
+- **Sinus Wave Offset (Switch).xml** — Sinus Wave Offset (Switch)
+- **Sinus Wave (Switch).xml** — Sinus Wave (Switch)
+- **Simulation Of Tritanopia (Switch).xml** — Simulation Of Tritanopia (Switch)
+- **Simulation Of Tritanomaly (Switch).xml** — Simulation Of Tritanomaly (Switch)
+- **Simulation Of Protanopia (Switch).xml** — Simulation Of Protanopia (Switch)
+- **Simulation Of Protanomaly (Switch).xml** — Simulation Of Protanomaly (Switch)
+- **Simulation Of Deuteranopia (Switch).xml** — Simulation Of Deuteranopia (Switch)
+- **Simulation Of Deuteranomaly (Switch).xml** — Simulation Of Deuteranomaly (Switch)
+- **Simulation Of Achromatopsia (Switch).xml** — Simulation Of Achromatopsia (Switch)
+- **Simulation Of Achromatomaly (Switch).xml** — Simulation Of Achromatomaly (Switch)
+- **Simulation Color Blindness AIO (Switch).xml** — Simulation Color Blindness AIO (Switch)
+- **Shear (Switch).xml** — Shear (Switch)
+- **Sharpness (Switch).xml** — Sharpness (Switch)
+- **Sepia (Switch).xml** — Sepia (Switch)
+- **Self Offset Color (Texture+Background).xml** — Self Offset Color (Texture+Background)
+- **Segmented Liquid-Crystal Display (Switch).xml** — Segmented Liquid-Crystal Display (Switch)
+- **RPB Foilage (Background).xml** — RPB Foilage (Background)
+- **Ripple Radial (Switch).xml** — Ripple Radial (Switch)
+- **Reversed Offset Color (Background).xml** — Reversed Offset Color (Background)
+- **Recolor Monochrome Tint-To-White (Switch).xml** — Recolor Monochrome Tint-To-White (Switch)
+- **Recolor Monochrome Luminated (Switch).xml** — Recolor Monochrome Luminated (Switch)
+- **Recolor Monochrome (Switch).xml** — Recolor Monochrome (Switch)
+- **Rainbow Foilage (Switch).xml** — Rainbow Foilage (Switch)
+- **Quad With Reflections (Background).xml** — Quad With Reflections (Background)
+- **Quad With Reflections (Background) [Legacy].xml** — Quad With Reflections (Background) [Legacy]
+- **Quad With Metalic Reflections (Background).xml** — Quad With Metalic Reflections (Background)
+- **Quad With Metalic Reflections (Background) [Legacy].xml** — Quad With Metalic Reflections (Background) [Legacy]
+- **Quad With Glass Reflections (Background).xml** — Quad With Glass Reflections (Background)
+- **Quad With Glass Reflections (Background) [Legacy].xml** — Quad With Glass Reflections (Background) [Legacy]
+- **Quad With Floor Reflection (Background).xml** — Quad With Floor Reflection (Background)
+- **Quad Wire-Frame (Texture).xml** — Quad Wire-Frame (Texture)
+- **Quad Test Without Border (Texture).xml** — Quad Test Without Border (Texture)
+- **Quad PSX (Texture).xml** — Quad PSX (Texture)
+- **Quad Mask (Texture).xml** — Quad Mask (Texture)
+- **Quad Mask (Texture) [Legacy].xml** — Quad Mask (Texture) [Legacy]
+- **Quad Inverted Mask (Texture).xml** — Quad Inverted Mask (Texture)
+- **Quad Inverted Mask (Texture) [Legacy].xml** — Quad Inverted Mask (Texture) [Legacy]
+- **Quad Fixed (Texture).xml** — Quad Fixed (Texture)
+- **Quad Fixed (Texture) [Legacy].xml** — Quad Fixed (Texture) [Legacy]
+- **Quad Fixed (Texture) [Antialiasing].xml** — Quad Fixed (Texture) [Antialiasing]
+- **Quad Fixed (Texture) [Antialiasing] [Legacy].xml** — Quad Fixed (Texture) [Antialiasing] [Legacy]
+- **Quad Colored Vertex Manhattan (Texture).xml** — Quad Colored Vertex With Manhattan Distance (Texture)
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].xml** — Quad Colored Vertex With Manhattan Distance (Texture) [Legacy]
+- **Quad Colored Vertex (Texture).xml** — Quad Colored Vertex (Texture)
+- **Quad Colored Vertex (Texture) [Legacy].xml** — Quad Colored Vertex (Texture) [Legacy]
+- **Quad Colored Solid (Texture).xml** — Quad Colored Solid (Texture)
+- **Quad Colored Solid (Texture) [Legacy].xml** — Quad Colored Solid (Texture) [Legacy]
+- **Quad Affine (Texture).xml** — Quad Affine (Texture)
+- **PVZA Flower Cooldown (Texture).xml** — Plants VS Zombies Adventures Flower Cooldown (Texture)
+- **Premultiplied To Straight Alpha (Texture).xml** — Premultiplied To Straight Alpha (Texture)
+- **Polar (Switch).xml** — Polar (Switch)
+- **Pinch (Switch).xml** — Pinch (Switch)
+- **Photoshop Vivid Light (Background).xml** — Photoshop Vivid Light (Background)
+- **Photoshop Soft Light (Background).xml** — Photoshop Soft Light (Background)
+- **Photoshop Screen (Background).xml** — Photoshop Screen (Background)
+- **Photoshop Saturation (Background).xml** — Photoshop Saturation (Background)
+- **Photoshop Pin Light (Background).xml** — Photoshop Pin Light (Background)
+- **Photoshop Overlay (Background).xml** — Photoshop Overlay (Background)
+- **Photoshop Luminosity (Background).xml** — Photoshop Luminosity (Background)
+- **Photoshop Linear Light (Background).xml** — Photoshop Linear Light (Background)
+- **Photoshop Linear Burn (Background).xml** — Photoshop Linear Burn (Background)
+- **Photoshop Lighter Color (Background).xml** — Photoshop Lighter Color (Background)
+- **Photoshop Lighten (Background).xml** — Photoshop Lighten (Background)
+- **Photoshop Hue (Background).xml** — Photoshop Hue (Background)
+- **Photoshop Hard Mix (Background).xml** — Photoshop Hard Mix (Background)
+- **Photoshop Hard Light (Background).xml** — Photoshop Hard Light (Background)
+- **Photoshop Exclusion (Background).xml** — Photoshop Exclusion (Background)
+- **Photoshop Dissolve (Texture).xml** — Photoshop Dissolve (Texture)
+- **Photoshop Difference (Background).xml** — Photoshop Difference (Background)
+- **Photoshop Darker Color (Background).xml** — Photoshop Darker Color (Background)
+- **Photoshop Darken (Background).xml** — Photoshop Darken (Background)
+- **Photoshop Color Dodge (Background).xml** — Photoshop Color Dodge (Background)
+- **Photoshop Color Burn (Background).xml** — Photoshop Color Burn (Background)
+- **Photoshop Color (Background).xml** — Photoshop Color (Background)
+- **Photographic Film Negative (Switch).xml** — Photographic Film Negative (Switch)
+- **PaintDotNET Reflect (Background).xml** — PaintDOTNet Reflect (Background)
+- **PaintDotNET Glow (Background).xml** — PaintDOTNet Glow (Background)
+- **Oscillation (Switch).xml** — Oscillation (Switch)
+- **Offset Color (Background).xml** — Offset Color (Background)
+- **Normal Map (Switch).xml** — Normal Map (Switch)
+- **Noise Blur (Switch).xml** — Noise Blur (Switch)
+- **Multiplication With Tangent (Background).xml** — Multiplication With Tangent (Background)
+- **Multiplication With Square Root (Background).xml** — Multiplication With Square Root (Background)
+- **Multiplication With Sinus (Background).xml** — Multiplication With Sinus (Background)
+- **Multiplication With Secant (Background).xml** — Multiplication With Secant (Background)
+- **Multiplication With Round (Background).xml** — Multiplication With Round (Background)
+- **Multiplication With Reciprocal Square Root (Background).xml** — Multiplication With Reciprocal Square Root (Background)
+- **Multiplication With Power (Background).xml** — Multiplication With Power (Background)
+- **Multiplication With Hyperbolic Tangent (Background).xml** — Multiplication With Hyperbolic Tangent (Background)
+- **Multiplication With Hyperbolic Sinus (Background).xml** — Multiplication With Hyperbolic Sinus (Background)
+- **Multiplication With Hyperbolic Secant (Background).xml** — Multiplication With Hyperbolic Secant (Background)
+- **Multiplication With Hyperbolic Cotangent (Background).xml** — Multiplication With Hyperbolic Cotangent (Background)
+- **Multiplication With Hyperbolic Cosinus (Background).xml** — Multiplication With Hyperbolic Cosinus (Background)
+- **Multiplication With Hyperbolic Cosecant (Background).xml** — Multiplication With Hyperbolic Cosecant (Background)
+- **Multiplication With Floating Modulus (Background).xml** — Multiplication With Floating Modulus (Background)
+- **Multiplication With Cotangent (Background).xml** — Multiplication With Cotangent (Background)
+- **Multiplication With Cosinus (Background).xml** — Multiplication With Cosinus (Background)
+- **Multiplication With Cosecant (Background).xml** — Multiplication With Cosecant (Background)
+- **Multiplication With Arctangent (Background).xml** — Multiplication With Arctangent (Background)
+- **Multiplication With Arcsinus (Background).xml** — Multiplication With Arcsinus (Background)
+- **Multiplication With Arccosinus (Background).xml** — Multiplication With Arccosinus (Background)
+- **Multiplication (Background).xml** — Multiplication (Background)
+- **MS Paint (Switch).xml** — MS Paint (Switch)
+- **Mode 7 (Switch).xml** — Mode 7 (Switch)
+- **Mode 7 (Switch) [Antialiasing].xml** — Mode 7 (Switch) [Antialiasing]
+- **Mangaish (Switch).xml** — Mangaish (Switch)
+- **Logical XOR (Background).xml** — Logical XOR (Background)
+- **Logical XNOR (Background).xml** — Logical XNOR (Background)
+- **Logical OR (Background).xml** — Logical OR (Background)
+- **Logical NOR (Background).xml** — Logical NOR (Background)
+- **Logical NIMPLY (Background).xml** — Logical NIMPLY (Background)
+- **Logical NAND (Background).xml** — Logical NAND (Background)
+- **Logical IMPLY (Background).xml** — Logical IMPLY (Background)
+- **Logical AND (Background).xml** — Logical AND (Background)
+- **Liquid Wave Bending (Switch).xml** — Liquid Wave Bending (Switch)
+- **Liquid Glass Blurry (Background).xml** — Liquid Glass Blurry (Background)
+- **Liquid Glass (Background).xml** — Liquid Glass (Background)
+- **Light (Background).xml** — Light (Background)
+- **Kuwahara Filter (Switch).xml** — Kuwahara Filter (Switch)
+- **Krita Reflect-Freeze (Background).xml** — Krita Reflect-Freeze (Background)
+- **Krita Reeze (Background).xml** — Krita Reeze (Background)
+- **Krita Penumbra D (Background).xml** — Krita Penumbra D (Background)
+- **Krita Penumbra C (Background).xml** — Krita Penumbra C (Background)
+- **Krita Penumbra B (Background).xml** — Krita Penumbra B (Background)
+- **Krita Penumbra A (Background).xml** — Krita Penumbra A (Background)
+- **Krita Parallel (Background).xml** — Krita Parallel (Background)
+- **Krita Negation (Background).xml** — Krita Negation (Background)
+- **Krita Interpolation (Background).xml** — Krita Interpolation (Background)
+- **Krita Interpolation - 2X (Background).xml** — Krita Interpolation - 2X (Background)
+- **Krita Helow (Background).xml** — Krita Helow (Background)
+- **Krita Heat-Glow and Freeze-Reflect Hybrid (Background).xml** — Krita Heat-Glow and Freeze-Reflect Hybrid (Background)
+- **Krita Heat-Glow (Background).xml** — Krita Heat-Glow (Background)
+- **Krita Heat (Background).xml** — Krita Heat (Background)
+- **Krita Hard Mix Softer (Background).xml** — Krita Hard Mix Softer (Background)
+- **Krita Glow-Heat (Background).xml** — Krita Glow-Heat (Background)
+- **Krita Glow (Background).xml** — Krita Glow (Background)
+- **Krita Gleat (Background).xml** — Krita Gleat (Background)
+- **Krita Freeze-Reflect (Background).xml** — Krita Freeze-Reflect (Background)
+- **Krita Freeze (Background).xml** — Krita Freeze (Background)
+- **Krita Frect (Background).xml** — Krita Frect (Background)
+- **Krita Arcus Tangens (Background).xml** — Krita Arcus Tangens (Background)
+- **Krita Additive Subtractive (Background).xml** — Krita Additive Subtractive (Background)
+- **Klisza (Background).xml** — Klisza (Background)
+- **Kaleidoscope (Switch).xml** — Kaleidoscope (Switch)
+- **JPEG Compression (Switch).xml** — JPEG Compression (Switch)
+- **Invert Color Yellow (Switch).xml** — Invert Color Yellow (Switch)
+- **Invert Color Red (Switch).xml** — Invert Color Red (Switch)
+- **Invert Color Magenta (Switch).xml** — Invert Color Magenta (Switch)
+- **Invert Color Green (Switch).xml** — Invert Color Green (Switch)
+- **Invert Color Cyan (Switch).xml** — Invert Color Cyan (Switch)
+- **Invert Color Blue (Switch).xml** — Invert Color Blue (Switch)
+- **Invert Brightness (Switch) [Rework].xml** — Invert Brightness (Switch) [Rework]
+- **Invert Brightness (Switch) [Legacy].xml** — Invert Brightness (Switch) [Legacy]
+- **HSV (Switch).xml** — HSV (Switch)
+- **HSL (Switch) [Rework].xml** — HSL (Switch) [Rework]
+- **HSL (Switch) [Legacy].xml** — HSL (Switch) [Legacy]
+- **HSI (Switch).xml** — HSI (Switch)
+- **GIMP Grain Merge (Background).xml** — GIMP Grain Merge (Background)
+- **GIMP Grain Extract (Background).xml** — GIMP Grain Extract (Background)
+- **Geometry Dash Glass Blocks (Background).xml** — Geometry Dash Glass Blocks (Background)
+- **genshin shader 3.xml** — genshin shader 3
+- **Genshin Impact Natlan Outline (Background).xml** — Genshin Impact Natlan Outline (Background)
+- **Frutiger Aero (Background).xml** — Frutiger Aero (Background)
+- **Freeze (Switch).xml** — Freeze (Switch)
+- **Foliage Wind (Switch).xml** — Foliage Wind (Switch)
+- **Flip (Switch).xml** — Flip (Switch)
+- **Fisheye Lens Stereographic (Switch).xml** — Fisheye Lens Stereographic (Switch)
+- **Fisheye Lens Rectilinear (Switch).xml** — Fisheye Lens Rectilinear (Switch)
+- **Fisheye Lens Orthographic (Switch).xml** — Fisheye Lens Orthographic (Switch)
+- **Fisheye Lens Equisolid Angle (Switch).xml** — Fisheye Lens Equisolid Angle (Switch)
+- **Fisheye Lens Equidistant (Switch).xml** — Fisheye Lens Equidistant (Switch)
+- **End Portal (Texture).xml** — End Portal (Texture)
+- **Enchantment Glint (Switch).xml** — Enchantment Glint (Switch)
+- **Emboss (Switch).xml** — Emboss (Switch)
+- **Duo Recolor Monochrome Tint-To-White (Switch).xml** — Duo Recolor Monochrome Tint-To-White (Switch)
+- **Duo Recolor Monochrome Luminated (Switch).xml** — Duo Recolor Monochrome Luminated (Switch)
+- **Duo Recolor Monochrome (Switch).xml** — Duo Recolor Monochrome (Switch)
+- **Division With Tangent (Background).xml** — Division With Tangent (Background)
+- **Division With Square Root (Background).xml** — Division With Square Root (Background)
+- **Division With Sinus (Background).xml** — Division With Sinus (Background)
+- **Division With Secant (Background).xml** — Division With Secant (Background)
+- **Division With Round (Background).xml** — Division With Round (Background)
+- **Division With Reciprocal Square Root (Background).xml** — Division With Reciprocal Square Root (Background)
+- **Division With Power (Background).xml** — Division With Power (Background)
+- **Division With Hyperbolic Tangent (Background).xml** — Division With Hyperbolic Tangent (Background)
+- **Division With Hyperbolic Sinus (Background).xml** — Division With Hyperbolic Sinus (Background)
+- **Division With Hyperbolic Secant (Background).xml** — Division With Hyperbolic Secant (Background)
+- **Division With Hyperbolic Cotangent (Background).xml** — Division With Hyperbolic Cotangent (Background)
+- **Division With Hyperbolic Cosinus (Background).xml** — Division With Hyperbolic Cosinus (Background)
+- **Division With Hyperbolic Cosecant (Background).xml** — Division With Hyperbolic Cosecant (Background)
+- **Division With Floating Modulus (Background).xml** — Division With Floating Modulus (Background)
+- **Division With Cotangent (Background).xml** — Division With Cotangent (Background)
+- **Division With Cosinus (Background).xml** — Division With Cosinus (Background)
+- **Division With Cosecant (Background).xml** — Division With Cosecant (Background)
+- **Division With Arctangent (Background).xml** — Division With Arctangent (Background)
+- **Division With Arcsinus (Background).xml** — Division With Arcsinus (Background)
+- **Division With Arccosinus (Background).xml** — Division With Arccosinus (Background)
+- **Division (Background).xml** — Division (Background)
+- **Deltarune Vessel Background (Switch).xml** — Deltarune Vessel Background (Switch)
+- **Deltarune Jevil Background Fight (Switch).xml** — Deltarune Jevil Background Fight (Switch)
+- **Deltarune Freeze (Texture).xml** — Deltarune Freeze (Texture)
+- **Deltarune Church Prophecy Panel (Texture).xml** — Deltarune Church Prophecy Panel (Texture)
+- **Daytime (Switch).xml** — Daytime (Switch)
+- **Cut-Off Alpha Test (Texture).xml** — Cut-Off Alpha Test (Texture)
+- **CPU Foilage (Switch).xml** — CPU Foilage (Switch)
+- **Correction With Tangent (Switch).xml** — Correction With Tangent (Switch)
+- **Correction With Square Root (Switch).xml** — Correction With Square Root (Switch)
+- **Correction With Sinus (Switch).xml** — Correction With Sinus (Switch)
+- **Correction With Secant (Switch).xml** — Correction With Secant (Switch)
+- **Correction With Round (Switch).xml** — Correction With Round (Switch)
+- **Correction With Reciprocal Square Root (Switch).xml** — Correction With Reciprocal Square Root (Switch)
+- **Correction With Power (Switch).xml** — Correction With Power (Switch)
+- **Correction With Hyperbolic Tangent (Switch).xml** — Correction With Hyperbolic Tangent (Switch)
+- **Correction With Hyperbolic Sinus (Switch).xml** — Correction With Hyperbolic Sinus (Switch)
+- **Correction With Hyperbolic Secant (Switch).xml** — Correction With Hyperbolic Secant (Switch)
+- **Correction With Hyperbolic Cotangent (Switch).xml** — Correction With Hyperbolic Cotangent (Switch)
+- **Correction With Hyperbolic Cosinus (Switch).xml** — Correction With Hyperbolic Cosinus (Switch)
+- **Correction With Hyperbolic Cosecant (Switch).xml** — Correction With Hyperbolic Cosecant (Switch)
+- **Correction With Floating Modulus (Switch).xml** — Correction With Floating Modulus (Switch)
+- **Correction With Cotangent (Switch).xml** — Correction With Cotangent (Switch)
+- **Correction With Cosinus (Switch).xml** — Correction With Cosinus (Switch)
+- **Correction With Cosecant (Switch).xml** — Correction With Cosecant (Switch)
+- **Correction With Arctangent (Switch).xml** — Correction With Arctangent (Switch)
+- **Correction With Arcsinus (Switch).xml** — Correction With Arcsinus (Switch)
+- **Correction With Arccosinus (Switch).xml** — Correction With Arccosinus (Switch)
+- **Conversion To YUV (Switch).xml** — Conversion To YUV (Switch)
+- **Conversion To Y'PbPr (Switch).xml** — Conversion To Y'PbPr (Switch)
+- **Conversion To YIQ (Switch).xml** — Conversion To YIQ (Switch)
+- **Conversion To Y'DbDr (Switch).xml** — Conversion To Y'DbDr (Switch)
+- **Conversion To Y'CoCg (Switch).xml** — Conversion To Y'CoCg (Switch)
+- **Conversion To Y'CbCr (Switch).xml** — Conversion To Y'CbCr (Switch)
+- **Conversion To ICtCp (Switch).xml** — Conversion To ICtCp (Switch)
+- **Conversion To CMYK (Switch).xml** — Conversion To CMYK (Switch)
+- **Composite Video Compression (Texture).xml** — Composite Video Compression (Texture)
+- **Composite Video Compression (Background).xml** — Composite Video Compression (Background)
+- **Colorful Grayout Foilage (Switch).xml** — Colorful Grayout Foilage (Switch)
+- **Color Combiner (Switch).xml** — Color Combiner (Switch)
+- **Color Accent (Switch).xml** — Color Accent (Switch)
+- **Codebook (Switch).xml** — Codebook (Switch)
+- **CMYK Halftone Dot (Switch).xml** — CMYK Halftone Dot (Switch)
+- **CMYK (Switch).xml** — CMYK (Switch)
+- **CIELab (Switch).xml** — CIELab (Switch)
+- **Chromatic Aberration (Switch).xml** — Chromatic Aberration (Switch)
+- **Chroma Key Inverted (Texture).xml** — Chroma Key Color Inverted (Texture)
+- **Chroma Key Color (Texture).xml** — Chroma Key Color (Texture)
+- **CD-R Blu (Background).xml** — CD-R Blu (Background)
+- **CD-R (Background).xml** — CD-R (Background)
+- **Burn (Switch).xml** — Burn (Switch)
+- **Bulge (Switch).xml** — Bulge (Switch)
+- **Blend Value (Background).xml** — Blend Value (Background)
+- **Blend Stamp (Background).xml** — Blend Stamp (Background)
+- **Blend Signed Difference (Background).xml** — Blend Signed Difference (Background)
+- **Blend Phoenix (Background).xml** — Blend Phoenix (Background)
+- **Blend Inverted (Background).xml** — Blend Inverted (Background)
+- **Blend Intensity (Background).xml** — Blend Intensity (Background)
+- **Blend Color Yellow (Background).xml** — Blend Color Yellow (Background)
+- **Blend Color Red (Background).xml** — Blend Color Red (Background)
+- **Blend Color Magenta (Background).xml** — Blend Color Magenta (Background)
+- **Blend Color Green (Background).xml** — Blend Color Green (Background)
+- **Blend Color Cyan (Background).xml** — Blend Color Cyan (Background)
+- **Blend Color Blue (Background).xml** — Blend Color Blue (Background)
+- **Blend Average (Background).xml** — Blend Average (Background)
+- **Better Bloom (Background).xml** — Better Bloom (Background)
+- **Bend (Switch).xml** — Bend (Switch)
+- **Aura (Background).xml** — Aura (Background)
+- **Animeish (Switch) [Legacy].xml** — Animeish (Switch) [Legacy]
+- **Anime Zoom! Effect (Switch).xml** — Anime Zoom! Effect (Switch)
+- **Ambient (Switch).xml** — Ambient (Switch)
+- **Alpha Fish (Texture).xml** — Alpha Fish (Texture)
+- **Aerochrome Film (Switch).xml** — Aerochrome Film (Switch)
+- **Addition With Tangent (Background).xml** — Addition With Tangent (Background)
+- **Addition With Square Root (Background).xml** — Addition With Square Root (Background)
+- **Addition With Sinus (Background).xml** — Addition With Sinus (Background)
+- **Addition With Secant (Background).xml** — Addition With Secant (Background)
+- **Addition With Round (Background).xml** — Addition With Round (Background)
+- **Addition With Reciprocal Square Root (Background).xml** — Addition With Reciprocal Square Root (Background)
+- **Addition With Power (Background).xml** — Addition With Power (Background)
+- **Addition With Hyperbolic Tangent (Background).xml** — Addition With Hyperbolic Tangent (Background)
+- **Addition With Hyperbolic Sinus (Background).xml** — Addition With Hyperbolic Sinus (Background)
+- **Addition With Hyperbolic Secant (Background).xml** — Addition With Hyperbolic Secant (Background)
+- **Addition With Hyperbolic Cotangent (Background).xml** — Addition With Hyperbolic Cotangent (Background)
+- **Addition With Hyperbolic Cosinus (Background).xml** — Addition With Hyperbolic Cosinus (Background)
+- **Addition With Hyperbolic Cosecant (Background).xml** — Addition With Hyperbolic Cosecant (Background)
+- **Addition With Floating Modulus (Background).xml** — Addition With Floating Modulus (Background)
+- **Addition With Cotangent (Background).xml** — Addition With Cotangent (Background)
+- **Addition With Cosinus (Background).xml** — Addition With Cosinus (Background)
+- **Addition With Cosecant (Background).xml** — Addition With Cosecant (Background)
+- **Addition With Arctangent (Background).xml** — Addition With Arctangent (Background)
+- **Addition With Arcsinus (Background).xml** — Addition With Arcsinus (Background)
+- **Addition With Arccosinus (Background).xml** — Addition With Arccosinus (Background)
+- **Addition (Background).xml** — Addition (Background)
+- **Active (Texture).xml** — Active (Texture)
+- **Logical RIGHTSHIFT Base (Background).xml** — Logical RIGHTSHIFT Base (Background)
+- **Unity Bloom (Texutre+Background).xml** — Unity Bloom (Texture+Background)

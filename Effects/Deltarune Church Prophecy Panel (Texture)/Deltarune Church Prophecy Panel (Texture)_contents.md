@@ -1,19 +1,19 @@
-Shader Packs: Foxioo Shader Pack
+## Info
+**Shader Packs:** Foxioo Shader Pack
 
-License: MIT License
+**License:** MIT License
 
-Last Updated: 2026-01-04 22:02
+**Last Updated:** 2026-01-04 22:02  
 
-=== Shader files ===
-Deltarune Church Prophecy Panel (Texture).xml - Info & Integration
-Deltarune Church Prophecy Panel (Texture).fx - DirectX9 source code
-Deltarune Church Prophecy Panel (Texture).hlsl - DirectX11 source code
-Deltarune Church Prophecy Panel (Texture).fxc - DirectX11 compiled
-Deltarune Church Prophecy Panel (Texture).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Deltarune Church Prophecy Panel (Texture).fxao - Android source code
-Deltarune Church Prophecy Panel (Texture).fxmo - iOS/Mac source code
+## Shader files
+- **Deltarune Church Prophecy Panel (Texture).xml** — Info & Integration
+- **Deltarune Church Prophecy Panel (Texture).fx** — DirectX9 source code
+- **Deltarune Church Prophecy Panel (Texture).hlsl** — DirectX11 source code
+- **Deltarune Church Prophecy Panel (Texture).fxc** — DirectX11 compiled
+- **Deltarune Church Prophecy Panel (Texture).premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Deltarune Church Prophecy Panel (Texture).fxao** — Android source code
+- **Deltarune Church Prophecy Panel (Texture).fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Textures ===
-DELTARUNE_DEPTH.png
+## Textures
+- DELTARUNE_DEPTH.png  

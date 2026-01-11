@@ -1,11 +1,11 @@
-Last Updated: 2024-05-12 15:29
+## Info
+**Last Updated:** 2024-05-12 15:29  
 
-=== Shader files ===
-Fusion_Angle.xml - Info & Integration
-Fusion_Angle.fx - DirectX9 source code
-Fusion_Angle.hlsl - DirectX11 source code
-Fusion_Angle.fxc - DirectX11 compiled
-Fusion_Angle.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Fusion_Angle.fxao - Android source code
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **Fusion_Angle.xml** — Info & Integration
+- **Fusion_Angle.fx** — DirectX9 source code
+- **Fusion_Angle.hlsl** — DirectX11 source code
+- **Fusion_Angle.fxc** — DirectX11 compiled
+- **Fusion_Angle.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Fusion_Angle.fxao** — Android source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

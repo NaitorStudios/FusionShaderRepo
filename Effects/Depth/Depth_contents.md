@@ -1,17 +1,17 @@
-Shader Packs: Looki Full Pack, Looki's Shader Pack 2.0
+## Info
+**Shader Packs:** Looki Full Pack, Looki's Shader Pack 2.0
 
-Last Updated: 2022-07-29 22:20
+**Last Updated:** 2022-07-29 22:20  
 
-=== Shader files ===
-Depth.xml - Info & Integration
-Depth.fx - DirectX9 source code
-Depth.hlsl - DirectX11 source code
-Depth.fxc - DirectX11 compiled
-Depth.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Depth.fxao - Android source code
-Depth.fxmo - iOS/Mac source code
+## Shader files
+- **Depth.xml** — Info & Integration
+- **Depth.fx** — DirectX9 source code
+- **Depth.hlsl** — DirectX11 source code
+- **Depth.fxc** — DirectX11 compiled
+- **Depth.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Depth.fxao** — Android source code
+- **Depth.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-ShaderPack.mfa
+## Examples
+- ShaderPack.mfa  

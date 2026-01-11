@@ -1,16 +1,16 @@
-Shader Packs: Foxioo Shader Pack
+## Info
+**Shader Packs:** Foxioo Shader Pack
 
-License: MIT License
+**License:** MIT License
 
-Last Updated: 2026-01-04 22:02
+**Last Updated:** 2026-01-04 22:02  
 
-=== Shader files ===
-Liquid Glass Blurry (Background).xml - Info & Integration
-Liquid Glass Blurry (Background).fx - DirectX9 source code
-Liquid Glass Blurry (Background).hlsl - DirectX11 source code
-Liquid Glass Blurry (Background).fxc - DirectX11 compiled
-Liquid Glass Blurry (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Liquid Glass Blurry (Background).fxao - Android source code
-Liquid Glass Blurry (Background).fxmo - iOS/Mac source code
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **Liquid Glass Blurry (Background).xml** — Info & Integration
+- **Liquid Glass Blurry (Background).fx** — DirectX9 source code
+- **Liquid Glass Blurry (Background).hlsl** — DirectX11 source code
+- **Liquid Glass Blurry (Background).fxc** — DirectX11 compiled
+- **Liquid Glass Blurry (Background).premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Liquid Glass Blurry (Background).fxao** — Android source code
+- **Liquid Glass Blurry (Background).fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

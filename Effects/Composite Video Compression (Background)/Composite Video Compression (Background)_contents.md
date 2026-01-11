@@ -1,16 +1,16 @@
-Shader Packs: Foxioo Shader Pack
+## Info
+**Shader Packs:** Foxioo Shader Pack
 
-License: MIT License
+**License:** MIT License
 
-Last Updated: 2026-01-04 22:02
+**Last Updated:** 2026-01-04 22:02  
 
-=== Shader files ===
-Composite Video Compression (Background).xml - Info & Integration
-Composite Video Compression (Background).fx - DirectX9 source code
-Composite Video Compression (Background).hlsl - DirectX11 source code
-Composite Video Compression (Background).fxc - DirectX11 compiled
-Composite Video Compression (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Composite Video Compression (Background).fxao - Android source code
-Composite Video Compression (Background).fxmo - iOS/Mac source code
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **Composite Video Compression (Background).xml** — Info & Integration
+- **Composite Video Compression (Background).fx** — DirectX9 source code
+- **Composite Video Compression (Background).hlsl** — DirectX11 source code
+- **Composite Video Compression (Background).fxc** — DirectX11 compiled
+- **Composite Video Compression (Background).premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Composite Video Compression (Background).fxao** — Android source code
+- **Composite Video Compression (Background).fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

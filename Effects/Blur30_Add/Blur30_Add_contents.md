@@ -1,10 +1,10 @@
-Last Updated: 2024-05-10 12:05
+## Info
+**Last Updated:** 2024-05-10 12:05  
 
-=== Shader files ===
-Blur30_Add.xml - Info & Integration
-Blur30_Add.fx - DirectX9 source code
-Blur30_Add.hlsl - DirectX11 source code
-Blur30_Add.fxc - DirectX11 compiled
-Blur30_Add.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **Blur30_Add.xml** — Info & Integration
+- **Blur30_Add.fx** — DirectX9 source code
+- **Blur30_Add.hlsl** — DirectX11 source code
+- **Blur30_Add.fxc** — DirectX11 compiled
+- **Blur30_Add.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

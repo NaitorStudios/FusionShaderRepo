@@ -1,18 +1,18 @@
-Last Updated: 2022-12-10 14:23
+## Info
+**Last Updated:** 2022-12-10 14:23  
 
-=== Shader files ===
-VoxelTerrain_Alpha.xml - Info & Integration
-VoxelTerrain_Alpha.fx - DirectX9 source code
-VoxelTerrain_Alpha.hlsl - DirectX11 source code
-VoxelTerrain_Alpha.fxc - DirectX11 compiled
-VoxelTerrain_Alpha.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+## Shader files
+- **VoxelTerrain_Alpha.xml** — Info & Integration
+- **VoxelTerrain_Alpha.fx** — DirectX9 source code
+- **VoxelTerrain_Alpha.hlsl** — DirectX11 source code
+- **VoxelTerrain_Alpha.fxc** — DirectX11 compiled
+- **VoxelTerrain_Alpha.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Examples
+- VoxelTerrain_Alpha_Test.mfa  
 
-=== Examples ===
-VoxelTerrain_Alpha_Test.mfa
-
-=== Textures ===
-heightmap.png
-sky.jpg
-texturemap.png
+## Textures
+- heightmap.png
+- sky.jpg
+- texturemap.png  

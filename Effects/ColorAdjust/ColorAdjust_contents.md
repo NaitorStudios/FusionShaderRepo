@@ -1,15 +1,15 @@
-Last Updated: 2024-12-01 14:47
+## Info
+**Last Updated:** 2024-12-01 14:47  
 
-=== Shader files ===
-ColorAdjust.xml - Info & Integration
-ColorAdjust.fx - DirectX9 source code
-ColorAdjust.hlsl - DirectX11 source code
-ColorAdjust.fxc - DirectX11 compiled
-ColorAdjust.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-ColorAdjust.fxao - Android source code
-ColorAdjust.fxmo - iOS/Mac source code
+## Shader files
+- **ColorAdjust.xml** — Info & Integration
+- **ColorAdjust.fx** — DirectX9 source code
+- **ColorAdjust.hlsl** — DirectX11 source code
+- **ColorAdjust.fxc** — DirectX11 compiled
+- **ColorAdjust.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **ColorAdjust.fxao** — Android source code
+- **ColorAdjust.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-ColorAdjust.mfa
+## Examples
+- ColorAdjust.mfa  

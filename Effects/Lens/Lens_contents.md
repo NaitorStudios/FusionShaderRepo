@@ -1,6 +1,7 @@
-Shader Packs: Looki Full Pack
+## Info
+**Shader Packs:** Looki Full Pack
 
-Last Updated: 2025-08-02 14:39
+**Last Updated:** 2025-08-02 14:39  
 
-=== Shader files ===
-Lens.xml - Info & Integration
+## Shader files
+- **Lens.xml** — Info & Integration  

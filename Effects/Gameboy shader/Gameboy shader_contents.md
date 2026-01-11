@@ -1,11 +1,12 @@
-Last Updated: 2025-08-02 14:39
+## Info
+**Last Updated:** 2025-08-02 14:39  
 
-=== Shader files ===
-Gameboy shader.xml - Info & Integration
-Gameboy shader.fx - DirectX9 source code
-Gameboy shader.fxc - DirectX11 compiled
-Gameboy shader.fxao - Android source code
-Gameboy shader.fxmo - iOS/Mac source code
+## Shader files
+- **Gameboy shader.xml** — Info & Integration
+- **Gameboy shader.fx** — DirectX9 source code
+- **Gameboy shader.fxc** — DirectX11 compiled
+- **Gameboy shader.fxao** — Android source code
+- **Gameboy shader.fxmo** — iOS/Mac source code  
 
-=== Examples ===
-Gameboy shader.mfa
+## Examples
+- Gameboy shader.mfa  

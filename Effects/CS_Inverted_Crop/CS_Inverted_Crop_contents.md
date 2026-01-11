@@ -1,5 +1,6 @@
-Last Updated: 2021-08-26 00:43
+## Info
+**Last Updated:** 2021-08-26 00:43  
 
-=== Shader files ===
-CS_Inverted_Crop.xml - Info & Integration
-CS_Inverted_Crop.fx - DirectX9 source code
+## Shader files
+- **CS_Inverted_Crop.xml** — Info & Integration
+- **CS_Inverted_Crop.fx** — DirectX9 source code  

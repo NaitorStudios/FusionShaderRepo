@@ -1,13 +1,13 @@
-Last Updated: 2024-06-04 22:02
+## Info
+**Last Updated:** 2024-06-04 22:02  
 
-=== Shader files ===
-Glitch Effect.xml - Info & Integration
-Glitch Effect.fx - DirectX9 source code
-Glitch Effect.hlsl - DirectX11 source code
-Glitch Effect.fxc - DirectX11 compiled
-Glitch Effect.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+## Shader files
+- **Glitch Effect.xml** — Info & Integration
+- **Glitch Effect.fx** — DirectX9 source code
+- **Glitch Effect.hlsl** — DirectX11 source code
+- **Glitch Effect.fxc** — DirectX11 compiled
+- **Glitch Effect.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-glitch.mfa
+## Examples
+- glitch.mfa  

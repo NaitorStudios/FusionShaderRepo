@@ -1,13 +1,13 @@
-Last Updated: 2026-01-11 03:33
+## Info
+**Last Updated:** 2026-01-11 03:33  
 
-=== Shader files ===
-Water2.xml - Info & Integration
-Water2.fx - DirectX9 source code
-Water2.hlsl - DirectX11 source code
-Water2.fxc - DirectX11 compiled
-Water2.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+## Shader files
+- **Water2.xml** — Info & Integration
+- **Water2.fx** — DirectX9 source code
+- **Water2.hlsl** — DirectX11 source code
+- **Water2.fxc** — DirectX11 compiled
+- **Water2.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-water2.mfa
+## Examples
+- water2.mfa  

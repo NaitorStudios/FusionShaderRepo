@@ -1,16 +1,16 @@
-Shader Packs: Foxioo Shader Pack
+## Info
+**Shader Packs:** Foxioo Shader Pack
 
-License: MIT License
+**License:** MIT License
 
-Last Updated: 2026-01-04 22:03
+**Last Updated:** 2026-01-04 22:03  
 
-=== Shader files ===
-Quad Colored Vertex Manhattan (Texture) [Legacy].xml - Info & Integration
-Quad Colored Vertex Manhattan (Texture) [Legacy].fx - DirectX9 source code
-Quad Colored Vertex Manhattan (Texture) [Legacy].hlsl - DirectX11 source code
-Quad Colored Vertex Manhattan (Texture) [Legacy].fxc - DirectX11 compiled
-Quad Colored Vertex Manhattan (Texture) [Legacy].premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Quad Colored Vertex Manhattan (Texture) [Legacy].fxao - Android source code
-Quad Colored Vertex Manhattan (Texture) [Legacy].fxmo - iOS/Mac source code
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].xml** — Info & Integration
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].fx** — DirectX9 source code
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].hlsl** — DirectX11 source code
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].fxc** — DirectX11 compiled
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].fxao** — Android source code
+- **Quad Colored Vertex Manhattan (Texture) [Legacy].fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

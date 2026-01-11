@@ -1,10 +1,10 @@
-Last Updated: 2022-09-05 16:54
+## Info
+**Last Updated:** 2022-09-05 16:54  
 
-=== Shader files ===
-GradientFade.xml - Info & Integration
-GradientFade.fx - DirectX9 source code
-GradientFade.hlsl - DirectX11 source code
-GradientFade.fxc - DirectX11 compiled
-GradientFade.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **GradientFade.xml** — Info & Integration
+- **GradientFade.fx** — DirectX9 source code
+- **GradientFade.hlsl** — DirectX11 source code
+- **GradientFade.fxc** — DirectX11 compiled
+- **GradientFade.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

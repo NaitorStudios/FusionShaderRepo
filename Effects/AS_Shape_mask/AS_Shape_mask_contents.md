@@ -1,20 +1,20 @@
-Notes:
+## Info
+**Notes:**
 Multiple shader files are loose in the original Git.
 
-Last Updated: 2023-08-30 10:50
+**Last Updated:** 2023-08-30 10:50  
 
-=== Shader files ===
-AS_Shape_mask.xml - Info & Integration
-AS_Shape_mask.fx - DirectX9 source code
-AS_Shape_mask.hlsl - DirectX11 source code
-AS_Shape_mask.fxc - DirectX11 compiled
-AS_Shape_mask.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-AS_Shape_mask.fxao - Android source code
+## Shader files
+- **AS_Shape_mask.xml** — Info & Integration
+- **AS_Shape_mask.fx** — DirectX9 source code
+- **AS_Shape_mask.hlsl** — DirectX11 source code
+- **AS_Shape_mask.fxc** — DirectX11 compiled
+- **AS_Shape_mask.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **AS_Shape_mask.fxao** — Android source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Examples
+- AS_Shape_mask_example.mfa  
 
-=== Examples ===
-AS_Shape_mask_example.mfa
-
-=== Textures ===
-Masktex.png
+## Textures
+- Masktex.png  

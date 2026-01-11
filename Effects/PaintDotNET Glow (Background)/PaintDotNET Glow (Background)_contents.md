@@ -1,16 +1,16 @@
-Shader Packs: Foxioo Shader Pack
+## Info
+**Shader Packs:** Foxioo Shader Pack
 
-License: MIT License
+**License:** MIT License
 
-Last Updated: 2026-01-04 22:01
+**Last Updated:** 2026-01-04 22:01  
 
-=== Shader files ===
-PaintDotNET Glow (Background).xml - Info & Integration
-PaintDotNET Glow (Background).fx - DirectX9 source code
-PaintDotNET Glow (Background).hlsl - DirectX11 source code
-PaintDotNET Glow (Background).fxc - DirectX11 compiled
-PaintDotNET Glow (Background).premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-PaintDotNET Glow (Background).fxao - Android source code
-PaintDotNET Glow (Background).fxmo - iOS/Mac source code
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **PaintDotNET Glow (Background).xml** — Info & Integration
+- **PaintDotNET Glow (Background).fx** — DirectX9 source code
+- **PaintDotNET Glow (Background).hlsl** — DirectX11 source code
+- **PaintDotNET Glow (Background).fxc** — DirectX11 compiled
+- **PaintDotNET Glow (Background).premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **PaintDotNET Glow (Background).fxao** — Android source code
+- **PaintDotNET Glow (Background).fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

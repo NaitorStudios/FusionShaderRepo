@@ -1,17 +1,17 @@
-Shader Packs: Looki Full Pack, Looki's Shader Pack 2.0
+## Info
+**Shader Packs:** Looki Full Pack, Looki's Shader Pack 2.0
 
-Last Updated: 2025-08-02 14:39
+**Last Updated:** 2025-08-02 14:39  
 
-=== Shader files ===
-Display.xml - Info & Integration
-Display.fx - DirectX9 source code
-Display.hlsl - DirectX11 source code
-Display.fxc - DirectX11 compiled
-Display.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-Display.fxao - Android source code
-Display.fxmo - iOS/Mac source code
+## Shader files
+- **Display.xml** — Info & Integration
+- **Display.fx** — DirectX9 source code
+- **Display.hlsl** — DirectX11 source code
+- **Display.fxc** — DirectX11 compiled
+- **Display.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Display.fxao** — Android source code
+- **Display.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-ShaderPack.mfa
+## Examples
+- ShaderPack.mfa  

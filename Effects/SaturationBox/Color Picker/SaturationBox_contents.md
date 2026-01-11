@@ -1,15 +1,15 @@
-Shader Packs: Color Picker pack (by MuddyMole)
+## Info
+**Shader Packs:** Color Picker pack (by MuddyMole)
 
-Last Updated: 2022-02-11 19:23
+**Last Updated:** 2022-02-11 19:23  
 
-=== Shader files ===
-SaturationBox.xml - Info & Integration
-SaturationBox.fx - DirectX9 source code
-SaturationBox.hlsl - DirectX11 source code
-SaturationBox.fxc - DirectX11 compiled
+## Shader files
+- **SaturationBox.xml** — Info & Integration
+- **SaturationBox.fx** — DirectX9 source code
+- **SaturationBox.hlsl** — DirectX11 source code
+- **SaturationBox.fxc** — DirectX11 compiled  
 
-=== Examples ===
-*Color Picker.mf2backup.mfa
-Color Picker.mfa
-
-*mf2backup files are backup versions for Multimedia Fusion 2.0
+## Examples
+- *Color Picker.mf2backup.mfa*
+- Color Picker.mfa
+*mf2backup files are backup versions for Multimedia Fusion 2.0*  

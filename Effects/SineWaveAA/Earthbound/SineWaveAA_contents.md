@@ -1,13 +1,14 @@
-Notes:
+## Info
+**Notes:**
 earthbound backgrounds.mfa
 
-Shader Packs: Earthbound pack (by Rhadamus)
+**Shader Packs:** Earthbound pack (by Rhadamus)
 
-Last Updated: 2023-08-18 19:57
+**Last Updated:** 2023-08-18 19:57  
 
-=== Shader files ===
-SineWaveAA.xml - Info & Integration
-SineWaveAA.fx - DirectX9 source code
-SineWaveAA.hlsl - DirectX11 source code
-SineWaveAA.fxc - DirectX11 compiled
-SineWaveAA.fxao - Android source code
+## Shader files
+- **SineWaveAA.xml** — Info & Integration
+- **SineWaveAA.fx** — DirectX9 source code
+- **SineWaveAA.hlsl** — DirectX11 source code
+- **SineWaveAA.fxc** — DirectX11 compiled
+- **SineWaveAA.fxao** — Android source code  

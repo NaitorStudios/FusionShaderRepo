@@ -1,10 +1,11 @@
-License: Free for commercial and not commercial, no attribution needed
+## Info
+**License:** Free for commercial and not commercial, no attribution needed
 
-Last Updated: 2020-01-19 03:54
+**Last Updated:** 2020-01-19 03:54  
 
-=== Shader files ===
-FullColor-float.xml - Info & Integration
-FullColor-float.fx - DirectX9 source code
+## Shader files
+- **FullColor-float.xml** — Info & Integration
+- **FullColor-float.fx** — DirectX9 source code  
 
-=== Examples ===
-FullColor-float_FullColor.mfa
+## Examples
+- FullColor-float_FullColor.mfa  

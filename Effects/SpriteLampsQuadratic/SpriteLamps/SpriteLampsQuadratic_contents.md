@@ -1,12 +1,12 @@
-Shader Packs: SpriteLamps pack (by Emil Macko)
+## Info
+**Shader Packs:** SpriteLamps pack (by Emil Macko)
 
-Last Updated: 2020-09-04 16:09
+**Last Updated:** 2020-09-04 16:09  
 
-=== Shader files ===
-SpriteLampsQuadratic.xml - Info & Integration
-SpriteLampsQuadratic.fx - DirectX9 source code
-SpriteLampsQuadratic.hlsl - DirectX11 source code
-SpriteLampsQuadratic.fxc - DirectX11 compiled
-SpriteLampsQuadratic.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
-
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
+## Shader files
+- **SpriteLampsQuadratic.xml** — Info & Integration
+- **SpriteLampsQuadratic.fx** — DirectX9 source code
+- **SpriteLampsQuadratic.hlsl** — DirectX11 source code
+- **SpriteLampsQuadratic.fxc** — DirectX11 compiled
+- **SpriteLampsQuadratic.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

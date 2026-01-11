@@ -1,16 +1,16 @@
-Shader Packs: OpenFusionExamples (by defisym)
+## Info
+**Shader Packs:** OpenFusionExamples (by defisym)
 
-Last Updated: 2022-07-25 15:08
+**Last Updated:** 2022-07-25 15:08  
 
-=== Shader files ===
-PatternFadeIn.xml - Info & Integration
-PatternFadeIn.fx - DirectX9 source code
-PatternFadeIn.hlsl - DirectX11 source code
-PatternFadeIn.fxc - DirectX11 compiled
-PatternFadeIn.premultiplied.fxc - DirectX11 compiled (Premultiplied*)
+## Shader files
+- **PatternFadeIn.xml** — Info & Integration
+- **PatternFadeIn.fx** — DirectX9 source code
+- **PatternFadeIn.hlsl** — DirectX11 source code
+- **PatternFadeIn.fxc** — DirectX11 compiled
+- **PatternFadeIn.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
 
-* Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.
-
-=== Examples ===
-PatternFadeIn_CMP.mfa
-PatternFadeIn_Coef.mfa
+## Examples
+- PatternFadeIn_CMP.mfa
+- PatternFadeIn_Coef.mfa  
