@@ -1,5 +1,5 @@
 ## Info
-**License:** Free for commercial and not commercial, no attribution needed
+**License:** CC0-1.0
 
 **Last Updated:** 2017-03-11 22:20  
 

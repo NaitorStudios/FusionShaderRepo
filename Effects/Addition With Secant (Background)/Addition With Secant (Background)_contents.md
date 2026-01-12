@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Foxioo Shader Pack
 
-**License:** MIT License
+**License:** MIT
 
 **Last Updated:** 2026-01-04 22:00  
 
