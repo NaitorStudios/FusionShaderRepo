@@ -543,7 +543,7 @@
 - **GIMP Grain Merge (Background).xml** — GIMP Grain Merge (Background)
 - **GIMP Grain Extract (Background).xml** — GIMP Grain Extract (Background)
 - **Geometry Dash Glass Blocks (Background).xml** — Geometry Dash Glass Blocks (Background)
-- **genshin shader 3.xml** — genshin shader 3
+- **Genshin Shader 3.0 Skin (Switch).xml** — Genshin Shader 3.0 Skin (Switch)
 - **Genshin Impact Natlan Outline (Background).xml** — Genshin Impact Natlan Outline (Background)
 - **Frutiger Aero (Background).xml** — Frutiger Aero (Background)
 - **Freeze (Switch).xml** — Freeze (Switch)

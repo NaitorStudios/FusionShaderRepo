@@ -1,8 +1,7 @@
 <effect>
 <name>Mask: Sepia</name>
 <description>Applies a sepia tone filter to images by converting them to grayscale and then blending that grayscale with sepia-colored values. The shader takes the average of the red, green, and blue channels, then multiplies the result by a sepia color vector to produce the final sepia-toned output.</description>
-<author>Sphax/Eagle4 - Flavien Clermont, Cl�ment Willay</author>
+<author>Sphax/Eagle4 - Flavien Clermont, Clément Willay</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>
 </effect>
-

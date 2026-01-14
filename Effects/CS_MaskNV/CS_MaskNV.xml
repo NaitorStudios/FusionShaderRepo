@@ -1,7 +1,7 @@
 <effect>
 <name>Mask: Night Vision</name>
 <description>This shader applies a night-vision effect by enhancing green tones and adjusting saturation to create a stylized low-light visualization. It multiplies the green channel, blends it with the original color, and scales the result based on a saturation coefficient.</description>
-<author>Sphax/Eagle4 - Flavien Clermont, Cl�ment Willay</author>
+<author>Sphax/Eagle4 - Flavien Clermont, Clément Willay</author>
 <company>Complex-softwares</company>
 <website>http://complex.softwares.free.fr</website>
 <parameter>
@@ -13,4 +13,3 @@
 		<value>2.0</value>
 </parameter>
 </effect>
-

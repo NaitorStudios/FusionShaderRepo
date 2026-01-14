@@ -1,3 +1,7 @@
+## Info
+**Shader Packs:** Foxioo Shader Pack
+  
+
 ## Shader files
 - **Genshin Shader 3.0 Skin (Switch).xml** — Info & Integration
 - **Genshin Shader 3.0 Skin (Switch).fx** — DirectX9 source code
