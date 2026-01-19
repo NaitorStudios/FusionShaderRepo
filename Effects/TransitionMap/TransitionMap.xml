@@ -1,0 +1,175 @@
+<effect>
+<name>Transition Map</name>
+<author>NaitorStudios</author>
+<description></description>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Mask</name>
+
+		// Parameter name (in the .fx file)
+		<code>mask</code>
+
+		// Description
+		<description>Texture to use as overlay.</description>
+
+		// Type (int or float)
+		<type>image</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>image</property>
+
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Invert mask</name>
+
+		// Parameter name (in the .fx file)
+		<code>invert</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>int</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>checkbox</property>
+
+		// Default value
+		<value>0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Cutoff</name>
+
+		// Parameter name (in the .fx file)
+		<code>cutoff</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		<min>-1.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Smooth Size</name>
+
+		// Parameter name (in the .fx file)
+		<code>smooth_size</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Color</name>
+
+		// Parameter name (in the .fx file)
+		<code>color</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>int_float4</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>color</property>
+
+		// Default value
+		<value>0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Use texture</name>
+
+		// Parameter name (in the .fx file)
+		<code>useTexture</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>int</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>checkbox</property>
+
+		// Default value
+		<value>0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		//<min>0.0</min>
+		//<max>1.0</max>
+</parameter>
+
+<parameter>
+
+		// Name of parameter property
+		<name>Fade</name>
+
+		// Parameter name (in the .fx file)
+		<code>fade</code>
+
+		// Description
+		<description></description>
+
+		// Type (int or float)
+		<type>float</type>
+
+		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<property>spin</property>
+
+		// Default value
+		<value>0.0</value>
+
+		// Optional : min and max values, not used by all the parameters
+		<min>0.0</min>
+		<max>1.0</max>
+</parameter>
+
+</effect>
