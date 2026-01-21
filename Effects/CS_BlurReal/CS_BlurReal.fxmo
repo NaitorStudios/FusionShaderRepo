@@ -1,0 +1,85 @@
+// CS_BlurReal
+
+//@Begin_vertex
+//version_####
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+
+uniform float fCoeff;
+uniform int nSteps;
+
+uniform sampler2D imgTexture;
+
+uniform lowp vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec4 color;
+	int i;
+	float fCoeffCurrent=fCoeff;
+
+	if(nSteps>0)
+	{
+		color.rgba=vec4(0.0,0.0,0.0,0.0);
+
+		for(i=0;i<nSteps;i++)
+		{
+			vec4 TexT = texture(imgTexture, vec2(textureCoordinate.x,textureCoordinate.y-fCoeffCurrent));
+			vec4 TexTL = texture(imgTexture, vec2(textureCoordinate.x-fCoeff,textureCoordinate.y-fCoeff));
+			vec4 TexL = texture(imgTexture, vec2(textureCoordinate.x-fCoeffCurrent,textureCoordinate.y));
+			vec4 TexBL = texture(imgTexture, vec2(textureCoordinate.x-fCoeff,textureCoordinate.y+fCoeff));
+			vec4 TexB = texture(imgTexture, vec2(textureCoordinate.x,textureCoordinate.y+fCoeffCurrent));
+			vec4 TexBR = texture(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y+fCoeff));
+			vec4 TexR = texture(imgTexture, vec2(textureCoordinate.x+fCoeffCurrent,textureCoordinate.y));
+			vec4 TexTR = texture(imgTexture, vec2(textureCoordinate.x+fCoeff,textureCoordinate.y-fCoeff));
+			vec4 TexF = texture(imgTexture, textureCoordinate);
+
+			color = color+(TexF+TexT+TexTL+TexL+TexBL+TexB+TexBR+TexR+TexTR)/(9.0*float(nSteps));
+
+			fCoeffCurrent=fCoeffCurrent+fCoeff;
+		}
+	}
+	else
+	{
+		color = texture(imgTexture, textureCoordinate);
+	}
+
+	color *= blendColor;
+
+
+	fragColor = color; //gl_FragColor
+}
+//@End

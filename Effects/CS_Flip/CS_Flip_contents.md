@@ -7,4 +7,6 @@
 - **CS_Flip.xml** — Info & Integration
 - **CS_Flip.fx** — DirectX9 source code
 - **CS_Flip.hlsl** — DirectX11 source code
-- **CS_Flip.fxc** — DirectX11 compiled  
+- **CS_Flip.fxc** — DirectX11 compiled
+- **CS_Flip.fxao** — Android source code
+- **CS_Flip.fxmo** — iOS/Mac source code  

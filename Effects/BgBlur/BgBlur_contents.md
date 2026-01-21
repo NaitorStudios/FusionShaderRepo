@@ -7,4 +7,6 @@
 - **BgBlur.xml** — Info & Integration
 - **BgBlur.fx** — DirectX9 source code
 - **BgBlur.hlsl** — DirectX11 source code
-- **BgBlur.fxc** — DirectX11 compiled  
+- **BgBlur.fxc** — DirectX11 compiled
+- **BgBlur.fxao** — Android source code
+- **BgBlur.fxmo** — iOS/Mac source code  

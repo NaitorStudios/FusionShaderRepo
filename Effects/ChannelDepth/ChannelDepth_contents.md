@@ -9,4 +9,6 @@
 - **ChannelDepth.hlsl** — DirectX11 source code
 - **ChannelDepth.fxc** — DirectX11 compiled
 - **ChannelDepth.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **ChannelDepth.fxao** — Android source code
+- **ChannelDepth.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

@@ -5,4 +5,10 @@
 
 ## Shader files
 - **ColorMixer.xml** — Info & Integration
-- **ColorMixer.fx** — DirectX9 source code  
+- **ColorMixer.fx** — DirectX9 source code
+- **ColorMixer.hlsl** — DirectX11 source code
+- **ColorMixer.fxc** — DirectX11 compiled
+- **ColorMixer.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **ColorMixer.fxao** — Android source code
+- **ColorMixer.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

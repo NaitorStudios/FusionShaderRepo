@@ -1,0 +1,63 @@
+// PT_Rotate
+
+//@Begin_vertex
+//version_####
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform float fAngle;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec2 tmpTex = textureCoordinate;
+	float Angle = radians(fAngle);
+	tmpTex.x -= 0.5;
+	tmpTex.y -= 0.5;
+
+	float Tcos = cos(Angle);
+	float Tsin = sin(Angle);
+	float Temp = tmpTex.x * Tcos - tmpTex.y * Tsin + 0.5;
+	tmpTex.y = tmpTex.y * Tcos + tmpTex.x * Tsin + 0.5;
+	tmpTex.x = Temp;
+   	vec4 color = texture(imgTexture, tmpTex);
+
+	color *= blendColor;
+
+	fragColor = color; //gl_FragColor
+}
+//@End

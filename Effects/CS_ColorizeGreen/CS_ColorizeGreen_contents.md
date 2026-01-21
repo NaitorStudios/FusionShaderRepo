@@ -9,4 +9,6 @@
 - **CS_ColorizeGreen.hlsl** — DirectX11 source code
 - **CS_ColorizeGreen.fxc** — DirectX11 compiled
 - **CS_ColorizeGreen.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_ColorizeGreen.fxao** — Android source code
+- **CS_ColorizeGreen.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

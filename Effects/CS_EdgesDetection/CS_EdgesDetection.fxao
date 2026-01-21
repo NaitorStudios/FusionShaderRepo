@@ -1,0 +1,59 @@
+// CS_EdgeDetection
+
+//@Begin_vertex
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform float fCoeffX;
+uniform float fCoeffY;
+
+uniform sampler2D imgTexture;
+uniform lowp vec4 blendColor;
+
+void main(void)
+{
+	vec4 color = texture2D(imgTexture, textureCoordinate)*blendColor;
+
+	vec4 c2 = texture2D(imgTexture, textureCoordinate + vec2(0.0,-fCoeffY))*blendColor;
+	vec4 c4 = texture2D(imgTexture, textureCoordinate + vec2(-fCoeffX,0.0))*blendColor;
+	vec4 c5 = texture2D(imgTexture, textureCoordinate + vec2(0.0,0.0))*blendColor;
+	vec4 c6 = texture2D(imgTexture, textureCoordinate + vec2(fCoeffX,0.0))*blendColor;
+	vec4 c8 = texture2D(imgTexture, textureCoordinate + vec2(0.0,fCoeffY))*blendColor;
+
+	vec4 c0 = (-c2-c4+c5*4.0-c6-c8);
+
+	if(length(c0) < 1.0)
+		c0 = vec4(0.0,0.0,0.0,0.0);
+	else
+		c0 = vec4(1.0,1.0,1.0,0.0);
+
+	color.rgb = c0.rgb;
+
+	gl_FragColor = color;
+
+}
+//@End

@@ -9,4 +9,6 @@
 - **CS_BumpMapping.hlsl** — DirectX11 source code
 - **CS_BumpMapping.fxc** — DirectX11 compiled
 - **CS_BumpMapping.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_BumpMapping.fxao** — Android source code
+- **CS_BumpMapping.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

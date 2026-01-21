@@ -9,4 +9,6 @@
 - **CS_ColorizePartsRGBYCM.hlsl** — DirectX11 source code
 - **CS_ColorizePartsRGBYCM.fxc** — DirectX11 compiled
 - **CS_ColorizePartsRGBYCM.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_ColorizePartsRGBYCM.fxao** — Android source code
+- **CS_ColorizePartsRGBYCM.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

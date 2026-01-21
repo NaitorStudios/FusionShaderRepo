@@ -8,4 +8,5 @@
 - **OffsetRippleFade.fxc** — DirectX11 compiled
 - **OffsetRippleFade.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
 - **OffsetRippleFade.fxao** — Android source code
+- **OffsetRippleFade.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

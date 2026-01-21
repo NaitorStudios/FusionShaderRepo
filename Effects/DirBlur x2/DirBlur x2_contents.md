@@ -9,4 +9,6 @@
 - **DirBlur x2.hlsl** — DirectX11 source code
 - **DirBlur x2.fxc** — DirectX11 compiled
 - **DirBlur x2.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **DirBlur x2.fxao** — Android source code
+- **DirBlur x2.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

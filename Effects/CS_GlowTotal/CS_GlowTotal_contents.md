@@ -9,4 +9,6 @@
 - **CS_GlowTotal.hlsl** — DirectX11 source code
 - **CS_GlowTotal.fxc** — DirectX11 compiled
 - **CS_GlowTotal.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_GlowTotal.fxao** — Android source code
+- **CS_GlowTotal.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

@@ -9,4 +9,6 @@
 - **CS_Bloom2D.hlsl** — DirectX11 source code
 - **CS_Bloom2D.fxc** — DirectX11 compiled
 - **CS_Bloom2D.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_Bloom2D.fxao** — Android source code
+- **CS_Bloom2D.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

@@ -7,4 +7,6 @@
 - **CRTHori.hlsl** — DirectX11 source code
 - **CRTHori.fxc** — DirectX11 compiled
 - **CRTHori.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CRTHori.fxao** — Android source code
+- **CRTHori.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

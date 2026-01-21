@@ -7,4 +7,6 @@
 - **CS_MaskBlue.xml** — Info & Integration
 - **CS_MaskBlue.fx** — DirectX9 source code
 - **CS_MaskBlue.hlsl** — DirectX11 source code
-- **CS_MaskBlue.fxc** — DirectX11 compiled  
+- **CS_MaskBlue.fxc** — DirectX11 compiled
+- **CS_MaskBlue.fxao** — Android source code
+- **CS_MaskBlue.fxmo** — iOS/Mac source code  

@@ -4,4 +4,11 @@
 **Last Updated:** 2025-08-02 14:39  
 
 ## Shader files
-- **Lens.xml** — Info & Integration  
+- **Lens.xml** — Info & Integration
+- **Lens.fx** — DirectX9 source code
+- **Lens.hlsl** — DirectX11 source code
+- **Lens.fxc** — DirectX11 compiled
+- **Lens.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Lens.fxao** — Android source code
+- **Lens.fxmo** — iOS/Mac source code
+*Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

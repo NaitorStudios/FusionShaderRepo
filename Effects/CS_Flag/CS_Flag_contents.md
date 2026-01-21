@@ -9,4 +9,6 @@
 - **CS_Flag.hlsl** — DirectX11 source code
 - **CS_Flag.fxc** — DirectX11 compiled
 - **CS_Flag.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_Flag.fxao** — Android source code
+- **CS_Flag.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

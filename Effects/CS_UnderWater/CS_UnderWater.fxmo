@@ -1,0 +1,72 @@
+// CS_UnderWater
+
+//@Begin_vertex
+//version_####
+in vec2 position;
+
+uniform mat3 projectionMatrix;
+uniform mat3 transformMatrix;
+uniform mat3 objectMatrix;
+uniform mat3 textureMatrix;
+
+out vec2 textureCoordinate;
+
+void main()
+{
+    vec3 pos = vec3(position, 1.0);
+    textureCoordinate = (textureMatrix * pos).xy;
+    gl_Position = vec4(projectionMatrix * transformMatrix * objectMatrix * pos, 1.0);
+}
+//@End
+//@Begin_fragment
+//version_####
+#ifdef GL_ES
+    #if defined(GL_FRAGMENT_PRECISION_HIGH) || defined(GL_OES_standard_derivatives)
+        #define HIGH_PRECISION_SUPPORTED
+    #endif
+#else
+    #define HIGH_PRECISION_SUPPORTED    
+#endif
+
+#ifdef HIGH_PRECISION_SUPPORTED
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+in vec2 textureCoordinate;
+
+uniform float fBlur;
+uniform float fAmplitudeX;
+uniform float fPeriodsX;
+uniform float fFreqX;
+uniform float fAmplitudeY;
+uniform float fPeriodsY;
+uniform float fFreqY;
+
+uniform sampler2D imgTexture;
+
+uniform lowp vec4 blendColor;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	//SinX
+	vec2 texCoordinate = textureCoordinate;
+	texCoordinate.y = textureCoordinate.y + (sin((textureCoordinate.x+fFreqX)*fPeriodsX)*fAmplitudeX);
+	//SinY
+	texCoordinate.x = textureCoordinate.x + (sin((textureCoordinate.y+fFreqY)*fPeriodsY)*fAmplitudeY);
+
+	vec4 TexTL = texture(imgTexture, vec2(texCoordinate.x-fBlur,texCoordinate.y-fBlur));
+	vec4 TexBL = texture(imgTexture, vec2(texCoordinate.x-fBlur,texCoordinate.y+fBlur));
+	vec4 TexBR = texture(imgTexture, vec2(texCoordinate.x+fBlur,texCoordinate.y+fBlur));
+	vec4 TexTR = texture(imgTexture, vec2(texCoordinate.x+fBlur,texCoordinate.y-fBlur));
+	vec4 color = texture(imgTexture, texCoordinate);
+	color = (color+TexTL+TexBL+TexBR+TexTR)/5.0;
+
+	color *= blendColor;
+
+	fragColor = color; //gl_FragColor
+
+}
+//@End

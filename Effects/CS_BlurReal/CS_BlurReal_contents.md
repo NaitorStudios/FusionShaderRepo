@@ -12,4 +12,6 @@ DirectX 9 Pixel Shader version 3.0 is broken on Fusion for a long time, more spe
 - **CS_BlurReal.hlsl** — DirectX11 source code
 - **CS_BlurReal.fxc** — DirectX11 compiled
 - **CS_BlurReal.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_BlurReal.fxao** — Android source code
+- **CS_BlurReal.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

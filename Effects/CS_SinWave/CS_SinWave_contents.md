@@ -7,4 +7,6 @@
 - **CS_SinWave.xml** — Info & Integration
 - **CS_SinWave.fx** — DirectX9 source code
 - **CS_SinWave.hlsl** — DirectX11 source code
-- **CS_SinWave.fxc** — DirectX11 compiled  
+- **CS_SinWave.fxc** — DirectX11 compiled
+- **CS_SinWave.fxao** — Android source code
+- **CS_SinWave.fxmo** — iOS/Mac source code  

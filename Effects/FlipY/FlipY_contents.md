@@ -5,4 +5,6 @@
 - **FlipY.xml** — Info & Integration
 - **FlipY.fx** — DirectX9 source code
 - **FlipY.hlsl** — DirectX11 source code
-- **FlipY.fxc** — DirectX11 compiled  
+- **FlipY.fxc** — DirectX11 compiled
+- **FlipY.fxao** — Android source code
+- **FlipY.fxmo** — iOS/Mac source code  

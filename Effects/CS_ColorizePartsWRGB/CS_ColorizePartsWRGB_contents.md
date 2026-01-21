@@ -9,4 +9,6 @@
 - **CS_ColorizePartsWRGB.hlsl** — DirectX11 source code
 - **CS_ColorizePartsWRGB.fxc** — DirectX11 compiled
 - **CS_ColorizePartsWRGB.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_ColorizePartsWRGB.fxao** — Android source code
+- **CS_ColorizePartsWRGB.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

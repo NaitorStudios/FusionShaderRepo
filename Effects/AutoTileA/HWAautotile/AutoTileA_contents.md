@@ -1,6 +1,6 @@
 ## Info
 **Notes:**
-AutotileA and AutotileB are dependent on each other
+AutoTileA and AutoTileB are dependent on each other
 
 **Shader Packs:** HWAautotile (by Sketchy)
 

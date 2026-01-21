@@ -7,4 +7,6 @@
 - **Saturation.hlsl** — DirectX11 source code
 - **Saturation.fxc** — DirectX11 compiled
 - **Saturation.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **Saturation.fxao** — Android source code
+- **Saturation.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

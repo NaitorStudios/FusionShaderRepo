@@ -9,4 +9,6 @@
 - **CS_ColorizeBlue.hlsl** — DirectX11 source code
 - **CS_ColorizeBlue.fxc** — DirectX11 compiled
 - **CS_ColorizeBlue.premultiplied.fxc** — DirectX11 compiled (Premultiplied*)
+- **CS_ColorizeBlue.fxao** — Android source code
+- **CS_ColorizeBlue.fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  

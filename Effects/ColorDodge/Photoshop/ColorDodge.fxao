@@ -1,0 +1,45 @@
+// ColorDodge
+
+//@Begin_vertex
+#ifdef GL_ES
+ precision mediump float;
+#endif
+uniform mat4 transformMatrix;
+uniform mat4 projectionMatrix;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 textureCoordinate;
+
+void main(void)
+{
+	textureCoordinate = texCoord;
+	gl_Position = projectionMatrix * transformMatrix * position;
+}
+//@End
+//@Begin_fragment
+#ifdef GL_ES
+ precision mediump float;
+#endif
+varying vec2 textureCoordinate;
+
+uniform sampler2D imgTexture;
+uniform sampler2D bckgTexture;
+uniform lowp vec4 blendColor;
+
+vec4 saturate(vec4 value)
+{
+    return clamp(value,vec4(0.0),vec4(1.0));
+}
+
+void main(void)
+{
+	lowp vec4 L = texture2D(imgTexture, textureCoordinate)*blendColor;
+	lowp vec4 B = texture2D(bckgTexture, textureCoordinate);
+	vec4 color = all(equal(L, vec4(1.0))) ? vec4(1.0) : saturate(B/(1.0 - L));
+
+	color.a = 1.0;
+
+	gl_FragColor = color;
+}
+//@End

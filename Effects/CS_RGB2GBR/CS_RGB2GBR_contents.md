@@ -7,4 +7,6 @@
 - **CS_RGB2GBR.xml** — Info & Integration
 - **CS_RGB2GBR.fx** — DirectX9 source code
 - **CS_RGB2GBR.hlsl** — DirectX11 source code
-- **CS_RGB2GBR.fxc** — DirectX11 compiled  
+- **CS_RGB2GBR.fxc** — DirectX11 compiled
+- **CS_RGB2GBR.fxao** — Android source code
+- **CS_RGB2GBR.fxmo** — iOS/Mac source code  
