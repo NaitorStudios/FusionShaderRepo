@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:03  
+**Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
-- **Ripple Radial (Switch).xml** — Info & Integration
 - **Ripple Radial (Switch).fx** — DirectX9 source code
 - **Ripple Radial (Switch).hlsl** — DirectX11 source code
 - **Ripple Radial (Switch).fxc** — DirectX11 compiled

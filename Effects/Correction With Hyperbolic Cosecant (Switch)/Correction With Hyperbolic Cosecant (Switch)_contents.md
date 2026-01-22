@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Correction With Hyperbolic Cosecant (Switch).xml** — Info & Integration
 - **Correction With Hyperbolic Cosecant (Switch).fx** — DirectX9 source code
 - **Correction With Hyperbolic Cosecant (Switch).hlsl** — DirectX11 source code
 - **Correction With Hyperbolic Cosecant (Switch).fxc** — DirectX11 compiled

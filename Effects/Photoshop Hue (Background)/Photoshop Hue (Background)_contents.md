@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Photoshop Hue (Background).xml** — Info & Integration
 - **Photoshop Hue (Background).fx** — DirectX9 source code
 - **Photoshop Hue (Background).hlsl** — DirectX11 source code
 - **Photoshop Hue (Background).fxc** — DirectX11 compiled

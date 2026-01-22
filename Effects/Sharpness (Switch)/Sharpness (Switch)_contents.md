@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Sharpness (Switch).xml** — Info & Integration
 - **Sharpness (Switch).fx** — DirectX9 source code
 - **Sharpness (Switch).hlsl** — DirectX11 source code
 - **Sharpness (Switch).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **VHS (Texture).xml** — Info & Integration
 - **VHS (Texture).fx** — DirectX9 source code
 - **VHS (Texture).hlsl** — DirectX11 source code
 - **VHS (Texture).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Correction With Cotangent (Switch).xml** — Info & Integration
 - **Correction With Cotangent (Switch).fx** — DirectX9 source code
 - **Correction With Cotangent (Switch).hlsl** — DirectX11 source code
 - **Correction With Cotangent (Switch).fxc** — DirectX11 compiled

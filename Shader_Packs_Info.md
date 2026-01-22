@@ -326,7 +326,7 @@
 - **DirBlur x2.xml** — Directional Blur 2x
 - **DirBlur x1.xml** — Directional Blur 1x  
 
-## Shader Pack: Foxioo Shader Pack (350 shaders)
+## Shader Pack: Foxioo Shader Pack (374 shaders)
 - **Logical LEFTSHIFT Blend (Background).xml** — Logical LEFTSHIFT Blend (Background)
 - **Logical LEFTSHIFT Base (Background).xml** — Logical LEFTSHIFT Base (Background)
 - **Logical ROTATELEFT Base (Background).xml** — Logical ROTATELEFT Base (Background)
@@ -677,3 +677,27 @@
 - **Active (Texture).xml** — Active (Texture)
 - **Logical RIGHTSHIFT Base (Background).xml** — Logical RIGHTSHIFT Base (Background)
 - **Unity Bloom (Texutre+Background).xml** — Unity Bloom (Texture+Background)
+- **D3D8Test (Texture).xml** — Direct3D8 Test Shader (Texture)
+- **CRT (Switch).xml** — CRT (Switch)
+- **Spectrogram (Switch).xml** — Spectrogram (Switch)
+- **BIOS (Switch).xml** — BIOS (Switch)
+- **Screen Space Reflection (Texture).xml** — Screen Space Reflection (Texture)
+- **Polygon Colored Vertex Flat Sub (Texture).xml** — Tails7 Polygon Colored Vertex With Subtraction (Texture) [Flat Shading]
+- **Polygon Colored Vertex Flat Mul (Texture).xml** — Tails7 Polygon Colored Vertex With Multiplication (Texture) [Flat Shading]
+- **Polygon Colored Vertex Flat Div (Texture).xml** — Tails7 Polygon Colored Vertex With Division (Texture) [Flat Shading]
+- **Polygon Colored Vertex Flat Add (Texture).xml** — Tails7 Polygon Colored Vertex With Addition (Texture) [Flat Shading]
+- **Polygon Colored Vertex Flat (Texture).xml** — Tails7 Polygon Colored Vertex (Texture) [Flat Shading]
+- **Polygon Colored Vertex Sub (Texture).xml** — Tails7 Polygon Colored Vertex With Subtraction (Texture) [Gouraud Shading]
+- **Polygon Colored Vertex Mul (Texture).xml** — Tails7 Polygon Colored Vertex With Multiplication (Texture) [Gouraud Shading]
+- **Polygon Colored Vertex Div (Texture).xml** — Tails7 Polygon Colored Vertex With Division (Texture) [Gouraud Shading]
+- **Polygon Colored Vertex Add (Texture).xml** — Tails7 Polygon Colored Vertex With Addition (Texture) [Gouraud Shading]
+- **Polygon Colored Vertex (Texture).xml** — Tails7 Polygon Colored Vertex (Texture) [Gouraud Shading]
+- **Polygon Wireframe (Texture).xml** — Tails7 Polygon Wireframe (Texture)
+- **Polygon Blend Sub (Background).xml** — Tails7 Polygon With Blending Mode Subtraction (Background)
+- **Polygon Blend Mul (Background).xml** — Tails7 Polygon With Blending Mode Multiplication (Background)
+- **Polygon Blend Add (Background).xml** — Tails7 Polygon With Blending Mode Addition (Background)
+- **Polygon Blend Div (Background).xml** — Tails7 Polygon With Blending Mode Division (Background)
+- **Polygon Colored Solid (Texture).xml** — Tails7 Polygon Colored Soild (Texture)
+- **Polygon Mask (Texture).xml** — Tails7 Polygon Mask (Texture)
+- **Polygon Inverted Mask (Texture).xml** — Tails7 Polygon Inverted Mask (Texture)
+- **Polygon (Texture).xml** — Tails7 Polygon (Texture)

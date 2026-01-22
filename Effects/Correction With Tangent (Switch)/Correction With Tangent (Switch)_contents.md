@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Correction With Tangent (Switch).xml** — Info & Integration
 - **Correction With Tangent (Switch).fx** — DirectX9 source code
 - **Correction With Tangent (Switch).hlsl** — DirectX11 source code
 - **Correction With Tangent (Switch).fxc** — DirectX11 compiled

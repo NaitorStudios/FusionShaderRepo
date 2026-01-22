@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Invert Brightness (Switch) [Rework].xml** — Info & Integration
 - **Invert Brightness (Switch) [Rework].fx** — DirectX9 source code
 - **Invert Brightness (Switch) [Rework].hlsl** — DirectX11 source code
 - **Invert Brightness (Switch) [Rework].fxc** — DirectX11 compiled

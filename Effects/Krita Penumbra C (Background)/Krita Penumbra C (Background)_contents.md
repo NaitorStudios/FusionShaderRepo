@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Krita Penumbra C (Background).xml** — Info & Integration
 - **Krita Penumbra C (Background).fx** — DirectX9 source code
 - **Krita Penumbra C (Background).hlsl** — DirectX11 source code
 - **Krita Penumbra C (Background).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:03  
+**Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
-- **Unity Bloom (Texutre+Background).xml** — Info & Integration
 - **Unity Bloom (Texutre+Background).fx** — DirectX9 source code
 - **Unity Bloom (Texutre+Background).hlsl** — DirectX11 source code
 - **Unity Bloom (Texutre+Background).fxc** — DirectX11 compiled

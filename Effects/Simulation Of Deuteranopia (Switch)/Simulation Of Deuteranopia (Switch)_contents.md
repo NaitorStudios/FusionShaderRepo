@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Simulation Of Deuteranopia (Switch).xml** — Info & Integration
 - **Simulation Of Deuteranopia (Switch).fx** — DirectX9 source code
 - **Simulation Of Deuteranopia (Switch).hlsl** — DirectX11 source code
 - **Simulation Of Deuteranopia (Switch).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Photoshop Dissolve (Texture).xml** — Info & Integration
 - **Photoshop Dissolve (Texture).fx** — DirectX9 source code
 - **Photoshop Dissolve (Texture).hlsl** — DirectX11 source code
 - **Photoshop Dissolve (Texture).fxc** — DirectX11 compiled

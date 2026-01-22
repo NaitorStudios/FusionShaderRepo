@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Conversion To YIQ (Switch).xml** — Info & Integration
 - **Conversion To YIQ (Switch).fx** — DirectX9 source code
 - **Conversion To YIQ (Switch).hlsl** — DirectX11 source code
 - **Conversion To YIQ (Switch).fxc** — DirectX11 compiled

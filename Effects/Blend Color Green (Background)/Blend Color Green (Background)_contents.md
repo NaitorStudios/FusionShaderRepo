@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Blend Color Green (Background).xml** — Info & Integration
 - **Blend Color Green (Background).fx** — DirectX9 source code
 - **Blend Color Green (Background).hlsl** — DirectX11 source code
 - **Blend Color Green (Background).fxc** — DirectX11 compiled

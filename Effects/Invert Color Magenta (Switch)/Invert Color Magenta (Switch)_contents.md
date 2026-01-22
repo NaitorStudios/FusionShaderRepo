@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Invert Color Magenta (Switch).xml** — Info & Integration
 - **Invert Color Magenta (Switch).fx** — DirectX9 source code
 - **Invert Color Magenta (Switch).hlsl** — DirectX11 source code
 - **Invert Color Magenta (Switch).fxc** — DirectX11 compiled

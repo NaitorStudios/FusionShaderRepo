@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:03  
+**Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
-- **Quad Colored Vertex Manhattan (Texture).xml** — Info & Integration
 - **Quad Colored Vertex Manhattan (Texture).fx** — DirectX9 source code
 - **Quad Colored Vertex Manhattan (Texture).hlsl** — DirectX11 source code
 - **Quad Colored Vertex Manhattan (Texture).fxc** — DirectX11 compiled

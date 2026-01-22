@@ -1,8 +1,11 @@
 <effect>
 <name>Nobu's Scale2x</name>
 <author>Nobuyuki (nobu@subsoap.com)</author>
-<description>An attempt at implementing the Scale2x altorithm in HLSL.&#xA;
-Notes: No idea how it works, doesn't seem right. I've renamed it because it conflicted with Sketchy's one.</description>
+<description>
+An attempt at implementing the Scale2x altorithm in HLSL.
+
+Notes: No idea how it works, doesn't seem quite right. Renamed to avoid conflict with Sketchy's one.
+</description>
 <parameter>
 
 		<!--Name of parameter property-->

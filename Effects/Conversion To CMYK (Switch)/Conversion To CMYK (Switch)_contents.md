@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Conversion To CMYK (Switch).xml** — Info & Integration
 - **Conversion To CMYK (Switch).fx** — DirectX9 source code
 - **Conversion To CMYK (Switch).hlsl** — DirectX11 source code
 - **Conversion To CMYK (Switch).fxc** — DirectX11 compiled

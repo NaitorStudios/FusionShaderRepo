@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Invert Color Green (Switch).xml** — Info & Integration
 - **Invert Color Green (Switch).fx** — DirectX9 source code
 - **Invert Color Green (Switch).hlsl** — DirectX11 source code
 - **Invert Color Green (Switch).fxc** — DirectX11 compiled

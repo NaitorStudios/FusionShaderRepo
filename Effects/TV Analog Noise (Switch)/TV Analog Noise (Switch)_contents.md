@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **TV Analog Noise (Switch).xml** — Info & Integration
 - **TV Analog Noise (Switch).fx** — DirectX9 source code
 - **TV Analog Noise (Switch).hlsl** — DirectX11 source code
 - **TV Analog Noise (Switch).fxc** — DirectX11 compiled
@@ -14,3 +13,6 @@
 - **TV Analog Noise (Switch).fxao** — Android source code
 - **TV Analog Noise (Switch).fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
+
+## Examples
+- Trailer300.mfa  

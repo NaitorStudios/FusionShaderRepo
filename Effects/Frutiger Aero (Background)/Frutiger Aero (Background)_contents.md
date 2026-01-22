@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Frutiger Aero (Background).xml** — Info & Integration
 - **Frutiger Aero (Background).fx** — DirectX9 source code
 - **Frutiger Aero (Background).hlsl** — DirectX11 source code
 - **Frutiger Aero (Background).fxc** — DirectX11 compiled

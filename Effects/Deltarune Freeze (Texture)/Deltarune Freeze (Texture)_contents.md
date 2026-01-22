@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Deltarune Freeze (Texture).xml** — Info & Integration
 - **Deltarune Freeze (Texture).fx** — DirectX9 source code
 - **Deltarune Freeze (Texture).hlsl** — DirectX11 source code
 - **Deltarune Freeze (Texture).fxc** — DirectX11 compiled

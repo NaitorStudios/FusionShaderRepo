@@ -1,7 +1,7 @@
 ## Info
 **Shader Packs:** Foxioo Shader Pack
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
 - **Comparison Less (Background).xml** — Info & Integration

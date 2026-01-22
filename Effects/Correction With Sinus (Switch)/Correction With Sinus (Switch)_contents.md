@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Correction With Sinus (Switch).xml** — Info & Integration
 - **Correction With Sinus (Switch).fx** — DirectX9 source code
 - **Correction With Sinus (Switch).hlsl** — DirectX11 source code
 - **Correction With Sinus (Switch).fxc** — DirectX11 compiled

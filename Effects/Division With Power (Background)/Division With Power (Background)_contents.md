@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Division With Power (Background).xml** — Info & Integration
 - **Division With Power (Background).fx** — DirectX9 source code
 - **Division With Power (Background).hlsl** — DirectX11 source code
 - **Division With Power (Background).fxc** — DirectX11 compiled

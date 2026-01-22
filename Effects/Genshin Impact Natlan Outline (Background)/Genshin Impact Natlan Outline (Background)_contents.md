@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Genshin Impact Natlan Outline (Background).xml** — Info & Integration
 - **Genshin Impact Natlan Outline (Background).fx** — DirectX9 source code
 - **Genshin Impact Natlan Outline (Background).hlsl** — DirectX11 source code
 - **Genshin Impact Natlan Outline (Background).fxc** — DirectX11 compiled

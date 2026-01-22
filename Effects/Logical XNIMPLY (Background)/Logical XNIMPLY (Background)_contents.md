@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Logical XNIMPLY (Background).xml** — Info & Integration
 - **Logical XNIMPLY (Background).fx** — DirectX9 source code
 - **Logical XNIMPLY (Background).hlsl** — DirectX11 source code
 - **Logical XNIMPLY (Background).fxc** — DirectX11 compiled

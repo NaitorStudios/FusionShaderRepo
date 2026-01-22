@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:03  
+**Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
-- **Quad Mask (Texture).xml** — Info & Integration
 - **Quad Mask (Texture).fx** — DirectX9 source code
 - **Quad Mask (Texture).hlsl** — DirectX11 source code
 - **Quad Mask (Texture).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Burn (Switch).xml** — Info & Integration
 - **Burn (Switch).fx** — DirectX9 source code
 - **Burn (Switch).hlsl** — DirectX11 source code
 - **Burn (Switch).fxc** — DirectX11 compiled

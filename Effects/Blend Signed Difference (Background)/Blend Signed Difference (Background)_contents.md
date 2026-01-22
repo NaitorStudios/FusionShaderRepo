@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Blend Signed Difference (Background).xml** — Info & Integration
 - **Blend Signed Difference (Background).fx** — DirectX9 source code
 - **Blend Signed Difference (Background).hlsl** — DirectX11 source code
 - **Blend Signed Difference (Background).fxc** — DirectX11 compiled

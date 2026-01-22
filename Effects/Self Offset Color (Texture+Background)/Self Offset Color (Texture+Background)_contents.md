@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Self Offset Color (Texture+Background).xml** — Info & Integration
 - **Self Offset Color (Texture+Background).fx** — DirectX9 source code
 - **Self Offset Color (Texture+Background).hlsl** — DirectX11 source code
 - **Self Offset Color (Texture+Background).fxc** — DirectX11 compiled

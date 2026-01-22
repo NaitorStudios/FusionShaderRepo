@@ -3,7 +3,7 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
 - **Offset Color (Background).xml** — Info & Integration
@@ -14,3 +14,6 @@
 - **Offset Color (Background).fxao** — Android source code
 - **Offset Color (Background).fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
+
+## Examples
+- Trailer300.mfa  

@@ -4,7 +4,7 @@ Possibly not compatible with Android, iOS and Mac yet because it has to be appli
 
 **Shader Packs:** Looki Full Pack
 
-**Last Updated:** 2026-01-11 21:11  
+**Last Updated:** 2026-01-21 18:48  
 
 ## Shader files
 - **MotionBlur.xml** — Info & Integration

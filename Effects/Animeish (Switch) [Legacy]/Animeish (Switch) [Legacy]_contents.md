@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Animeish (Switch) [Legacy].xml** — Info & Integration
 - **Animeish (Switch) [Legacy].fx** — DirectX9 source code
 - **Animeish (Switch) [Legacy].hlsl** — DirectX11 source code
 - **Animeish (Switch) [Legacy].fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Correction With Floating Modulus (Switch).xml** — Info & Integration
 - **Correction With Floating Modulus (Switch).fx** — DirectX9 source code
 - **Correction With Floating Modulus (Switch).hlsl** — DirectX11 source code
 - **Correction With Floating Modulus (Switch).fxc** — DirectX11 compiled

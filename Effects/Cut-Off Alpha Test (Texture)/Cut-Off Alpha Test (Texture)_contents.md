@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Cut-Off Alpha Test (Texture).xml** — Info & Integration
 - **Cut-Off Alpha Test (Texture).fx** — DirectX9 source code
 - **Cut-Off Alpha Test (Texture).hlsl** — DirectX11 source code
 - **Cut-Off Alpha Test (Texture).fxc** — DirectX11 compiled

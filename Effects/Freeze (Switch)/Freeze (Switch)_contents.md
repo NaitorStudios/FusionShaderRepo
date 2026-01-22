@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Freeze (Switch).xml** — Info & Integration
 - **Freeze (Switch).fx** — DirectX9 source code
 - **Freeze (Switch).hlsl** — DirectX11 source code
 - **Freeze (Switch).fxc** — DirectX11 compiled

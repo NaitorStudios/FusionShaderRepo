@@ -3,7 +3,7 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-11 03:33  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
 - **Mode 7 (Switch).xml** — Info & Integration
@@ -14,3 +14,6 @@
 - **Mode 7 (Switch).fxao** — Android source code
 - **Mode 7 (Switch).fxmo** — iOS/Mac source code
 *Sometimes a shader needs Premultiplied version to fix Alpha Channel handling in Premultiplied graphics.*  
+
+## Examples
+- Trailer300.mfa  

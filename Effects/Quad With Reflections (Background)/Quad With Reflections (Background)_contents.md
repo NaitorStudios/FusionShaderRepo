@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:03  
+**Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
-- **Quad With Reflections (Background).xml** — Info & Integration
 - **Quad With Reflections (Background).fx** — DirectX9 source code
 - **Quad With Reflections (Background).hlsl** — DirectX11 source code
 - **Quad With Reflections (Background).fxc** — DirectX11 compiled

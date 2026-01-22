@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Segmented Liquid-Crystal Display (Switch).xml** — Info & Integration
 - **Segmented Liquid-Crystal Display (Switch).fx** — DirectX9 source code
 - **Segmented Liquid-Crystal Display (Switch).hlsl** — DirectX11 source code
 - **Segmented Liquid-Crystal Display (Switch).fxc** — DirectX11 compiled

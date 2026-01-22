@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Color Accent (Switch).xml** — Info & Integration
 - **Color Accent (Switch).fx** — DirectX9 source code
 - **Color Accent (Switch).hlsl** — DirectX11 source code
 - **Color Accent (Switch).fxc** — DirectX11 compiled

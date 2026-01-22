@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Subtraction With Arctangent (Background).xml** — Info & Integration
 - **Subtraction With Arctangent (Background).fx** — DirectX9 source code
 - **Subtraction With Arctangent (Background).hlsl** — DirectX11 source code
 - **Subtraction With Arctangent (Background).fxc** — DirectX11 compiled

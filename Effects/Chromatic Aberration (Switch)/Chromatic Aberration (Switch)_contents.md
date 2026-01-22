@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Chromatic Aberration (Switch).xml** — Info & Integration
 - **Chromatic Aberration (Switch).fx** — DirectX9 source code
 - **Chromatic Aberration (Switch).hlsl** — DirectX11 source code
 - **Chromatic Aberration (Switch).fxc** — DirectX11 compiled

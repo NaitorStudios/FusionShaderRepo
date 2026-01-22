@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Windows Aero Clean (Background).xml** — Info & Integration
 - **Windows Aero Clean (Background).fx** — DirectX9 source code
 - **Windows Aero Clean (Background).hlsl** — DirectX11 source code
 - **Windows Aero Clean (Background).fxc** — DirectX11 compiled

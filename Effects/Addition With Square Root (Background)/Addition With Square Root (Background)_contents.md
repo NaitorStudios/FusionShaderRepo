@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:00  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Addition With Square Root (Background).xml** — Info & Integration
 - **Addition With Square Root (Background).fx** — DirectX9 source code
 - **Addition With Square Root (Background).hlsl** — DirectX11 source code
 - **Addition With Square Root (Background).fxc** — DirectX11 compiled

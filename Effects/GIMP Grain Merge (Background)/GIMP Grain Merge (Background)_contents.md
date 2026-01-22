@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **GIMP Grain Merge (Background).xml** — Info & Integration
 - **GIMP Grain Merge (Background).fx** — DirectX9 source code
 - **GIMP Grain Merge (Background).hlsl** — DirectX11 source code
 - **GIMP Grain Merge (Background).fxc** — DirectX11 compiled

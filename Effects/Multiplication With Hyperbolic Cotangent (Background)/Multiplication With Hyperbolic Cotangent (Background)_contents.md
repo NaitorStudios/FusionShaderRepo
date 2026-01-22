@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Multiplication With Hyperbolic Cotangent (Background).xml** — Info & Integration
 - **Multiplication With Hyperbolic Cotangent (Background).fx** — DirectX9 source code
 - **Multiplication With Hyperbolic Cotangent (Background).hlsl** — DirectX11 source code
 - **Multiplication With Hyperbolic Cotangent (Background).fxc** — DirectX11 compiled

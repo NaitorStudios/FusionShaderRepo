@@ -161,9 +161,9 @@
 					<parameter>
 						<name>Red Channel Source</name>
 						<variable>_ChannelRed</variable>
-						<description>This variable determines how the red channel is generated based on the UV coordinates:&#xA;
-									 0 - Uses the X coordinate;&#xA;
-									 1 - Uses the Y coordinate;&#xA;
+						<description>This variable determines how the red channel is generated based on the UV coordinates:
+									 0 - Uses the X coordinate;
+									 1 - Uses the Y coordinate;
 									 2 - Uses the sum of X and Y coordinates.</description>
 						<type>int</type>
 						<property>SLIDER</property>
@@ -175,9 +175,9 @@
 					<parameter>
 						<name>Green Channel Source</name>
 						<variable>_ChannelGreen</variable>
-						<description>This variable determines how the green channel is generated based on the UV coordinates:&#xA;
-									 0 - Uses the X coordinate;&#xA;
-									 1 - Uses the Y coordinate;&#xA;
+						<description>This variable determines how the green channel is generated based on the UV coordinates:
+									 0 - Uses the X coordinate;
+									 1 - Uses the Y coordinate;
 									 2 - Uses the sum of X and Y coordinates.</description>
 						<type>int</type>
 						<property>SLIDER</property>
@@ -189,9 +189,9 @@
 					<parameter>
 						<name>Blue Channel Source</name>
 						<variable>_ChannelBlue</variable>
-						<description>This variable determines how the blue channel is generated based on the UV coordinates:&#xA;
-									 0 - Uses the X coordinate;&#xA;
-									 1 - Uses the Y coordinate;&#xA;
+						<description>This variable determines how the blue channel is generated based on the UV coordinates:
+									 0 - Uses the X coordinate;
+									 1 - Uses the Y coordinate;
 									 2 - Uses the sum of X and Y coordinates.</description>
 						<type>int</type>
 						<property>SLIDER</property>

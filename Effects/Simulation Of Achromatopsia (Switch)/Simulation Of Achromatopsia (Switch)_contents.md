@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Simulation Of Achromatopsia (Switch).xml** — Info & Integration
 - **Simulation Of Achromatopsia (Switch).fx** — DirectX9 source code
 - **Simulation Of Achromatopsia (Switch).hlsl** — DirectX11 source code
 - **Simulation Of Achromatopsia (Switch).fxc** — DirectX11 compiled

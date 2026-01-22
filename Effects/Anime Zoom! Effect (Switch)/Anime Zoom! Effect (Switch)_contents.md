@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Anime Zoom! Effect (Switch).xml** — Info & Integration
 - **Anime Zoom! Effect (Switch).fx** — DirectX9 source code
 - **Anime Zoom! Effect (Switch).hlsl** — DirectX11 source code
 - **Anime Zoom! Effect (Switch).fxc** — DirectX11 compiled

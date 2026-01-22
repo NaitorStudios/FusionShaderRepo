@@ -1,173 +1,179 @@
 <effect>
 <name>Transition Map</name>
 <author>NaitorStudios</author>
-<description></description>
+<description>This shader uses a mask texture to control the visibility or color of an image, allowing for smooth transitions and overlays. It supports options like inverting the mask, adjusting the cutoff and smoothness of the transition, and blending with a solid color.</description>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Mask</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>mask</code>
 
-		// Description
+		<!--Description-->
 		<description>Texture to use as overlay.</description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>image</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>image</property>
 
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Invert mask</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>invert</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>int</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>checkbox</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Cutoff</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>cutoff</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0.0</value>
 
-		// Optional : min and max values, not used by all the parameters
+		<!--Optional : min and max values, not used by all the parameters-->
 		<min>-1.0</min>
 		<max>1.0</max>
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Smooth Size</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>smooth_size</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0.0</value>
 
-		// Optional : min and max values, not used by all the parameters
+		<!--Optional : min and max values, not used by all the parameters-->
 		<min>0.0</min>
 		<max>1.0</max>
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Color</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>color</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>int_float4</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>color</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Use texture</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>useTexture</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>int</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>checkbox</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0</value>
 
-		// Optional : min and max values, not used by all the parameters
-		//<min>0.0</min>
-		//<max>1.0</max>
+		<!--Optional : min and max values, not used by all the parameters-->
+		<!--
+		<min>0.0</min>
+		<max>1.0</max>
+		-->
 </parameter>
 
 <parameter>
 
-		// Name of parameter property
+		<!--Name of parameter property-->
 		<name>Fade</name>
 
-		// Parameter name (in the .fx file)
+		<!--Parameter name (in the .fx file)-->
 		<code>fade</code>
 
-		// Description
+		<!--Description-->
 		<description></description>
 
-		// Type (int or float)
+		<!--Type (int or float)-->
 		<type>float</type>
 
-		// Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)
+		<!--Property type (EDIT, SLIDER, SPIN, CHECKBOX, COLOR)-->
 		<property>spin</property>
 
-		// Default value
+		<!--Default value-->
 		<value>0.0</value>
 
-		// Optional : min and max values, not used by all the parameters
+		<!--Optional : min and max values, not used by all the parameters-->
 		<min>0.0</min>
 		<max>1.0</max>
 </parameter>

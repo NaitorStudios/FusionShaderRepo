@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **Recolor Monochrome (Switch).xml** — Info & Integration
 - **Recolor Monochrome (Switch).fx** — DirectX9 source code
 - **Recolor Monochrome (Switch).hlsl** — DirectX11 source code
 - **Recolor Monochrome (Switch).fxc** — DirectX11 compiled

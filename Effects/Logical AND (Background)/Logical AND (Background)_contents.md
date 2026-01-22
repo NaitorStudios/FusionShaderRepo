@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:01  
+**Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
-- **Logical AND (Background).xml** — Info & Integration
 - **Logical AND (Background).fx** — DirectX9 source code
 - **Logical AND (Background).hlsl** — DirectX11 source code
 - **Logical AND (Background).fxc** — DirectX11 compiled

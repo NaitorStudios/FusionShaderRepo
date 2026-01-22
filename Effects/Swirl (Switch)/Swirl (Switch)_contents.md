@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Swirl (Switch).xml** — Info & Integration
 - **Swirl (Switch).fx** — DirectX9 source code
 - **Swirl (Switch).hlsl** — DirectX11 source code
 - **Swirl (Switch).fxc** — DirectX11 compiled

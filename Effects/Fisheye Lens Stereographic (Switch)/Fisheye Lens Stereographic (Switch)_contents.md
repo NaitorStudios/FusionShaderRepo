@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
-- **Fisheye Lens Stereographic (Switch).xml** — Info & Integration
 - **Fisheye Lens Stereographic (Switch).fx** — DirectX9 source code
 - **Fisheye Lens Stereographic (Switch).hlsl** — DirectX11 source code
 - **Fisheye Lens Stereographic (Switch).fxc** — DirectX11 compiled

@@ -3,10 +3,9 @@
 
 **License:** MIT
 
-**Last Updated:** 2026-01-04 22:02  
+**Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
-- **MS Paint (Switch).xml** — Info & Integration
 - **MS Paint (Switch).fx** — DirectX9 source code
 - **MS Paint (Switch).hlsl** — DirectX11 source code
 - **MS Paint (Switch).fxc** — DirectX11 compiled
