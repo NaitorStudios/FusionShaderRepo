@@ -22,8 +22,8 @@ You can download it here: https://github.com/FoxiooOfficial/FoxiooShaderPack/rel
 | --- | ---: | ---: | ---: |
 | DX9 only (DX9, no DX9+, no DX11) | 145 | -15 | 160 |
 | DX9 in general (DX9 or DX9+) | 1023 | +185 | 838 |
-| DX11 ports (DX11 or DX9+) | 889 | +201 | 688 |
-| DX11 exclusive (DX11, no DX9+) | 11 | +1 | 10 |
+| DX11 ports (DX11 or DX9+) | 890 | +202 | 688 |
+| DX11 exclusive (DX11, no DX9+) | 12 | +2 | 10 |
 | Android ports | 618 | +138 | 480 |
 | iOS/Mac ports | 569 | +99 | 470 |
 

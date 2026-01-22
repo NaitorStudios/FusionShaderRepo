@@ -1,0 +1,2 @@
+Why All Manual Controls Broke: Since we now use: uv.x * angleX + uv.y * angleY
+Fusion sees angleX and angleY being multiplied inside a complex expression. That makes Fusion treat them like “runtime-only” values. So: ✅ You can control them with Event Editor ❌ You cannot manually adjust them in the Properties > Parameters anymore (they reset)

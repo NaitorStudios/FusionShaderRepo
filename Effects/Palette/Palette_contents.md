@@ -9,3 +9,7 @@
 
 ## Examples
 - Palette_Eg.mfa  
+
+## Textures
+- Example\Knight_PAL.bmp
+- Example\Knight_PAL_Edit.bmp  
