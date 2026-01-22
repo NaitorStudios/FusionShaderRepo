@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Screen (Background).xml** — Info & Integration
 - **Photoshop Screen (Background).fx** — DirectX9 source code
 - **Photoshop Screen (Background).hlsl** — DirectX11 source code
 - **Photoshop Screen (Background).fxc** — DirectX11 compiled

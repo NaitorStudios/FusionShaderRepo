@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Enchantment Glint (Switch).xml** — Info & Integration
 - **Enchantment Glint (Switch).fx** — DirectX9 source code
 - **Enchantment Glint (Switch).hlsl** — DirectX11 source code
 - **Enchantment Glint (Switch).fxc** — DirectX11 compiled

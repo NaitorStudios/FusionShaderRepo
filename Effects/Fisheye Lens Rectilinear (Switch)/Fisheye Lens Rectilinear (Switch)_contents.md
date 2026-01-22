@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Fisheye Lens Rectilinear (Switch).xml** — Info & Integration
 - **Fisheye Lens Rectilinear (Switch).fx** — DirectX9 source code
 - **Fisheye Lens Rectilinear (Switch).hlsl** — DirectX11 source code
 - **Fisheye Lens Rectilinear (Switch).fxc** — DirectX11 compiled

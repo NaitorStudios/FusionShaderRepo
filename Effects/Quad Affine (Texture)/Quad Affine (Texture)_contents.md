@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Affine (Texture).xml** — Info & Integration
 - **Quad Affine (Texture).fx** — DirectX9 source code
 - **Quad Affine (Texture).hlsl** — DirectX11 source code
 - **Quad Affine (Texture).fxc** — DirectX11 compiled

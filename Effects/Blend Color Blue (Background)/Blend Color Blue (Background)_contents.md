@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Blend Color Blue (Background).xml** — Info & Integration
 - **Blend Color Blue (Background).fx** — DirectX9 source code
 - **Blend Color Blue (Background).hlsl** — DirectX11 source code
 - **Blend Color Blue (Background).fxc** — DirectX11 compiled

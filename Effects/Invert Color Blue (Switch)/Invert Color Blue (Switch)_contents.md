@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Invert Color Blue (Switch).xml** — Info & Integration
 - **Invert Color Blue (Switch).fx** — DirectX9 source code
 - **Invert Color Blue (Switch).hlsl** — DirectX11 source code
 - **Invert Color Blue (Switch).fxc** — DirectX11 compiled

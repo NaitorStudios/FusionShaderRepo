@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Linear Light (Background).xml** — Info & Integration
 - **Photoshop Linear Light (Background).fx** — DirectX9 source code
 - **Photoshop Linear Light (Background).hlsl** — DirectX11 source code
 - **Photoshop Linear Light (Background).fxc** — DirectX11 compiled

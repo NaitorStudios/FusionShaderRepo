@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Hyperbolic Cotangent (Background).xml** — Info & Integration
 - **Subtraction With Hyperbolic Cotangent (Background).fx** — DirectX9 source code
 - **Subtraction With Hyperbolic Cotangent (Background).hlsl** — DirectX11 source code
 - **Subtraction With Hyperbolic Cotangent (Background).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **CD-R Blu (Background).xml** — Info & Integration
 - **CD-R Blu (Background).fx** — DirectX9 source code
 - **CD-R Blu (Background).hlsl** — DirectX11 source code
 - **CD-R Blu (Background).fxc** — DirectX11 compiled

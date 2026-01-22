@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad With Floor Reflection (Background).xml** — Info & Integration
 - **Quad With Floor Reflection (Background).fx** — DirectX9 source code
 - **Quad With Floor Reflection (Background).hlsl** — DirectX11 source code
 - **Quad With Floor Reflection (Background).fxc** — DirectX11 compiled

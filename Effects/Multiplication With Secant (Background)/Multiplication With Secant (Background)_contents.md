@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Multiplication With Secant (Background).xml** — Info & Integration
 - **Multiplication With Secant (Background).fx** — DirectX9 source code
 - **Multiplication With Secant (Background).hlsl** — DirectX11 source code
 - **Multiplication With Secant (Background).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Addition (Background).xml** — Info & Integration
 - **Addition (Background).fx** — DirectX9 source code
 - **Addition (Background).hlsl** — DirectX11 source code
 - **Addition (Background).fxc** — DirectX11 compiled

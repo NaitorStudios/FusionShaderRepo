@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Arccosinus (Background).xml** — Info & Integration
 - **Subtraction With Arccosinus (Background).fx** — DirectX9 source code
 - **Subtraction With Arccosinus (Background).hlsl** — DirectX11 source code
 - **Subtraction With Arccosinus (Background).fxc** — DirectX11 compiled

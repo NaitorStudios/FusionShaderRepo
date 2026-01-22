@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Simulation Color Blindness AIO (Switch).xml** — Info & Integration
 - **Simulation Color Blindness AIO (Switch).fx** — DirectX9 source code
 - **Simulation Color Blindness AIO (Switch).hlsl** — DirectX11 source code
 - **Simulation Color Blindness AIO (Switch).fxc** — DirectX11 compiled

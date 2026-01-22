@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Deltarune Church Prophecy Panel (Texture).xml** — Info & Integration
 - **Deltarune Church Prophecy Panel (Texture).fx** — DirectX9 source code
 - **Deltarune Church Prophecy Panel (Texture).hlsl** — DirectX11 source code
 - **Deltarune Church Prophecy Panel (Texture).fxc** — DirectX11 compiled

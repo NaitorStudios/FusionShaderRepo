@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Luminosity (Background).xml** — Info & Integration
 - **Photoshop Luminosity (Background).fx** — DirectX9 source code
 - **Photoshop Luminosity (Background).hlsl** — DirectX11 source code
 - **Photoshop Luminosity (Background).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Addition With Power (Background).xml** — Info & Integration
 - **Addition With Power (Background).fx** — DirectX9 source code
 - **Addition With Power (Background).hlsl** — DirectX11 source code
 - **Addition With Power (Background).fxc** — DirectX11 compiled

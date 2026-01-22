@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Fixed (Texture).xml** — Info & Integration
 - **Quad Fixed (Texture).fx** — DirectX9 source code
 - **Quad Fixed (Texture).hlsl** — DirectX11 source code
 - **Quad Fixed (Texture).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Krita Glow (Background).xml** — Info & Integration
 - **Krita Glow (Background).fx** — DirectX9 source code
 - **Krita Glow (Background).hlsl** — DirectX11 source code
 - **Krita Glow (Background).fxc** — DirectX11 compiled

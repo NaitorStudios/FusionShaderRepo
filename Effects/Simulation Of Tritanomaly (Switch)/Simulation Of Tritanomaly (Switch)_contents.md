@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Simulation Of Tritanomaly (Switch).xml** — Info & Integration
 - **Simulation Of Tritanomaly (Switch).fx** — DirectX9 source code
 - **Simulation Of Tritanomaly (Switch).hlsl** — DirectX11 source code
 - **Simulation Of Tritanomaly (Switch).fxc** — DirectX11 compiled

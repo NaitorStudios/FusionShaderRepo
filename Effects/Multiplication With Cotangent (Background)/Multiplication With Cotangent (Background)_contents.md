@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Multiplication With Cotangent (Background).xml** — Info & Integration
 - **Multiplication With Cotangent (Background).fx** — DirectX9 source code
 - **Multiplication With Cotangent (Background).hlsl** — DirectX11 source code
 - **Multiplication With Cotangent (Background).fxc** — DirectX11 compiled

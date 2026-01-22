@@ -92,9 +92,9 @@
 				<name>Alpha Mode</name>
 				<variable>_Alpha_Mode</variable>
 
-				<description>This variable corresponds to how the Alpha color is to be displayed:&#xA; 
-				0 - BALANCED (Every RGB color is displayed);&#xA; 
-				1 - BRIGHTNESS (Brighter colors from the RGB average are displayed);&#xA; 
+				<description>This variable corresponds to how the Alpha color is to be displayed: 
+				0 - BALANCED (Every RGB color is displayed); 
+				1 - BRIGHTNESS (Brighter colors from the RGB average are displayed); 
 				2 - DARKNESS (Darker colors from the RGB average are displayed).</description>
 
 				<type>int</type>

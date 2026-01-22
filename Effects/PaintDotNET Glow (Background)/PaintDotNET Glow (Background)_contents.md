@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **PaintDotNET Glow (Background).xml** — Info & Integration
 - **PaintDotNET Glow (Background).fx** — DirectX9 source code
 - **PaintDotNET Glow (Background).hlsl** — DirectX11 source code
 - **PaintDotNET Glow (Background).fxc** — DirectX11 compiled

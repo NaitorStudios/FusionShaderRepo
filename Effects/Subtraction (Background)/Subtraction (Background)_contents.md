@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction (Background).xml** — Info & Integration
 - **Subtraction (Background).fx** — DirectX9 source code
 - **Subtraction (Background).hlsl** — DirectX11 source code
 - **Subtraction (Background).fxc** — DirectX11 compiled

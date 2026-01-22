@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Vector Gradient Blur (Switch).xml** — Info & Integration
 - **Vector Gradient Blur (Switch).fx** — DirectX9 source code
 - **Vector Gradient Blur (Switch).hlsl** — DirectX11 source code
 - **Vector Gradient Blur (Switch).fxc** — DirectX11 compiled

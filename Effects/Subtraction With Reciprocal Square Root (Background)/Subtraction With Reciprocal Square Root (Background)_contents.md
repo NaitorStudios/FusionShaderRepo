@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Reciprocal Square Root (Background).xml** — Info & Integration
 - **Subtraction With Reciprocal Square Root (Background).fx** — DirectX9 source code
 - **Subtraction With Reciprocal Square Root (Background).hlsl** — DirectX11 source code
 - **Subtraction With Reciprocal Square Root (Background).fxc** — DirectX11 compiled

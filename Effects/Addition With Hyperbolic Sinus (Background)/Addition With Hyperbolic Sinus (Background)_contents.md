@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Addition With Hyperbolic Sinus (Background).xml** — Info & Integration
 - **Addition With Hyperbolic Sinus (Background).fx** — DirectX9 source code
 - **Addition With Hyperbolic Sinus (Background).hlsl** — DirectX11 source code
 - **Addition With Hyperbolic Sinus (Background).fxc** — DirectX11 compiled

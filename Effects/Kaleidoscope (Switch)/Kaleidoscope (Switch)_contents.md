@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Kaleidoscope (Switch).xml** — Info & Integration
 - **Kaleidoscope (Switch).fx** — DirectX9 source code
 - **Kaleidoscope (Switch).hlsl** — DirectX11 source code
 - **Kaleidoscope (Switch).fxc** — DirectX11 compiled

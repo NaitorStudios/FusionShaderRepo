@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Blend Color Magenta (Background).xml** — Info & Integration
 - **Blend Color Magenta (Background).fx** — DirectX9 source code
 - **Blend Color Magenta (Background).hlsl** — DirectX11 source code
 - **Blend Color Magenta (Background).fxc** — DirectX11 compiled

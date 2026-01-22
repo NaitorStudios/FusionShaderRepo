@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Liquid Glass (Background).xml** — Info & Integration
 - **Liquid Glass (Background).fx** — DirectX9 source code
 - **Liquid Glass (Background).hlsl** — DirectX11 source code
 - **Liquid Glass (Background).fxc** — DirectX11 compiled

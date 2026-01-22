@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Wire-Frame (Texture).xml** — Info & Integration
 - **Quad Wire-Frame (Texture).fx** — DirectX9 source code
 - **Quad Wire-Frame (Texture).hlsl** — DirectX11 source code
 - **Quad Wire-Frame (Texture).fxc** — DirectX11 compiled

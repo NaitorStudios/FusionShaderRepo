@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Simulation Of Protanomaly (Switch).xml** — Info & Integration
 - **Simulation Of Protanomaly (Switch).fx** — DirectX9 source code
 - **Simulation Of Protanomaly (Switch).hlsl** — DirectX11 source code
 - **Simulation Of Protanomaly (Switch).fxc** — DirectX11 compiled

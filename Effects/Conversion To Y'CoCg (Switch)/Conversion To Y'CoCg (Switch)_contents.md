@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Conversion To Y'CoCg (Switch).xml** — Info & Integration
 - **Conversion To Y'CoCg (Switch).fx** — DirectX9 source code
 - **Conversion To Y'CoCg (Switch).hlsl** — DirectX11 source code
 - **Conversion To Y'CoCg (Switch).fxc** — DirectX11 compiled

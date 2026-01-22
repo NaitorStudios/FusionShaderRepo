@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Invert Color Cyan (Switch).xml** — Info & Integration
 - **Invert Color Cyan (Switch).fx** — DirectX9 source code
 - **Invert Color Cyan (Switch).hlsl** — DirectX11 source code
 - **Invert Color Cyan (Switch).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Exclusion (Background).xml** — Info & Integration
 - **Photoshop Exclusion (Background).fx** — DirectX9 source code
 - **Photoshop Exclusion (Background).hlsl** — DirectX11 source code
 - **Photoshop Exclusion (Background).fxc** — DirectX11 compiled

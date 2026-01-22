@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Daytime (Switch).xml** — Info & Integration
 - **Daytime (Switch).fx** — DirectX9 source code
 - **Daytime (Switch).hlsl** — DirectX11 source code
 - **Daytime (Switch).fxc** — DirectX11 compiled

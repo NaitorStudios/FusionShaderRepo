@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Saturation (Background).xml** — Info & Integration
 - **Photoshop Saturation (Background).fx** — DirectX9 source code
 - **Photoshop Saturation (Background).hlsl** — DirectX11 source code
 - **Photoshop Saturation (Background).fxc** — DirectX11 compiled

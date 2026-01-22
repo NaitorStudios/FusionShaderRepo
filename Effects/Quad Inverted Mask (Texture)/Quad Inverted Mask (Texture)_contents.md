@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Inverted Mask (Texture).xml** — Info & Integration
 - **Quad Inverted Mask (Texture).fx** — DirectX9 source code
 - **Quad Inverted Mask (Texture).hlsl** — DirectX11 source code
 - **Quad Inverted Mask (Texture).fxc** — DirectX11 compiled

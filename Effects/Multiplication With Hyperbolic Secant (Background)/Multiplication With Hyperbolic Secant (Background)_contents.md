@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Multiplication With Hyperbolic Secant (Background).xml** — Info & Integration
 - **Multiplication With Hyperbolic Secant (Background).fx** — DirectX9 source code
 - **Multiplication With Hyperbolic Secant (Background).hlsl** — DirectX11 source code
 - **Multiplication With Hyperbolic Secant (Background).fxc** — DirectX11 compiled

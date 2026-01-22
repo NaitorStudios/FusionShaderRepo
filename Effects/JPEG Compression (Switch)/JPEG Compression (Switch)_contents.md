@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **JPEG Compression (Switch).xml** — Info & Integration
 - **JPEG Compression (Switch).fx** — DirectX9 source code
 - **JPEG Compression (Switch).hlsl** — DirectX11 source code
 - **JPEG Compression (Switch).fxc** — DirectX11 compiled

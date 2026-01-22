@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Active (Texture).xml** — Info & Integration
 - **Active (Texture).fx** — DirectX9 source code
 - **Active (Texture).hlsl** — DirectX11 source code
 - **Active (Texture).fxc** — DirectX11 compiled

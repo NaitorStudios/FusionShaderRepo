@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Division With Hyperbolic Cotangent (Background).xml** — Info & Integration
 - **Division With Hyperbolic Cotangent (Background).fx** — DirectX9 source code
 - **Division With Hyperbolic Cotangent (Background).hlsl** — DirectX11 source code
 - **Division With Hyperbolic Cotangent (Background).fxc** — DirectX11 compiled

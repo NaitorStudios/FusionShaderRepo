@@ -247,36 +247,36 @@
 				<name>Looping Mode!</name>
 				<variable>_Looping_Mode</variable>
 				<description>
-					This variable determines how the texture is repeated:&#xA; 
-					REPEAT (repeats the texture image);&#xA; 
-					MIRRORED (repeats the texture image, but mirrors it with each repetition);&#xA; 
-					CLAMP (extends the texture beyond coordinates 0 and 1);&#xA; 
-					BORDER (the texture will be invisible after exceeding coordinates 0 and 1).&#xA; 
-&#xA;
-					For more information, visit: https://learnopengl.com/Getting-started/Textures&#xA;
-&#xA;
-					List of modes for separately (X, Y) by _Looping_Mode:&#xA;
-					0: (REPEAT, REPEAT);&#xA;
-					1: (MIRRORED, MIRRORED);&#xA;
-					2: (CLAMP, CLAMP);&#xA;
-					3: (BORDER, BORDER); //&#xA;
-&#xA;
-					4: (MIRRORED, REPEAT);&#xA;
-					5: (CLAMP, REPEAT);&#xA;
-					6: (BORDER, REPEAT); //&#xA;
-&#xA;
-					7: (REPEAT, MIRRORED);&#xA;
-					8: (CLAMP, MIRRORED);&#xA;
-					9: (BORDER, MIRRORED); //&#xA;
-&#xA;
-					10: (REPEAT, CLAMP);&#xA;
-					11: (MIRRORED, CLAMP);&#xA;
-					12: (BORDER, CLAMP); //&#xA;
-&#xA;
-					13: (REPEAT, BORDER);&#xA;
-					14: (MIRRORED, BORDER);&#xA;
-					15: (CLAMP, BORDER); //&#xA;
-&#xA;
+					This variable determines how the texture is repeated: 
+					REPEAT (repeats the texture image); 
+					MIRRORED (repeats the texture image, but mirrors it with each repetition); 
+					CLAMP (extends the texture beyond coordinates 0 and 1); 
+					BORDER (the texture will be invisible after exceeding coordinates 0 and 1). 
+
+					For more information, visit: https://learnopengl.com/Getting-started/Textures
+
+					List of modes for separately (X, Y) by _Looping_Mode:
+					0: (REPEAT, REPEAT);
+					1: (MIRRORED, MIRRORED);
+					2: (CLAMP, CLAMP);
+					3: (BORDER, BORDER); //
+
+					4: (MIRRORED, REPEAT);
+					5: (CLAMP, REPEAT);
+					6: (BORDER, REPEAT); //
+
+					7: (REPEAT, MIRRORED);
+					8: (CLAMP, MIRRORED);
+					9: (BORDER, MIRRORED); //
+
+					10: (REPEAT, CLAMP);
+					11: (MIRRORED, CLAMP);
+					12: (BORDER, CLAMP); //
+
+					13: (REPEAT, BORDER);
+					14: (MIRRORED, BORDER);
+					15: (CLAMP, BORDER); //
+
 					Please note that _Looping_Mode from 0 to 15 only works for Direct3D11 and OpenGL (Android, iOS and Mac); For Direct3D9, only 0 to 3 are available.
 				</description>
 

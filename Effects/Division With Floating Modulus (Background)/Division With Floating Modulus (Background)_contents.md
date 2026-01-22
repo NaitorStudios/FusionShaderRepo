@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Division With Floating Modulus (Background).xml** — Info & Integration
 - **Division With Floating Modulus (Background).fx** — DirectX9 source code
 - **Division With Floating Modulus (Background).hlsl** — DirectX11 source code
 - **Division With Floating Modulus (Background).fxc** — DirectX11 compiled

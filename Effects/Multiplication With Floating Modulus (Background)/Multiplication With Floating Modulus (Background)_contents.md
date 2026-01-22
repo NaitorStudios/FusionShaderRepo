@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Multiplication With Floating Modulus (Background).xml** — Info & Integration
 - **Multiplication With Floating Modulus (Background).fx** — DirectX9 source code
 - **Multiplication With Floating Modulus (Background).hlsl** — DirectX11 source code
 - **Multiplication With Floating Modulus (Background).fxc** — DirectX11 compiled

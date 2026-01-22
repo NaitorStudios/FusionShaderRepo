@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **TV Analog Noise (Switch).xml** — Info & Integration
 - **TV Analog Noise (Switch).fx** — DirectX9 source code
 - **TV Analog Noise (Switch).hlsl** — DirectX11 source code
 - **TV Analog Noise (Switch).fxc** — DirectX11 compiled

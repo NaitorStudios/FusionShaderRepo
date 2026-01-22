@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Division With Sinus (Background).xml** — Info & Integration
 - **Division With Sinus (Background).fx** — DirectX9 source code
 - **Division With Sinus (Background).hlsl** — DirectX11 source code
 - **Division With Sinus (Background).fxc** — DirectX11 compiled

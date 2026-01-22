@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Premultiplied To Straight Alpha (Texture).xml** — Info & Integration
 - **Premultiplied To Straight Alpha (Texture).fx** — DirectX9 source code
 - **Premultiplied To Straight Alpha (Texture).hlsl** — DirectX11 source code
 - **Premultiplied To Straight Alpha (Texture).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **HSL (Switch) [Legacy].xml** — Info & Integration
 - **HSL (Switch) [Legacy].fx** — DirectX9 source code
 - **HSL (Switch) [Legacy].hlsl** — DirectX11 source code
 - **HSL (Switch) [Legacy].fxc** — DirectX11 compiled

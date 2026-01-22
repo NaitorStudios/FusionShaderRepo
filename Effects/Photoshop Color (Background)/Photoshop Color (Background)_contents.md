@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Color (Background).xml** — Info & Integration
 - **Photoshop Color (Background).fx** — DirectX9 source code
 - **Photoshop Color (Background).hlsl** — DirectX11 source code
 - **Photoshop Color (Background).fxc** — DirectX11 compiled

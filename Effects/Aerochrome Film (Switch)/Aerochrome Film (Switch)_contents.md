@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Aerochrome Film (Switch).xml** — Info & Integration
 - **Aerochrome Film (Switch).fx** — DirectX9 source code
 - **Aerochrome Film (Switch).hlsl** — DirectX11 source code
 - **Aerochrome Film (Switch).fxc** — DirectX11 compiled

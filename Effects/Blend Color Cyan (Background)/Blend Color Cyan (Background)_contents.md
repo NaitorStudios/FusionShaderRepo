@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Blend Color Cyan (Background).xml** — Info & Integration
 - **Blend Color Cyan (Background).fx** — DirectX9 source code
 - **Blend Color Cyan (Background).hlsl** — DirectX11 source code
 - **Blend Color Cyan (Background).fxc** — DirectX11 compiled

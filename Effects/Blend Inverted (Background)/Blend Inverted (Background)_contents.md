@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Blend Inverted (Background).xml** — Info & Integration
 - **Blend Inverted (Background).fx** — DirectX9 source code
 - **Blend Inverted (Background).hlsl** — DirectX11 source code
 - **Blend Inverted (Background).fxc** — DirectX11 compiled

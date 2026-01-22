@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Color Combiner (Switch).xml** — Info & Integration
 - **Color Combiner (Switch).fx** — DirectX9 source code
 - **Color Combiner (Switch).hlsl** — DirectX11 source code
 - **Color Combiner (Switch).fxc** — DirectX11 compiled

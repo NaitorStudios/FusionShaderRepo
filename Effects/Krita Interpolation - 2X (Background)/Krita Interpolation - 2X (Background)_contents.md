@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Krita Interpolation - 2X (Background).xml** — 2X (Background).xml - Info & Integration
 - **Krita Interpolation - 2X (Background).fx** — 2X (Background).fx - DirectX9 source code
 - **Krita Interpolation - 2X (Background).hlsl** — 2X (Background).hlsl - DirectX11 source code
 - **Krita Interpolation - 2X (Background).fxc** — 2X (Background).fxc - DirectX11 compiled

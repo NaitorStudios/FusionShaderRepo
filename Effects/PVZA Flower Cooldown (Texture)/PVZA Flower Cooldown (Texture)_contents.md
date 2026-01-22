@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **PVZA Flower Cooldown (Texture).xml** — Info & Integration
 - **PVZA Flower Cooldown (Texture).fx** — DirectX9 source code
 - **PVZA Flower Cooldown (Texture).hlsl** — DirectX11 source code
 - **PVZA Flower Cooldown (Texture).fxc** — DirectX11 compiled

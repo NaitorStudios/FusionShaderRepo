@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad With Glass Reflections (Background).xml** — Info & Integration
 - **Quad With Glass Reflections (Background).fx** — DirectX9 source code
 - **Quad With Glass Reflections (Background).hlsl** — DirectX11 source code
 - **Quad With Glass Reflections (Background).fxc** — DirectX11 compiled

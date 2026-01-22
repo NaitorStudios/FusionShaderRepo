@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Krita Helow (Background).xml** — Info & Integration
 - **Krita Helow (Background).fx** — DirectX9 source code
 - **Krita Helow (Background).hlsl** — DirectX11 source code
 - **Krita Helow (Background).fxc** — DirectX11 compiled

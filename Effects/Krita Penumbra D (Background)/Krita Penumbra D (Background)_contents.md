@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Krita Penumbra D (Background).xml** — Info & Integration
 - **Krita Penumbra D (Background).fx** — DirectX9 source code
 - **Krita Penumbra D (Background).hlsl** — DirectX11 source code
 - **Krita Penumbra D (Background).fxc** — DirectX11 compiled

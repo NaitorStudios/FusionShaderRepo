@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Addition With Tangent (Background).xml** — Info & Integration
 - **Addition With Tangent (Background).fx** — DirectX9 source code
 - **Addition With Tangent (Background).hlsl** — DirectX11 source code
 - **Addition With Tangent (Background).fxc** — DirectX11 compiled

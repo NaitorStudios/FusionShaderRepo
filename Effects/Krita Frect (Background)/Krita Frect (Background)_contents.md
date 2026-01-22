@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Krita Frect (Background).xml** — Info & Integration
 - **Krita Frect (Background).fx** — DirectX9 source code
 - **Krita Frect (Background).hlsl** — DirectX11 source code
 - **Krita Frect (Background).fxc** — DirectX11 compiled

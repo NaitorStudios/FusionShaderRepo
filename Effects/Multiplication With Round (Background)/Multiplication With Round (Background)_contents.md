@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Multiplication With Round (Background).xml** — Info & Integration
 - **Multiplication With Round (Background).fx** — DirectX9 source code
 - **Multiplication With Round (Background).hlsl** — DirectX11 source code
 - **Multiplication With Round (Background).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Division With Cosinus (Background).xml** — Info & Integration
 - **Division With Cosinus (Background).fx** — DirectX9 source code
 - **Division With Cosinus (Background).hlsl** — DirectX11 source code
 - **Division With Cosinus (Background).fxc** — DirectX11 compiled

@@ -20,19 +20,19 @@ You can download it here: https://github.com/FoxiooOfficial/FoxiooShaderPack/rel
 
 | Metric | Current | Delta | Original |
 | --- | ---: | ---: | ---: |
-| DX9 only (no DX11 ports) | 147 | -25 | 172 |
-| DX9 in general | 1002 | +394 | 608 |
-| DX11 ports | 866 | +420 | 446 |
-| DX11 exclusive | 11 | +1 | 10 |
-| Android ports | 594 | +443 | 151 |
-| iOS/Mac ports | 545 | +405 | 140 |
+| DX9 only (DX9, no DX9+, no DX11) | 145 | -15 | 160 |
+| DX9 in general (DX9 or DX9+) | 1023 | +185 | 838 |
+| DX11 ports (DX11 or DX9+) | 889 | +201 | 688 |
+| DX11 exclusive (DX11, no DX9+) | 11 | +1 | 10 |
+| Android ports | 618 | +138 | 480 |
+| iOS/Mac ports | 569 | +99 | 470 |
 
 ## Totals
 
-- Shader list entries: 1014 (was 620, +394)
-- Shaders in Repo (XML files): 915
-- List entries not in Repo: 99 (paid or private)
-- Shaders with new ports since original: 163
+- Shader list entries: 1035 (was 849, +186)
+- Shaders in Repo (XML files): 941
+- List entries not in Repo: 94 (paid or private)
+- Shaders with new ports since original: 102
 
 Notes:
 - "New ports" counts shaders present in both lists that gained any of: DX11, Android, iOS or Mac.

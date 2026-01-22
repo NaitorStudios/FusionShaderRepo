@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Krita Freeze (Background).xml** — Info & Integration
 - **Krita Freeze (Background).fx** — DirectX9 source code
 - **Krita Freeze (Background).hlsl** — DirectX11 source code
 - **Krita Freeze (Background).fxc** — DirectX11 compiled

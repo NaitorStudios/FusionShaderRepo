@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Colored Solid (Texture) [Legacy].xml** — Info & Integration
 - **Quad Colored Solid (Texture) [Legacy].fx** — DirectX9 source code
 - **Quad Colored Solid (Texture) [Legacy].hlsl** — DirectX11 source code
 - **Quad Colored Solid (Texture) [Legacy].fxc** — DirectX11 compiled

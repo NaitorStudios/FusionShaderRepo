@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Cosinus (Background).xml** — Info & Integration
 - **Subtraction With Cosinus (Background).fx** — DirectX9 source code
 - **Subtraction With Cosinus (Background).hlsl** — DirectX11 source code
 - **Subtraction With Cosinus (Background).fxc** — DirectX11 compiled

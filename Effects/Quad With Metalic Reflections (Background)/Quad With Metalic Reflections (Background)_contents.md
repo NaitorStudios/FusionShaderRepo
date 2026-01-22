@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad With Metalic Reflections (Background).xml** — Info & Integration
 - **Quad With Metalic Reflections (Background).fx** — DirectX9 source code
 - **Quad With Metalic Reflections (Background).hlsl** — DirectX11 source code
 - **Quad With Metalic Reflections (Background).fxc** — DirectX11 compiled

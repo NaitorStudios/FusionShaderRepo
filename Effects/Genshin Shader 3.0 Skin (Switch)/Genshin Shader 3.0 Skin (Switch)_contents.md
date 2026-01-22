@@ -3,6 +3,7 @@
   
 
 ## Shader files
+- **Genshin Shader 3.0 Skin (Switch).xml** — Info & Integration
 - **Genshin Shader 3.0 Skin (Switch).fx** — DirectX9 source code
 - **Genshin Shader 3.0 Skin (Switch).hlsl** — DirectX11 source code
 - **Genshin Shader 3.0 Skin (Switch).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Blend Color Yellow (Background).xml** — Info & Integration
 - **Blend Color Yellow (Background).fx** — DirectX9 source code
 - **Blend Color Yellow (Background).hlsl** — DirectX11 source code
 - **Blend Color Yellow (Background).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Fisheye Lens Orthographic (Switch).xml** — Info & Integration
 - **Fisheye Lens Orthographic (Switch).fx** — DirectX9 source code
 - **Fisheye Lens Orthographic (Switch).hlsl** — DirectX11 source code
 - **Fisheye Lens Orthographic (Switch).fxc** — DirectX11 compiled

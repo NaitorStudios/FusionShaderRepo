@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Correction With Arcsinus (Switch).xml** — Info & Integration
 - **Correction With Arcsinus (Switch).fx** — DirectX9 source code
 - **Correction With Arcsinus (Switch).hlsl** — DirectX11 source code
 - **Correction With Arcsinus (Switch).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Codebook (Switch).xml** — Info & Integration
 - **Codebook (Switch).fx** — DirectX9 source code
 - **Codebook (Switch).hlsl** — DirectX11 source code
 - **Codebook (Switch).fxc** — DirectX11 compiled

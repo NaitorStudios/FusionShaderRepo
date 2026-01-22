@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Superholo (Switch).xml** — Info & Integration
 - **Superholo (Switch).fx** — DirectX9 source code
 - **Superholo (Switch).hlsl** — DirectX11 source code
 - **Superholo (Switch).fxc** — DirectX11 compiled

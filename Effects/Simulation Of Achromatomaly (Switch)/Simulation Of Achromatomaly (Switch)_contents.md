@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Simulation Of Achromatomaly (Switch).xml** — Info & Integration
 - **Simulation Of Achromatomaly (Switch).fx** — DirectX9 source code
 - **Simulation Of Achromatomaly (Switch).hlsl** — DirectX11 source code
 - **Simulation Of Achromatomaly (Switch).fxc** — DirectX11 compiled

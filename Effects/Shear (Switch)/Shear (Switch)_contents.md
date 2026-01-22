@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:22  
 
 ## Shader files
+- **Shear (Switch).xml** — Info & Integration
 - **Shear (Switch).fx** — DirectX9 source code
 - **Shear (Switch).hlsl** — DirectX11 source code
 - **Shear (Switch).fxc** — DirectX11 compiled

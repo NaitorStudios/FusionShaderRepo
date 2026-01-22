@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **VHS (Background).xml** — Info & Integration
 - **VHS (Background).fx** — DirectX9 source code
 - **VHS (Background).hlsl** — DirectX11 source code
 - **VHS (Background).fxc** — DirectX11 compiled

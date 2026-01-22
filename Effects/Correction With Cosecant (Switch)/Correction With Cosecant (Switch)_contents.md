@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Correction With Cosecant (Switch).xml** — Info & Integration
 - **Correction With Cosecant (Switch).fx** — DirectX9 source code
 - **Correction With Cosecant (Switch).hlsl** — DirectX11 source code
 - **Correction With Cosecant (Switch).fxc** — DirectX11 compiled

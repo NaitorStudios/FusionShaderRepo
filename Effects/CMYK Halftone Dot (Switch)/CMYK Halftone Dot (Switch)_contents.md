@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **CMYK Halftone Dot (Switch).xml** — Info & Integration
 - **CMYK Halftone Dot (Switch).fx** — DirectX9 source code
 - **CMYK Halftone Dot (Switch).hlsl** — DirectX11 source code
 - **CMYK Halftone Dot (Switch).fxc** — DirectX11 compiled

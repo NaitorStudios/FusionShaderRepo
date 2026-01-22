@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Photoshop Hard Light (Background).xml** — Info & Integration
 - **Photoshop Hard Light (Background).fx** — DirectX9 source code
 - **Photoshop Hard Light (Background).hlsl** — DirectX11 source code
 - **Photoshop Hard Light (Background).fxc** — DirectX11 compiled

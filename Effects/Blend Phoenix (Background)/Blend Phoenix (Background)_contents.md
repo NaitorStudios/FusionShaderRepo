@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Blend Phoenix (Background).xml** — Info & Integration
 - **Blend Phoenix (Background).fx** — DirectX9 source code
 - **Blend Phoenix (Background).hlsl** — DirectX11 source code
 - **Blend Phoenix (Background).fxc** — DirectX11 compiled

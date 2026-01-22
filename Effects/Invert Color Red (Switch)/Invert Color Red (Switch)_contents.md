@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Invert Color Red (Switch).xml** — Info & Integration
 - **Invert Color Red (Switch).fx** — DirectX9 source code
 - **Invert Color Red (Switch).hlsl** — DirectX11 source code
 - **Invert Color Red (Switch).fxc** — DirectX11 compiled

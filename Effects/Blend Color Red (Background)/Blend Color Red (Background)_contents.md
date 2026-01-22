@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Blend Color Red (Background).xml** — Info & Integration
 - **Blend Color Red (Background).fx** — DirectX9 source code
 - **Blend Color Red (Background).hlsl** — DirectX11 source code
 - **Blend Color Red (Background).fxc** — DirectX11 compiled

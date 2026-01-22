@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad PSX (Texture).xml** — Info & Integration
 - **Quad PSX (Texture).fx** — DirectX9 source code
 - **Quad PSX (Texture).hlsl** — DirectX11 source code
 - **Quad PSX (Texture).fxc** — DirectX11 compiled

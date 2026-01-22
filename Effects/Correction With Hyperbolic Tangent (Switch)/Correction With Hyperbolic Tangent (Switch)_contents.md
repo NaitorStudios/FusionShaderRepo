@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Correction With Hyperbolic Tangent (Switch).xml** — Info & Integration
 - **Correction With Hyperbolic Tangent (Switch).fx** — DirectX9 source code
 - **Correction With Hyperbolic Tangent (Switch).hlsl** — DirectX11 source code
 - **Correction With Hyperbolic Tangent (Switch).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Chroma Key Color (Texture).xml** — Info & Integration
 - **Chroma Key Color (Texture).fx** — DirectX9 source code
 - **Chroma Key Color (Texture).hlsl** — DirectX11 source code
 - **Chroma Key Color (Texture).fxc** — DirectX11 compiled

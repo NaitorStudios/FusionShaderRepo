@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Correction With Cosinus (Switch).xml** — Info & Integration
 - **Correction With Cosinus (Switch).fx** — DirectX9 source code
 - **Correction With Cosinus (Switch).hlsl** — DirectX11 source code
 - **Correction With Cosinus (Switch).fxc** — DirectX11 compiled

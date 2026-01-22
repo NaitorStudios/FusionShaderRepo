@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Oscillation (Switch).xml** — Info & Integration
 - **Oscillation (Switch).fx** — DirectX9 source code
 - **Oscillation (Switch).hlsl** — DirectX11 source code
 - **Oscillation (Switch).fxc** — DirectX11 compiled

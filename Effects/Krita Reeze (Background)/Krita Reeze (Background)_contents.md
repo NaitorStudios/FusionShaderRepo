@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Krita Reeze (Background).xml** — Info & Integration
 - **Krita Reeze (Background).fx** — DirectX9 source code
 - **Krita Reeze (Background).hlsl** — DirectX11 source code
 - **Krita Reeze (Background).fxc** — DirectX11 compiled

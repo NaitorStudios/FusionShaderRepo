@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Tangent (Background).xml** — Info & Integration
 - **Subtraction With Tangent (Background).fx** — DirectX9 source code
 - **Subtraction With Tangent (Background).hlsl** — DirectX11 source code
 - **Subtraction With Tangent (Background).fxc** — DirectX11 compiled

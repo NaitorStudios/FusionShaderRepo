@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **CIELab (Switch).xml** — Info & Integration
 - **CIELab (Switch).fx** — DirectX9 source code
 - **CIELab (Switch).hlsl** — DirectX11 source code
 - **CIELab (Switch).fxc** — DirectX11 compiled

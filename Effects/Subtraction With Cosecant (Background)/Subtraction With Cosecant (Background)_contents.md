@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Subtraction With Cosecant (Background).xml** — Info & Integration
 - **Subtraction With Cosecant (Background).fx** — DirectX9 source code
 - **Subtraction With Cosecant (Background).hlsl** — DirectX11 source code
 - **Subtraction With Cosecant (Background).fxc** — DirectX11 compiled

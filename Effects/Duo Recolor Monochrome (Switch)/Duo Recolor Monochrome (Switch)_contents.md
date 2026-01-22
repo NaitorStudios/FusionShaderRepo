@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Duo Recolor Monochrome (Switch).xml** — Info & Integration
 - **Duo Recolor Monochrome (Switch).fx** — DirectX9 source code
 - **Duo Recolor Monochrome (Switch).hlsl** — DirectX11 source code
 - **Duo Recolor Monochrome (Switch).fxc** — DirectX11 compiled

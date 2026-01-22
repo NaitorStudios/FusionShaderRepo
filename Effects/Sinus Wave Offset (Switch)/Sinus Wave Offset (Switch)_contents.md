@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Sinus Wave Offset (Switch).xml** — Info & Integration
 - **Sinus Wave Offset (Switch).fx** — DirectX9 source code
 - **Sinus Wave Offset (Switch).hlsl** — DirectX11 source code
 - **Sinus Wave Offset (Switch).fxc** — DirectX11 compiled

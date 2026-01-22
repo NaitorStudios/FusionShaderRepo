@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Vector Gradient Bloom (Switch).xml** — Info & Integration
 - **Vector Gradient Bloom (Switch).fx** — DirectX9 source code
 - **Vector Gradient Bloom (Switch).hlsl** — DirectX11 source code
 - **Vector Gradient Bloom (Switch).fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Logical OR (Background).xml** — Info & Integration
 - **Logical OR (Background).fx** — DirectX9 source code
 - **Logical OR (Background).hlsl** — DirectX11 source code
 - **Logical OR (Background).fxc** — DirectX11 compiled

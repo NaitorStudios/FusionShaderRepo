@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Conversion To Y'DbDr (Switch).xml** — Info & Integration
 - **Conversion To Y'DbDr (Switch).fx** — DirectX9 source code
 - **Conversion To Y'DbDr (Switch).hlsl** — DirectX11 source code
 - **Conversion To Y'DbDr (Switch).fxc** — DirectX11 compiled

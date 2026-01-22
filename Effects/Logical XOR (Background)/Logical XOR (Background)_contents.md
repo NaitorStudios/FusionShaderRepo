@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Logical XOR (Background).xml** — Info & Integration
 - **Logical XOR (Background).fx** — DirectX9 source code
 - **Logical XOR (Background).hlsl** — DirectX11 source code
 - **Logical XOR (Background).fxc** — DirectX11 compiled

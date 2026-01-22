@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Krita Negation (Background).xml** — Info & Integration
 - **Krita Negation (Background).fx** — DirectX9 source code
 - **Krita Negation (Background).hlsl** — DirectX11 source code
 - **Krita Negation (Background).fxc** — DirectX11 compiled

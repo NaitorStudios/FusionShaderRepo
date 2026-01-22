@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:21  
 
 ## Shader files
+- **Ambient (Switch).xml** — Info & Integration
 - **Ambient (Switch).fx** — DirectX9 source code
 - **Ambient (Switch).hlsl** — DirectX11 source code
 - **Ambient (Switch).fxc** — DirectX11 compiled

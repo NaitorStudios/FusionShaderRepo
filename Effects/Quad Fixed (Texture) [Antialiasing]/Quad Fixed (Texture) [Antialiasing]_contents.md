@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:23  
 
 ## Shader files
+- **Quad Fixed (Texture) [Antialiasing].xml** — Info & Integration
 - **Quad Fixed (Texture) [Antialiasing].fx** — DirectX9 source code
 - **Quad Fixed (Texture) [Antialiasing].hlsl** — DirectX11 source code
 - **Quad Fixed (Texture) [Antialiasing].fxc** — DirectX11 compiled

@@ -6,6 +6,7 @@
 **Last Updated:** 2026-01-22 14:20  
 
 ## Shader files
+- **Addition With Cosinus (Background).xml** — Info & Integration
 - **Addition With Cosinus (Background).fx** — DirectX9 source code
 - **Addition With Cosinus (Background).hlsl** — DirectX11 source code
 - **Addition With Cosinus (Background).fxc** — DirectX11 compiled
