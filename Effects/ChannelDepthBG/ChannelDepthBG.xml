@@ -1,0 +1,55 @@
+<effect>
+
+	<name>Channel Depth BG</name>
+	<author>ComplexSoftwares (BG version by RainbowHype)</author>
+	<description>Change depth of single color channels (R,G,B). Background version.</description>
+	<BackgroundTexture>1</BackgroundTexture>
+	<dx8>0</dx8>
+
+	<parameter>
+		<name>Offset</name>
+		<code>fOffset</code>
+		<description>Offset of the source color, to adjust lighting</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0.0</value>
+	</parameter>
+
+	<parameter>
+		<name>Red</name>
+		<code>fR</code>
+		<description>Red Coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+
+	<parameter>
+		<name>Green</name>
+		<code>fG</code>
+		<description>Green Coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+
+	<parameter>
+		<name>Blue</name>
+		<code>fB</code>
+		<description>Blue Coefficient</description>
+		<type>float</type>
+		<property>edit</property>
+		<value>0</value>
+	</parameter>
+
+	<parameter>
+		<name>Apply to Background</name>
+		<code>BG</code>
+		<description>Toggles whether the effect applies to the current object or the background behind it.</description>
+		<type>bool</type>
+		<property>checkbox</property>
+		<value>1</value>
+	</parameter>
+
+</effect>
+
